@@ -31,7 +31,7 @@
                     birthday:(NSString *)birthday
                      address:(NSString *)address
                      quarter:(NSString *)quarter
-                deportations:(NSArray *)deportations //Of NSDictionary <Date:Place>
+                deportations:(NSArray *)deportations //Of NSDictionary <NSDate Date: NSString Place>
              locationOfDeath:(NSString *)placeOfDeath
                   dayOfDeath:(NSString *)dayOfDeath; //designated initializer
 
