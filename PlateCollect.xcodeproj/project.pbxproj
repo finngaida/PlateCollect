@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69C9C07417DB37260020DCD6 /* stolpersteine.csv in Resources */ = {isa = PBXBuildFile; fileRef = 69C9C07317DB37260020DCD6 /* stolpersteine.csv */; };
 		CC0ECE3B17DB300400D0D2A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */; };
 		CC0ECE3D17DB300400D0D2A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3C17DB300400D0D2A8 /* CoreGraphics.framework */; };
 		CC0ECE3F17DB300400D0D2A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3E17DB300400D0D2A8 /* UIKit.framework */; };
@@ -16,24 +17,13 @@
 		CC0ECE4E17DB300400D0D2A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0ECE4C17DB300400D0D2A8 /* Main.storyboard */; };
 		CC0ECE5117DB300400D0D2A8 /* FGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE5017DB300400D0D2A8 /* FGViewController.m */; };
 		CC0ECE5317DB300400D0D2A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0ECE5217DB300400D0D2A8 /* Images.xcassets */; };
-		CC0ECE5A17DB300500D0D2A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE5917DB300500D0D2A8 /* XCTest.framework */; };
-		CC0ECE5B17DB300500D0D2A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */; };
-		CC0ECE5C17DB300500D0D2A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3E17DB300400D0D2A8 /* UIKit.framework */; };
-		CC0ECE6417DB300500D0D2A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC0ECE6217DB300500D0D2A8 /* InfoPlist.strings */; };
-		CC0ECE6617DB300500D0D2A8 /* PlateCollectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE6517DB300500D0D2A8 /* PlateCollectTests.m */; };
+		CC0ECE7B17DB357100D0D2A8 /* FGStuffCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE7A17DB357100D0D2A8 /* FGStuffCalculator.m */; };
+		CC0ECE7D17DB35BF00D0D2A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7C17DB35BF00D0D2A8 /* CoreLocation.framework */; };
+		CC0ECE7F17DB35C400D0D2A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CC0ECE5D17DB300500D0D2A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CC0ECE2F17DB300400D0D2A8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CC0ECE3617DB300400D0D2A8;
-			remoteInfo = PlateCollect;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		69C9C07317DB37260020DCD6 /* stolpersteine.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stolpersteine.csv; sourceTree = "<group>"; };
 		CC0ECE3717DB300400D0D2A8 /* PlateCollect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateCollect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC0ECE3C17DB300400D0D2A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,11 +38,11 @@
 		CC0ECE4F17DB300400D0D2A8 /* FGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGViewController.h; sourceTree = "<group>"; };
 		CC0ECE5017DB300400D0D2A8 /* FGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGViewController.m; sourceTree = "<group>"; };
 		CC0ECE5217DB300400D0D2A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CC0ECE5817DB300500D0D2A8 /* PlateCollectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlateCollectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0ECE5917DB300500D0D2A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CC0ECE6117DB300500D0D2A8 /* PlateCollectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlateCollectTests-Info.plist"; sourceTree = "<group>"; };
-		CC0ECE6317DB300500D0D2A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CC0ECE6517DB300500D0D2A8 /* PlateCollectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlateCollectTests.m; sourceTree = "<group>"; };
+		CC0ECE7917DB357100D0D2A8 /* FGStuffCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGStuffCalculator.h; sourceTree = "<group>"; };
+		CC0ECE7A17DB357100D0D2A8 /* FGStuffCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStuffCalculator.m; sourceTree = "<group>"; };
+		CC0ECE7C17DB35BF00D0D2A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,19 +50,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0ECE7F17DB35C400D0D2A8 /* MapKit.framework in Frameworks */,
+				CC0ECE7D17DB35BF00D0D2A8 /* CoreLocation.framework in Frameworks */,
 				CC0ECE3D17DB300400D0D2A8 /* CoreGraphics.framework in Frameworks */,
 				CC0ECE3F17DB300400D0D2A8 /* UIKit.framework in Frameworks */,
 				CC0ECE3B17DB300400D0D2A8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC0ECE5517DB300500D0D2A8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC0ECE5A17DB300500D0D2A8 /* XCTest.framework in Frameworks */,
-				CC0ECE5C17DB300500D0D2A8 /* UIKit.framework in Frameworks */,
-				CC0ECE5B17DB300500D0D2A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				CC0ECE4017DB300400D0D2A8 /* PlateCollect */,
-				CC0ECE5F17DB300500D0D2A8 /* PlateCollectTests */,
 				CC0ECE3917DB300400D0D2A8 /* Frameworks */,
 				CC0ECE3817DB300400D0D2A8 /* Products */,
 			);
@@ -93,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				CC0ECE3717DB300400D0D2A8 /* PlateCollect.app */,
-				CC0ECE5817DB300500D0D2A8 /* PlateCollectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +81,8 @@
 		CC0ECE3917DB300400D0D2A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */,
+				CC0ECE7C17DB35BF00D0D2A8 /* CoreLocation.framework */,
 				CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */,
 				CC0ECE3C17DB300400D0D2A8 /* CoreGraphics.framework */,
 				CC0ECE3E17DB300400D0D2A8 /* UIKit.framework */,
@@ -117,7 +99,10 @@
 				CC0ECE4C17DB300400D0D2A8 /* Main.storyboard */,
 				CC0ECE4F17DB300400D0D2A8 /* FGViewController.h */,
 				CC0ECE5017DB300400D0D2A8 /* FGViewController.m */,
+				CC0ECE7917DB357100D0D2A8 /* FGStuffCalculator.h */,
+				CC0ECE7A17DB357100D0D2A8 /* FGStuffCalculator.m */,
 				CC0ECE5217DB300400D0D2A8 /* Images.xcassets */,
+				69C9C07317DB37260020DCD6 /* stolpersteine.csv */,
 				CC0ECE4117DB300400D0D2A8 /* Supporting Files */,
 			);
 			path = PlateCollect;
@@ -130,24 +115,6 @@
 				CC0ECE4317DB300400D0D2A8 /* InfoPlist.strings */,
 				CC0ECE4617DB300400D0D2A8 /* main.m */,
 				CC0ECE4817DB300400D0D2A8 /* PlateCollect-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CC0ECE5F17DB300500D0D2A8 /* PlateCollectTests */ = {
-			isa = PBXGroup;
-			children = (
-				CC0ECE6517DB300500D0D2A8 /* PlateCollectTests.m */,
-				CC0ECE6017DB300500D0D2A8 /* Supporting Files */,
-			);
-			path = PlateCollectTests;
-			sourceTree = "<group>";
-		};
-		CC0ECE6017DB300500D0D2A8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC0ECE6117DB300500D0D2A8 /* PlateCollectTests-Info.plist */,
-				CC0ECE6217DB300500D0D2A8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,24 +139,6 @@
 			productReference = CC0ECE3717DB300400D0D2A8 /* PlateCollect.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CC0ECE5717DB300500D0D2A8 /* PlateCollectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC0ECE6C17DB300500D0D2A8 /* Build configuration list for PBXNativeTarget "PlateCollectTests" */;
-			buildPhases = (
-				CC0ECE5417DB300500D0D2A8 /* Sources */,
-				CC0ECE5517DB300500D0D2A8 /* Frameworks */,
-				CC0ECE5617DB300500D0D2A8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CC0ECE5E17DB300500D0D2A8 /* PBXTargetDependency */,
-			);
-			name = PlateCollectTests;
-			productName = PlateCollectTests;
-			productReference = CC0ECE5817DB300500D0D2A8 /* PlateCollectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +148,6 @@
 				CLASSPREFIX = FG;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Finn Gaida";
-				TargetAttributes = {
-					CC0ECE5717DB300500D0D2A8 = {
-						TestTargetID = CC0ECE3617DB300400D0D2A8;
-					};
-				};
 			};
 			buildConfigurationList = CC0ECE3217DB300400D0D2A8 /* Build configuration list for PBXProject "PlateCollect" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +163,6 @@
 			projectRoot = "";
 			targets = (
 				CC0ECE3617DB300400D0D2A8 /* PlateCollect */,
-				CC0ECE5717DB300500D0D2A8 /* PlateCollectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,17 +172,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C9C07417DB37260020DCD6 /* stolpersteine.csv in Resources */,
 				CC0ECE5317DB300400D0D2A8 /* Images.xcassets in Resources */,
 				CC0ECE4517DB300400D0D2A8 /* InfoPlist.strings in Resources */,
 				CC0ECE4E17DB300400D0D2A8 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC0ECE5617DB300500D0D2A8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC0ECE6417DB300500D0D2A8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,28 +187,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC0ECE4717DB300400D0D2A8 /* main.m in Sources */,
+				CC0ECE7B17DB357100D0D2A8 /* FGStuffCalculator.m in Sources */,
 				CC0ECE4B17DB300400D0D2A8 /* FGAppDelegate.m in Sources */,
 				CC0ECE5117DB300400D0D2A8 /* FGViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC0ECE5417DB300500D0D2A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC0ECE6617DB300500D0D2A8 /* PlateCollectTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CC0ECE5E17DB300500D0D2A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CC0ECE3617DB300400D0D2A8 /* PlateCollect */;
-			targetProxy = CC0ECE5D17DB300500D0D2A8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CC0ECE4317DB300400D0D2A8 /* InfoPlist.strings */ = {
@@ -289,14 +210,6 @@
 				CC0ECE4D17DB300400D0D2A8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CC0ECE6217DB300500D0D2A8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC0ECE6317DB300500D0D2A8 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -333,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -364,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -396,46 +309,6 @@
 			};
 			name = Release;
 		};
-		CC0ECE6D17DB300500D0D2A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlateCollect.app/PlateCollect";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PlateCollect/PlateCollect-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "PlateCollectTests/PlateCollectTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		CC0ECE6E17DB300500D0D2A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlateCollect.app/PlateCollect";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PlateCollect/PlateCollect-Prefix.pch";
-				INFOPLIST_FILE = "PlateCollectTests/PlateCollectTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,14 +328,7 @@
 				CC0ECE6B17DB300500D0D2A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		CC0ECE6C17DB300500D0D2A8 /* Build configuration list for PBXNativeTarget "PlateCollectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC0ECE6D17DB300500D0D2A8 /* Debug */,
-				CC0ECE6E17DB300500D0D2A8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
