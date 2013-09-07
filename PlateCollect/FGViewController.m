@@ -248,10 +248,10 @@
     if ([annotation isKindOfClass:[MKUserLocation class]]) {return nil;}
     
     MKPinAnnotationView *a = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"Annotation"];
-    //a.image = ...;
+    a.image = [UIImage imageNamed:@"callout"];
     a.canShowCallout = YES;
     a.draggable = NO;
-    a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"callout"]];
+    a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
     
     UIButton *detail = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
     [detail addTarget:self action:@selector(mapView:annotationView:calloutAccessoryControlTapped:) forControlEvents:UIControlEventTouchUpInside];
