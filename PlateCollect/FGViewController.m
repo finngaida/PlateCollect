@@ -15,8 +15,10 @@
     [super viewDidLoad];
     
     [self setUpSettingsDrag];
+    [self setUpSideMenu];
     
     self.mapView.delegate = self;
+    self.view.backgroundColor = [UIColor blackColor];
     
     FGStuffCalculator *c = [FGStuffCalculator new];
     [c fetchCurrentLocationWithHandler:^(CLLocation *location, NSError *error) {
@@ -39,23 +41,177 @@
     // Create the gesture recognizer and put it on a new view, represnting the drag-start area.
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan:)];
     UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 600)]; v.backgroundColor = [UIColor clearColor];
-    [self.view addSubview:v];
+    v.tag = 99;
+    [self.containerView addSubview:v];
     [v addGestureRecognizer:pan];
     
     
 }
 
+- (void)setUpSideMenu {
+    
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 280, [UIScreen mainScreen].bounds.size.height)];
+    scrollView.contentSize = CGSizeMake(280, scrollView.frame.size.height+1);
+    [self.view insertSubview:scrollView atIndex:0];
+    
+    profile = [[UIButton alloc] initWithFrame:CGRectMake(10, 20, 260, 50)];
+    profile.backgroundColor = [UIColor clearColor];
+    profile.tag = 1;
+    [profile addTarget:self action:@selector(pushMenuItem:) forControlEvents:UIControlEventTouchUpInside];
+    UILabel *profileTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 260, 50)];
+    profileTitle.backgroundColor = [UIColor clearColor];
+    profileTitle.textColor = [UIColor whiteColor];
+    profileTitle.font = [UIFont fontWithName:@"Futura" size:25];
+    profileTitle.textAlignment = NSTextAlignmentCenter;
+    profileTitle.text = @"Profile";                                     // Later on the username set up at startup
+    [profile addSubview:profileTitle];
+    [scrollView addSubview:profile];
+    
+    settings = [[UIButton alloc] initWithFrame:CGRectMake(10, 80, 260, 50)];
+    settings.backgroundColor = [UIColor clearColor];
+    settings.tag = 2;
+    [settings addTarget:self action:@selector(pushMenuItem:) forControlEvents:UIControlEventTouchUpInside];
+    UILabel *settingsTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 260, 50)];
+    settingsTitle.backgroundColor = [UIColor clearColor];
+    settingsTitle.textColor = [UIColor whiteColor];
+    settingsTitle.font = [UIFont fontWithName:@"Futura" size:25];
+    settingsTitle.textAlignment = NSTextAlignmentCenter;
+    settingsTitle.text = @"Settings";                                     // Must be translated
+    [settings addSubview:settingsTitle];
+    [scrollView addSubview:settings];
+    
+    credits = [[UIButton alloc] initWithFrame:CGRectMake(10, 140, 260, 50)];
+    credits.backgroundColor = [UIColor clearColor];
+    credits.tag = 3;
+    [credits addTarget:self action:@selector(pushMenuItem:) forControlEvents:UIControlEventTouchUpInside];
+    UILabel *creditsTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 260, 50)];
+    creditsTitle.backgroundColor = [UIColor clearColor];
+    creditsTitle.textColor = [UIColor whiteColor];
+    creditsTitle.font = [UIFont fontWithName:@"Futura" size:25];
+    creditsTitle.textAlignment = NSTextAlignmentCenter;
+    creditsTitle.text = @"Credits";                                     // Must be translated
+    [credits addSubview:creditsTitle];
+    [scrollView addSubview:credits];
+    
+}
+
+- (void)pushMenuItem:(UIButton *)sender {
+    
+    float v = 0.2; // velocity of the animation
+    
+    switch (sender.tag) {
+        case 1: {
+            
+            // animate the main items out
+            [UIView animateWithDuration:v delay:v-v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                profile.center = CGPointMake(480, profile.center.y);
+            } completion:nil];
+            [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                settings.center = CGPointMake(480, settings.center.y);
+            } completion:nil];
+            [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                credits.center = CGPointMake(480, credits.center.y);
+            } completion:nil];
+            
+            // animate the subitem in
+            [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                //profile.center = CGPointMake(480, profile.center.y);
+            } completion:nil];
+            [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                //profile.center = CGPointMake(480, profile.center.y);
+            } completion:nil];
+            [UIView animateWithDuration:v delay:v+v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                //profile.center = CGPointMake(480, profile.center.y);
+            } completion:nil];
+            
+        } break;
+        case 2: {
+            
+            // animate the main items out
+            [UIView animateWithDuration:v delay:v-v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                profile.center = CGPointMake(480, profile.center.y);
+            } completion:nil];
+            [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                settings.center = CGPointMake(480, settings.center.y);
+            } completion:nil];
+            [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                credits.center = CGPointMake(480, credits.center.y);
+            } completion:nil];
+            
+        } break;
+        case 3: {
+            
+            // animate the main items out
+            [UIView animateWithDuration:v delay:v-v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                profile.center = CGPointMake(480, profile.center.y);
+            } completion:nil];
+            [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                settings.center = CGPointMake(480, settings.center.y);
+            } completion:nil];
+            [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                credits.center = CGPointMake(480, credits.center.y);
+            } completion:nil];
+            
+        } break;
+        default:break;
+    }
+}
+
 - (void)handlePan:(UIPanGestureRecognizer *)pan {
+    CGPoint p = [pan locationInView:self.view];
     
     switch (pan.state) {
         case UIGestureRecognizerStateBegan: {
             
         } break;
         case UIGestureRecognizerStateChanged: {
-        
+            self.containerView.center = CGPointMake(160+p.x, self.containerView.center.y);
         } break;
         case UIGestureRecognizerStateEnded: {
-        
+            if (p.x>=160) {
+                [UIView animateWithDuration:.2 animations:^{
+                    self.containerView.center = CGPointMake(450, self.containerView.center.y);
+                } completion:^(BOOL finished) {
+                    [UIView animateWithDuration:.2 animations:^{
+                        self.containerView.center = CGPointMake(445, self.containerView.center.y);
+                    } completion:^(BOOL finished) {
+                        [UIView animateWithDuration:.2 animations:^{
+                            self.containerView.center = CGPointMake(440, self.containerView.center.y);
+                        } completion:^(BOOL finished) {
+                            
+                        }];
+                    }];
+                }];
+                
+                // set the dragview to be wider
+                for (UIView *v in self.containerView.subviews) {
+                    if (v.tag == 99) {
+                        v.frame = CGRectMake(v.frame.origin.x, v.frame.origin.y, 40, v.frame.size.height);
+                    }
+                }
+                
+            } else {
+                [UIView animateWithDuration:.2 animations:^{
+                    self.containerView.center = CGPointMake(150, self.containerView.center.y);
+                } completion:^(BOOL finished) {
+                    [UIView animateWithDuration:.2 animations:^{
+                        self.containerView.center = CGPointMake(165, self.containerView.center.y);
+                    } completion:^(BOOL finished) {
+                        [UIView animateWithDuration:.2 animations:^{
+                            self.containerView.center = CGPointMake(160, self.containerView.center.y);
+                        } completion:^(BOOL finished) {
+                            
+                        }];
+                    }];
+                }];
+                
+                // set the dragview to be wider
+                for (UIView *v in self.containerView.subviews) {
+                    if (v.tag == 99) {
+                        v.frame = CGRectMake(v.frame.origin.x, v.frame.origin.y, 10, v.frame.size.height);
+                    }
+                }
+            }
         } break;
         default:break;
     }
