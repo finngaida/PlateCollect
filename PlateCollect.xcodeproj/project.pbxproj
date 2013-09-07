@@ -23,6 +23,7 @@
 		CC0ECE7F17DB35C400D0D2A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */; };
 		CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */; };
 		CC0ECEDD17DBA69700D0D2A8 /* Berlin.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CC0ECEDC17DBA69700D0D2A8 /* Berlin.gpx */; };
+		CC8468E117DBB8A200FED01A /* callout in Resources */ = {isa = PBXBuildFile; fileRef = CC8468E017DBB8A200FED01A /* callout */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		CC0ECE8017DB434200D0D2A8 /* FGAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAnnotation.h; sourceTree = "<group>"; };
 		CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAnnotation.m; sourceTree = "<group>"; };
 		CC0ECEDC17DBA69700D0D2A8 /* Berlin.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Berlin.gpx; path = ../Berlin.gpx; sourceTree = "<group>"; };
+		CC8468E017DBB8A200FED01A /* callout */ = {isa = PBXFileReference; lastKnownFileType = file; path = callout; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		CC0ECE4117DB300400D0D2A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC8468E017DBB8A200FED01A /* callout */,
 				CC0ECEDC17DBA69700D0D2A8 /* Berlin.gpx */,
 				CC0ECE4217DB300400D0D2A8 /* PlateCollect-Info.plist */,
 				CC0ECE4317DB300400D0D2A8 /* InfoPlist.strings */,
@@ -192,6 +195,7 @@
 				69C9C07417DB37260020DCD6 /* stolpersteine.csv in Resources */,
 				CC0ECE5317DB300400D0D2A8 /* Images.xcassets in Resources */,
 				CC0ECEDD17DBA69700D0D2A8 /* Berlin.gpx in Resources */,
+				CC8468E117DBB8A200FED01A /* callout in Resources */,
 				CC0ECE4517DB300400D0D2A8 /* InfoPlist.strings in Resources */,
 				CC0ECE4E17DB300400D0D2A8 /* Main.storyboard in Resources */,
 			);

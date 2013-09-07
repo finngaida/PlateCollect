@@ -37,12 +37,8 @@
         
     }];
     
-    FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:@"test" andCoordinate:CLLocationCoordinate2DMake(0, 0)];
+    FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:@"test" andCoordinate:CLLocationCoordinate2DMake(52.51944444, 13.4066666)];
     [self.mapView addAnnotation:a];
-    
-    MKPointAnnotation *a2 = [[MKPointAnnotation alloc] init]; a2.coordinate = CLLocationCoordinate2DMake(52.51944444, 13.4066666);
-    [self.mapView addAnnotation:a2];
-    
 }
 
 - (void)setUpSettingsDrag {
@@ -251,18 +247,22 @@
     // Check if the wanted annotation is the users location
     if ([annotation isKindOfClass:[MKUserLocation class]]) {return nil;}
     
-    MKAnnotationView *a = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"Annotation"];
+    MKPinAnnotationView *a = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"Annotation"];
     //a.image = ...;
     a.canShowCallout = YES;
     a.draggable = NO;
-    a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
+    a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"callout"]];
+    
+    UIButton *detail = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    [detail addTarget:self action:@selector(mapView:annotationView:calloutAccessoryControlTapped:) forControlEvents:UIControlEventTouchUpInside];
+    a.rightCalloutAccessoryView = detail;
     
     return a;
 }
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
     
-    [self performSegueWithIdentifier:@"showDetailView" sender:self];
+    //[self performSegueWithIdentifier:@"showDetailView" sender:self];
     
 }
 
