@@ -11,6 +11,7 @@
 #import "FGStuffCalculator.h"
 #import "FGAnnotation.h"
 #import "FGDetailViewController.h"
+#import "FGStolperstein.h"
 
 @interface FGViewController : UIViewController <MKMapViewDelegate> {
     

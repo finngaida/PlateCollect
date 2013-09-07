@@ -39,6 +39,7 @@
 		CC0ECEDD17DBA69700D0D2A8 /* Berlin.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CC0ECEDC17DBA69700D0D2A8 /* Berlin.gpx */; };
 		CC8468E117DBB8A200FED01A /* callout in Resources */ = {isa = PBXBuildFile; fileRef = CC8468E017DBB8A200FED01A /* callout */; };
 		CCD5902717DBC14900A87AFB /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD5902617DBC14900A87AFB /* plate.png */; };
+		CCD5902817DBC62900A87AFB /* FGStolperstein.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9C07617DB375A0020DCD6 /* FGStolperstein.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -288,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD5902817DBC62900A87AFB /* FGStolperstein.m in Sources */,
 				CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */,
 				CC0ECE4717DB300400D0D2A8 /* main.m in Sources */,
 				69C9C07A17DB39EE0020DCD6 /* FGStolpersteinFetcher.m in Sources */,
@@ -403,7 +405,7 @@
 				GCC_PREFIX_HEADER = "PlateCollect/PlateCollect-Prefix.pch";
 				INFOPLIST_FILE = "PlateCollect/PlateCollect-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6A7BCAAF-F1F7-487C-ADF3-38795A1D70B1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -419,7 +421,7 @@
 				GCC_PREFIX_HEADER = "PlateCollect/PlateCollect-Prefix.pch";
 				INFOPLIST_FILE = "PlateCollect/PlateCollect-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6A7BCAAF-F1F7-487C-ADF3-38795A1D70B1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
