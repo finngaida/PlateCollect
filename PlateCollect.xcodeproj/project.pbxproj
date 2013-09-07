@@ -22,6 +22,7 @@
 		CC0ECE7D17DB35BF00D0D2A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7C17DB35BF00D0D2A8 /* CoreLocation.framework */; };
 		CC0ECE7F17DB35C400D0D2A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */; };
 		CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */; };
+		CC0ECEDD17DBA69700D0D2A8 /* Berlin.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CC0ECEDC17DBA69700D0D2A8 /* Berlin.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CC0ECE8017DB434200D0D2A8 /* FGAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAnnotation.h; sourceTree = "<group>"; };
 		CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAnnotation.m; sourceTree = "<group>"; };
+		CC0ECEDC17DBA69700D0D2A8 /* Berlin.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Berlin.gpx; path = ../Berlin.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		CC0ECE4117DB300400D0D2A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC0ECEDC17DBA69700D0D2A8 /* Berlin.gpx */,
 				CC0ECE4217DB300400D0D2A8 /* PlateCollect-Info.plist */,
 				CC0ECE4317DB300400D0D2A8 /* InfoPlist.strings */,
 				CC0ECE4617DB300400D0D2A8 /* main.m */,
@@ -188,6 +191,7 @@
 			files = (
 				69C9C07417DB37260020DCD6 /* stolpersteine.csv in Resources */,
 				CC0ECE5317DB300400D0D2A8 /* Images.xcassets in Resources */,
+				CC0ECEDD17DBA69700D0D2A8 /* Berlin.gpx in Resources */,
 				CC0ECE4517DB300400D0D2A8 /* InfoPlist.strings in Resources */,
 				CC0ECE4E17DB300400D0D2A8 /* Main.storyboard in Resources */,
 			);
@@ -247,6 +251,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Finn Gaida (CS66KLRFPY)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -264,6 +269,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6A7BCAAF-F1F7-487C-ADF3-38795A1D70B1";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -284,6 +290,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Finn Gaida (CS66KLRFPY)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -294,6 +301,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "6A7BCAAF-F1F7-487C-ADF3-38795A1D70B1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -304,6 +312,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Finn Gaida (CS66KLRFPY)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlateCollect/PlateCollect-Prefix.pch";
 				INFOPLIST_FILE = "PlateCollect/PlateCollect-Info.plist";
@@ -317,6 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Finn Gaida (CS66KLRFPY)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlateCollect/PlateCollect-Prefix.pch";
 				INFOPLIST_FILE = "PlateCollect/PlateCollect-Info.plist";

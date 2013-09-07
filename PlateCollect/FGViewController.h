@@ -13,10 +13,16 @@
 
 @interface FGViewController : UIViewController <MKMapViewDelegate> {
     
-    // For the side menu
+    // For the side main menu
     UIButton *profile;
     UIButton *settings;
     UIButton *credits;
+    
+    // Side menu settings branch
+    UILabel *label1; //has to be renamed
+    UISwitch *sw;
+    
+    
     
 }
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;

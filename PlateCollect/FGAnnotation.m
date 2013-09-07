@@ -9,6 +9,7 @@
 #import "FGAnnotation.h"
 
 @implementation FGAnnotation
+@synthesize coordinate, title;
 
 - (id)initWithTitle:(NSString *)theTitle andCoordinate:(CLLocationCoordinate2D)theCoord {
     

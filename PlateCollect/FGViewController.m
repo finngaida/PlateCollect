@@ -10,18 +10,21 @@
 
 @implementation FGViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     
     [self setUpSettingsDrag];
     [self setUpSideMenu];
     
+    
     self.mapView.delegate = self;
+    self.mapView.showsUserLocation = YES;
     self.view.backgroundColor = [UIColor blackColor];
     
     FGStuffCalculator *c = [FGStuffCalculator new];
     [c fetchCurrentLocationWithHandler:^(CLLocation *location, NSError *error) {
+        
+        NSLog(@"%f", location.coordinate.latitude);
         [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.5, .5)) animated:YES];
         
         // Fetch the 30 nearest placemarks from the location parameter and create FGStolperstein 's for it
@@ -29,10 +32,16 @@
         // loop through them and add the annotations
         /*for (FGStolperstein *s in stolpersteine) {
             FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:s.name andCoordinate:s.coord];
+            [self.mapView addAnnotation:];
         }*/
         
-        
     }];
+    
+    FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:@"test" andCoordinate:CLLocationCoordinate2DMake(0, 0)];
+    [self.mapView addAnnotation:a];
+    
+    MKPointAnnotation *a2 = [[MKPointAnnotation alloc] init]; a2.coordinate = CLLocationCoordinate2DMake(52.51944444, 13.4066666);
+    [self.mapView addAnnotation:a2];
     
 }
 
@@ -102,6 +111,8 @@
     switch (sender.tag) {
         case 1: {
             
+            // profile button was tapped
+            
             // animate the main items out
             [UIView animateWithDuration:v delay:v-v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
                 profile.center = CGPointMake(480, profile.center.y);
@@ -127,28 +138,45 @@
         } break;
         case 2: {
             
+            // settings button was tapped
+            
             // animate the main items out
-            [UIView animateWithDuration:v delay:v-v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+            [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
                 profile.center = CGPointMake(480, profile.center.y);
             } completion:nil];
-            [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+            [UIView animateWithDuration:v delay:v-v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
                 settings.center = CGPointMake(480, settings.center.y);
             } completion:nil];
             [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
                 credits.center = CGPointMake(480, credits.center.y);
             } completion:nil];
             
+            
+            // animate the subitem in
+            [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                //profile.center = CGPointMake(480, profile.center.y);
+            } completion:nil];
+            [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                //profile.center = CGPointMake(480, profile.center.y);
+            } completion:nil];
+            [UIView animateWithDuration:v delay:v+v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                //profile.center = CGPointMake(480, profile.center.y);
+            } completion:nil];
+            
+            
         } break;
         case 3: {
             
+            // credits button was tapped
+            
             // animate the main items out
-            [UIView animateWithDuration:v delay:v-v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+            [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
                 profile.center = CGPointMake(480, profile.center.y);
             } completion:nil];
-            [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+            [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
                 settings.center = CGPointMake(480, settings.center.y);
             } completion:nil];
-            [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+            [UIView animateWithDuration:v delay:v-v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
                 credits.center = CGPointMake(480, credits.center.y);
             } completion:nil];
             

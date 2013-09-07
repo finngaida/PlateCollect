@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<gpx creator="WTracks" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+  <name>Berlin</name>
+  <desc></desc>
+  <author><name>WTracks - Online GPX track editor</name></author>
+  <link href="http://wtracks.appspot.com">
+    <text>WTracks</text>
+    <type>text/html</type>
+  </link>
+  <time>2013-09-07T12-08-00Z</time>
+<bounds minlat="52.48583713756743" minlon="13.295369611865226" maxlat="52.550183257446434" maxlon="13.514066206103507"/></metadata>
+<trk><name>Berlin</name><trkseg>
+  <trkpt lat="52.52060806001903" lon="13.404350280761719"></trkpt>
+</trkseg></trk></gpx>
+
