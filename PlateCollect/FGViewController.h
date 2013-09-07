@@ -11,7 +11,15 @@
 #import "FGStuffCalculator.h"
 #import "FGAnnotation.h"
 
-@interface FGViewController : UIViewController <MKMapViewDelegate>
+@interface FGViewController : UIViewController <MKMapViewDelegate> {
+    
+    // For the side menu
+    UIButton *profile;
+    UIButton *settings;
+    UIButton *credits;
+    
+}
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
+@property (weak, nonatomic) IBOutlet UIView *containerView;
 
 @end
