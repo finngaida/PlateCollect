@@ -23,6 +23,7 @@
 @property(nonatomic,strong)NSString *placeOfDeath;
 @property(nonatomic,strong)NSDate *dayOfDeath;
 
+@property(nonatomic,strong)CLLocation *location;
 @property(nonatomic,strong)CLRegion *region;
 
 -(instancetype)initWithFirst:(NSString *)firstName
@@ -31,6 +32,7 @@
                     birthday:(NSString *)birthday
                      address:(NSString *)address
                      quarter:(NSString *)quarter
+                    location:(CLLocation *)location
                 deportations:(NSArray *)deportations //Of NSDictionary <@"date":NSDate Date
                                                                     //  @"placexw"NSString Place>
              locationOfDeath:(NSString *)placeOfDeath

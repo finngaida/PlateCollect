@@ -12,7 +12,7 @@
 @implementation FGStolperstein
 
 
--(instancetype)initWithFirst:(NSString *)firstName last:(NSString *)lastName born:(NSString *)bornName birthday:(NSString *)birthday address:(NSString *)address quarter:(NSString *)quarter deportations:(NSArray *)deportations locationOfDeath:(NSString *)placeOfDeath dayOfDeath:(NSString *)dayOfDeath{
+-(instancetype)initWithFirst:(NSString *)firstName last:(NSString *)lastName born:(NSString *)bornName birthday:(NSString *)birthday address:(NSString *)address quarter:(NSString *)quarter location:(CLLocation *)location deportations:(NSArray *)deportations locationOfDeath:(NSString *)placeOfDeath dayOfDeath:(NSString *)dayOfDeath{
     
     self = [super init];
     
@@ -29,16 +29,7 @@
     self.address = address;
     self.quarter = quarter;
     
-    CLGeocoder *geocoder = [CLGeocoder new];
-        
-    [geocoder geocodeAddressString:[self.address stringByAppendingString:@", Berlin"] completionHandler:^(NSArray *placemarks,NSError *error){
-        CLPlacemark *result = placemarks[0];
-        
-        
-        self.region = [[CLRegion alloc] initCircularRegionWithCenter:result.location.coordinate radius:20 identifier:@"Stolperstein"];
-        
-    }];
-
+    self.location = location;
     
     self.deportations = deportations;
     

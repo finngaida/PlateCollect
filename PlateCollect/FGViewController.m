@@ -267,7 +267,7 @@
 
     FGDetailViewController *detailVC = [[FGDetailViewController alloc] init];
     detailVC.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-    detailVC.stone = [[FGStolperstein alloc] initWithFirst:@"Peter" last:@"Pan" born:nil birthday:nil address:@"Nimmerland" quarter:@"Auschwitz" deportations:nil locationOfDeath:@"Auschwitz" dayOfDeath:nil];
+    detailVC.stone = [[FGStolperstein alloc] initWithFirst:@"Peter" last:@"Pan" born:nil birthday:nil address:@"Nimmerland" quarter:@"Auschwitz" deportations:nil  locationOfDeath:@"Auschwitz" dayOfDeath:nil];
     
     [self presentViewController:detailVC animated:YES completion:nil];
 }
