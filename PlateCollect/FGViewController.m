@@ -16,7 +16,19 @@
     [self setUpSettingsDrag];
     [self setUpSideMenu];
     
+    // Button to zoom to current region
+    UIButton *zoomToLocal = [[UIButton alloc] initWithFrame:CGRectMake(self.containerView.frame.size.width-35, [UIScreen mainScreen].bounds.size.height-35, 30, 30)];
+    zoomToLocal.backgroundColor = [UIColor whiteColor];
+    zoomToLocal.layer.masksToBounds = YES;
+    zoomToLocal.layer.cornerRadius = 5;
+    UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"loc"]];
+    iv.frame = CGRectMake(5, 5, 20, 20);
+    [zoomToLocal addSubview:iv];
+    [zoomToLocal setImage:[UIImage imageNamed:@"pin"] forState:UIControlStateHighlighted];
+    [zoomToLocal addTarget:self action:@selector(zoomHome) forControlEvents:UIControlEventTouchUpInside];
+    [self.containerView addSubview:zoomToLocal];
     
+    // Set up map
     self.mapView.delegate = self;
     self.mapView.showsUserLocation = YES;
     self.view.backgroundColor = [UIColor blackColor];
@@ -24,8 +36,8 @@
     FGStuffCalculator *c = [FGStuffCalculator new];
     [c fetchCurrentLocationWithHandler:^(CLLocation *location, NSError *error) {
         
-        NSLog(@"%f", location.coordinate.latitude);
-        [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.5, .5)) animated:YES];
+        NSLog(@"Zoomed to latitude: %f", location.coordinate.latitude);
+        [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.2, .2)) animated:YES];
         
         // Fetch the 30 nearest placemarks from the location parameter and create FGStolperstein 's for it
         
@@ -37,8 +49,18 @@
         
     }];
     
-    FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:@"test" andCoordinate:CLLocationCoordinate2DMake(52.51944444, 13.4066666)];
+    FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:@"Stolperstein" andCoordinate:CLLocationCoordinate2DMake(52.51944444, 13.4066666)];
     [self.mapView addAnnotation:a];
+}
+
+- (void)zoomHome {
+    
+    // Fetch the current location and zoom to it
+    FGStuffCalculator *c = [FGStuffCalculator new];
+    [c fetchCurrentLocationWithHandler:^(CLLocation *location, NSError *error) {
+        NSLog(@"Zoomed to latitude: %f", location.coordinate.latitude);
+        [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.2, .2)) animated:YES];
+    }];
 }
 
 - (void)setUpSettingsDrag {
@@ -63,7 +85,7 @@
     profile.backgroundColor = [UIColor clearColor];
     profile.tag = 1;
     [profile addTarget:self action:@selector(pushMenuItem:) forControlEvents:UIControlEventTouchUpInside];
-    UILabel *profileTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 260, 50)];
+    profileTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 260, 50)];
     profileTitle.backgroundColor = [UIColor clearColor];
     profileTitle.textColor = [UIColor whiteColor];
     profileTitle.font = [UIFont fontWithName:@"Futura" size:25];
@@ -190,6 +212,8 @@
         } break;
         case UIGestureRecognizerStateChanged: {
             self.containerView.center = CGPointMake(160+p.x, self.containerView.center.y);
+            
+            profileTitle.frame = CGRectMake(10*((p.x/280)*.7), 20*((p.x/280)*.7), 260*((p.x/280)*.7), 50*((p.x/280)*.7));
         } break;
         case UIGestureRecognizerStateEnded: {
             if (p.x>=160) {

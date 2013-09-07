@@ -36,10 +36,12 @@
 		CC0ECE7D17DB35BF00D0D2A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7C17DB35BF00D0D2A8 /* CoreLocation.framework */; };
 		CC0ECE7F17DB35C400D0D2A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */; };
 		CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */; };
-		CC0ECEDD17DBA69700D0D2A8 /* Berlin.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CC0ECEDC17DBA69700D0D2A8 /* Berlin.gpx */; };
 		CC8468E117DBB8A200FED01A /* callout in Resources */ = {isa = PBXBuildFile; fileRef = CC8468E017DBB8A200FED01A /* callout */; };
 		CCD5902717DBC14900A87AFB /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD5902617DBC14900A87AFB /* plate.png */; };
 		CCD5902817DBC62900A87AFB /* FGStolperstein.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9C07617DB375A0020DCD6 /* FGStolperstein.m */; };
+		CCD5902F17DBCD6300A87AFB /* loc.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD5902D17DBCD6200A87AFB /* loc.png */; };
+		CCD5903017DBCD6300A87AFB /* loc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD5902E17DBCD6200A87AFB /* loc@2x.png */; };
+		CCD5903217DBCE4200A87AFB /* Berlin (1).gpx in Resources */ = {isa = PBXBuildFile; fileRef = CCD5903117DBCE4200A87AFB /* Berlin (1).gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,9 +89,11 @@
 		CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CC0ECE8017DB434200D0D2A8 /* FGAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAnnotation.h; sourceTree = "<group>"; };
 		CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAnnotation.m; sourceTree = "<group>"; };
-		CC0ECEDC17DBA69700D0D2A8 /* Berlin.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Berlin.gpx; path = ../Berlin.gpx; sourceTree = "<group>"; };
 		CC8468E017DBB8A200FED01A /* callout */ = {isa = PBXFileReference; lastKnownFileType = file; path = callout; sourceTree = "<group>"; };
 		CCD5902617DBC14900A87AFB /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate.png; sourceTree = "<group>"; };
+		CCD5902D17DBCD6200A87AFB /* loc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loc.png; sourceTree = "<group>"; };
+		CCD5902E17DBCD6200A87AFB /* loc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loc@2x.png"; sourceTree = "<group>"; };
+		CCD5903117DBCE4200A87AFB /* Berlin (1).gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Berlin (1).gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,10 @@
 		A6B094C117DB925B007252E3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CCD5902D17DBCD6200A87AFB /* loc.png */,
+				CCD5902E17DBCD6200A87AFB /* loc@2x.png */,
+				CCD5902617DBC14900A87AFB /* plate.png */,
+				CC8468E017DBB8A200FED01A /* callout */,
 				A667F94717DBC049003847A7 /* pin.png */,
 				A667F94817DBC049003847A7 /* pin@2x.png */,
 				A68C693917DBA6F700400767 /* timeline_death.png */,
@@ -133,6 +141,7 @@
 		CC0ECE2E17DB300400D0D2A8 = {
 			isa = PBXGroup;
 			children = (
+				CCD5903117DBCE4200A87AFB /* Berlin (1).gpx */,
 				CC0ECE4017DB300400D0D2A8 /* PlateCollect */,
 				CC0ECE3917DB300400D0D2A8 /* Frameworks */,
 				CC0ECE3817DB300400D0D2A8 /* Products */,
@@ -190,9 +199,6 @@
 		CC0ECE4117DB300400D0D2A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CCD5902617DBC14900A87AFB /* plate.png */,
-				CC8468E017DBB8A200FED01A /* callout */,
-				CC0ECEDC17DBA69700D0D2A8 /* Berlin.gpx */,
 				CC0ECE4217DB300400D0D2A8 /* PlateCollect-Info.plist */,
 				CC0ECE4317DB300400D0D2A8 /* InfoPlist.strings */,
 				CC0ECE4617DB300400D0D2A8 /* main.m */,
@@ -260,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69C9C07417DB37260020DCD6 /* stolpersteine.csv in Resources */,
+				CCD5903217DBCE4200A87AFB /* Berlin (1).gpx in Resources */,
 				A68C693C17DBA6F700400767 /* timeline_death@2x.png in Resources */,
 				A667F94A17DBC049003847A7 /* pin@2x.png in Resources */,
 				A68C693B17DBA6F700400767 /* timeline_death.png in Resources */,
@@ -267,11 +274,12 @@
 				A6B094B917DB9255007252E3 /* Icon-Small-50.png in Resources */,
 				A6B094BA17DB9255007252E3 /* Icon-Small-50@2x.png in Resources */,
 				A6B094BC17DB9255007252E3 /* Icon-Small@2x.png in Resources */,
+				CCD5902F17DBCD6300A87AFB /* loc.png in Resources */,
 				A6B094B717DB9255007252E3 /* Icon-72.png in Resources */,
 				A6B094B817DB9255007252E3 /* Icon-72@2x.png in Resources */,
 				A6B094BF17DB9255007252E3 /* iTunesArtwork.png in Resources */,
 				CC0ECE5317DB300400D0D2A8 /* Images.xcassets in Resources */,
-				CC0ECEDD17DBA69700D0D2A8 /* Berlin.gpx in Resources */,
+				CCD5903017DBCD6300A87AFB /* loc@2x.png in Resources */,
 				CC8468E117DBB8A200FED01A /* callout in Resources */,
 				CC0ECE4517DB300400D0D2A8 /* InfoPlist.strings in Resources */,
 				CCD5902717DBC14900A87AFB /* plate.png in Resources */,
