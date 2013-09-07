@@ -13,9 +13,9 @@
 @end
 
 @implementation FGDetailViewController
-@synthesize deportationInfos = _deportationInfos;
-@synthesize dayOfDeath = _dayOfDeath;
-@synthesize deathPlace = _deathPlace;
+@synthesize stone = _stone;
+
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -66,8 +66,8 @@
     if (section == 0) {
         return 4;
     } else {
-        int count = _deportationInfos.count;
-        if (_deathPlace && _dayOfDeath) {
+        int count = _stone.deportations.count;
+        if (_stone.placeOfDeath && _stone.dayOfDeath) {
             count++;
         }
         return count;
@@ -76,19 +76,46 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    //Dynamische Zelllen sind die für Deportationen etc.
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier
+                                                            forIndexPath:indexPath];
+    
     //Statische Zellen werden automatisch gesetzt
     if (indexPath.section == 0) {
-        return [super tableView:tableView cellForRowAtIndexPath:indexPath];
+        switch (indexPath.row) {
+            case 0: {
+                cell.textLabel.text = @"Geburtsname";
+                cell.detailTextLabel.text = _stone.bornName;
+                break;
+            }
+            case 1: {
+                cell.textLabel.text = @"Geburstag";
+                NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+                [formatter setDateFormat:@"dd.MM.YY"];
+                cell.detailTextLabel.text = [formatter stringFromDate:_stone.birthday];
+                break;
+            }
+            case 2: {
+                cell.textLabel.text = @"Adresse";
+                cell.detailTextLabel.text = _stone.address;
+                break;
+            }
+            case 3: {
+                cell.textLabel.text = @"Ortsteil";
+                cell.detailTextLabel.text = _stone.quarter;
+                break;
+            }
+                
+            default:
+                break;
+        }
     } else {
         //ImageView für das TimeLineBild
         UIImageView *imageView = [[UIImageView alloc] init];
         [imageView setFrame:CGRectMake(0, 0, 44, 44)];
         
-        //Dynamische Zelllen sind die für Deportationen etc.
-        static NSString *CellIdentifier = @"specialCell";
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier
-                                                                forIndexPath:indexPath];
-        if (indexPath.row < _deportationInfos.count) {
+        if (indexPath.row < _stone.deportations.count) {
             //Bild für die Timeline setzen
             UIImage *image = [UIImage imageNamed:@"timline_deporatation.png"];
             [imageView setImage:image];
@@ -96,7 +123,7 @@
             //Text für Deporatationen
             cell.textLabel.text = [NSString stringWithFormat:@"%i. Deport.", indexPath.row];
             
-            NSDictionary *dict = [_deportationInfos objectAtIndex:indexPath.row];
+            NSDictionary *dict = [_stone.deportations objectAtIndex:indexPath.row];
             NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
             [formatter setDateFormat:@"dd.MM.YY"];
             NSString *date = [formatter stringFromDate:dict[@"date"]];
@@ -108,16 +135,18 @@
             
             //Text für Tod setzen
             cell.textLabel.text = @"Tod";
-            if (_dayOfDeath && _deathPlace) {
+            if (_stone.dayOfDeath && _stone.placeOfDeath) {
                 NSString *detailText;
-                if (_deathPlace) {
-                    detailText = _deathPlace;
-                    if (_dayOfDeath) {
-                        NSString *dayOfDeathFormatted = [NSString stringWithFormat:@" (%@)", _dayOfDeath];
+                if (_stone.placeOfDeath) {
+                    detailText = _stone.placeOfDeath;
+                    if (_stone.dayOfDeath) {
+                        NSString *dayOfDeathFormatted = [NSString stringWithFormat:@" (%@)", _stone.dayOfDeath];
                         detailText = [detailText stringByAppendingString:dayOfDeathFormatted];
                     }
                 } else {
-                    detailText = _dayOfDeath;
+                    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+                    [formatter setDateFormat:@"dd.MM.YY"];
+                    detailText = [formatter stringFromDate:_stone.dayOfDeath];
                 }
                 
             } else {
