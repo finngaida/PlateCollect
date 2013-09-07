@@ -154,7 +154,8 @@
             }
         }
 
-        return cell;
     }
+    return cell;
+
 }
 @end
