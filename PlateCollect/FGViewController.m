@@ -248,9 +248,10 @@
     if ([annotation isKindOfClass:[MKUserLocation class]]) {return nil;}
     
     MKPinAnnotationView *a = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"Annotation"];
-    a.image = [UIImage imageNamed:@"plate"];
+    a.image = [UIImage imageNamed:@"pin"];
     a.canShowCallout = YES;
     a.draggable = NO;
+    a.calloutOffset = CGPointMake(0, 1);
     a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
     
     UIButton *detail = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];

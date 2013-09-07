@@ -29,11 +29,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    // show Navigation bar
+    self.navigationController.navigationBarHidden = NO;
+    
     //Design auf die View Elemente anwenden
     NSMutableAttributedString* nameString = self.nameLabel.attributedText.mutableCopy;
     NSArray *words = [self.nameLabel.text componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
     int nameEndIndex = [[words objectAtIndex:0] length] - 1;
     NSRange namePosition = NSMakeRange(0, nameEndIndex);
+    
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     
     NSString *boldFontName = [[UIFont boldSystemFontOfSize:12] fontName];
 

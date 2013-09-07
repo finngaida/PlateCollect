@@ -90,6 +90,10 @@
                             </tableViewCell>
                         </prototypes>
                         <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="Gac-Ng-Yj3" id="nSa-dk-gkb"/>
+                            <outlet property="delegate" destination="Gac-Ng-Yj3" id="SXw-db-mrC"/>
+                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Details" id="G5E-3L-Hxc"/>
                     <connections>
