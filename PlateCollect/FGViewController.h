@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import "FGStuffCalculator.h"
+#import "FGAnnotation.h"
 
-@interface FGViewController : UIViewController
+@interface FGViewController : UIViewController <MKMapViewDelegate>
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end
