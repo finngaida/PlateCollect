@@ -74,6 +74,14 @@
     }
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    if (section == 0) {
+        return @"Allgemein";
+    } else {
+        return @"Daten";
+    }
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //Dynamische Zelllen sind die für Deportationen etc.
