@@ -29,27 +29,36 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self createNameView];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"SpecialCell"];
+
     
-    // show Navigation bar
-    self.navigationController.navigationBarHidden = NO;
+}
+
+-(void)createNameView {
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 0, 300, 44)];
     
-    //Design auf die View Elemente anwenden
-    NSMutableAttributedString* nameString = self.nameLabel.attributedText.mutableCopy;
-    NSArray *words = [self.nameLabel.text componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
-    int nameEndIndex = [[words objectAtIndex:0] length] - 1;
+    //Design des Textes
+    NSMutableAttributedString* nameString = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@ %@", _stone.lastName, _stone.firstName]];
+    int nameEndIndex = [_stone.lastName length] - 1;
     NSRange namePosition = NSMakeRange(0, nameEndIndex);
     
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     
     NSString *boldFontName = [[UIFont boldSystemFontOfSize:12] fontName];
-
+    
     [nameString beginEditing];
     [nameString addAttribute:NSFontAttributeName
                        value:boldFontName
                        range:namePosition];
     [nameString endEditing];
-    self.nameLabel.attributedText = nameString;
     
+    [label setAttributedText:nameString];
+    label.textAlignment = NSTextAlignmentCenter;
+    
+    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
+    [headerView addSubview:label];
+
+    self.tableView.tableHeaderView = headerView;
 }
 
 - (void)didReceiveMemoryWarning
@@ -91,9 +100,9 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //Dynamische Zelllen sind die für Deportationen etc.
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
+    static NSString *CellIdentifier = @"SpecialCell";
+    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:CellIdentifier];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     //Statische Zellen werden automatisch gesetzt
     if (indexPath.section == 0) {
         switch (indexPath.row) {
@@ -127,6 +136,7 @@
         //ImageView für das TimeLineBild
         UIImageView *imageView = [[UIImageView alloc] init];
         [imageView setFrame:CGRectMake(0, 0, 44, 44)];
+        [cell.backgroundView addSubview:imageView];
         
         if (indexPath.row < _stone.deportations.count) {
             //Bild für die Timeline setzen
