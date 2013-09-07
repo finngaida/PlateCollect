@@ -27,13 +27,7 @@
     // log it
     NSLog(@"Coords: N %f, E %f", manager.location.coordinate.longitude, manager.location.coordinate.latitude);
     
-    // turn coords into city name
-    geocoder = [[CLGeocoder alloc] init];
-    [geocoder reverseGeocodeLocation:manager.location completionHandler:^(NSArray *placemarks, NSError *err) {
-        
-        handler(manager.location, err);
-        
-    }];
+    handler(manager.location, nil);
 }
 
 - (CLLocation *)locationFromAdress:(NSString *)address {
