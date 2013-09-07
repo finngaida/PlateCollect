@@ -85,7 +85,8 @@
     profile.backgroundColor = [UIColor clearColor];
     profile.tag = 1;
     [profile addTarget:self action:@selector(pushMenuItem:) forControlEvents:UIControlEventTouchUpInside];
-    profileTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 260, 50)];
+    UILabel *profileTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 260, 50)];
+    profileTitle.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     profileTitle.backgroundColor = [UIColor clearColor];
     profileTitle.textColor = [UIColor whiteColor];
     profileTitle.font = [UIFont fontWithName:@"Futura" size:25];
@@ -213,7 +214,7 @@
         case UIGestureRecognizerStateChanged: {
             self.containerView.center = CGPointMake(160+p.x, self.containerView.center.y);
             
-            profileTitle.frame = CGRectMake(10*((p.x/280)*.7), 20*((p.x/280)*.7), 260*((p.x/280)*.7), 50*((p.x/280)*.7));
+            profile.frame = CGRectMake(10*((p.x/280)*.7), 20*((p.x/280)*.7), 260*((p.x/280)*.7), 50*((p.x/280)*.7));
         } break;
         case UIGestureRecognizerStateEnded: {
             if (p.x>=160) {
@@ -293,7 +294,9 @@
     detailVC.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     detailVC.stone = [[FGStolperstein alloc] initWithFirst:@"Peter" last:@"Pan" born:nil birthday:nil address:@"Nimmerland" quarter:@"Auschwitz" deportations:nil locationOfDeath:@"Auschwitz" dayOfDeath:nil];
     
-    [self presentViewController:detailVC animated:YES completion:nil];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:detailVC];
+    
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

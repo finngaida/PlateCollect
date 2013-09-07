@@ -29,9 +29,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self createNameView];
+    //[self createNameView];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"SpecialCell"];
-
+    
+    UILabel *title = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
+    title.backgroundColor = [UIColor clearColor];
+    title.textColor = [UIColor darkGrayColor];
+    title.textAlignment = NSTextAlignmentCenter;
+    title.font = [UIFont fontWithName:@"Helvetica" size:20];
+    title.text = @"Details";
+    [self.navigationController.navigationBar addSubview:title];
     
 }
 

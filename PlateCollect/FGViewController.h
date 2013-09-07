@@ -18,7 +18,6 @@
     
     // For the side main menu
     UIButton *profile;
-    UILabel *profileTitle;
     UIButton *settings;
     UIButton *credits;
     
