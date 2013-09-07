@@ -10,6 +10,7 @@
 #import <MapKit/MapKit.h>
 #import "FGStuffCalculator.h"
 #import "FGAnnotation.h"
+#import "FGDetailViewController.h"
 
 @interface FGViewController : UIViewController <MKMapViewDelegate> {
     

@@ -248,7 +248,7 @@
     if ([annotation isKindOfClass:[MKUserLocation class]]) {return nil;}
     
     MKPinAnnotationView *a = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"Annotation"];
-    a.image = [UIImage imageNamed:@"callout"];
+    a.image = [UIImage imageNamed:@"plate"];
     a.canShowCallout = YES;
     a.draggable = NO;
     a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
@@ -263,7 +263,11 @@
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
     
     //[self performSegueWithIdentifier:@"showDetailView" sender:self];
+
+    FGDetailViewController *detailVC = [[FGDetailViewController alloc] init];
+    detailVC.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
+    [self presentViewController:detailVC animated:YES completion:nil];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

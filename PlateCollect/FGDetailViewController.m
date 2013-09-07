@@ -86,8 +86,7 @@
 {
     //Dynamische Zelllen sind die für Deportationen etc.
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier
-                                                            forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     //Statische Zellen werden automatisch gesetzt
     if (indexPath.section == 0) {
