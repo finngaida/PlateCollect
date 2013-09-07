@@ -11,7 +11,8 @@
 
 @interface FGDetailViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
-@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (nonatomic,retain) FGStolperstein *stone;
+
+-(void)createNameView;
 
 @end
