@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69C9C07417DB37260020DCD6 /* stolpersteine.csv in Resources */ = {isa = PBXBuildFile; fileRef = 69C9C07317DB37260020DCD6 /* stolpersteine.csv */; };
 		CC0ECE3B17DB300400D0D2A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */; };
 		CC0ECE3D17DB300400D0D2A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3C17DB300400D0D2A8 /* CoreGraphics.framework */; };
 		CC0ECE3F17DB300400D0D2A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3E17DB300400D0D2A8 /* UIKit.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69C9C07317DB37260020DCD6 /* stolpersteine.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stolpersteine.csv; sourceTree = "<group>"; };
 		CC0ECE3717DB300400D0D2A8 /* PlateCollect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateCollect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC0ECE3C17DB300400D0D2A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,6 +102,7 @@
 				CC0ECE7917DB357100D0D2A8 /* FGStuffCalculator.h */,
 				CC0ECE7A17DB357100D0D2A8 /* FGStuffCalculator.m */,
 				CC0ECE5217DB300400D0D2A8 /* Images.xcassets */,
+				69C9C07317DB37260020DCD6 /* stolpersteine.csv */,
 				CC0ECE4117DB300400D0D2A8 /* Supporting Files */,
 			);
 			path = PlateCollect;
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C9C07417DB37260020DCD6 /* stolpersteine.csv in Resources */,
 				CC0ECE5317DB300400D0D2A8 /* Images.xcassets in Resources */,
 				CC0ECE4517DB300400D0D2A8 /* InfoPlist.strings in Resources */,
 				CC0ECE4E17DB300400D0D2A8 /* Main.storyboard in Resources */,
