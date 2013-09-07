@@ -36,6 +36,20 @@
     }];
 }
 
+- (CLLocation *)locationFromAdress:(NSString *)address {
+    
+    geocoder = [[CLGeocoder alloc] init];
+    
+    [geocoder geocodeAddressString:address completionHandler:^(NSArray *placemarks, NSError *error) {
+        
+        NSLog(@"Found these coords: %@", [placemarks[0] addressDictionary]);
+        
+    }];
+    
+    return [[CLLocation alloc] initWithLatitude:123 longitude:123];
+    
+}
+
 - (NSDictionary *)fetchLocalPlacemarksUsingGooglePlacesAroundLocation:(CLLocation *)location radius:(NSInteger)radius {
     
     NSString *urlString = [NSString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=%f,%f&radius=%i&sensor=true&key=%@", location.coordinate.latitude, location.coordinate.longitude, radius    , @"AIzaSyCNeUocMmEPOIiUf3WhpGBLTiHwqBERhxg"];

@@ -21,6 +21,7 @@
 		CC0ECE7B17DB357100D0D2A8 /* FGStuffCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE7A17DB357100D0D2A8 /* FGStuffCalculator.m */; };
 		CC0ECE7D17DB35BF00D0D2A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7C17DB35BF00D0D2A8 /* CoreLocation.framework */; };
 		CC0ECE7F17DB35C400D0D2A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */; };
+		CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		CC0ECE7A17DB357100D0D2A8 /* FGStuffCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStuffCalculator.m; sourceTree = "<group>"; };
 		CC0ECE7C17DB35BF00D0D2A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CC0ECE8017DB434200D0D2A8 /* FGAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAnnotation.h; sourceTree = "<group>"; };
+		CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +104,15 @@
 				CC0ECE4A17DB300400D0D2A8 /* FGAppDelegate.m */,
 				CC0ECE4C17DB300400D0D2A8 /* Main.storyboard */,
 				CC0ECE4F17DB300400D0D2A8 /* FGViewController.h */,
+				69C9C07517DB375A0020DCD6 /* FGStolperstein.h */,
+				69C9C07617DB375A0020DCD6 /* FGStolperstein.m */,
+				69C9C07817DB39EE0020DCD6 /* FGStolpersteinFetcher.h */,
+				69C9C07917DB39EE0020DCD6 /* FGStolpersteinFetcher.m */,
 				CC0ECE5017DB300400D0D2A8 /* FGViewController.m */,
 				CC0ECE7917DB357100D0D2A8 /* FGStuffCalculator.h */,
 				CC0ECE7A17DB357100D0D2A8 /* FGStuffCalculator.m */,
+				CC0ECE8017DB434200D0D2A8 /* FGAnnotation.h */,
+				CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */,
 				CC0ECE5217DB300400D0D2A8 /* Images.xcassets */,
 				69C9C07317DB37260020DCD6 /* stolpersteine.csv */,
 				CC0ECE4117DB300400D0D2A8 /* Supporting Files */,
@@ -191,7 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */,
 				CC0ECE4717DB300400D0D2A8 /* main.m in Sources */,
+				69C9C07A17DB39EE0020DCD6 /* FGStolpersteinFetcher.m in Sources */,
 				CC0ECE7B17DB357100D0D2A8 /* FGStuffCalculator.m in Sources */,
 				CC0ECE4B17DB300400D0D2A8 /* FGAppDelegate.m in Sources */,
 				CC0ECE5117DB300400D0D2A8 /* FGViewController.m in Sources */,
