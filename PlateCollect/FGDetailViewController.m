@@ -27,8 +27,19 @@
 {
     [super viewDidLoad];
     //Design auf die View Elemente anwenden
-    NSMutableAttributedString* name = self.nameLabel.attributedText;
+    NSMutableAttributedString* nameString = self.nameLabel.attributedText.mutableCopy;
+    NSArray *words = [self.nameLabel.text componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+    int nameEndIndex = [[words objectAtIndex:0] length] - 1;
+    NSRange namePosition = NSMakeRange(0, nameEndIndex);
     
+    NSString *boldFontName = [[UIFont boldSystemFontOfSize:12] fontName];
+
+    [nameString beginEditing];
+    [nameString addAttribute:NSFontAttributeName
+                       value:boldFontName
+                       range:namePosition];
+    [nameString endEditing];
+    self.nameLabel.attributedText = nameString;
     
 }
 
