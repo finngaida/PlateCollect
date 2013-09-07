@@ -44,6 +44,7 @@
 		69C9C07617DB375A0020DCD6 /* FGStolperstein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStolperstein.m; sourceTree = "<group>"; };
 		69C9C07817DB39EE0020DCD6 /* FGStolpersteinFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGStolpersteinFetcher.h; sourceTree = "<group>"; };
 		69C9C07917DB39EE0020DCD6 /* FGStolpersteinFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStolpersteinFetcher.m; sourceTree = "<group>"; };
+		69C9C0C317DBA3530020DCD6 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 		A681E5BE17DB47BB0084087A /* FGDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGDetailViewController.h; sourceTree = "<group>"; };
 		A681E5BF17DB47BB0084087A /* FGDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGDetailViewController.m; sourceTree = "<group>"; };
 		A68C693917DBA6F700400767 /* timeline_death.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeline_death.png; sourceTree = "<group>"; };
@@ -167,6 +168,7 @@
 				CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */,
 				CC0ECE5217DB300400D0D2A8 /* Images.xcassets */,
 				69C9C07317DB37260020DCD6 /* stolpersteine.csv */,
+				69C9C0C317DBA3530020DCD6 /* TODO */,
 				CC0ECE4117DB300400D0D2A8 /* Supporting Files */,
 				A681E5BE17DB47BB0084087A /* FGDetailViewController.h */,
 				A681E5BF17DB47BB0084087A /* FGDetailViewController.m */,
