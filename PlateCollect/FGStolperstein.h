@@ -8,11 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
 @interface FGStolperstein : NSObject
 
 
 
-@property(nonatomic,strong)NSString *name;
+@property(nonatomic,strong)NSString *firstName;
+@property(nonatomic,strong)NSString *lastName;
+@property(nonatomic,strong)NSString *bornName;
 @property(nonatomic,strong)NSString *address;
 @property(nonatomic,strong)NSDate *birthday;
 @property(nonatomic,strong)NSString *quarter;
@@ -20,6 +23,7 @@
 @property(nonatomic,strong)NSString *placeOfDeath;
 @property(nonatomic,strong)NSDate *dayOfDeath;
 
+@property(nonatomic,strong)CLRegion *region;
 
 -(instancetype)initWithFirst:(NSString *)firstName
                         last:(NSString *)lastName
@@ -31,5 +35,4 @@
              locationOfDeath:(NSString *)placeOfDeath
                   dayOfDeath:(NSString *)dayOfDeath; //designated initializer
 
--(CLRegion *)regionForAddress;
 @end
