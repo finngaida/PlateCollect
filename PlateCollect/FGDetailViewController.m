@@ -39,7 +39,7 @@
     int nameEndIndex = [[words objectAtIndex:0] length] - 1;
     NSRange namePosition = NSMakeRange(0, nameEndIndex);
     
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"SpecialCell"];
     
     NSString *boldFontName = [[UIFont boldSystemFontOfSize:12] fontName];
 
@@ -91,7 +91,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //Dynamische Zelllen sind die für Deportationen etc.
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"SpecialCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     //Statische Zellen werden automatisch gesetzt
@@ -127,6 +127,7 @@
         //ImageView für das TimeLineBild
         UIImageView *imageView = [[UIImageView alloc] init];
         [imageView setFrame:CGRectMake(0, 0, 44, 44)];
+        [cell.backgroundView addSubview:imageView];
         
         if (indexPath.row < _stone.deportations.count) {
             //Bild für die Timeline setzen

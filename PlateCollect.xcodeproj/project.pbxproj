@@ -405,7 +405,7 @@
 				GCC_PREFIX_HEADER = "PlateCollect/PlateCollect-Prefix.pch";
 				INFOPLIST_FILE = "PlateCollect/PlateCollect-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6A7BCAAF-F1F7-487C-ADF3-38795A1D70B1";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -421,7 +421,7 @@
 				GCC_PREFIX_HEADER = "PlateCollect/PlateCollect-Prefix.pch";
 				INFOPLIST_FILE = "PlateCollect/PlateCollect-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6A7BCAAF-F1F7-487C-ADF3-38795A1D70B1";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
