@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		69C9C07417DB37260020DCD6 /* stolpersteine.csv in Resources */ = {isa = PBXBuildFile; fileRef = 69C9C07317DB37260020DCD6 /* stolpersteine.csv */; };
-		69C9C07717DB375A0020DCD6 /* FGStolperstein.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9C07617DB375A0020DCD6 /* FGStolperstein.m */; };
 		69C9C07A17DB39EE0020DCD6 /* FGStolpersteinFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9C07917DB39EE0020DCD6 /* FGStolpersteinFetcher.m */; };
 		CC0ECE3B17DB300400D0D2A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */; };
 		CC0ECE3D17DB300400D0D2A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3C17DB300400D0D2A8 /* CoreGraphics.framework */; };
@@ -107,11 +106,11 @@
 				CC0ECE4A17DB300400D0D2A8 /* FGAppDelegate.m */,
 				CC0ECE4C17DB300400D0D2A8 /* Main.storyboard */,
 				CC0ECE4F17DB300400D0D2A8 /* FGViewController.h */,
+				CC0ECE5017DB300400D0D2A8 /* FGViewController.m */,
 				69C9C07517DB375A0020DCD6 /* FGStolperstein.h */,
 				69C9C07617DB375A0020DCD6 /* FGStolperstein.m */,
 				69C9C07817DB39EE0020DCD6 /* FGStolpersteinFetcher.h */,
 				69C9C07917DB39EE0020DCD6 /* FGStolpersteinFetcher.m */,
-				CC0ECE5017DB300400D0D2A8 /* FGViewController.m */,
 				CC0ECE7917DB357100D0D2A8 /* FGStuffCalculator.h */,
 				CC0ECE7A17DB357100D0D2A8 /* FGStuffCalculator.m */,
 				CC0ECE8017DB434200D0D2A8 /* FGAnnotation.h */,

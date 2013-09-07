@@ -32,7 +32,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="OM4-bh-Lg8" kind="push" identifier="showDetailView" id="aci-XK-9kV"/>
+                        <outlet property="containerView" destination="Vfj-Hc-JVx" id="cdr-RN-F0l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
