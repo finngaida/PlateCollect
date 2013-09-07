@@ -13,6 +13,9 @@
 @end
 
 @implementation FGDetailViewController
+@synthesize stone = _stone;
+
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -26,12 +29,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //Design auf die View Elemente anwenden
+    NSMutableAttributedString* nameString = self.nameLabel.attributedText.mutableCopy;
+    NSArray *words = [self.nameLabel.text componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+    int nameEndIndex = [[words objectAtIndex:0] length] - 1;
+    NSRange namePosition = NSMakeRange(0, nameEndIndex);
+    
+    NSString *boldFontName = [[UIFont boldSystemFontOfSize:12] fontName];
 
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [nameString beginEditing];
+    [nameString addAttribute:NSFontAttributeName
+                       value:boldFontName
+                       range:namePosition];
+    [nameString endEditing];
+    self.nameLabel.attributedText = nameString;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,77 +56,114 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    if (section == 0) {
+        return 4;
+    } else {
+        int count = _stone.deportations.count;
+        if (_stone.placeOfDeath && _stone.dayOfDeath) {
+            count++;
+        }
+        return count;
+    }
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    if (section == 0) {
+        return @"Allgemein";
+    } else {
+        return @"Daten";
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    //Dynamische Zelllen sind die für Deportationen etc.
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier
+                                                            forIndexPath:indexPath];
     
-    // Configure the cell...
-    
+    //Statische Zellen werden automatisch gesetzt
+    if (indexPath.section == 0) {
+        switch (indexPath.row) {
+            case 0: {
+                cell.textLabel.text = @"Geburtsname";
+                cell.detailTextLabel.text = _stone.bornName;
+                break;
+            }
+            case 1: {
+                cell.textLabel.text = @"Geburstag";
+                NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+                [formatter setDateFormat:@"dd.MM.YY"];
+                cell.detailTextLabel.text = [formatter stringFromDate:_stone.birthday];
+                break;
+            }
+            case 2: {
+                cell.textLabel.text = @"Adresse";
+                cell.detailTextLabel.text = _stone.address;
+                break;
+            }
+            case 3: {
+                cell.textLabel.text = @"Ortsteil";
+                cell.detailTextLabel.text = _stone.quarter;
+                break;
+            }
+                
+            default:
+                break;
+        }
+    } else {
+        //ImageView für das TimeLineBild
+        UIImageView *imageView = [[UIImageView alloc] init];
+        [imageView setFrame:CGRectMake(0, 0, 44, 44)];
+        
+        if (indexPath.row < _stone.deportations.count) {
+            //Bild für die Timeline setzen
+            UIImage *image = [UIImage imageNamed:@"timline_deporatation.png"];
+            [imageView setImage:image];
+            
+            //Text für Deporatationen
+            cell.textLabel.text = [NSString stringWithFormat:@"%i. Deport.", indexPath.row];
+            
+            NSDictionary *dict = [_stone.deportations objectAtIndex:indexPath.row];
+            NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+            [formatter setDateFormat:@"dd.MM.YY"];
+            NSString *date = [formatter stringFromDate:dict[@"date"]];
+            NSString *detailTextLabel = [NSString stringWithFormat:@"%@ (%@)",dict[@"place"], date];
+            cell.detailTextLabel.text = detailTextLabel;
+        } else {
+            UIImage *image = [UIImage imageNamed:@"timline_death.png"];
+            [imageView setImage:image];
+            
+            //Text für Tod setzen
+            cell.textLabel.text = @"Tod";
+            if (_stone.dayOfDeath && _stone.placeOfDeath) {
+                NSString *detailText;
+                if (_stone.placeOfDeath) {
+                    detailText = _stone.placeOfDeath;
+                    if (_stone.dayOfDeath) {
+                        NSString *dayOfDeathFormatted = [NSString stringWithFormat:@" (%@)", _stone.dayOfDeath];
+                        detailText = [detailText stringByAppendingString:dayOfDeathFormatted];
+                    }
+                } else {
+                    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+                    [formatter setDateFormat:@"dd.MM.YY"];
+                    detailText = [formatter stringFromDate:_stone.dayOfDeath];
+                }
+                
+            } else {
+                cell.detailTextLabel.text = @"Keine Angaben";
+            }
+        }
+
+    }
     return cell;
+
 }
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a story board-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-
- */
-
 @end

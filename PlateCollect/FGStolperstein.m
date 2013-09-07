@@ -30,7 +30,7 @@
     self.quarter = quarter;
     
     CLGeocoder *geocoder = [CLGeocoder new];
-    
+        
     [geocoder geocodeAddressString:[self.address stringByAppendingString:@", Berlin"] completionHandler:^(NSArray *placemarks,NSError *error){
         CLPlacemark *result = placemarks[0];
         

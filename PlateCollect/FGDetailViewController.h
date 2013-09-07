@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FGStolperstein.h"
 
 @interface FGDetailViewController : UITableViewController
+
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (nonatomic,retain) FGStolperstein *stone;
 
 @end

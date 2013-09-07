@@ -1,0 +1,8 @@
+-Geocode coordinates
+-Take care of icon licenses
+-Parse information to detailView (prepareForSegue)
+
+
+Finn:
+    Menu Subitems
+    Start Region Monitoring (loop)
