@@ -10,15 +10,15 @@
 
 @interface FGDetailViewController : UITableViewController
 
+//Statische Zellen können direkt Text bekommen
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel; //Für Vor- und Nachname
 @property (weak, nonatomic) IBOutlet UILabel *birthNameLabel;
-
 @property (weak, nonatomic) IBOutlet UILabel *adressLabel;
-
 @property (weak, nonatomic) IBOutlet UILabel *districtLabel;
 
-@property (nonatomic, retain) NSMutableArray *deportationInfoLabels;
-@property (nonatomic, retain) UILabel *dayOfDeathLabel;
-@property (nonatomic, retain) UILabel *deathPlace;
+//Bei den den anderen müssen erst welche generiert werden
+@property (nonatomic, retain) NSMutableArray *deportationInfos;
+@property (nonatomic, retain) NSString *dayOfDeath;
+@property (nonatomic, retain) NSString *deathPlace;
 
 @end
