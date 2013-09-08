@@ -41,6 +41,10 @@
         
         // Fetch the 30 nearest placemarks from the location parameter and create FGStolperstein 's for it
         
+        FGStolpersteinFetcher *f = [FGStolpersteinFetcher new];
+        NSArray *theStones = [f fetchNearestStonesAtLocation:location Ammount:20];
+        NSLog(@"Stones: %@ for Location: N%f E%f", theStones, location.coordinate.latitude, location.coordinate.longitude);
+        
         // loop through them and add the annotations
         /*for (FGStolperstein *s in stolpersteine) {
             FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:s.name andCoordinate:s.coord];

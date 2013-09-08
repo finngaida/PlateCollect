@@ -13,6 +13,7 @@
 #import "FGAnnotation.h"
 #import "FGDetailViewController.h"
 #import "FGStolperstein.h"
+#import "FGStolpersteinFetcher.h"
 
 @interface FGViewController : UIViewController <MKMapViewDelegate> {
     
