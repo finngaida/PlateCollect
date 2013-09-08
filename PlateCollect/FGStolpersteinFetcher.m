@@ -9,5 +9,8 @@
 #import "FGStolpersteinFetcher.h"
 
 @implementation FGStolpersteinFetcher
+-(NSArray *)fetchNearestStonesAtLocation:(CLLocation *)location Ammount:(NSInteger)ammount{
 
+    return @[];
+}
 @end
