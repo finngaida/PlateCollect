@@ -28,7 +28,7 @@
     UILabel *creditsSublabel; //has to be renamed
     UIButton *backButton;
     
-    
+    NSArray *stolpersteine;
     
 }
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
