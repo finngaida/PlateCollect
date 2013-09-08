@@ -39,8 +39,7 @@
 -(NSArray *)fetchNearestStonesAtLocation:(CLLocation *)location Ammount:(NSInteger)ammount{
     NSString *stonesString = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"final" ofType:@"csv"] encoding:NSUTF8StringEncoding error:nil];
     
-    NSArray __unused *stones = [self parseCSVWithString:stonesString];
-    
-    return @[]; //TODO: Filter nearest ones
+    NSArray *stones = [self parseCSVWithString:stonesString];
+    return [stones objectsAtIndexes:[[NSIndexSet alloc] initWithIndexesInRange:NSMakeRange(0, ammount)]];
 }
 @end
