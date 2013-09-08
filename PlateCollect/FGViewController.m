@@ -22,6 +22,16 @@
     self.mapView.showsUserLocation = YES;
     self.view.backgroundColor = [UIColor blackColor];
     
+    UIView *dark = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    dark.backgroundColor = [UIColor blackColor]; dark.alpha = .2;
+    [self.containerView addSubview:dark];
+    UIActivityIndicatorView *spinner = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(140, 140, 40, 40)];
+    [spinner startAnimating];
+    [dark addSubview:spinner];
+    
+    
+    // this method also gets called, when reloading the Annotations, so remove the old ones
+    [self.mapView removeAnnotations:self.mapView.annotations];
     
     
     FGStuffCalculator *c = [FGStuffCalculator new];
@@ -52,6 +62,8 @@
             // Sign up to recieve push notification, when entering this region.
             [c startMonitoringForLocation:s.location];
         }
+        
+        [dark removeFromSuperview];
         
         
     }];
@@ -111,7 +123,7 @@
     FGStuffCalculator *c = [FGStuffCalculator new];
     [c fetchCurrentLocationWithHandler:^(CLLocation *location, NSError *error) {
         NSLog(@"Zoomed to latitude: %f", location.coordinate.latitude);
-        [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.2, .2)) animated:YES];
+        [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.1, .1)) animated:YES];
     }];
 }
 
