@@ -50,6 +50,25 @@
     NSString *stonesString = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"final" ofType:@"csv"] encoding:NSUTF8StringEncoding error:nil];
     
     NSArray *stones = [self parseCSVWithString:stonesString];
-    return [stones objectsAtIndexes:[[NSIndexSet alloc] initWithIndexesInRange:NSMakeRange(0, ammount)]];
+    
+    NSMutableDictionary *distances = [NSMutableDictionary dictionary];
+    
+    
+    NSInteger i = 0;
+    for (FGStolperstein *stone in stones) {
+        [distances setObject:[NSNumber numberWithDouble:[stone.location distanceFromLocation:location]] forKey:[NSNumber numberWithInteger:i]];
+        
+    }
+    NSArray *sortedKeys = [[distances allKeys] sortedArrayUsingSelector: @selector(compare:)];
+    NSMutableArray *sortedValues = [NSMutableArray array];
+    for (NSString *key in sortedKeys)[sortedValues addObject: [distances objectForKey: key]];
+    
+    
+    NSMutableArray *nearest = [NSMutableArray array];
+    for (NSInteger j = 0; i<=30; i++) {
+        
+        [nearest addObject:stones[[sortedValues[j] integerValue]]];
+    }
+    return [nearest copy];
 }
 @end
