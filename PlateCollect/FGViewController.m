@@ -177,7 +177,7 @@
     profileSublabel.textAlignment = NSTextAlignmentCenter;
     profileSublabel.lineBreakMode = NSLineBreakByWordWrapping;
     profileSublabel.numberOfLines = 0;
-    profileSublabel.text = @"Here you will be able to see how many stumble plates you have found in the near future! ";                                     // Must be translated
+    profileSublabel.text = @"Deine gesammelten Stolpersteine.";                                     // Must be translated
     [scrollView addSubview:profileSublabel];
     
     
@@ -189,11 +189,11 @@
     settingsSublabel.textAlignment = NSTextAlignmentCenter;
     settingsSublabel.lineBreakMode = NSLineBreakByWordWrapping;
     settingsSublabel.numberOfLines = 0;
-    settingsSublabel.text = @"This is just a sample text but today some awesome people will fill me with life :) ";                                     // Must be translated
+    settingsSublabel.text = @"Hier kommen bald noch Einstllungen hin ;)";                                     // Must be translated
     [scrollView addSubview:settingsSublabel];
     
     
-    creditsSublabel = [[UILabel alloc] initWithFrame:CGRectMake(-320, 140, 240, 250)];
+    creditsSublabel = [[UILabel alloc] initWithFrame:CGRectMake(-320, 140, 240, 350)];
     creditsSublabel.tag = 3;
     creditsSublabel.backgroundColor = [UIColor clearColor];
     creditsSublabel.textColor = [UIColor whiteColor];
@@ -201,7 +201,7 @@
     creditsSublabel.textAlignment = NSTextAlignmentCenter;
     creditsSublabel.lineBreakMode = NSLineBreakByWordWrapping;
     creditsSublabel.numberOfLines = 0;
-    creditsSublabel.text = @"PlateCollect was created by \n Niklas Riekenbrauck \n Daniel Petri \n Finn Gaida \n for #JugendHackt 2013 in Berlin. Courtesy of thenounproject.com for awesome images, bing.com as knight in shining armour, ";                                     // Must be translated
+    creditsSublabel.text = @"PlateCollect was created by \n Niklas Riekenbrauck (@nikriek)\n Daniel Petri (@stocc1)  \n Finn Gaida (@FinnGaida)\n for #JugendHackt 2013 in Berlin. Courtesy of thenounproject.com for awesome images, bing.com as knight in shining armour.";                                     // Must be translated
     [scrollView addSubview:creditsSublabel];
     
     
