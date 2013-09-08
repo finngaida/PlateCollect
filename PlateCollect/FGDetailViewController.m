@@ -45,7 +45,8 @@
 }
 
 - (void)goBack {                                // TODODODODODODODOD
-
+    FGViewController *vc = self.delegate;
+    [vc dismissViewControllerAnimated:YES completion:nil];
 }
 
 -(void)createNameView {
