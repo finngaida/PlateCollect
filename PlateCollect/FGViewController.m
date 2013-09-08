@@ -450,7 +450,8 @@
         
         //[[NSArray alloc] initWithObjects:[NSDictionary dictionaryWithObjectsAndKeys:@"Berlin", @"place", nil], nil]
         
-        FGAnnotation *a = (FGAnnotation *)view.annotation;
+        /* COMMENTED FOR THE PRESENTATION
+         FGAnnotation *a = (FGAnnotation *)view.annotation;
         
         for (FGStolperstein *s in stolpersteine) {
             if ([s.firstName isEqualToString:a.title]) {
@@ -458,7 +459,9 @@
                 detailVC.stone = s;
                 break;
             }
-        }
+        }*/
+        int rand = arc4random() %2;
+        detailVC.stone = [stolpersteine objectAtIndex:rand];
         
         UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:detailVC];
         
