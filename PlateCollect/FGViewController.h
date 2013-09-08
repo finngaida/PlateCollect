@@ -14,8 +14,8 @@
 #import "FGDetailViewController.h"
 #import "FGStolperstein.h"
 #import "FGStolpersteinFetcher.h"
-
-@interface FGViewController : UIViewController <MKMapViewDelegate> {
+#import "FGStartupViewController.h"
+@interface FGViewController : UIViewController <MKMapViewDelegate,FGStartupViewControllerDelegate> {
     
     // For the side main menu
     UIButton *profile;

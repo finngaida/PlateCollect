@@ -84,6 +84,10 @@
     [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"kApplicationDidLaunchForTheVeryFirstTime"];
 }
 
+-(void)startupViewControllerDidFinish:(FGStartupViewController *)startupViewCon{
+    [self dismissViewControllerAnimated:YES completion:^{}];
+}
+
 - (void)zoomHome {
     
     // Fetch the current location and zoom to it
@@ -418,10 +422,16 @@
     [self presentViewController:nav animated:YES completion:nil];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+
+    if ([segue.identifier isEqualToString:@"showSignup"]) {
+        UINavigationController *navCon = segue.destinationViewController;
+        
+        FGStartupViewController* startUp = navCon.viewControllers[0];
+        
+        startUp.delegate = self;
+    }
+
 }
 
 @end

@@ -58,6 +58,7 @@
 - (IBAction)hide:(id)sender {
     [self saveAll];
     //[self performSegueWithIdentifier:@"hideSignup" sender:self];
-    [self.navigationController popViewControllerAnimated:YES];
+    //[self.navigationController popViewControllerAnimated:YES];
+    [self.delegate startupViewControllerDidFinish:self];
 }
 @end
