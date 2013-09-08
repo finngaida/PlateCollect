@@ -34,7 +34,7 @@
                      quarter:(NSString *)quarter
                     location:(CLLocation *)location
                 deportations:(NSArray *)deportations //Of NSDictionary <@"date":NSDate Date
-                                                                    //  @"placexw"NSString Place>
+                                                                    //  @"place":"NSString Place>
              locationOfDeath:(NSString *)placeOfDeath
                   dayOfDeath:(NSString *)dayOfDeath; //designated initializer
 
