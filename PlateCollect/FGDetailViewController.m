@@ -19,7 +19,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidLoad];
-    [self createNameView];
+    //[self createNameView];                              FOR WHATEVER REASON CRASHES  A L L  T H E  F U C K I N G  T I M E!!!!
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"SpecialCell"];
     self.tableView.tableFooterView = [UIView new];
     

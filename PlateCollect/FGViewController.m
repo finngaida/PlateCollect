@@ -33,33 +33,55 @@
     self.mapView.showsUserLocation = YES;
     self.view.backgroundColor = [UIColor blackColor];
     
+    
+    
     FGStuffCalculator *c = [FGStuffCalculator new];
     [c fetchCurrentLocationWithHandler:^(CLLocation *location, NSError *error) {
         
-        NSLog(@"Zoomed to latitude: %f", location.coordinate.latitude);
+        // set the region on the Map
         [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.2, .2)) animated:YES];
+        
+        
         
         // Fetch the 30 nearest placemarks from the location parameter and create FGStolperstein 's for it
         
         FGStolpersteinFetcher *f = [FGStolpersteinFetcher new];
-        NSArray *theStones = [f fetchNearestStonesAtLocation:location Ammount:20];
-        NSLog(@"Stones: %@ for Location: N%f E%f", theStones, location.coordinate.latitude, location.coordinate.longitude);
+        NSArray *stolpersteine = [f fetchNearestStonesAtLocation:location Ammount:20];
+        
+        
         
         // loop through them and add the annotations
-        /*for (FGStolperstein *s in stolpersteine) {
-            FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:s.name andCoordinate:s.coord];
-            [self.mapView addAnnotation:];
-         
-            [self.mapView startMonitoring for Region for coordinate of s];
-        }*/
+        for (FGStolperstein *s in stolpersteine) {
+            
+            // Create an annotation and then add it to the MapView
+            FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:s.firstName andCoordinate:s.location.coordinate];
+            [self.mapView addAnnotation:a];
+            
+            // log it
+            NSLog(@"Added Annotation for Name: %@ %@", s.firstName, s.lastName);
+            
+            // Sign up to recieve push notification, when entering this region.
+            [c startMonitoringForLocation:s.location];
+        }
+        
         
     }];
     
-    FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:@"Stolperstein" andCoordinate:CLLocationCoordinate2DMake(52.51944444, 13.4066666)];
+    FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:@"Stolperstein" andCoordinate:CLLocationCoordinate2DMake(52.514998, 13.39285)];
     [self.mapView addAnnotation:a];
     
     [c startMonitoringForLocation:[[CLLocation alloc] initWithLatitude:a.coordinate.latitude longitude:a.coordinate.longitude]];
     
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"kApplicationDidLaunchForTheVeryFirstTime"] == NO) {
+        // Applications first start after download, so show signup screen
+        
+        [self performSegueWithIdentifier:@"showSignup" sender:self];
+    }
+    
+    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"kApplicationDidLaunchForTheVeryFirstTime"];
 }
 
 - (void)zoomHome {
@@ -81,6 +103,16 @@
     [self.containerView addSubview:v];
     [v addGestureRecognizer:pan];
     
+    
+}
+
+- (void)mapView:(MKMapView *)mapView regionWillChangeAnimated:(BOOL)animated {
+    
+    
+    // Called when the used zooms out
+    if (mapView.region.span.latitudeDelta > 10) {
+        // set region back to maximum zom value
+    }
     
 }
 

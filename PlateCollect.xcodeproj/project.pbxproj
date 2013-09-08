@@ -39,6 +39,7 @@
 		CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */; };
 		CC4BDBB917DBF46800855C45 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4BDBB817DBF46800855C45 /* back.png */; };
 		CC8468E117DBB8A200FED01A /* callout in Resources */ = {isa = PBXBuildFile; fileRef = CC8468E017DBB8A200FED01A /* callout */; };
+		CC9B625817DC17D100E6FEB7 /* FGStartupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9B625717DC17D100E6FEB7 /* FGStartupViewController.m */; };
 		CCD5902717DBC14900A87AFB /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD5902617DBC14900A87AFB /* plate.png */; };
 		CCD5902817DBC62900A87AFB /* FGStolperstein.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9C07617DB375A0020DCD6 /* FGStolperstein.m */; };
 		CCD5902F17DBCD6300A87AFB /* loc.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD5902D17DBCD6200A87AFB /* loc.png */; };
@@ -94,6 +95,8 @@
 		CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAnnotation.m; sourceTree = "<group>"; };
 		CC4BDBB817DBF46800855C45 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		CC8468E017DBB8A200FED01A /* callout */ = {isa = PBXFileReference; lastKnownFileType = file; path = callout; sourceTree = "<group>"; };
+		CC9B625617DC17D100E6FEB7 /* FGStartupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGStartupViewController.h; sourceTree = "<group>"; };
+		CC9B625717DC17D100E6FEB7 /* FGStartupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStartupViewController.m; sourceTree = "<group>"; };
 		CCD5902617DBC14900A87AFB /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate.png; sourceTree = "<group>"; };
 		CCD5902D17DBCD6200A87AFB /* loc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loc.png; sourceTree = "<group>"; };
 		CCD5902E17DBCD6200A87AFB /* loc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loc@2x.png"; sourceTree = "<group>"; };
@@ -185,12 +188,14 @@
 				CC0ECE5017DB300400D0D2A8 /* FGViewController.m */,
 				A681E5BE17DB47BB0084087A /* FGDetailViewController.h */,
 				A681E5BF17DB47BB0084087A /* FGDetailViewController.m */,
+				CC9B625617DC17D100E6FEB7 /* FGStartupViewController.h */,
+				CC9B625717DC17D100E6FEB7 /* FGStartupViewController.m */,
+				CC0ECE7917DB357100D0D2A8 /* FGStuffCalculator.h */,
+				CC0ECE7A17DB357100D0D2A8 /* FGStuffCalculator.m */,
 				69C9C07517DB375A0020DCD6 /* FGStolperstein.h */,
 				69C9C07617DB375A0020DCD6 /* FGStolperstein.m */,
 				69C9C07817DB39EE0020DCD6 /* FGStolpersteinFetcher.h */,
 				69C9C07917DB39EE0020DCD6 /* FGStolpersteinFetcher.m */,
-				CC0ECE7917DB357100D0D2A8 /* FGStuffCalculator.h */,
-				CC0ECE7A17DB357100D0D2A8 /* FGStuffCalculator.m */,
 				CC0ECE8017DB434200D0D2A8 /* FGAnnotation.h */,
 				CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */,
 				CC0ECE5217DB300400D0D2A8 /* Images.xcassets */,
@@ -311,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCD5902817DBC62900A87AFB /* FGStolperstein.m in Sources */,
+				CC9B625817DC17D100E6FEB7 /* FGStartupViewController.m in Sources */,
 				CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */,
 				CC0ECE4717DB300400D0D2A8 /* main.m in Sources */,
 				69C9C07A17DB39EE0020DCD6 /* FGStolpersteinFetcher.m in Sources */,
