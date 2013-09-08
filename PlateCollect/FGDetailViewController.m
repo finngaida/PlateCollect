@@ -28,7 +28,10 @@
     title.textColor = [UIColor darkGrayColor];
     title.textAlignment = NSTextAlignmentCenter;
     title.font = [UIFont fontWithName:@"Helvetica" size:20];
-    title.text = @"Details";
+    //[title setAttributedText:[self createNameViewString]];
+    if (self.stone.firstName && self.stone.lastName) {
+        title.text = [NSString stringWithFormat:@"%@, %@", _stone.lastName, _stone.firstName];
+    }
     [self.navigationController.navigationBar addSubview:title];
     
     UIButton *backButton = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -49,9 +52,7 @@
     [vc dismissViewControllerAnimated:YES completion:nil];
 }
 
--(void)createNameView {
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 0, 300, 44)];
-    label.textColor = [UIColor blackColor];
+-(NSAttributedString *)createNameViewString {
     
     //Design des Textes
     NSMutableAttributedString* nameString = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@ %@", _stone.lastName, _stone.firstName]];
@@ -66,14 +67,8 @@
                        value:boldFontName
                        range:namePosition];
     [nameString endEditing];
-    
-    [label setAttributedText:nameString];
-    label.textAlignment = NSTextAlignmentCenter;
-    
-    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
-    [headerView addSubview:label];
 
-    [self.tableView insertSubview:headerView atIndex:0];
+    return nameString;
 }
 
 - (void)didReceiveMemoryWarning
@@ -151,7 +146,10 @@
         //ImageView für das TimeLineBild
         UIImageView *imageView = [[UIImageView alloc] init];
         [imageView setFrame:CGRectMake(0, 0, 44, 44)];
-        [cell.backgroundView addSubview:imageView];
+        [cell.contentView addSubview:imageView];
+        
+        // clear background color, so the image is visible
+        cell.textLabel.backgroundColor = [UIColor clearColor];
         
         if (indexPath.row < _stone.deportations.count) {
             //Bild für die Timeline setzen
@@ -159,16 +157,26 @@
             [imageView setImage:image];
             
             //Text für Deporatationen
-            cell.textLabel.text = [NSString stringWithFormat:@"%i. Deport.", indexPath.row];
+            cell.textLabel.text = [NSString stringWithFormat:@"%i. Deport.", indexPath.row+1];
             
-            NSDictionary *dict = [_stone.deportations objectAtIndex:indexPath.row];
+            NSDictionary *dict;
+            if (_stone.deportations.count >= indexPath.row) {
+                dict = [_stone.deportations objectAtIndex:indexPath.row];
+            }
             NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
             [formatter setDateFormat:@"dd.MM.YY"];
             NSString *date = [formatter stringFromDate:dict[@"date"]];
-            NSString *detailTextLabel = [NSString stringWithFormat:@"%@ (%@)",dict[@"place"], date];
+            NSString *detailTextLabel;
+            
+            if (date != NULL) {
+                detailTextLabel = [NSString stringWithFormat:@"%@ (%@)",dict[@"place"], date];
+            } else {
+                detailTextLabel = @"Keine Angabe";
+            }
             cell.detailTextLabel.text = detailTextLabel;
+            
         } else {
-            UIImage *image = [UIImage imageNamed:@"timline_death.png"];
+            UIImage *image = [UIImage imageNamed:@"timeline_death.png"];
             [imageView setImage:image];
             
             //Text für Tod setzen
@@ -178,8 +186,13 @@
                 if (_stone.placeOfDeath) {
                     detailText = _stone.placeOfDeath;
                     if (_stone.dayOfDeath) {
-                        NSString *dayOfDeathFormatted = [NSString stringWithFormat:@" (%@)", _stone.dayOfDeath];
-                        detailText = [detailText stringByAppendingString:dayOfDeathFormatted];
+                        
+                        if (_stone.dayOfDeath != NULL) {
+                            NSString *dayOfDeathFormatted = [NSString stringWithFormat:@" (%@)", _stone.dayOfDeath];
+                            detailText = [detailText stringByAppendingString:dayOfDeathFormatted];
+                        } else {
+                            detailText = @"Keine Angabe";
+                        }
                     }
                 } else {
                     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
