@@ -41,6 +41,9 @@
 		CC0ECE7D17DB35BF00D0D2A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7C17DB35BF00D0D2A8 /* CoreLocation.framework */; };
 		CC0ECE7F17DB35C400D0D2A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */; };
 		CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */; };
+		CC3D6FDF17DC75430025B025 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3D6FDD17DC75430025B025 /* splash.png */; };
+		CC3D6FE017DC75430025B025 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3D6FDE17DC75430025B025 /* splash@2x.png */; };
+		CC3D6FE217DC76850025B025 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3D6FE117DC76850025B025 /* reload.png */; };
 		CC4BDBB917DBF46800855C45 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4BDBB817DBF46800855C45 /* back.png */; };
 		CC8468E117DBB8A200FED01A /* callout in Resources */ = {isa = PBXBuildFile; fileRef = CC8468E017DBB8A200FED01A /* callout */; };
 		CCD5902717DBC14900A87AFB /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD5902617DBC14900A87AFB /* plate.png */; };
@@ -102,6 +105,9 @@
 		CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CC0ECE8017DB434200D0D2A8 /* FGAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAnnotation.h; sourceTree = "<group>"; };
 		CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAnnotation.m; sourceTree = "<group>"; };
+		CC3D6FDD17DC75430025B025 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		CC3D6FDE17DC75430025B025 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
+		CC3D6FE117DC76850025B025 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
 		CC4BDBB817DBF46800855C45 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		CC8468E017DBB8A200FED01A /* callout */ = {isa = PBXFileReference; lastKnownFileType = file; path = callout; sourceTree = "<group>"; };
 		CCD5902617DBC14900A87AFB /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate.png; sourceTree = "<group>"; };
@@ -129,6 +135,9 @@
 		A6B094C117DB925B007252E3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CC3D6FE117DC76850025B025 /* reload.png */,
+				CC3D6FDD17DC75430025B025 /* splash.png */,
+				CC3D6FDE17DC75430025B025 /* splash@2x.png */,
 				A622204617DC6BB8007A6DA0 /* timline_deporatation.png */,
 				A622204717DC6BB8007A6DA0 /* timline_deporatation@2x.png */,
 				CC4BDBB817DBF46800855C45 /* back.png */,
@@ -313,10 +322,13 @@
 				CC4BDBB917DBF46800855C45 /* back.png in Resources */,
 				CC0ECE4517DB300400D0D2A8 /* InfoPlist.strings in Resources */,
 				CCD5902717DBC14900A87AFB /* plate.png in Resources */,
+				CC3D6FE217DC76850025B025 /* reload.png in Resources */,
 				A6B094BD17DB9255007252E3 /* Icon.png in Resources */,
 				A667F94917DBC049003847A7 /* pin.png in Resources */,
 				CC0ECE4E17DB300400D0D2A8 /* Main.storyboard in Resources */,
 				A6B094BB17DB9255007252E3 /* Icon-Small.png in Resources */,
+				CC3D6FE017DC75430025B025 /* splash@2x.png in Resources */,
+				CC3D6FDF17DC75430025B025 /* splash.png in Resources */,
 				A622204917DC6BB8007A6DA0 /* timline_deporatation@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +458,7 @@
 				GCC_PREFIX_HEADER = "PlateCollect/PlateCollect-Prefix.pch";
 				INFOPLIST_FILE = "PlateCollect/PlateCollect-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6A7BCAAF-F1F7-487C-ADF3-38795A1D70B1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -462,7 +474,7 @@
 				GCC_PREFIX_HEADER = "PlateCollect/PlateCollect-Prefix.pch";
 				INFOPLIST_FILE = "PlateCollect/PlateCollect-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6A7BCAAF-F1F7-487C-ADF3-38795A1D70B1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
