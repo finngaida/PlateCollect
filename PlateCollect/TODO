@@ -1,8 +1,8 @@
--Geocode coordinates
+-Geocode coordinates ✓
 -Take care of icon licenses
--Parse information to detailView (prepareForSegue)
+-Parse information to detailView (prepareForSegue) -> Parse 30 nearest of 5000 into FGStolperstein Model
 
 
 Finn:
-    Menu Subitems
-    Start Region Monitoring (loop)
+    Menu Subitems  ✓
+    Start Region Monitoring (loop) half-✓
