@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69BBB52317DBF28200419084 /* final.csv in Resources */ = {isa = PBXBuildFile; fileRef = 69BBB52217DBF28200419084 /* final.csv */; };
 		69C9C07417DB37260020DCD6 /* stolpersteine.csv in Resources */ = {isa = PBXBuildFile; fileRef = 69C9C07317DB37260020DCD6 /* stolpersteine.csv */; };
 		69C9C07A17DB39EE0020DCD6 /* FGStolpersteinFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9C07917DB39EE0020DCD6 /* FGStolpersteinFetcher.m */; };
 		A667F94917DBC049003847A7 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A667F94717DBC049003847A7 /* pin.png */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69BBB52217DBF28200419084 /* final.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = final.csv; sourceTree = "<group>"; };
 		69C9C07317DB37260020DCD6 /* stolpersteine.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stolpersteine.csv; sourceTree = "<group>"; };
 		69C9C07517DB375A0020DCD6 /* FGStolperstein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGStolperstein.h; sourceTree = "<group>"; };
 		69C9C07617DB375A0020DCD6 /* FGStolperstein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStolperstein.m; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */,
 				CC0ECE5217DB300400D0D2A8 /* Images.xcassets */,
 				69C9C07317DB37260020DCD6 /* stolpersteine.csv */,
+				69BBB52217DBF28200419084 /* final.csv */,
 				69C9C0C317DBA3530020DCD6 /* TODO */,
 				CC0ECE4117DB300400D0D2A8 /* Supporting Files */,
 			);
@@ -279,6 +282,7 @@
 				A667F94A17DBC049003847A7 /* pin@2x.png in Resources */,
 				A68C693B17DBA6F700400767 /* timeline_death.png in Resources */,
 				A6B094BE17DB9255007252E3 /* Icon@2x.png in Resources */,
+				69BBB52317DBF28200419084 /* final.csv in Resources */,
 				A6B094B917DB9255007252E3 /* Icon-Small-50.png in Resources */,
 				A6B094BA17DB9255007252E3 /* Icon-Small-50@2x.png in Resources */,
 				A6B094BC17DB9255007252E3 /* Icon-Small@2x.png in Resources */,
