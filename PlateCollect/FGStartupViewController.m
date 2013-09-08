@@ -42,7 +42,7 @@
         } break;
         case 3: {
             [self.hometownLabel resignFirstResponder];
-            [self saveAll];
+            [self hide:self];
         } break;
         default:return YES; break;
     }

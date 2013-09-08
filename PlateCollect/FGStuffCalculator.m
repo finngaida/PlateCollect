@@ -70,6 +70,7 @@
     
     // --------------------------------------------------------------------
     // Possible todo: get the address from the FGStolperstein Model, so the internet connection is preserved
+    // Also: Increase the 'Plates found' value in the user defaults by one
     // --------------------------------------------------------------------
     
     if ([UIApplication sharedApplication].applicationState == UIApplicationStateActive) {
