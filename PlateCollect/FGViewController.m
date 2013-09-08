@@ -198,7 +198,7 @@
     
     // subemenus
     
-    profileSublabel = [[UILabel alloc] initWithFrame:CGRectMake(-320, 140, 240, 250)];
+    profileSublabel = [[UILabel alloc] initWithFrame:CGRectMake(-320, 100, 240, 250)];
     profileSublabel.tag = 3;
     profileSublabel.backgroundColor = [UIColor clearColor];
     profileSublabel.textColor = [UIColor whiteColor];
