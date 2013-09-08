@@ -193,7 +193,7 @@
     [scrollView addSubview:settingsSublabel];
     
     
-    creditsSublabel = [[UILabel alloc] initWithFrame:CGRectMake(-320, 140, 240, 250)];
+    creditsSublabel = [[UILabel alloc] initWithFrame:CGRectMake(-320, 140, 240, 350)];
     creditsSublabel.tag = 3;
     creditsSublabel.backgroundColor = [UIColor clearColor];
     creditsSublabel.textColor = [UIColor whiteColor];
