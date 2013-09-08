@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69B924DA17DC9757003800C9 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B924D717DC9757003800C9 /* reload.png */; };
+		69B924DB17DC9757003800C9 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B924D817DC9757003800C9 /* splash.png */; };
+		69B924DC17DC9757003800C9 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B924D917DC9757003800C9 /* splash@2x.png */; };
 		69BBB52317DBF28200419084 /* final.csv in Resources */ = {isa = PBXBuildFile; fileRef = 69BBB52217DBF28200419084 /* final.csv */; };
 		69C9C07417DB37260020DCD6 /* stolpersteine.csv in Resources */ = {isa = PBXBuildFile; fileRef = 69C9C07317DB37260020DCD6 /* stolpersteine.csv */; };
 		69C9C07A17DB39EE0020DCD6 /* FGStolpersteinFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9C07917DB39EE0020DCD6 /* FGStolpersteinFetcher.m */; };
@@ -44,9 +47,6 @@
 		CC0ECE7D17DB35BF00D0D2A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7C17DB35BF00D0D2A8 /* CoreLocation.framework */; };
 		CC0ECE7F17DB35C400D0D2A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */; };
 		CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */; };
-		CC3D6FDF17DC75430025B025 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3D6FDD17DC75430025B025 /* splash.png */; };
-		CC3D6FE017DC75430025B025 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3D6FDE17DC75430025B025 /* splash@2x.png */; };
-		CC3D6FE217DC76850025B025 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3D6FE117DC76850025B025 /* reload.png */; };
 		CC4BDBB917DBF46800855C45 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4BDBB817DBF46800855C45 /* back.png */; };
 		CC8468E117DBB8A200FED01A /* callout in Resources */ = {isa = PBXBuildFile; fileRef = CC8468E017DBB8A200FED01A /* callout */; };
 		CCD5902717DBC14900A87AFB /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD5902617DBC14900A87AFB /* plate.png */; };
@@ -57,6 +57,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69B924D717DC9757003800C9 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+		69B924D817DC9757003800C9 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		69B924D917DC9757003800C9 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
 		69BBB52217DBF28200419084 /* final.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = final.csv; sourceTree = "<group>"; };
 		69C9C07317DB37260020DCD6 /* stolpersteine.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stolpersteine.csv; sourceTree = "<group>"; };
 		69C9C07517DB375A0020DCD6 /* FGStolperstein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGStolperstein.h; sourceTree = "<group>"; };
@@ -111,9 +114,6 @@
 		CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CC0ECE8017DB434200D0D2A8 /* FGAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAnnotation.h; sourceTree = "<group>"; };
 		CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAnnotation.m; sourceTree = "<group>"; };
-		CC3D6FDD17DC75430025B025 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
-		CC3D6FDE17DC75430025B025 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
-		CC3D6FE117DC76850025B025 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
 		CC4BDBB817DBF46800855C45 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		CC8468E017DBB8A200FED01A /* callout */ = {isa = PBXFileReference; lastKnownFileType = file; path = callout; sourceTree = "<group>"; };
 		CCD5902617DBC14900A87AFB /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate.png; sourceTree = "<group>"; };
@@ -157,6 +157,9 @@
 				A6B094AD17DB9255007252E3 /* Icon-72.png */,
 				A6B094AE17DB9255007252E3 /* Icon-72@2x.png */,
 				A6B094AF17DB9255007252E3 /* Icon-Small-50.png */,
+				69B924D717DC9757003800C9 /* reload.png */,
+				69B924D817DC9757003800C9 /* splash.png */,
+				69B924D917DC9757003800C9 /* splash@2x.png */,
 				A6B094B017DB9255007252E3 /* Icon-Small-50@2x.png */,
 				A6B094B117DB9255007252E3 /* Icon-Small.png */,
 				A6B094B217DB9255007252E3 /* Icon-Small@2x.png */,
@@ -275,7 +278,7 @@
 				ORGANIZATIONNAME = "Finn Gaida";
 				TargetAttributes = {
 					CC0ECE3617DB300400D0D2A8 = {
-						DevelopmentTeam = 7Y8726KJ5P;
+						DevelopmentTeam = 9E6HU54Z4R;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -317,9 +320,11 @@
 				A6B094B917DB9255007252E3 /* Icon-Small-50.png in Resources */,
 				A6B094BA17DB9255007252E3 /* Icon-Small-50@2x.png in Resources */,
 				A6B094BC17DB9255007252E3 /* Icon-Small@2x.png in Resources */,
+				69B924DA17DC9757003800C9 /* reload.png in Resources */,
 				CCD5902F17DBCD6300A87AFB /* loc.png in Resources */,
 				A6B094B717DB9255007252E3 /* Icon-72.png in Resources */,
 				A6B094B817DB9255007252E3 /* Icon-72@2x.png in Resources */,
+				69B924DB17DC9757003800C9 /* splash.png in Resources */,
 				69DDA54A17DC77CA007AC4BB /* timeline_death_done@2x.png in Resources */,
 				A6B094BF17DB9255007252E3 /* iTunesArtwork.png in Resources */,
 				CC0ECE5317DB300400D0D2A8 /* Images.xcassets in Resources */,
@@ -329,13 +334,11 @@
 				CC4BDBB917DBF46800855C45 /* back.png in Resources */,
 				CC0ECE4517DB300400D0D2A8 /* InfoPlist.strings in Resources */,
 				CCD5902717DBC14900A87AFB /* plate.png in Resources */,
-				CC3D6FE217DC76850025B025 /* reload.png in Resources */,
+				69B924DC17DC9757003800C9 /* splash@2x.png in Resources */,
 				A6B094BD17DB9255007252E3 /* Icon.png in Resources */,
 				A667F94917DBC049003847A7 /* pin.png in Resources */,
 				CC0ECE4E17DB300400D0D2A8 /* Main.storyboard in Resources */,
 				A6B094BB17DB9255007252E3 /* Icon-Small.png in Resources */,
-				CC3D6FE017DC75430025B025 /* splash@2x.png in Resources */,
-				CC3D6FDF17DC75430025B025 /* splash.png in Resources */,
 				A622204917DC6BB8007A6DA0 /* timline_deporatation@2x.png in Resources */,
 				69DDA54617DC7564007AC4BB /* Niklas.gpx in Resources */,
 				69DDA54917DC77CA007AC4BB /* timeline_death_done.png in Resources */,
@@ -467,7 +470,7 @@
 				GCC_PREFIX_HEADER = "PlateCollect/PlateCollect-Prefix.pch";
 				INFOPLIST_FILE = "PlateCollect/PlateCollect-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6A7BCAAF-F1F7-487C-ADF3-38795A1D70B1";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -483,7 +486,7 @@
 				GCC_PREFIX_HEADER = "PlateCollect/PlateCollect-Prefix.pch";
 				INFOPLIST_FILE = "PlateCollect/PlateCollect-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6A7BCAAF-F1F7-487C-ADF3-38795A1D70B1";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
