@@ -16,21 +16,12 @@
 @synthesize stone = _stone;
 
 
-
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
-- (void)viewDidLoad
+- (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidLoad];
-    //[self createNameView];
+    [self createNameView];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"SpecialCell"];
+    self.tableView.tableFooterView = [UIView new];
     
     UILabel *title = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
     title.backgroundColor = [UIColor clearColor];
@@ -40,10 +31,26 @@
     title.text = @"Details";
     [self.navigationController.navigationBar addSubview:title];
     
+    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeSystem];
+    backButton.frame = CGRectMake(3, 0, 80, 40);
+    UILabel *titleLabel = [[UILabel alloc] initWithFrame:backButton.frame];
+    titleLabel.backgroundColor = [UIColor clearColor];
+    titleLabel.backgroundColor = [UIColor clearColor];
+    titleLabel.textColor = [UIColor darkGrayColor];
+    titleLabel.text = @"Back";
+    [backButton addSubview:titleLabel];
+    [backButton addTarget:self action:@selector(goBack) forControlEvents:UIControlEventTouchUpInside];
+    [self.navigationController.navigationBar addSubview:backButton];
+    
+}
+
+- (void)goBack {                                // TODODODODODODODOD
+
 }
 
 -(void)createNameView {
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 0, 300, 44)];
+    label.textColor = [UIColor blackColor];
     
     //Design des Textes
     NSMutableAttributedString* nameString = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@ %@", _stone.lastName, _stone.firstName]];
@@ -65,7 +72,7 @@
     UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
     [headerView addSubview:label];
 
-    self.tableView.tableHeaderView = headerView;
+    [self.tableView insertSubview:headerView atIndex:0];
 }
 
 - (void)didReceiveMemoryWarning

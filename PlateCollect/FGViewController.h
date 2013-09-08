@@ -22,8 +22,10 @@
     UIButton *credits;
     
     // Side menu settings branch
-    UILabel *label1; //has to be renamed
-    UISwitch *sw;
+    UILabel *profileSublabel;
+    UILabel *settingsSublabel;
+    UILabel *creditsSublabel; //has to be renamed
+    UIButton *backButton;
     
     
     

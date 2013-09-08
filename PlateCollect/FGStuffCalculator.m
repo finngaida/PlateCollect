@@ -22,6 +22,12 @@
     return self;
 }
 
+- (void)startMonitoringForLocation:(CLLocation *)location {
+    
+    [manager startMonitoringForRegion:[[CLRegion alloc] initCircularRegionWithCenter:location.coordinate radius:20 identifier:@"Stolperstein"]];
+    
+}
+
 - (void)fetchCurrentLocationWithHandler:(FGLocationFetchCompletionHandler)handler {
     
     // log it

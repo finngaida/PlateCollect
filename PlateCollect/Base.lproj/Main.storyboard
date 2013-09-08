@@ -74,6 +74,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="nameLabel" destination="uhN-Yj-09S" id="3pD-5N-9pd"/>
+                        <segue destination="vXZ-lx-hvc" kind="modal" identifier="showHomeView" modalTransitionStyle="crossDissolve" id="dwc-b8-Bve"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29w-om-Hrb" userLabel="First Responder" sceneMemberID="firstResponder"/>
