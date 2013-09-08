@@ -15,7 +15,7 @@
     for (NSString *line in lines) {
         //Vorname,Geburtsname,Nachname,Geburtstag,Adresse,Ortsteil,Deportationstag,Deportationsziel,2.Deportationstag,2.Deportationsziel,3.Deportationstag,3.Deportationsziel,Todestag,Todesort,Lat,Lon(15)
         NSArray *comps = [line componentsSeparatedByString:@","];
-        
+
         NSNumberFormatter *nf = [NSNumberFormatter new];
         nf.decimalSeparator = @".";
         
@@ -29,8 +29,15 @@
         NSDateFormatter *formatter = [NSDateFormatter new];
         [formatter setDateFormat:@"dd/MM/yyyy"];
         
-        NSArray *deports = @[@{@"place":comps[6],@"date":[formatter dateFromString:comps[7]]},@{@"place":comps[8],@"date":[formatter dateFromString:comps[9]]},@{@"place":comps[10],@"date":[formatter dateFromString:comps[11]]}];
+        NSMutableArray *deportations = [NSMutableArray array];
         
+        [deportations addObject:@{@"place":comps[6],@"date":comps[7]}];
+        [deportations addObject:@{@"place":comps[8],@"date":comps[9]}];
+        [deportations addObject:@{@"place":comps[10],@"date":comps[11]}];
+        
+        
+        
+        NSArray *deports = [deportations copy];
         
         FGStolperstein *stone = [[FGStolperstein alloc] initWithFirst:comps[0] last:comps[2] born:comps[1] birthday:comps[3] address:comps[4] quarter:comps[5] location:[[CLLocation alloc] initWithLatitude:lat longitude:lon]  deportations:deports locationOfDeath:comps[13] dayOfDeath:comps[12]];
         
