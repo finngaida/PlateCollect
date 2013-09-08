@@ -15,18 +15,7 @@
     
     [self setUpSettingsDrag];
     [self setUpSideMenu];
-    
-    // Button to zoom to current region
-    UIButton *zoomToLocal = [[UIButton alloc] initWithFrame:CGRectMake(self.containerView.frame.size.width-35, [UIScreen mainScreen].bounds.size.height-35, 30, 30)];
-    zoomToLocal.backgroundColor = [UIColor whiteColor];
-    zoomToLocal.layer.masksToBounds = YES;
-    zoomToLocal.layer.cornerRadius = 5;
-    UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"loc"]];
-    iv.frame = CGRectMake(5, 5, 20, 20);
-    [zoomToLocal addSubview:iv];
-    [zoomToLocal setImage:[UIImage imageNamed:@"pin"] forState:UIControlStateHighlighted];
-    [zoomToLocal addTarget:self action:@selector(zoomHome) forControlEvents:UIControlEventTouchUpInside];
-    [self.containerView addSubview:zoomToLocal];
+    [self setUpBottomButtons];
     
     // Set up map
     self.mapView.delegate = self;
@@ -71,6 +60,34 @@
     [self.mapView addAnnotation:a];
     
     [c startMonitoringForLocation:[[CLLocation alloc] initWithLatitude:a.coordinate.latitude longitude:a.coordinate.longitude]];
+    
+}
+
+- (void)setUpBottomButtons {
+    
+    // Button to zoom to current region
+    UIButton *zoomToLocal = [[UIButton alloc] initWithFrame:CGRectMake(self.containerView.frame.size.width-35, [UIScreen mainScreen].bounds.size.height-35, 30, 30)];
+    zoomToLocal.backgroundColor = [UIColor whiteColor];
+    zoomToLocal.layer.masksToBounds = YES;
+    zoomToLocal.layer.cornerRadius = 5;
+    UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"loc"]];
+    iv.frame = CGRectMake(5, 5, 20, 20);
+    [zoomToLocal addSubview:iv];
+    [zoomToLocal setImage:[UIImage imageNamed:@"pin"] forState:UIControlStateHighlighted];
+    [zoomToLocal addTarget:self action:@selector(zoomHome) forControlEvents:UIControlEventTouchUpInside];
+    [self.containerView addSubview:zoomToLocal];
+    
+    // Button to zoom to current region
+    UIButton *reload = [[UIButton alloc] initWithFrame:CGRectMake(self.containerView.frame.size.width-75, [UIScreen mainScreen].bounds.size.height-35, 30, 30)];
+    reload.backgroundColor = [UIColor whiteColor];
+    reload.layer.masksToBounds = YES;
+    reload.layer.cornerRadius = 5;
+    UIImageView *iv2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"reload"]];
+    iv2.frame = CGRectMake(5, 5, 20, 20);
+    [reload addSubview:iv2];
+    [reload setImage:[UIImage imageNamed:@"pin"] forState:UIControlStateHighlighted];
+    [reload addTarget:self action:@selector(viewDidLoad) forControlEvents:UIControlEventTouchUpInside];
+    [self.containerView addSubview:reload];
     
 }
 
