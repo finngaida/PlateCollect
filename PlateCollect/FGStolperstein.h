@@ -12,7 +12,7 @@
 @interface FGStolperstein : NSObject
 
 
-
+@property(nonatomic,strong)NSString *identifier;
 @property(nonatomic,strong)NSString *firstName;
 @property(nonatomic,strong)NSString *lastName;
 @property(nonatomic,strong)NSString *bornName;
@@ -36,6 +36,7 @@
                 deportations:(NSArray *)deportations //Of NSDictionary <@"date":NSDate Date
                                                                     //  @"place":"NSString Place>
              locationOfDeath:(NSString *)placeOfDeath
-                  dayOfDeath:(NSString *)dayOfDeath; //designated initializer
+                  dayOfDeath:(NSString *)dayOfDeath
+                  identifier:(NSString *)identifier; //designated initializer
 
 @end

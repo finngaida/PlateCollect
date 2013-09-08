@@ -12,7 +12,7 @@
 @implementation FGStolperstein
 
 
--(instancetype)initWithFirst:(NSString *)firstName last:(NSString *)lastName born:(NSString *)bornName birthday:(NSString *)birthday address:(NSString *)address quarter:(NSString *)quarter location:(CLLocation *)location deportations:(NSArray *)deportations locationOfDeath:(NSString *)placeOfDeath dayOfDeath:(NSString *)dayOfDeath{
+-(instancetype)initWithFirst:(NSString *)firstName last:(NSString *)lastName born:(NSString *)bornName birthday:(NSString *)birthday address:(NSString *)address quarter:(NSString *)quarter location:(CLLocation *)location deportations:(NSArray *)deportations locationOfDeath:(NSString *)placeOfDeath dayOfDeath:(NSString *)dayOfDeath identifier:(NSString *)identifier{
     
     self = [super init];
     
@@ -35,9 +35,10 @@
     
     self.placeOfDeath = placeOfDeath;
     self.dayOfDeath = [formatter dateFromString:dayOfDeath];
-
+    self.identifier = identifier;
 
     return self;
+
 
 }
 
