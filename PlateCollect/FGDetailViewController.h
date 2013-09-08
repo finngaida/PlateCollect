@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "FGStolperstein.h"
+#import "FGViewController.h"
 
 @interface FGDetailViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 

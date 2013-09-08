@@ -33,24 +33,59 @@
     self.mapView.showsUserLocation = YES;
     self.view.backgroundColor = [UIColor blackColor];
     
+    
+    
     FGStuffCalculator *c = [FGStuffCalculator new];
     [c fetchCurrentLocationWithHandler:^(CLLocation *location, NSError *error) {
         
-        NSLog(@"Zoomed to latitude: %f", location.coordinate.latitude);
+        // set the region on the Map
         [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.2, .2)) animated:YES];
+        
+        
         
         // Fetch the 30 nearest placemarks from the location parameter and create FGStolperstein 's for it
         
+        FGStolpersteinFetcher *f = [FGStolpersteinFetcher new];
+        NSArray *stolpersteine = [f fetchNearestStonesAtLocation:location Ammount:20];
+        
+        
+        
         // loop through them and add the annotations
-        /*for (FGStolperstein *s in stolpersteine) {
-            FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:s.name andCoordinate:s.coord];
-            [self.mapView addAnnotation:];
-        }*/
+        for (FGStolperstein *s in stolpersteine) {
+            
+            // Create an annotation and then add it to the MapView
+            FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:s.firstName andCoordinate:s.location.coordinate];
+            [self.mapView addAnnotation:a];
+            
+            // log it
+            NSLog(@"Added Annotation for Name: %@ %@", s.firstName, s.lastName);
+            
+            // Sign up to recieve push notification, when entering this region.
+            [c startMonitoringForLocation:s.location];
+        }
+        
         
     }];
     
-    FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:@"Stolperstein" andCoordinate:CLLocationCoordinate2DMake(52.51944444, 13.4066666)];
+    FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:@"Stolperstein" andCoordinate:CLLocationCoordinate2DMake(52.514998, 13.39285)];
     [self.mapView addAnnotation:a];
+    
+    [c startMonitoringForLocation:[[CLLocation alloc] initWithLatitude:a.coordinate.latitude longitude:a.coordinate.longitude]];
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"kApplicationDidLaunchForTheVeryFirstTime"] == NO) {
+        // Applications first start after download, so show signup screen
+        
+        [self performSegueWithIdentifier:@"showSignup" sender:self];
+    }
+    
+    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"kApplicationDidLaunchForTheVeryFirstTime"];
+}
+
+-(void)startupViewControllerDidFinish:(FGStartupViewController *)startupViewCon{
+    [self dismissViewControllerAnimated:YES completion:^{}];
 }
 
 - (void)zoomHome {
@@ -75,6 +110,16 @@
     
 }
 
+- (void)mapView:(MKMapView *)mapView regionWillChangeAnimated:(BOOL)animated {
+    
+    
+    // Called when the used zooms out
+    if (mapView.region.span.latitudeDelta > 10) {
+        // set region back to maximum zom value
+    }
+    
+}
+
 - (void)setUpSideMenu {
     
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 280, [UIScreen mainScreen].bounds.size.height)];
@@ -89,7 +134,7 @@
     profileTitle.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     profileTitle.backgroundColor = [UIColor clearColor];
     profileTitle.textColor = [UIColor whiteColor];
-    profileTitle.font = [UIFont fontWithName:@"Futura" size:25];
+    profileTitle.font = [UIFont fontWithName:@"Verdana" size:25];
     profileTitle.textAlignment = NSTextAlignmentCenter;
     profileTitle.text = @"Profile";                                     // Later on the username set up at startup
     [profile addSubview:profileTitle];
@@ -102,7 +147,7 @@
     UILabel *settingsTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 260, 50)];
     settingsTitle.backgroundColor = [UIColor clearColor];
     settingsTitle.textColor = [UIColor whiteColor];
-    settingsTitle.font = [UIFont fontWithName:@"Futura" size:25];
+    settingsTitle.font = [UIFont fontWithName:@"Verdana" size:25];
     settingsTitle.textAlignment = NSTextAlignmentCenter;
     settingsTitle.text = @"Settings";                                     // Must be translated
     [settings addSubview:settingsTitle];
@@ -115,11 +160,86 @@
     UILabel *creditsTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 260, 50)];
     creditsTitle.backgroundColor = [UIColor clearColor];
     creditsTitle.textColor = [UIColor whiteColor];
-    creditsTitle.font = [UIFont fontWithName:@"Futura" size:25];
+    creditsTitle.font = [UIFont fontWithName:@"Verdana" size:25];
     creditsTitle.textAlignment = NSTextAlignmentCenter;
     creditsTitle.text = @"Credits";                                     // Must be translated
     [credits addSubview:creditsTitle];
     [scrollView addSubview:credits];
+    
+    
+    // subemenus
+    
+    profileSublabel = [[UILabel alloc] initWithFrame:CGRectMake(-320, 140, 240, 250)];
+    profileSublabel.tag = 3;
+    profileSublabel.backgroundColor = [UIColor clearColor];
+    profileSublabel.textColor = [UIColor whiteColor];
+    profileSublabel.font = [UIFont fontWithName:@"Verdana" size:20];
+    profileSublabel.textAlignment = NSTextAlignmentCenter;
+    profileSublabel.lineBreakMode = NSLineBreakByWordWrapping;
+    profileSublabel.numberOfLines = 0;
+    profileSublabel.text = @"Here you will be able to see how many stumble plates you have found in the near future! ";                                     // Must be translated
+    [scrollView addSubview:profileSublabel];
+    
+    
+    settingsSublabel = [[UILabel alloc] initWithFrame:CGRectMake(-320, 140, 240, 250)];
+    settingsSublabel.tag = 3;
+    settingsSublabel.backgroundColor = [UIColor clearColor];
+    settingsSublabel.textColor = [UIColor whiteColor];
+    settingsSublabel.font = [UIFont fontWithName:@"Verdana" size:20];
+    settingsSublabel.textAlignment = NSTextAlignmentCenter;
+    settingsSublabel.lineBreakMode = NSLineBreakByWordWrapping;
+    settingsSublabel.numberOfLines = 0;
+    settingsSublabel.text = @"This is just a sample text but today some awesome people will fill me with life :) ";                                     // Must be translated
+    [scrollView addSubview:settingsSublabel];
+    
+    
+    creditsSublabel = [[UILabel alloc] initWithFrame:CGRectMake(-320, 140, 240, 250)];
+    creditsSublabel.tag = 3;
+    creditsSublabel.backgroundColor = [UIColor clearColor];
+    creditsSublabel.textColor = [UIColor whiteColor];
+    creditsSublabel.font = [UIFont fontWithName:@"Verdana" size:20];
+    creditsSublabel.textAlignment = NSTextAlignmentCenter;
+    creditsSublabel.lineBreakMode = NSLineBreakByWordWrapping;
+    creditsSublabel.numberOfLines = 0;
+    creditsSublabel.text = @"PlateCollect was created by \n Niklas Riekenbrauck \n Daniel Petri \n Finn Gaida \n for #JugendHackt 2013 in Berlin. Courtesy of thenounproject.com for awesome images, bing.com as knight in shining armour, ";                                     // Must be translated
+    [scrollView addSubview:creditsSublabel];
+    
+    
+    backButton = [[UIButton alloc] initWithFrame:CGRectMake(-320, 15, 30, 30)];
+    [backButton setBackgroundImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
+    [backButton addTarget:self action:@selector(goHome) forControlEvents:UIControlEventTouchUpInside];
+    [scrollView addSubview:backButton];
+    
+    
+    NSString __unused *bingCopyright = @"Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.";
+    
+    
+    
+}
+
+- (void)goHome {
+    float v = 0.2; // velocity of the animation
+    
+    // animate the main items out
+    [UIView animateWithDuration:v delay:v-v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+        profile.center = CGPointMake(140, profile.center.y);
+    } completion:nil];
+    [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+        settings.center = CGPointMake(140, settings.center.y);
+    } completion:nil];
+    [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+        credits.center = CGPointMake(140, credits.center.y);
+    } completion:nil];
+    
+    // animate the subitem in
+    [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+        profileSublabel.center = CGPointMake(-320, profileSublabel.center.y);
+        settingsSublabel.center = CGPointMake(-320, settingsSublabel.center.y);
+        creditsSublabel.center = CGPointMake(-320, creditsSublabel.center.y);
+    } completion:nil];
+    [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+        backButton.center = CGPointMake(-320, backButton.center.y);
+    } completion:nil];
     
 }
 
@@ -143,16 +263,15 @@
                 credits.center = CGPointMake(480, credits.center.y);
             } completion:nil];
             
+            
             // animate the subitem in
             [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
-                //profile.center = CGPointMake(480, profile.center.y);
+                profileSublabel.center = CGPointMake(140, profileSublabel.center.y);
             } completion:nil];
             [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
-                //profile.center = CGPointMake(480, profile.center.y);
+                backButton.center = CGPointMake(30, backButton.center.y);
             } completion:nil];
-            [UIView animateWithDuration:v delay:v+v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
-                //profile.center = CGPointMake(480, profile.center.y);
-            } completion:nil];
+            
             
         } break;
         case 2: {
@@ -170,16 +289,12 @@
                 credits.center = CGPointMake(480, credits.center.y);
             } completion:nil];
             
-            
             // animate the subitem in
             [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
-                //profile.center = CGPointMake(480, profile.center.y);
+                settingsSublabel.center = CGPointMake(140, settingsSublabel.center.y);
             } completion:nil];
             [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
-                //profile.center = CGPointMake(480, profile.center.y);
-            } completion:nil];
-            [UIView animateWithDuration:v delay:v+v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
-                //profile.center = CGPointMake(480, profile.center.y);
+                backButton.center = CGPointMake(30, backButton.center.y);
             } completion:nil];
             
             
@@ -199,6 +314,14 @@
                 credits.center = CGPointMake(480, credits.center.y);
             } completion:nil];
             
+            // animate the subitem in
+            [UIView animateWithDuration:v delay:v/2 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                creditsSublabel.center = CGPointMake(140, creditsSublabel.center.y);
+            } completion:nil];
+            [UIView animateWithDuration:v delay:v options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+                backButton.center = CGPointMake(30, backButton.center.y);
+            } completion:nil];
+            
         } break;
         default:break;
     }
@@ -213,8 +336,6 @@
         } break;
         case UIGestureRecognizerStateChanged: {
             self.containerView.center = CGPointMake(160+p.x, self.containerView.center.y);
-            
-            profile.frame = CGRectMake(10*((p.x/280)*.7), 20*((p.x/280)*.7), 260*((p.x/280)*.7), 50*((p.x/280)*.7));
         } break;
         case UIGestureRecognizerStateEnded: {
             if (p.x>=160) {
@@ -277,7 +398,7 @@
     a.canShowCallout = YES;
     a.draggable = NO;
     a.calloutOffset = CGPointMake(0, 1);
-    a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
+    a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"timeline_death"]];
     
     UIButton *detail = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
     [detail addTarget:self action:@selector(mapView:annotationView:calloutAccessoryControlTapped:) forControlEvents:UIControlEventTouchUpInside];
@@ -292,17 +413,25 @@
 
     FGDetailViewController *detailVC = [[FGDetailViewController alloc] init];
     detailVC.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-    detailVC.stone = [[FGStolperstein alloc] initWithFirst:@"Peter" last:@"Pan" born:nil birthday:nil address:@"Nimmerland" quarter:@"Auschwitz" deportations:nil locationOfDeath:@"Auschwitz" dayOfDeath:nil];
+    //detailVC.stone = [[FGStolperstein alloc] initWithFirst:@"Peter" last:@"Pan" born:nil birthday:nil address:@"Nimmerland" quarter:@"Auschwitz" deportations:nil  locationOfDeath:@"Auschwitz" dayOfDeath:nil];
+    
+    //[[NSArray alloc] initWithObjects:[NSDictionary dictionaryWithObjectsAndKeys:@"Berlin", @"place", nil], nil]
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:detailVC];
     
     [self presentViewController:nav animated:YES completion:nil];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+
+    if ([segue.identifier isEqualToString:@"showSignup"]) {
+        UINavigationController *navCon = segue.destinationViewController;
+        
+        FGStartupViewController* startUp = navCon.viewControllers[0];
+        
+        startUp.delegate = self;
+    }
+
 }
 
 @end

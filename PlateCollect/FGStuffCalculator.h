@@ -23,5 +23,6 @@ typedef void (^FGLocationFetchCompletionHandler)(CLLocation *location, NSError *
 - (void)logSurroundingPlaces;
 - (void)fetchCurrentLocationWithHandler:(FGLocationFetchCompletionHandler)handler;
 - (NSDictionary *)fetchLocalPlacemarksUsingGooglePlacesAroundLocation:(CLLocation *)location radius:(NSInteger)radius;
+- (void)startMonitoringForLocation:(CLLocation *)location;
 
 @end

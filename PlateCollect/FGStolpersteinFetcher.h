@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <CoreLocation/CoreLocation.h>
+#import "FGStolperstein.h"
 @interface FGStolpersteinFetcher : NSObject
-
+-(NSArray *)fetchNearestStonesAtLocation:(CLLocation *)location Ammount:(NSInteger)ammount;
 @end

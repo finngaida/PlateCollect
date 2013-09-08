@@ -22,6 +22,12 @@
     return self;
 }
 
+- (void)startMonitoringForLocation:(CLLocation *)location {
+    
+    [manager startMonitoringForRegion:[[CLRegion alloc] initCircularRegionWithCenter:location.coordinate radius:50 identifier:@"Stolperstein"]];
+    
+}
+
 - (void)fetchCurrentLocationWithHandler:(FGLocationFetchCompletionHandler)handler {
     
     // log it
@@ -56,17 +62,42 @@
     return response;
 }
 
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
+    NSLog(@"New Location: N%f E%f", [(CLLocation *)[locations firstObject] coordinate].latitude, [(CLLocation *)[locations firstObject] coordinate].longitude);
+}
+
 - (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
     
-    geocoder = [[CLGeocoder alloc] init];
+    // --------------------------------------------------------------------
+    // Possible todo: get the address from the FGStolperstein Model, so the internet connection is preserved
+    // --------------------------------------------------------------------
     
-    [geocoder reverseGeocodeLocation:[[CLLocation alloc] initWithLatitude:region.center.latitude longitude:region.center.longitude] completionHandler:^(NSArray *placemarks, NSError *error) {
+    if ([UIApplication sharedApplication].applicationState == UIApplicationStateActive) {
         
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Entered Region" message:[NSString stringWithFormat:@"You entered the following region: %@", placemarks[0]] delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil];
-        [alert show];
+        // The app is running, so show an NSAlertView with the downloaded info
         
-    }];
-    
+        // Start downloading the name of the placemark you entered and then display it
+        geocoder = [[CLGeocoder alloc] init];
+        [geocoder reverseGeocodeLocation:[[CLLocation alloc] initWithLatitude:region.center.latitude longitude:region.center.longitude] completionHandler:^(NSArray *placemarks, NSError *error) {
+            
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Entered Region" message:[NSString stringWithFormat:@"You entered the following region: %@", placemarks[0]] delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil];
+            [alert show];
+            
+        }];
+        
+    } else if ([UIApplication sharedApplication].applicationState == UIApplicationStateInactive) {
+        
+        // the app is backgrounded, but got the info that it entered the region, so push a local notification
+        UILocalNotification *local = [[UILocalNotification alloc] init];
+        local.fireDate = [NSDate dateWithTimeIntervalSinceNow:1];
+        local.timeZone = [NSTimeZone defaultTimeZone];
+        local.alertBody = @"You just found a 'Stolperstein'. Congratulations!";
+        local.alertAction = @"Show me!";
+        local.applicationIconBadgeNumber = [UIApplication sharedApplication].applicationIconBadgeNumber+1;
+        [[UIApplication sharedApplication] scheduleLocalNotification:local];
+        
+    }
+
 }
 
 - (void)logSurroundingPlaces {
