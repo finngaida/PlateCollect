@@ -26,13 +26,16 @@
         double lon = [nLon doubleValue];
         
         
+        NSDateFormatter *formatter = [NSDateFormatter new];
+        [formatter setDateFormat:@"dd/MM/yyyy"];
+        
+        NSArray *deports = @[@{@"place":comps[6],@"date":[formatter dateFromString:comps[7]]},@{@"place":comps[8],@"date":[formatter dateFromString:comps[9]]},@{@"place":comps[10],@"date":[formatter dateFromString:comps[11]]}];
         
         
-        FGStolperstein *stone = [[FGStolperstein alloc] initWithFirst:comps[0] last:comps[2] born:comps[1] birthday:comps[3] address:comps[4] quarter:comps[5] location:[[CLLocation alloc] initWithLatitude:lat longitude:lon]  deportations:nil locationOfDeath:comps[13] dayOfDeath:comps[12]];
+        FGStolperstein *stone = [[FGStolperstein alloc] initWithFirst:comps[0] last:comps[2] born:comps[1] birthday:comps[3] address:comps[4] quarter:comps[5] location:[[CLLocation alloc] initWithLatitude:lat longitude:lon]  deportations:deports locationOfDeath:comps[13] dayOfDeath:comps[12]];
         
         [objects addObject:stone];
         
-        //TODO: Deportations!!!
     }
     return [objects copy];
 }
