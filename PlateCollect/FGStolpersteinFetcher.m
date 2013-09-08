@@ -39,7 +39,7 @@
         
         NSArray *deports = [deportations copy];
         
-        FGStolperstein *stone = [[FGStolperstein alloc] initWithFirst:comps[0] last:comps[2] born:comps[1] birthday:comps[3] address:comps[4] quarter:comps[5] location:[[CLLocation alloc] initWithLatitude:lat longitude:lon]  deportations:deports locationOfDeath:comps[13] dayOfDeath:comps[12]];
+        FGStolperstein *stone = [[FGStolperstein alloc] initWithFirst:comps[0] last:comps[2] born:comps[1] birthday:comps[3] address:comps[4] quarter:comps[5] location:[[CLLocation alloc] initWithLatitude:lat longitude:lon]  deportations:deports locationOfDeath:comps[13] dayOfDeath:comps[12] identifier:comps[16]];
         
         [objects addObject:stone];
         

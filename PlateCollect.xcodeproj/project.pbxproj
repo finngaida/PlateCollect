@@ -12,6 +12,9 @@
 		69C9C07A17DB39EE0020DCD6 /* FGStolpersteinFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9C07917DB39EE0020DCD6 /* FGStolpersteinFetcher.m */; };
 		69DDA54117DC5FA5007AC4BB /* FGStuffCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DDA54017DC5FA5007AC4BB /* FGStuffCalculator.m */; };
 		69DDA54417DC6039007AC4BB /* FGStartupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DDA54317DC6039007AC4BB /* FGStartupViewController.m */; };
+		69DDA54617DC7564007AC4BB /* Niklas.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 69DDA54517DC7564007AC4BB /* Niklas.gpx */; };
+		69DDA54917DC77CA007AC4BB /* timeline_death_done.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DDA54717DC77CA007AC4BB /* timeline_death_done.png */; };
+		69DDA54A17DC77CA007AC4BB /* timeline_death_done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DDA54817DC77CA007AC4BB /* timeline_death_done@2x.png */; };
 		A6221FFB17DBEC3B007A6DA0 /* FGWikiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6221FFA17DBEC3B007A6DA0 /* FGWikiRequest.m */; };
 		A622204817DC6BB8007A6DA0 /* timline_deporatation.png in Resources */ = {isa = PBXBuildFile; fileRef = A622204617DC6BB8007A6DA0 /* timline_deporatation.png */; };
 		A622204917DC6BB8007A6DA0 /* timline_deporatation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A622204717DC6BB8007A6DA0 /* timline_deporatation@2x.png */; };
@@ -65,6 +68,9 @@
 		69DDA54017DC5FA5007AC4BB /* FGStuffCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStuffCalculator.m; sourceTree = "<group>"; };
 		69DDA54217DC6039007AC4BB /* FGStartupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGStartupViewController.h; sourceTree = "<group>"; };
 		69DDA54317DC6039007AC4BB /* FGStartupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStartupViewController.m; sourceTree = "<group>"; };
+		69DDA54517DC7564007AC4BB /* Niklas.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Niklas.gpx; sourceTree = "<group>"; };
+		69DDA54717DC77CA007AC4BB /* timeline_death_done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeline_death_done.png; sourceTree = "<group>"; };
+		69DDA54817DC77CA007AC4BB /* timeline_death_done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline_death_done@2x.png"; sourceTree = "<group>"; };
 		A6221FF917DBEC3B007A6DA0 /* FGWikiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGWikiRequest.h; sourceTree = "<group>"; };
 		A6221FFA17DBEC3B007A6DA0 /* FGWikiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGWikiRequest.m; sourceTree = "<group>"; };
 		A622204617DC6BB8007A6DA0 /* timline_deporatation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timline_deporatation.png; sourceTree = "<group>"; };
@@ -135,9 +141,8 @@
 		A6B094C117DB925B007252E3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				CC3D6FE117DC76850025B025 /* reload.png */,
-				CC3D6FDD17DC75430025B025 /* splash.png */,
-				CC3D6FDE17DC75430025B025 /* splash@2x.png */,
+				69DDA54717DC77CA007AC4BB /* timeline_death_done.png */,
+				69DDA54817DC77CA007AC4BB /* timeline_death_done@2x.png */,
 				A622204617DC6BB8007A6DA0 /* timline_deporatation.png */,
 				A622204717DC6BB8007A6DA0 /* timline_deporatation@2x.png */,
 				CC4BDBB817DBF46800855C45 /* back.png */,
@@ -167,6 +172,7 @@
 		CC0ECE2E17DB300400D0D2A8 = {
 			isa = PBXGroup;
 			children = (
+				69DDA54517DC7564007AC4BB /* Niklas.gpx */,
 				CCD5903117DBCE4200A87AFB /* Berlin (1).gpx */,
 				CC0ECE4017DB300400D0D2A8 /* PlateCollect */,
 				CC0ECE3917DB300400D0D2A8 /* Frameworks */,
@@ -314,6 +320,7 @@
 				CCD5902F17DBCD6300A87AFB /* loc.png in Resources */,
 				A6B094B717DB9255007252E3 /* Icon-72.png in Resources */,
 				A6B094B817DB9255007252E3 /* Icon-72@2x.png in Resources */,
+				69DDA54A17DC77CA007AC4BB /* timeline_death_done@2x.png in Resources */,
 				A6B094BF17DB9255007252E3 /* iTunesArtwork.png in Resources */,
 				CC0ECE5317DB300400D0D2A8 /* Images.xcassets in Resources */,
 				CCD5903017DBCD6300A87AFB /* loc@2x.png in Resources */,
@@ -330,6 +337,8 @@
 				CC3D6FE017DC75430025B025 /* splash@2x.png in Resources */,
 				CC3D6FDF17DC75430025B025 /* splash.png in Resources */,
 				A622204917DC6BB8007A6DA0 /* timline_deporatation@2x.png in Resources */,
+				69DDA54617DC7564007AC4BB /* Niklas.gpx in Resources */,
+				69DDA54917DC77CA007AC4BB /* timeline_death_done.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
