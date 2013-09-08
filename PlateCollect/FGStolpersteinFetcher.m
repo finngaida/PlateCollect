@@ -56,7 +56,8 @@
     
     NSInteger i = 0;
     for (FGStolperstein *stone in stones) {
-        [distances setObject:[NSNumber numberWithDouble:[stone.location distanceFromLocation:location]] forKey:[NSNumber numberWithInteger:i]];
+        [distances setObject:[NSNumber numberWithInteger:i] forKey:[NSNumber numberWithDouble:[stone.location distanceFromLocation:location]]];
+        i++;
         
     }
     NSArray *sortedKeys = [[distances allKeys] sortedArrayUsingSelector: @selector(compare:)];
@@ -65,10 +66,11 @@
     
     
     NSMutableArray *nearest = [NSMutableArray array];
-    for (NSInteger j = 0; i<=30; i++) {
+    for (NSInteger j = 0; j<=30; j++) {
         
         [nearest addObject:stones[[sortedValues[j] integerValue]]];
     }
+    NSLog(@"%@",nearest);
     return [nearest copy];
 }
 @end
