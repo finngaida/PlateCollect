@@ -15,7 +15,6 @@
 		69C9C07A17DB39EE0020DCD6 /* FGStolpersteinFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9C07917DB39EE0020DCD6 /* FGStolpersteinFetcher.m */; };
 		69DDA54117DC5FA5007AC4BB /* FGStuffCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DDA54017DC5FA5007AC4BB /* FGStuffCalculator.m */; };
 		69DDA54417DC6039007AC4BB /* FGStartupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DDA54317DC6039007AC4BB /* FGStartupViewController.m */; };
-		69DDA54617DC7564007AC4BB /* Niklas.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 69DDA54517DC7564007AC4BB /* Niklas.gpx */; };
 		69DDA54917DC77CA007AC4BB /* timeline_death_done.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DDA54717DC77CA007AC4BB /* timeline_death_done.png */; };
 		69DDA54A17DC77CA007AC4BB /* timeline_death_done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DDA54817DC77CA007AC4BB /* timeline_death_done@2x.png */; };
 		A6221FFB17DBEC3B007A6DA0 /* FGWikiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6221FFA17DBEC3B007A6DA0 /* FGWikiRequest.m */; };
@@ -71,7 +70,6 @@
 		69DDA54017DC5FA5007AC4BB /* FGStuffCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStuffCalculator.m; sourceTree = "<group>"; };
 		69DDA54217DC6039007AC4BB /* FGStartupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGStartupViewController.h; sourceTree = "<group>"; };
 		69DDA54317DC6039007AC4BB /* FGStartupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStartupViewController.m; sourceTree = "<group>"; };
-		69DDA54517DC7564007AC4BB /* Niklas.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Niklas.gpx; sourceTree = "<group>"; };
 		69DDA54717DC77CA007AC4BB /* timeline_death_done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeline_death_done.png; sourceTree = "<group>"; };
 		69DDA54817DC77CA007AC4BB /* timeline_death_done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline_death_done@2x.png"; sourceTree = "<group>"; };
 		A6221FF917DBEC3B007A6DA0 /* FGWikiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGWikiRequest.h; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 		CC0ECE2E17DB300400D0D2A8 = {
 			isa = PBXGroup;
 			children = (
-				69DDA54517DC7564007AC4BB /* Niklas.gpx */,
 				CCD5903117DBCE4200A87AFB /* Berlin (1).gpx */,
 				CC0ECE4017DB300400D0D2A8 /* PlateCollect */,
 				CC0ECE3917DB300400D0D2A8 /* Frameworks */,
@@ -340,7 +337,6 @@
 				CC0ECE4E17DB300400D0D2A8 /* Main.storyboard in Resources */,
 				A6B094BB17DB9255007252E3 /* Icon-Small.png in Resources */,
 				A622204917DC6BB8007A6DA0 /* timline_deporatation@2x.png in Resources */,
-				69DDA54617DC7564007AC4BB /* Niklas.gpx in Resources */,
 				69DDA54917DC77CA007AC4BB /* timeline_death_done.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
