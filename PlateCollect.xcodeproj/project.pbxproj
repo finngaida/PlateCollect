@@ -95,6 +95,7 @@
 		A6B094B517DB9255007252E3 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		A6B094B617DB9255007252E3 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		A6B094C217DB9325007252E3 /* Icon@2x~iOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x~iOS7.png"; sourceTree = "<group>"; };
+		A6BA7CFD17DE148B00D781FB /* stolpersteine.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = stolpersteine.sqlite; sourceTree = "<group>"; };
 		CC0ECE3717DB300400D0D2A8 /* PlateCollect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateCollect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC0ECE3C17DB300400D0D2A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -231,6 +232,7 @@
 				CC0ECE5217DB300400D0D2A8 /* Images.xcassets */,
 				69C9C07317DB37260020DCD6 /* stolpersteine.csv */,
 				69BBB52217DBF28200419084 /* final.csv */,
+				A6BA7CFD17DE148B00D781FB /* stolpersteine.sqlite */,
 				69C9C0C317DBA3530020DCD6 /* TODO */,
 				CC0ECE4117DB300400D0D2A8 /* Supporting Files */,
 			);
