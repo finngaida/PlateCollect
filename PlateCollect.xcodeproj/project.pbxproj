@@ -34,6 +34,8 @@
 		A6B094BD17DB9255007252E3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B094B317DB9255007252E3 /* Icon.png */; };
 		A6B094BE17DB9255007252E3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B094B417DB9255007252E3 /* Icon@2x.png */; };
 		A6B094BF17DB9255007252E3 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B094B517DB9255007252E3 /* iTunesArtwork.png */; };
+		A6BA7D0317DE191E00D781FB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6BA7D0017DE186200D781FB /* Localizable.strings */; };
+		A6BA7D0417DE194600D781FB /* stolpersteine.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A6BA7CFD17DE148B00D781FB /* stolpersteine.sqlite */; };
 		CC0ECE3B17DB300400D0D2A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */; };
 		CC0ECE3D17DB300400D0D2A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3C17DB300400D0D2A8 /* CoreGraphics.framework */; };
 		CC0ECE3F17DB300400D0D2A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3E17DB300400D0D2A8 /* UIKit.framework */; };
@@ -96,6 +98,8 @@
 		A6B094B617DB9255007252E3 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		A6B094C217DB9325007252E3 /* Icon@2x~iOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x~iOS7.png"; sourceTree = "<group>"; };
 		A6BA7CFD17DE148B00D781FB /* stolpersteine.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = stolpersteine.sqlite; sourceTree = "<group>"; };
+		A6BA7CFF17DE186200D781FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A6BA7D0217DE191C00D781FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CC0ECE3717DB300400D0D2A8 /* PlateCollect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateCollect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC0ECE3C17DB300400D0D2A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -234,6 +238,7 @@
 				69BBB52217DBF28200419084 /* final.csv */,
 				A6BA7CFD17DE148B00D781FB /* stolpersteine.sqlite */,
 				69C9C0C317DBA3530020DCD6 /* TODO */,
+				A6BA7D0017DE186200D781FB /* Localizable.strings */,
 				CC0ECE4117DB300400D0D2A8 /* Supporting Files */,
 			);
 			path = PlateCollect;
@@ -318,6 +323,7 @@
 				A68C693C17DBA6F700400767 /* timeline_death@2x.png in Resources */,
 				A667F94A17DBC049003847A7 /* pin@2x.png in Resources */,
 				A68C693B17DBA6F700400767 /* timeline_death.png in Resources */,
+				A6BA7D0417DE194600D781FB /* stolpersteine.sqlite in Resources */,
 				A6B094BE17DB9255007252E3 /* Icon@2x.png in Resources */,
 				69BBB52317DBF28200419084 /* final.csv in Resources */,
 				A6B094B917DB9255007252E3 /* Icon-Small-50.png in Resources */,
@@ -329,6 +335,7 @@
 				A6B094B817DB9255007252E3 /* Icon-72@2x.png in Resources */,
 				69B924DB17DC9757003800C9 /* splash.png in Resources */,
 				69DDA54A17DC77CA007AC4BB /* timeline_death_done@2x.png in Resources */,
+				A6BA7D0317DE191E00D781FB /* Localizable.strings in Resources */,
 				A6B094BF17DB9255007252E3 /* iTunesArtwork.png in Resources */,
 				CC0ECE5317DB300400D0D2A8 /* Images.xcassets in Resources */,
 				CCD5903017DBCD6300A87AFB /* loc@2x.png in Resources */,
@@ -370,6 +377,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A6BA7D0017DE186200D781FB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6BA7CFF17DE186200D781FB /* Base */,
+				A6BA7D0217DE191C00D781FB /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		CC0ECE4317DB300400D0D2A8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
