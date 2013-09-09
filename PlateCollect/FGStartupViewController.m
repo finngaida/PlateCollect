@@ -26,6 +26,8 @@
     [d setObject:self.passwordLabel.text forKey:@"password"];
     [d setObject:self.hometownLabel.text forKey:@"hometown"];
     
+    [[[NSURLConnection alloc] initWithRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://finngaida.de/platecollect/addUser.php?name=%@&password=%@&hometown=%@", self.usernameLabel.text, self.passwordLabel.text, self.hometownLabel.text]]] delegate:nil] start];
+    
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {

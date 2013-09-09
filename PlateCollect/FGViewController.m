@@ -38,7 +38,7 @@
     [c fetchCurrentLocationWithHandler:^(CLLocation *location, NSError *error) {
         
         // set the region on the Map
-        [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.1, .1)) animated:YES];
+        [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.05, .05)) animated:YES];
         
         
         
@@ -123,7 +123,7 @@
     FGStuffCalculator *c = [FGStuffCalculator new];
     [c fetchCurrentLocationWithHandler:^(CLLocation *location, NSError *error) {
         NSLog(@"Zoomed to latitude: %f", location.coordinate.latitude);
-        [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.1, .1)) animated:YES];
+        [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.05, .05)) animated:YES];
     }];
 }
 
@@ -198,7 +198,7 @@
     
     // subemenus
     
-    profileSublabel = [[UILabel alloc] initWithFrame:CGRectMake(-320, 140, 240, 250)];
+    profileSublabel = [[UILabel alloc] initWithFrame:CGRectMake(-320, 100, 240, 250)];
     profileSublabel.tag = 3;
     profileSublabel.backgroundColor = [UIColor clearColor];
     profileSublabel.textColor = [UIColor whiteColor];
@@ -450,7 +450,7 @@
         
         //[[NSArray alloc] initWithObjects:[NSDictionary dictionaryWithObjectsAndKeys:@"Berlin", @"place", nil], nil]
         
-        /* COMMENTED FOR THE PRESENTATION
+        // COMMENTED FOR THE PRESENTATION
          FGAnnotation *a = (FGAnnotation *)view.annotation;
         
         for (FGStolperstein *s in stolpersteine) {
@@ -459,10 +459,10 @@
                 detailVC.stone = s;
                 break;
             }
-        }*/
-        int rand = arc4random() %2;
+        }
+        /*int rand = arc4random() %2;
         detailVC.stone = [stolpersteine objectAtIndex:rand];
-        
+        */
         UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:detailVC];
         
         [self presentViewController:nav animated:YES completion:nil];
