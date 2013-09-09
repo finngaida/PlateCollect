@@ -7,7 +7,7 @@
 //
 
 #import "FGStartupViewController.h"
-
+#import "NSString+MD5.h"
 @implementation FGStartupViewController
 
 - (void)viewDidLoad
@@ -27,6 +27,10 @@
     [d setObject:self.hometownLabel.text forKey:@"hometown"];
     
     [[[NSURLConnection alloc] initWithRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://finngaida.de/platecollect/addUser.php?name=%@&password=%@&hometown=%@", self.usernameLabel.text, self.passwordLabel.text, self.hometownLabel.text]]] delegate:nil] start];
+    
+    
+    // I would be in favor of hashing the password here already as this is not an HTTPS connection.
+    //[[[NSURLConnection alloc] initWithRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://finngaida.de/platecollect/addUser.php?name=%@&password=%@&hometown=%@", self.usernameLabel.text, [self.passwordLabel.text MD5String], self.hometownLabel.text]]] delegate:nil] start];
     
 }
 

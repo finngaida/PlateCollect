@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694E76D517DDD7AA00805093 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E76D417DDD7AA00805093 /* NSString+MD5.m */; };
 		69B924DA17DC9757003800C9 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B924D717DC9757003800C9 /* reload.png */; };
 		69B924DB17DC9757003800C9 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B924D817DC9757003800C9 /* splash.png */; };
 		69BBB52317DBF28200419084 /* final.csv in Resources */ = {isa = PBXBuildFile; fileRef = 69BBB52217DBF28200419084 /* final.csv */; };
@@ -55,6 +56,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		694E76D317DDD7AA00805093 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		694E76D417DDD7AA00805093 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		69B924D717DC9757003800C9 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
 		69B924D817DC9757003800C9 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		69B924D917DC9757003800C9 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
@@ -209,6 +212,8 @@
 				CC0ECE4C17DB300400D0D2A8 /* Main.storyboard */,
 				69DDA54217DC6039007AC4BB /* FGStartupViewController.h */,
 				69DDA54317DC6039007AC4BB /* FGStartupViewController.m */,
+				694E76D317DDD7AA00805093 /* NSString+MD5.h */,
+				694E76D417DDD7AA00805093 /* NSString+MD5.m */,
 				CC0ECE4F17DB300400D0D2A8 /* FGViewController.h */,
 				CC0ECE5017DB300400D0D2A8 /* FGViewController.m */,
 				A681E5BE17DB47BB0084087A /* FGDetailViewController.h */,
@@ -350,6 +355,7 @@
 				69DDA54117DC5FA5007AC4BB /* FGStuffCalculator.m in Sources */,
 				A6221FFB17DBEC3B007A6DA0 /* FGWikiRequest.m in Sources */,
 				CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */,
+				694E76D517DDD7AA00805093 /* NSString+MD5.m in Sources */,
 				CC0ECE4717DB300400D0D2A8 /* main.m in Sources */,
 				69DDA54417DC6039007AC4BB /* FGStartupViewController.m in Sources */,
 				69C9C07A17DB39EE0020DCD6 /* FGStolpersteinFetcher.m in Sources */,
