@@ -8,7 +8,8 @@
 
 #import "FGDatabaseHandler.h"
 
-@implementation FGDatabaseHandler
+@implementation FGDatabaseHandler {
+}
 
 #pragma mark main required methods
 -(void)openDB {
