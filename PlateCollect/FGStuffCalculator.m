@@ -92,8 +92,8 @@
         UILocalNotification *local = [[UILocalNotification alloc] init];
         local.fireDate = [NSDate dateWithTimeIntervalSinceNow:1];
         local.timeZone = [NSTimeZone defaultTimeZone];
-        local.alertBody = @"You just found a 'Stolperstein'. Congratulations!";
-        local.alertAction = @"Show me!";
+        local.alertBody = NSLocalizedString(@"You just found a 'Stolperstein'. Congratulations!", nil);
+        local.alertAction = NSLocalizedString(@"Show me!", nil);
         local.applicationIconBadgeNumber = [UIApplication sharedApplication].applicationIconBadgeNumber+1;
         [[UIApplication sharedApplication] scheduleLocalNotification:local];
         

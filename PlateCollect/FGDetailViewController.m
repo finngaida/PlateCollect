@@ -101,9 +101,9 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     if (section == 0) {
-        return @"Allgemein";
+        return NSLocalizedString(@"Allgemein", nil);
     } else {
-        return @"Daten";
+        return NSLocalizedString(@"Daten", nil);
     }
 }
 
@@ -117,24 +117,24 @@
     if (indexPath.section == 0) {
         switch (indexPath.row) {
             case 0: {
-                cell.textLabel.text = @"Geburtsname";
+                cell.textLabel.text = NSLocalizedString(@"Geburtsname", nil);
                 cell.detailTextLabel.text = _stone.bornName;
                 break;
             }
             case 1: {
-                cell.textLabel.text = @"Geburstag";
+                cell.textLabel.text = NSLocalizedString(@"Geburstag", nil);
                 NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
                 [formatter setDateFormat:@"dd.MM.YY"];
                 cell.detailTextLabel.text = [formatter stringFromDate:_stone.birthday];
                 break;
             }
             case 2: {
-                cell.textLabel.text = @"Adresse";
+                cell.textLabel.text = NSLocalizedString(@"Adresse", nil);
                 cell.detailTextLabel.text = _stone.address;
                 break;
             }
             case 3: {
-                cell.textLabel.text = @"Ortsteil";
+                cell.textLabel.text = NSLocalizedString(@"Ortsteil", nil);
                 cell.detailTextLabel.text = _stone.quarter;
                 break;
             }
@@ -171,7 +171,7 @@
             if (date != NULL) {
                 detailTextLabel = [NSString stringWithFormat:@"%@ (%@)",dict[@"place"], date];
             } else {
-                detailTextLabel = @"Keine Angabe";
+                detailTextLabel = NSLocalizedString(@"Keine Angabe", nil);
             }
             cell.detailTextLabel.text = detailTextLabel;
             
@@ -180,7 +180,7 @@
             [imageView setImage:image];
             
             //Text für Tod setzen
-            cell.textLabel.text = @"Tod";
+            cell.textLabel.text = NSLocalizedString(@"Tod", nil);
             if (_stone.dayOfDeath && _stone.placeOfDeath) {
                 NSString *detailText;
                 if (_stone.placeOfDeath) {
@@ -191,7 +191,7 @@
                             NSString *dayOfDeathFormatted = [NSString stringWithFormat:@" (%@)", _stone.dayOfDeath];
                             detailText = [detailText stringByAppendingString:dayOfDeathFormatted];
                         } else {
-                            detailText = @"Keine Angabe";
+                            detailText = NSLocalizedString(@"Keine Angabe", nil);
                         }
                     }
                 } else {
@@ -201,7 +201,7 @@
                 }
                 
             } else {
-                cell.detailTextLabel.text = @"Keine Angaben";
+                cell.detailTextLabel.text = NSLocalizedString(@"Keine Angabe", nil);
             }
         }
 

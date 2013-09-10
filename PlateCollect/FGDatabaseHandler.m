@@ -22,10 +22,10 @@
 
 #pragma mark providing content
 -(NSMutableArray*)stolpersteinsInRegion:(CLRegion*)region {
-    
+    return [NSMutableArray new];
 }
 
 -(FGStolperstein*)stolpersteinByID:(NSInteger)stID {
-    
+    return [FGStolperstein new];
 }
 @end

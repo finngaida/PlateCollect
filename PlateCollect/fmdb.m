@@ -155,10 +155,10 @@ int main (int argc, const char * argv[]) {
     rs = [db executeQuery:@"select rowid, a, b, c from test"];
     while ([rs next]) {
         
-        FMDBQuickCheck([rs[0] isEqualTo:rs[@"rowid"]]);
-        FMDBQuickCheck([rs[1] isEqualTo:rs[@"a"]]);
-        FMDBQuickCheck([rs[2] isEqualTo:rs[@"b"]]);
-        FMDBQuickCheck([rs[3] isEqualTo:rs[@"c"]]);
+        FMDBQuickCheck([rs[0] isEqual:rs[@"rowid"]]);
+        FMDBQuickCheck([rs[1] isEqual:rs[@"a"]]);
+        FMDBQuickCheck([rs[2] isEqual:rs[@"b"]]);
+        FMDBQuickCheck([rs[3] isEqual:rs[@"c"]]);
     }
     [rs close];
     
@@ -1306,7 +1306,7 @@ void testPool(NSString *dbPath) {
             }];
         });
         
-        NSLog(@"Number of open databases after crazy gcd stuff: %ld", [dbPool countOfOpenDatabases]);
+        NSLog(@"Number of open databases after crazy gcd stuff: %ld", (unsigned long)[dbPool countOfOpenDatabases]);
     }
     
     

@@ -5,3 +5,20 @@
   Created by Niklas Riekenbrauck on 09.09.13.
   Copyright (c) 2013 Finn Gaida. All rights reserved.
 */
+
+"Profile" = "Profile";
+"Settings" = "Settings";
+"Credits" = "Credits";
+"Deine gesammelten Stolpersteine." = "Your collected stumble plates.";
+"Hier kommen bald noch Einstllungen hin ;)" = "This is where the settings will go.";
+"creditsContent" = "PlateCollect was created by \n Niklas Riekenbrauck (@nikriek)\n Daniel Petri (@stocc1)  \n Finn Gaida (@FinnGaida)\n for #JugendHackt 2013 in Berlin. Courtesy of thenounproject.com for awesome images, bing.com as knight in shining armour.";
+"Allgemein" = "general";
+"Daten" = "data";
+"Geburtsname" = "born";
+"Geburstag" = "birthday";
+"Adresse" = "adress";
+"Ortsteil" = "city";
+"Keine Angabe" = "no info";
+"Tod" = "death";
+"You just found a 'Stolperstein'. Congratulations!" = "You just found a 'Stolperstein'. Congratulations!";
+"Show me!" = "Show me!";

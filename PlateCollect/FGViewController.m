@@ -68,7 +68,7 @@
         
     }];
     
-    FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:@"Stolperstein" andCoordinate:CLLocationCoordinate2DMake(52.514998, 13.39285)];
+    FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:@"Stolperstein" andCoordinate:CLLocationCoordinate2DMake(53.79015,  9.99437)];
     [self.mapView addAnnotation:a];
     
     [c startMonitoringForLocation:[[CLLocation alloc] initWithLatitude:a.coordinate.latitude longitude:a.coordinate.longitude]];
@@ -165,7 +165,7 @@
     profileTitle.textColor = [UIColor whiteColor];
     profileTitle.font = [UIFont fontWithName:@"Verdana" size:25];
     profileTitle.textAlignment = NSTextAlignmentCenter;
-    profileTitle.text = @"Profile";                                     // Later on the username set up at startup
+    profileTitle.text = NSLocalizedString(@"Profile", nil);                                     // Later on the username set up at startup
     [profile addSubview:profileTitle];
     [scrollView addSubview:profile];
     
@@ -178,7 +178,7 @@
     settingsTitle.textColor = [UIColor whiteColor];
     settingsTitle.font = [UIFont fontWithName:@"Verdana" size:25];
     settingsTitle.textAlignment = NSTextAlignmentCenter;
-    settingsTitle.text = @"Settings";                                     // Must be translated
+    settingsTitle.text = NSLocalizedString(@"Settings", nil);                                     // Must be translated
     [settings addSubview:settingsTitle];
     [scrollView addSubview:settings];
     
@@ -191,7 +191,7 @@
     creditsTitle.textColor = [UIColor whiteColor];
     creditsTitle.font = [UIFont fontWithName:@"Verdana" size:25];
     creditsTitle.textAlignment = NSTextAlignmentCenter;
-    creditsTitle.text = @"Credits";                                     // Must be translated
+    creditsTitle.text = NSLocalizedString(@"Credits", nil);                                     // Must be translated
     [credits addSubview:creditsTitle];
     [scrollView addSubview:credits];
     
@@ -206,7 +206,7 @@
     profileSublabel.textAlignment = NSTextAlignmentCenter;
     profileSublabel.lineBreakMode = NSLineBreakByWordWrapping;
     profileSublabel.numberOfLines = 0;
-    profileSublabel.text = @"Deine gesammelten Stolpersteine.";                                     // Must be translated
+    profileSublabel.text = NSLocalizedString(@"Deine gesammelten Stolpersteine.", nil);                                     // Must be translated
     [scrollView addSubview:profileSublabel];
     
     
@@ -218,7 +218,7 @@
     settingsSublabel.textAlignment = NSTextAlignmentCenter;
     settingsSublabel.lineBreakMode = NSLineBreakByWordWrapping;
     settingsSublabel.numberOfLines = 0;
-    settingsSublabel.text = @"Hier kommen bald noch Einstllungen hin ;)";                                     // Must be translated
+    settingsSublabel.text = NSLocalizedString(@"Hier kommen bald noch Einstllungen hin ;)", nil);                                     // Must be translated
     [scrollView addSubview:settingsSublabel];
     
     
@@ -230,7 +230,7 @@
     creditsSublabel.textAlignment = NSTextAlignmentCenter;
     creditsSublabel.lineBreakMode = NSLineBreakByWordWrapping;
     creditsSublabel.numberOfLines = 0;
-    creditsSublabel.text = @"PlateCollect was created by \n Niklas Riekenbrauck (@nikriek)\n Daniel Petri (@stocc1)  \n Finn Gaida (@FinnGaida)\n for #JugendHackt 2013 in Berlin. Courtesy of thenounproject.com for awesome images, bing.com as knight in shining armour.";                                     // Must be translated
+    creditsSublabel.text = NSLocalizedString(@"creditsContent", nil);                                     // Must be translated
     [scrollView addSubview:creditsSublabel];
     
     
