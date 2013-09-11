@@ -1,0 +1,2031 @@
+"Märkisches Ufer 20",52.512953,13.410482
+"Wallstraße 84",52.511972,13.40819
+"Dortmunder Str. 9",52.52168,13.336298
+"Elberfelder Str. 20",52.521332,13.335647
+"Engeldamm 66",52.505861,13.420892
+"Turiner Straße 46",52.551364,13.35589
+"Cuxhavener Straße 14",52.517845,13.338306
+"Steinstr. 2",52.453415,13.334608
+"Rosenthaler Str. 62",52.527666,13.403435
+"Tucholskystr. 38",52.526745,13.393503
+"Große Hamburger Str. 29",52.525267,13.399172
+"Große Präsidentenstraße 8",52.523221,13.401229
+"Solinger Str. 7",52.519061,13.334282
+"Friedrichstr. 76",52.514125,13.38948
+"Genthiner Str. 46",52.50189,13.358349
+"Torstr. 223",52.527564,13.388399
+"Badstraße 58",52.551399,13.382881
+"Reinickendorfer Str. 77",52.550531,13.367553
+"Almstadtstr. 24",52.52567,13.409627
+"Unter den Linden 6",52.518004,13.393705
+"Köpenicker Straße 112",52.509683,13.419311
+"Bredowstraße 49",52.529502,13.33998
+"Hussitenstr. 7",52.537146,13.389785
+"Huttenstraße 12",52.528086,13.324048
+"Levetzowstr. 16",52.520245,13.337096
+"Dresdener Straße 91",52.507695,13.412287
+"Sophienstraße 6",52.525218,13.401921
+"Ackerstr. 15",52.531109,13.396862
+"Anklamer Straße 33",52.535789,13.399901
+"Zionskirchstr. 32",52.534084,13.403089
+"Ackerstr. 83-84",52.539533,13.382437
+"Kurfürstenstr. 58",52.50204,13.354684
+"Solinger Straße 10",52.519787,13.335089
+"Oranienburger Str. 1",52.41090536,13.41511816
+"Zionskirchstr. 30",52.534245,13.403023
+Holzmarktstr.,52.512863,13.424967
+"Linienstraße 223",52.527985,13.409607
+"Maxstr. 12",52.550125,13.363769
+"Bochumer Str. 14",52.522436,13.338472
+"Schröderstr. 2",52.530201,13.392831
+"Inselstraße 12",52.511716,13.412875
+"Linienstr. 31",52.527973,13.411055
+"Dortmunder Str. 2",52.52117315,13.33808676
+"Torstr. 126",52.529421,13.400565
+"Große Hamburger Straße 15/16",52.525143,13.398869
+"Rosenthaler Str. 40/41",52.5242,13.402207
+"Rosenthaler Str. 48",52.524974,13.4034
+"Bochumer Str. 18",52.523097,13.338345
+"Wullenweberstr. 5",52.51811367,13.33319744
+"Flotowstr. 9",52.516848,13.336765
+"Lessingstr. 10",52.522121,13.342223
+"Brückenstraße 5",52.457428,13.511157
+"Gipsstraße 6",52.527003,13.399924
+"Krefelder Str. 20",52.524956,13.339618
+"Am Heizkraftwerk Mitte",52.5160713196,13.3769798279
+"Seydelstr. 21",52.509163,13.404514
+"Köpenicker Str. 103",52.510656,13.416851
+"Dortmunder Str. 6",52.521853,13.336739
+"Tile-Wardenberg-Str. 13",52.518405,13.334855
+"Torstr. 70",52.52893,13.407415
+"Alt-Moabit 85",52.525472,13.340698
+"Joachimstraße 2",52.526898,13.401363
+"Brunnenstr. 118",52.541346,13.393199
+"Sprengelstr. 14",52.541964,13.355195
+"Große Hamburger Str. 31",52.525608,13.399022
+Weinmeisterstr.16/17,52.526116,13.403594
+"Rückerstr. 7",52.528081,13.407032
+"Elberfelder Str. 16",52.521976,13.335722
+"Wullenweberstr. 11",52.519151,13.330946
+"Klopstockstr. 13-17",52.480613,13.590776
+"Max Beer Str. 48",52.527285,13.409338
+"Solinger Str. 1",52.520137,13.335034
+"Karl Liebknecht Str. 9/11",52.392664,13.092054
+"Torstr. 89",52.529657,13.405738
+"Holzmarktstraße 54-56",52.514379,13.42312
+"Hussitenstr. 6",52.536955,13.389984
+"Stockholmer Str. 28",52.560635,13.383955
+"Nordufer 14",52.53953,13.350931
+"Altonaer Str. 26",52.519902,13.33973
+"Köpenicker Str. 106",52.510118,13.417677
+"Magdeburger Platz 1",52.503262,13.359537
+"Kirchstr. 7",52.473482,13.29436
+"Potsdamer Str. 102",52.501483,13.363925
+"Bochumer Str. 25",52.524707,13.338035
+"Zolastr. 1",52.527933,13.41133
+"Prinzenallee 57",52.558065,13.385484
+"Michaelkirchstr. 5/6",52.508934,13.420865
+"Elberfelder Straße 14",52.522382,13.335769
+"Annenstr. 3",52.53237516,13.55071038
+"Rosa-Luxemburg-Str. 18",52.62789,13.322506
+"Sebastianstr. 73",52.505758,13.410618
+"Zehdenicker Str. 25",52.5303,13.406024
+"Feldzeugmeisterstr. 5",52.532368,13.352415
+"Bartningallee 7",52.519338,13.343635
+"Cuxhavener Straße 5",52.517947,13.33796
+"Flotowstr. 10",52.516624,13.336891
+"Steinstr. 12",52.45284587,13.33831698
+"Fehrbelliner Str. 22",52.533454,13.403926
+"Klopstockstraße 19-23",52.442955,13.230761
+"Rosa-Luxemburg-Str. 26",52.628325,13.322563
+"Torstr. 112",52.529563,13.402904
+"Jagowstr. 2",52.519259,13.331651
+"Chausseestr. 6",52.527992,13.386497
+"Brunnenstr. 195",52.530278,13.400534
+"Schleswiger Ufer 5",52.517793,13.337167
+"Legiendamm 4",52.506087,13.417083
+"Strelitzer Str. 58",52.535856,13.39443
+"Rückerstr. 1",52.527403,13.406803
+"Alexanderstraße/Holzmarktstraße 75",52.5160713196,13.3769798279
+"Brunnenstr. 41",52.536561,13.397615
+"Keibelstr. 4-5",52.525733,13.41649
+"Gipsstraße 9",52.52682,13.400594
+"Rheinsberger Straße 45",52.538757,13.402987
+"Steinstr. 26",52.526969,13.404756
+"Utrechter Straße 10",52.549055,13.356708
+"Krausnickstraße 8",52.525129,13.397595
+"Märkisches Ufer 16/18",52.51286,13.410201
+"Kurfürstenstraße 50",52.501511,13.35764
+"Oranienburger Straße 2-5",52.411138,13.41576
+"Rochstr. 1",52.524334,13.407576
+"Wolliner Str. 3",52.536286,13.404429
+"Badstraße 64",52.550563,13.384287
+"Konrad-Wolf-Straße 41",52.53906989,13.48229868
+"Badstraße 61",52.55094,13.383658
+"Tucholskystraße 11",52.524224,13.392275
+"Turmstraße 40",52.526919,13.336067
+"Brunnenstr. 193",52.530537,13.4003
+"Spandauer Str. 26-32",52.535551,13.152567
+"Cuxhavener Straße 15",52.517612,13.338446
+"Essener Straße 20",52.523381,13.337092
+"Lichtenberger Str. 31-37",52.515306,13.424926
+"Oranienburger Str. 46/47",52.586713,13.335219
+"Calvinstraße 27",52.522669,13.352128
+"Kleine Alexanderstraße 12/13",52.524975,13.411639
+"Rosenthaler Str. 32",52.524928,13.403072
+"Annenstraße 8A",52.508928,13.412794
+"Auguststr. 4",52.526002,13.391484
+"Neue Hochstr. 10",52.540013,13.375823
+"Liebenwalder Straße 40",52.55181,13.360111
+"Heinz Galinski Str. 1",52.555943,13.37195
+"Littenstr. 3",52.516633,13.414696
+"Rügener Str. 22",52.545641,13.393943
+"Borsigstr. 17a",52.531039,13.388727
+"Liebenwalder Straße 44",52.551848,13.361224
+"Jagowstr. 16",52.522908,13.334214
+"Wallstraße 70-73",52.512539,13.410312
+"Oranienburger Straße 22",52.524317,13.396094
+"Friedrichstr. 105",52.522836,13.388706
+"Linienstraße 45",52.52847,13.408236
+"Mauerstr. 78",52.509221,13.388114
+"Annenstraße 4A",52.507768,13.415112
+"Gotzkowskystr. 35",52.526592,13.3307
+"Bornemannstr. 14",52.55003,13.371496
+"Gipsstr. 23",52.526602,13.402008
+"Choriner Str. 1",52.530675,13.406065
+"Heinz-Galinski-Str. 8",52.555934,13.372585
+"Müllerstraße 28",52.547246,13.358115
+"Linienstraße 66",52.529038,13.403702
+"Oranienburger Str. 9",52.58058491,13.3337021
+"Zinzendorfstraße 8",52.52377,13.332072
+"Hussitenstr. 38",52.541391,13.383567
+"Utrechter Str. 43",52.550956,13.361417
+"Friedrichstr. 55",52.509278,13.390225
+"Lützowstr. 41",52.504643,13.358321
+"Strelitzer Str. 25",52.53684,13.394074
+"Oldenburger Straße 46",52.527526,13.335363
+"Neue Roßstraße 16",52.511597,13.40893
+"Neue Schönhauser Straße 10",52.524558,13.40342
+"Ifflandstr. 2",52.5033874512,13.3386392593
+"Liebenwalder Straße 16",52.552122,13.362778
+"Neue Jakobstraße 16",52.510297,13.41114
+"Swinemünder Str. 83",52.544195,13.396325
+"Schulstr. 51",52.55300143,13.36981138
+"Chausseestr. 117",52.52997,13.383503
+"Lebuser Str./ Karl-Marx-Allee",52.5180089992,13.4329362253
+"Ackerstr. 1",52.528945,13.397802
+"Agricolastr. 21",52.51977906,13.33457351
+"Lichtenberger Str. 32/33",52.515149,13.423877
+"Max-Beer-Str. 38",52.52679245,13.40885031
+"Otawistr. 23",52.553718,13.339048
+"Jagowstraße 38",52.52079338,13.33314836
+"Bredowstr. 14.",52.529727,13.340178
+"Heinrich-Heine-Straße 13",52.508107,13.414874
+"Hinter der Katholischen Kirche 4/5",52.51558453,13.39544535
+"Tile-Wardenberg-Straße 28",52.520094,13.331503
+"Turmstraße 76a",52.526585,13.335028
+"Ruheplatzstr. 13",52.54756,13.361688
+"Budapester Str. 13",52.506641,13.347734
+"Almstadtstraße 45-49",52.526915,13.40977
+"Bartningallee 23",52.520759,13.347286
+"Fanninger Str. 53",52.513983,13.499312
+"Eulerstraße 25",52.552332,13.388614
+"Calvinstr. 15",52.521257,13.350991
+"Schillingstr. 1",52.51743,13.420646
+"Steinstr. 5",52.52676,13.406239
+"Max Beer Str. 31",52.526472,13.408504
+"Gipsstraße 3",52.527181,13.399275
+"Alt-Moabit 86c",52.525336,13.341262
+"Heinrich-Heine-Str. 10-11",52.509408,13.414607
+"Thomasiusstr. 24",52.523361,13.350789
+"Sophienstr. 22",52.525939,13.400289
+"Bundesratufer 4",52.523194,13.3407
+"Münzstr. 22",52.524983,13.406927
+"Krausnickstr. 18",52.525257,13.396979
+"Bundesratufer 9",52.522298,13.338817
+"Chausseestr. 45",52.534881,13.378314
+"Berolinastr. 15",52.522482,13.421126
+"Amsterdamer Str. 14",52.551675,13.357303
+"Karl Marx Allee 38/40",52.519248,13.423362
+"Mollstr. 11-12",52.523685,13.42283
+"Hochstädter Straße 1",52.551822,13.365299
+"Neue Schönhauser Str. 15",52.524499,13.404969
+"Hansa Ufer 5",52.518572,13.335841
+"Rosenthaler Str. 42",52.523818,13.402811
+"Liebenwalder Straße 38",52.551773,13.359657
+"Genthiner Str. 8",52.505074,13.3599
+"Klopstockstr. 9",52.51572,13.338248
+"Hansa Ufer 6",52.518641,13.335901
+"Levetzowstr. 6",52.521532,13.332533
+"Spenerstr. 14",52.521039,13.35265
+"Märkisches Ufer 14",52.512786,13.409979
+"Klopstockstr. 15",52.516202,13.33886
+"Eulerstraße 21",52.552867,13.389535
+"Bredowstr. 39",52.528944,13.339771
+"Inselstr. 11",52.511843,13.412635
+"Mulackstr. 26",52.527411,13.405071
+"Große Hamburger Str. 30",52.525492,13.399072
+"Lübecker Str. 15",52.528797,13.345546
+"Invalidenstr. 156",52.532326,13.39673
+"Lichtenberger Straße 34",52.51478,13.42446
+"Bellermannstraße 79-80",52.552372,13.388279
+"Jägerstr. 33",52.514182,13.396716
+"Neue Schönhauser Str. 12",52.5245,13.404165
+Weinbergspark,44.4728813171,-71.1762619019
+"Mollstr. 33",52.52607934,13.4195517
+"Stromstr. 52",52.528485,13.342997
+"Bochumer Str. 10",52.522004,13.338133
+"Rosenthaler Str. 39",52.524502,13.40165
+"Groninger Str. 36",52.553917,13.361849
+"Demminer Str. 13",52.541993,13.397649
+"Gerichtstr. 22",52.544205,13.37264
+"Köpenicker Straße 100",52.511011,13.415591
+"Lessingstr. 16",52.589376,13.370284
+"Flensburger / Ecke Lessingstr. 9",52.5160713196,13.3769798279
+"Max Beer Str. 6",52.524982,13.408304
+"Strelitzer Str. 3",52.533906,13.396767
+"Bachstr. 1-2",52.464412,13.568859
+"Klopstockstraße 18",52.480377,13.590725
+"Sophienstr. 32",52.526426,13.398982
+"Große Hamburger Str. 38",52.526686,13.398596
+"Auguststr. 17",52.526639,13.39535
+"Soldiner Str. 8",52.557451,13.391277
+"Ostender Str. 2",52.548017,13.354693
+"Ostender Str. 2a",52.547905,13.354544
+"Singerstr. 1",52.516974,13.421618
+"Jacobystr. 5-18",52.519984,13.41964
+"Ohmstraße 10",52.511798,13.418076
+"Legiendamm 22",52.504978,13.417025
+"Weinbergsweg 20",52.531157,13.402168
+"Schwedter Str. 250",52.534713,13.406981
+"Reinhardtstr. 5",52.523615,13.38679
+"Lessingstr. 8-10",52.521606,13.342298
+"Tiergartenstr. 20/21",52.509687,13.360855
+"Weinbergsweg 9",52.531527,13.403229
+"Brückenstraße 13",52.512073,13.416834
+"Alt-Moabit 85a",52.525363,13.341095
+"Eichendorffstraße 18",52.530024,13.387371
+"Grüntaler Straße 30",52.554541,13.39096
+"Linienstr. 44",52.528445,13.40842
+"Neue Roßstr. 4",52.511166,13.411276
+"Luisenstr. 54/55",52.524738,13.379418
+"Wallstraße 74/75",52.512357,13.409764
+"Essener Str. 19",52.523355,13.336936
+"Togostr. 78",52.549309,13.347039
+"Kremmener Str. 7",52.539431,13.402656
+"Müllerstr. 126a",52.552757,13.347403
+"Brückenstraße 1a",52.511507,13.416898
+"Reichpietschufer 64",52.50593713,13.36202949
+"Oranienburger Straße 90",52.523526,13.400769
+"Flotowstr. 1",52.516508,13.337457
+"Levetzowstraße 11a",52.520466,13.335152
+"Bundesratufer 2",52.523303,13.341437
+"Kommandantenstr. 68/69",52.50803411,13.40413839
+"Monbijouplatz 4",52.523329,13.399043
+"Auguststr. 73",52.526664,13.394389
+"Schillingstr. 12",52.518902,13.422002
+"Granseer Str. 8",52.536826,13.402959
+"Spenerstr. 25 A",52.521029,13.35309
+"Hiroshimastr. 19",52.50724,13.357598
+"Almstadtstraße 19",52.525441,13.409214
+"Schulstraße 107",52.55085653,13.3661961
+"Tile-Wardenberg-Str. 26",52.51972586,13.33216466
+"Bundesratufer 1",52.52320488,13.34156495
+"Hochstr. 20",52.542104,13.375709
+"Linienstr. 53",52.528677,13.406514
+"Müllerstraße 25",52.546112,13.360121
+"Schmidstr. 2a",52.508363,13.418808
+"Michaelkirchstr. 17",52.510861,13.422192
+"Rosenthaler Str. 72",52.529351,13.401881
+"Michaelkirchplatz 18",52.506614,13.419515
+"Swinemünder Str. 74",52.545486,13.395337
+"Alexanderstraße 8",52.518869,13.418154
+"Hirtenstr. / Karl Liebknecht Str.",52.5251877909,13.4133956615
+"Sickingenstr. 5",52.532779,13.326628
+"Märkisches Ufer 12",52.51271,13.409751
+"Cimbernstraße 13",52.416665,13.541944
+"Breisacher Straße 19",52.444649,13.279176
+"Wernerstraße 10",52.48343199,13.27392295
+"Bernhard-Beyer-Straße 12",52.389185,13.129256
+"Schmarjestraße 9B",52.439084,13.260563
+"Stölpchenweg 7",52.410088,13.138983
+"Habelschwerdter Allee 7",52.447178,13.292555
+"Rolandstraße 4",52.435082,13.203604
+"Wernerstraße 6",52.484348,13.27434
+"Schützallee 45",52.441932,13.264613
+"Onkel-Tom-Straße 91",52.44819,13.252361
+"Onkel-Tom-Straße 77",52.446213,13.2538
+"Clayallee 323",52.438477,13.26197
+"Berlepschstraße 4",52.429827,13.256525
+"Hittorfstraße 16",52.450332,13.285138
+"Hochsitzweg 17",52.452291,13.260233
+"Grüner Weg 15",52.443487,13.457609
+"Patschkauer Weg 41",52.449874,13.295615
+"Schopenhauerstraße 97",52.430184,13.201618
+"Von-Luck-Straße 15",52.432061,13.204737
+"Miquelstraße 86",52.465925,13.293028
+"Am Hegewinkel 108",52.453231,13.253117
+"Hohenzollernstraße 6",52.432681,13.254255
+"Normannenstraße 2",52.51606,13.480486
+"Potsdamer Straße 29",52.508124,13.371323
+"Am Wieselbau 26",52.452576,13.253813
+"Loebellstraße 6",52.42527,13.244786
+"Alsenstraße 28",52.413452,13.149313
+"Goethestraße 3",52.550532,13.434257
+"Hartmannsweiler Weg 58",52.44403,13.246345
+"Hohenzollernstraße 24",52.432057,13.249282
+"Straße zum Löwen 19",52.42237955,13.16120178
+"Ulricistraße 32",52.413355,13.134727
+"Rheinbabenallee 49",52.470314,13.289157
+"Waltraudstraße 27",52.448178,13.264818
+"Hugo-Vogel-Straße 38-42",52.424173,13.155112
+"Teutonenstraße 15",52.427638,13.195917
+"Riemeisterstraße 78",52.446996,13.257286
+"Ihnestraße 47",52.446679,13.274895
+"Hohenzollernstraße 21",52.432003,13.251213
+"Scharfestraße 14",52.437837,13.258499
+"Koserstraße 21",52.461896,13.295051
+"Kleiststraße 12",52.500252,13.352401
+"Berliner Straße 71",52.487493,13.310733
+"Pfeddersheimer Weg 50",52.426797,13.207284
+"Karl-Kunger-Straße 22",52.490018,13.448931
+"Puderstraße 22",52.485877,13.464705
+"Rethelstraße 6a",52.484272,13.465543
+"Güldenhofer Ufer 10",52.465726,13.493693
+"Spreestraße 1",52.450372,13.572102
+"Königsheideweg 269",52.446228,13.507663
+"Dörpfeldstraße 23",52.436975,13.545826
+"Wassermannstraße 69",52.440279,13.551297
+"Albert-Einstein-Straße 15",52.427911,13.531328
+"Salvador-Allende-Straße 43-45",52.444742,13.59279
+"Alt-Köpenick 18",52.446134,13.574655
+"Ostendorfstraße 19",52.419971,13.590456
+"Wassersportallee 34",52.41577,13.57817
+"Heidekrugstraße 67",52.460408,13.595108
+"Bölschestraße 25",52.449904,13.624907
+"Bölschestraße 39",52.452002,13.625145
+"Bölschestraße 46",52.453001,13.625266
+"Bölschestraße 51",52.45362,13.625346
+"Bölschestraße 105",52.451613,13.624508
+"Mandrellaplatz 1",52.455179,13.580177
+"Janitzkystraße 37",52.461576,13.58866
+"Schillerpromenade 7a",52.476458,13.421828
+"Eulerstr. 14",52.553755,13.391069
+"Akazienstr. 3",52.427244,13.323737
+"An der Urania 16-18",52.502086,13.347253
+"Ansbacher Str. 18",52.503133,13.342421
+"Apostel-Paulus-Str. 20",52.487599,13.343002
+"Bamberger Str. 37",52.490297,13.337276
+"Bamberger Str. 48",52.493763,13.337515
+"Bamberger Str. 52",52.495275,13.337418
+"Bamberger Str. 55",52.496158,13.337511
+"Barbarossastr. 8",52.492171,13.350942
+"Barbarossastr. 45",52.49211,13.344149
+"Barbarossastr. 53",52.491969,13.347425
+"Bayreuther Str. 34",52.500752,13.343363
+"Bayreuther Str. 38",52.50231162,13.34416956
+"Beckerstr. 24",52.466949,13.343255
+"Belziger Str. 30",52.487048,13.353007
+"Belziger Str. 37",52.486436,13.352118
+"Belziger Str. 39",52.486351,13.351877
+"Bennigsenstr. 17",52.476522,13.33944
+"Berchtesgadener Str. 35",52.490919,13.343898
+"Berchtesgadener Str. 37",52.491459,13.343861
+"Bozener Str. 9",52.486696,13.337314
+"Brünnhildestr. 3",52.476372,13.330412
+"Brünnhildestr. 8",52.476851,13.330816
+"Bülowstr. 4",52.43665,13.234603
+"Bülowstr. 88",52.498181,13.361415
+"Bundesallee 79",52.470229,13.328061
+"Courbièrestr. 5",52.50172,13.349612
+"Courbièrestr. 15",52.501724,13.350231
+"Courbièrestr. 16",52.501734,13.350531
+"Crellestr. 6",52.487013,13.358779
+"Crellestr. 42 und 42a",52.487675,13.359572
+"Crellestr. 46",52.487189,13.358333
+"Dennewitzstr. 35",52.49882742,13.36922308
+"Dickhardtstr. 15",52.467606,13.334629
+"Dickhardtstr. 39",52.467165,13.334502
+"Eisenacher Str. 25",52.49394,13.349388
+"Eisenacher Str. 80",52.488871,13.349384
+"Eisenacher Str. 116",52.498916,13.349643
+"Elßholzstr. 30-33",52.492482,13.356737
+"Freisinger Str. 5a",52.491098,13.347177
+"Freisinger Str. 6",52.491095,13.347458
+"Freisinger Str. 8",52.49109,13.347957
+"Gleditschstr.  55",52.491767,13.355427
+"Gleditschstr.  80",52.489026,13.354809
+"Goltzstr. 13",52.49248,13.353646
+"Goltzstr. 42",52.491599,13.353067
+"Goßlerstr. 9",52.470222,13.325837
+"Goßlerstr. 20",52.469147,13.32472
+"Goßlerstr. 21",52.469342,13.325042
+"Goßlerstr. 25",52.470122,13.326371
+"Gossowstr. 1",52.49652,13.348285
+"Großgörschenstr. 35",52.491573,13.363991
+"Grunewaldstr. 56",52.488113,13.338984
+"Grunewaldstr. 44",52.488853,13.341868
+"Handjerystr. 37",52.470683,13.332165
+"Hauptstr. 30",52.484382,13.350861
+"Heilbronner Str. 21",52.491529,13.340719
+"Hewaldstr. 9",52.481714,13.344037
+"Innsbrucker Str. 32",52.479171,13.343842
+"Innsbrucker Str. 36",52.480498,13.34321
+"Keithstr. 14",52.503067,13.346092
+23/11/1876,52.5160713196,13.3769798279
+20/2/1879,52.5160713196,13.3769798279
+8/11/1883,52.5160713196,13.3769798279
+"Kolonnenstr. 10-11",52.485699,13.361818
+"Kolonnenstr. 46",52.485251,13.363978
+"Elberfelder Str. 30",52.522701,13.336226
+"Kufsteiner Str. 57",52.482885,13.337295
+"Landshuter Str. 3",52.493592,13.338355
+"Landshuter Str. 8",52.492536,13.338474
+"Landshuter Str. 14",52.491294,13.338936
+"Langenscheidtstr. 11",52.489739,13.361778
+"Laubacher Str. 28",52.476926,13.320537
+"Lietzenburger Str. 20 b",52.500088,13.339501
+"Luitpoldstr. 21",52.495116,13.344037
+"Luitpoldstr. 40",52.495173,13.34697
+"Luitpoldstr. 41",52.495173,13.34697
+"Martin-Luther-Str. 11",52.49866822,13.34608793
+"Martin-Luther-Str. 12",52.498613,13.345873
+"Martin-Luther-Str. 17",52.612353,13.295119
+"Martin-Luther-Str. 53",52.49189928,13.34519684
+"Martin-Luther-Str. 65",52.4904187,13.34514085
+"Martin-Luther-Str. 111",52.481829,13.3453
+"Martin-Luther-Str. 127",52.479926,13.345243
+"Meraner Str. 11",52.486866,13.339255
+"Meraner Str. 54",52.482981,13.337989
+"Moselstr. 4",52.469005,13.334257
+"Motzstr. 28",52.497857,13.347871
+"Motzstr. 30",52.497745,13.347533
+"Motzstr. 51",52.496197,13.343567
+"Münchener Str. 18",52.490994,13.34158
+"Münchener Str. 18 a",52.490863,13.341557
+"Münchener Str. 21-22",52.382502,13.415818
+"Münchener Str. 25",52.488474,13.342114
+"Münchener Str. 30",52.488128,13.342625
+"Münchener Str. 48",52.493281,13.34205
+"Nollendorfstr. 13-14",52.497998,13.352355
+"Nürnberger Str. 65",52.503858,13.340484
+"Pallasstr. 5-6",52.494688,13.359471
+"Pallasstr. 12",52.494628,13.357172
+"Potsdamer Str. 138",52.498386,13.361948
+"Potsdamer Str. 159",52.494991,13.361412
+"Potsdamer Str. 185",52.49290824,13.36094169
+"Regensburger Str. 2",52.495939,13.340258
+"Regensburger Str. 33",52.495673,13.339374
+"Rosenheimer Str. 13",52.490457,13.34593
+"Rosenheimer Str. 22",52.490313,13.342875
+"Salzburger Str. 8",52.487051,13.342413
+"Schwerin Str. 5",52.497683,13.357912
+19/4/1893,52.5160713196,13.3769798279
+"Starnberger Str. 3",52.493002,13.347258
+"Stierstr. 3",52.474711,13.337751
+"Stierstr. 4",52.474944,13.337752
+"Stierstr. 14-15",52.474981,13.337261
+"Stierstr. 16",52.474743,13.337266
+"Stierstr. 18",52.474335,13.336665
+"Stierstr. 19",52.474334,13.336659
+"Stierstr. 20",52.473941,13.336569
+"Stierstr. 21",52.473717,13.337192
+"Stübbenstr. 1",52.488686,13.338159
+"Taunusstr. 4",52.473645,13.32579
+"Taunusstr. 20",52.473362,13.322899
+"Treuchtlinger Str. 5",52.491618,13.33828
+"Varziner Str. 9",52.477253,13.326344
+"Jagowstraße 44",52.519427,13.331384
+"Vorbergstr. 3",52.488944,13.357306
+"Vorbergstr. 15",52.488747,13.357039
+"Wartburgstr. 42",52.486861,13.346695
+"Welserstr. 2",52.49628,13.341984
+"Wilhelmshöher Str. 14",52.472687,13.322315
+29/4/1911,52.5160713196,13.3769798279
+"Willmanndamm 6",52.490752,13.363937
+"Alt-Tempelhof 9-11",52.465563,13.387306
+"Bäumerplan 11",52.479179,13.375545
+"Burgherrenstr. 4",52.484123,13.382321
+"Friedrich-Karl-Str. 5",52.56486543,13.32981203
+"Hoeppner Str. 4",52.471923,13.384746
+"Kleineweg 77",52.476566,13.384382
+"Kleineweg 105",52.4756,13.384355
+"Manfred-von-Richthofen-Str. 9",52.483669,13.383818
+"Manfred-von-Richthofen-Str. 28",52.482197,13.380252
+"Manfred-von-Richthofen-Str. 30",52.481717,13.379772
+"Manfred-von-Richthofen-Str. 221",52.47278,13.384762
+"Paradestr. 22",52.478412,13.382284
+"Peter-Strasser-Weg 22",52.476401,13.383044
+"Schulenburgring 2",52.483647,13.381836
+"Tempelhofer Damm 84",52.474157,13.385379
+"Tempelhofer Damm 138",52.466931,13.385214
+"Wiesener Str. 33",52.472871,13.379023
+"Wulfila Ufer 52",52.450103,13.371655
+"Äneasstr. 8",52.446382,13.39955
+"Dirschelweg 16",52.445259,13.398607
+"Hochfeilerweg 23 a",52.427839,13.395978
+"Königstr. 29",52.446636,13.38492
+"Richterstr. 48",52.442465,13.383076
+"Alt-Lichtenrade 24-26",52.403836,13.406817
+"Alt-Lichtenrade 123",52.389539,13.410709
+"Beethovenstr. 29",52.437567,13.332053
+"Charlottenstr. 18",52.59023,13.411177
+"Franziusweg 63",52.39336,13.388479
+"Gallunerstr. 31",52.378839,13.406653
+"Gallunerstr. 41",52.377647,13.407563
+"Grenzweg 1",52.394216,13.390897
+"Hilbertstr. 1-2",52.38639,13.39528
+"Maffeistr. 49",52.391339,13.383997
+"Mellenerstr. 33",52.387169,13.405349
+"Mozartstr. 22",52.510309,13.547136
+"Uhlandstr. 41 a",52.5033874512,13.3386392593
+"Drakestr. 47",52.44247,13.296874
+"Potsdamer Str. 32",52.509574,13.374226
+"Unter den Eichen 65",52.44560704,13.29310566
+"Drakestr. 19",52.437874,13.302688
+"Drakestr. 53",52.441004,13.298433
+"Drakestr. 58",52.439295,13.300344
+"Gardeschützenweg 96",52.445557,13.303469
+"Ringstr. 102 D",52.44635135,13.36538047
+"Potsdamer Str. 62",52.50513,13.367093
+"Söthstr. 2",52.436693,13.311173
+"Baseler Str. 13",52.441896,13.295967
+"Baseler Str. 27",52.564782,13.353902
+"Kyllmannstr. 22",52.441787,13.302444
+"Hartmannstr. 35",52.435356,13.324602
+"Augustastr. 37",52.442881,13.314212
+6/2/1891,52.5160713196,13.3769798279
+"Vionvillestr. 21",52.447758,13.331104
+"Schillerstraße 10a",52.51108,13.318642
+"Hubertusstraße 5",52.459905,13.325537
+"Marschnerstr. 38",52.444196,13.316754
+"Althoffstr. 1",52.457112,13.327341
+"Waldmannstr. 1",52.435909,13.333378
+"Dürerstr. 17",52.438548,13.307751
+"Rotdornweg 14",52.428778,13.291075
+"Königsberger Str. 13",52.43084,13.319905
+"Poschinger Str. 14",52.463838,13.338607
+"Manteuffelstr. 27",52.502139,13.428635
+"Ostpreußendamm 51",52.426227,13.316679
+"Goethestr. 37",52.553112,13.437419
+"Mozartstr. 10",52.512232,13.547972
+"Martinstr. 8",52.452309,13.323416
+"Viktoriastr. 4a",52.443381,13.303023
+"Steinstr. 4",52.453331,13.33492
+"Steglitzer Damm 8",52.450696,13.336827
+"Ahornstr. 3",52.501434,13.351665
+"Bismarckstr. 47",52.511712,13.304323
+"Leonorenstr. 79",52.438232,13.344622
+"Boothstr. 33",52.433033,13.328698
+"Stirnerstr. 1",52.451806,13.337688
+"Althoffstr. 4",52.457086,13.3282
+"Albrechtstr. 59a",52.461675,13.378188
+"Boothstr. 20c",52.434798,13.323157
+"Althoffstr. 8",52.457023,13.329164
+"Curtiusstr. 108",52.436026,13.281622
+"Moltkestr. 51",52.447032,13.306755
+"Immenweg 7",52.451317,13.346325
+"Rothenburgstraße 18",52.453968,13.313131
+"Breite Str. 15/16",52.536224,13.204762
+"Havelstr. 20",52.538484,13.2063
+"Lenther Steig 19",52.54076,13.266934
+"Schönwalder Str 13/14",52.542161,13.371646
+"Ruhlebener Str. 155",52.526363,13.217956
+"Rieppelstr. 2",52.5438,13.264672
+"Carl-Schurz-Str. 39",52.537706,13.203715
+"Markt 11",52.537377,13.204656
+"Pionierstr. 69",52.552192,13.182547
+"Kurze Str. 1",52.623484,13.298912
+"Mahnkopfweg 13-15",52.513683,13.201672
+"Sakrower Kirchweg 70a",52.446828,13.132866
+"Alt-Tegel 44-46",52.588586,13.278873
+"Alt-Wittenau 38",52.592718,13.325074
+"Am Klauswerder 11",52.592704,13.330291
+"Antonienstraße 12",52.570431,13.311676
+"Antonienstraße 61",52.569506,13.31095
+"Beatestraße 22 A",52.569136,13.231564
+"Berliner Str. 20",52.600559,13.431775
+"Berliner Str. 7-8",52.569318,13.411017
+"Bertramstraße 112",52.622893,13.326009
+"Billerbecker Weg 123 A",52.574307,13.273715
+"Bornepfad 4-6",52.614417,13.318306
+"Büdnerring 34 D",52.57352,13.37186
+"Dannenwalder Weg 62",52.591949,13.344842
+"Egidystraße 26",52.601666,13.303043
+"Eichborndamm 238",52.589708,13.325695
+"Eichborndamm 240",52.590056,13.325707
+"Emmentaler Str. 101",52.57121,13.362354
+"Erholungsweg 14",52.598037,13.304348
+"Ernststr. 94",52.585762,13.306407
+"Falkentaler Steig 16",52.620806,13.302513
+"Feuerweg 1",52.584271,13.32483
+"Gamsbartweg 12",52.572919,13.364317
+"Glambecker Weg 27 a",52.624388,13.290205
+Gorkistraße,52.590174,13.290786
+"Granatenstraße 2",52.568818,13.379852
+"Gutachstr. 14",52.610927,13.322151
+"Haßlinger Weg 9",52.559773,13.366384
+"Heidenheimer Straße 7",52.61503,13.307816
+"Hennigsdorfer Straße 14",52.612616,13.217904
+"Herbsteiner Str. 17",52.601619,13.341455
+"Hermsdorfer Straße 70",52.599438,13.323618
+"Hermsdorfer Straße 8",52.53061238,13.61297151
+"Holzhauser Straße 121",52.58409,13.309811
+"Im Amseltal 29",52.636548,13.281535
+"Isegrimsteig 28",52.602957,13.244298
+"Kienhorststraße 162",52.574874,13.313649
+"Kienhorststraße 34",52.573744,13.329841
+"Klosterheider Weg 1",52.617999,13.296026
+"Knappenpfad 7",52.629786,13.29065
+"Kol. Am Brocken II",44.4728813171,-71.1762619019
+"Nordbahnstr./Ecke Amendestr.",52.5723032918,13.3750399407
+"Kol. Vor den Toren",44.4728813171,-71.1762619019
+"Kreuzritterstr. 12a",52.628772,13.289779
+"Kühleweinstraße 69",52.56596,13.36987
+"Lengeder Str. 8",52.583037,13.348232
+"Lindauer Allee 17",52.573141,13.355748
+"Ludolfinger Weg 42",52.633252,13.278817
+"Luisenweg 10",52.575551,13.353544
+"Markgrafenstr. 64",52.507321,13.394059
+"Markgrafenstraße 22",52.508099,13.394361
+"Nimrodstr. 43",52.603169,13.315602
+"Olafstraße 8-10",52.619063,13.311385
+"Oranienburger Straße 285",52.578976,13.332669
+"Provinzstraße 48",52.569094,13.379416
+"Ritterlandweg 40",52.560571,13.37411
+"Roswithastraße 16",52.623619,13.307359
+"Saturnstraße 19",52.563894,13.320515
+"Scharnweberstraße 140",52.562782,13.329701
+"Scharnweberstraße 72",52.56809508,13.30868128
+"Schillingstraße 43",52.567153,13.320538
+"Schloßstr. 1",52.519115,13.295413
+"Schulzendorfer Straße 44",52.611797,13.304435
+"Seidelstr. 23",52.57280141,13.29752192
+"Septimer Straße",52.564897,13.342144
+"Spießweg 2",52.592247,13.330818
+"Techowpromenade 54",52.592348,13.332414
+"Tile-Brügge-Weg 43",52.59181,13.293905
+"Wachsmuthstr. 9",52.616507,13.312769
+"Waldowstraße 10",52.572157,13.334761
+"Wallenroder Straße 8-10",52.603644,13.341261
+"Werdohler Weg 11",52.570754,13.281843
+"Wesselburer Weg 2 A",52.60483,13.22382
+"Zeltinger Str. 65",52.64076,13.299584
+"Zermatter Straße 18",52.565779,13.349715
+"Ziekowstraße 139",52.591947,13.29134
+"Schönhauser Allee 138/139",52.54256129,13.41210898
+"Zehdenicker Straße 2",52.529967,13.407162
+"Choriner Straße 53",52.536075,13.409717
+"Prenzlauer Allee 34",52.534461,13.42187
+"Schönhauser Allee 187",52.529184,13.409528
+"Prenzlauer Allee 27",52.532799,13.421373
+"Immanuelkirchstraße 24",52.532137,13.425623
+"Stargarder Straße 6",52.547231,13.415658
+21/8/1893,52.5160713196,13.3769798279
+"Grellstraße 18",52.543205,13.432972
+"Schönhauser Allee 163/163A",52.5541,13.414769
+"Mendelssohnstraße 5",52.527202,13.418807
+22/10/1907,52.5160713196,13.3769798279
+"Raabestraße 13",52.532051,13.42201
+"Torstraße 75",52.529438,13.407051
+"Oderberger Straße 20",52.539638,13.407378
+"Heinrich-Roller-Straße 23",52.531265,13.421677
+"Sredzkistraße 54",52.537839,13.420607
+"Korsörer Straße 18",52.547541,13.402748
+"Prenzlauer Allee 15",52.530677,13.419539
+"Dunckerstraße 2 a",52.540782,13.419489
+Gutmann,44.4728813171,-71.1762619019
+"Raumerstraße 21",52.541187,13.423518
+"Schönhauser Allee 41",52.539785,13.412554
+"Winsstraße 14",52.533209,13.424956
+"Kastanienallee 29",52.537151,13.407918
+"Kopenhagener Straße 18",52.549138,13.407191
+"Florastraße 61",52.56638,13.40884
+"Buchholzer Straße 4",52.54516,13.415386
+"Fehrbelliner Straße 86",52.531835,13.406833
+"Woelckpromenade 7",52.552945,13.454036
+"Treskowstraße 1",52.5619036,13.42807683
+"Marienburger Straße 48",52.535416,13.423066
+"Bötzowstraße 10",52.52984,13.432037
+"Metzer Straße 30",52.531535,13.416984
+"Gubitzstaße 47A",52.544425,13.432511
+"Bergener Str. 1",52.554743,13.404909
+"Greifswalder Str. 152",52.544506,13.442243
+"Rietzestraße 1",52.543534,13.435908
+"Kastanienallee 74",52.536207,13.407501
+"Otto-Braun-Str. 87",52.527652,13.422225
+"Prenzlauer Allee 36",52.534745,13.422021
+"Bötzowstraße 60",52.535247,13.439031
+"Bötzowstraße 53",52.533898,13.436829
+"Prenzlauer Promenade 4",52.552713,13.430401
+"Metzer Straße 26",52.531245,13.417841
+"Heinrich-Roller-Straße 17",52.530441,13.423976
+"Templiner Straße 17",52.533064,13.409257
+"Christburger Str. 40",52.536232,13.426046
+"Greifswalder Straße 43 a",52.534746,13.431855
+"Straßburger Straße 24",52.531959,13.416488
+"Florastraße 42",52.566072,13.408856
+"Erich-Weinert-Straße 17",52.551708,13.41698
+"Kuglerstraße 20",52.552238,13.417468
+"Winsstraße 40",52.537371,13.428313
+"Kastanienallee 13/14",52.513401,13.26956
+"Heinrich-Roller-Sraße 10",52.529833,13.424708
+"Kopenhagener Straße 11",52.549224,13.409956
+"Am Friedrichshain 14",52.529115,13.43181
+"Schönhauser Allee 130",52.545476,13.412403
+"Lottumstraße 7",52.530621,13.407974
+"Straßburger Straße 60",52.528524,13.411968
+"Christinenstraße 35",52.530673,13.408133
+"Immanuelkirchstr. 5",52.532759,13.422978
+"Dunckerstraße 58",52.548874,13.426271
+"Mendelssohnstraße 10",52.526899,13.419361
+"Donaustraße 11",52.48429,13.431371
+"Donaustraße 18",52.483378,13.433203
+"Flughafenstraße 41",52.480836,13.427151
+"Fuldastraße 12",52.484097,13.436536
+"Gielower Straße 32c",52.444202,13.450594
+"Gretelstraße 10",52.468353,13.472738
+"Hermannstraße 46",52.478732,13.425435
+"Hermannstraße 48",52.478415,13.425532
+"Herrfurthstraße 5",52.477506,13.424611
+"Hobrechtstraße 57",52.491171,13.425843
+"Innstraße 24",52.479287,13.441495
+"Jonasstraße 4",52.52722,13.339387
+"Juliusstraße 39",52.463204,13.435228
+"Lenaustraße 21",52.49031,13.426914
+"Karl-Marx-Str. 16",52.485025,13.426745
+"Karl-Marx-Str. 26",52.404284,13.109217
+"Karl-Marx-Str. 36",52.627364,13.320329
+"Karl-Marx-Str. 43",52.483811,13.430346
+"Karl-Marx-Str. 55",52.48312,13.431852
+Karl-Marx-Str.56,52.480626,13.616454
+Karl-Marx-Str.58,52.480773,13.616584
+Karl-Marx-Str.69,52.482481,13.433205
+Karl-Marx-Str.76,52.41088763,13.22388482
+Karl-Marx-Str.93,52.480395,13.436243
+"Karl-Marx-Str. 100",52.479406,13.436927
+"Karl-Marx-Str. 112",52.407326,13.22525
+"Karl-Marx-Str. 118",52.478089,13.43788
+"Karl-Marx-Str. 169",52.474944,13.440093
+"Karl-Marx-Str. 175",52.474557,13.440305
+"Karl-Marx-Str. 212",52.470881,13.441162
+"Maybachufer 8",52.494993,13.423021
+"Nansenstraße 18",52.490906,13.432293
+"Oderstraße 50",52.476095,13.418963
+"Richardstraße 49",52.47278,13.445678
+"Rungiusstraße 33",52.46026,13.441339
+"Sanderstraße 20",52.492644,13.426691
+"Sanderstraße 28",52.492385,13.423812
+"Schierkerstraße 5",52.471175,13.439643
+"Silbersteinstraße 97",52.46584,13.427908
+"Sonnenallee 137",52.479674,13.444619
+"Steinbockstraße 23",52.470908,13.4684
+"Warthestraße 69",52.470013,13.428108
+"Weichselstraße 28",52.487363,13.437269
+"Weichselstraße 52",52.48649,13.435636
+"Weserstraße 54",52.483387,13.440537
+Otto-Nagel-Str.19,52.518993,13.551986
+Otto-Nagel-Str.38,52.522905,13.552846
+"Otto-Nagel-Str. 38",52.522905,13.552846
+"Lohengrinstr. 2",52.511972,13.604005
+Lohengrinstr.2,52.511972,13.604005
+"Eichenhofweg 9",52.491983,13.605706
+"Hertwigswalder Steig 8",52.514095,13.588928
+"Adalbertstr. 72",52.504249,13.421195
+"Adalbertstr. 77",52.50355,13.420696
+"Adalbertstr. 87",52.501871,13.419504
+"Adalbertstr. 95a",52.500702,13.418305
+"Admiralstr. 14",52.496593,13.415773
+"Admiralstr. 19",52.495813,13.415222
+"Alte Jakobstr. 124",52.503807,13.398663
+"Alte Jakobstr. 169",52.500414,13.397524
+"Alte Jakobstr. 33/35",52.50686416,13.40284202
+"Am Ostbahnhof",52.510098,13.433018
+"Andreasstr. 25",52.514934,13.431852
+"Andreasstr. 34",52.516541,13.433018
+"Anhalter Str. 1",52.504492,13.382798
+"Arndtstr. 20",52.488736,13.390788
+"Arndtstr. 25",52.488588,13.389973
+"Baerwaldstr. 11",52.494319,13.40278
+"Baerwaldstr. 47",52.490983,13.401124
+"Mehringdamm 86",52.488879,13.385835
+"Mehringdamm 88",52.488701,13.385802
+"Mehringdamm 69",52.490268,13.387058
+"Bergmannstr. 97",52.489647,13.391055
+"Bevernstr. 3",52.501668,13.442242
+"Bevernstr. 6",52.501548,13.44284
+"Lehmbruckstr. 20",52.502391,13.452595
+"Böckhstr. 37",52.49343433,13.41990107
+"Böckhstr. 49",52.494321,13.41702
+"Böckhstr. 53",52.494561,13.416095
+"Boppstr. 2",52.490973,13.420953
+"Boxhagener Str. 27",52.512548,13.458216
+"Lobeckstr. 43",52.504157,13.407558
+"Lobeckstr. 44",52.503792,13.407211
+"Kohlfurter Str. 7",52.497823,13.414772
+"Körtestr. 5",52.491227,13.41201
+"Cuvrystr. 2",52.500257,13.446202
+"Dieffenbachstr. 30",52.492029,13.418131
+"Dieffenbachstr. 45",52.492118,13.419049
+"Dieffenbachstr. 49",52.492175,13.418822
+"Dieffenbachstr. 54",52.49238,13.417997
+"Dieffenbachstr. 70",52.49382,13.412281
+"Dolziger Str. 1",52.51967,13.462734
+"Dresdener Str. 15",52.500998,13.417116
+"Dresdener Str. 19",52.501566,13.416688
+"Dresdener Str. 20",52.501721,13.416572
+"Leuschnerdamm 43",52.50286,13.416881
+"Falckensteinstr. 49",52.501033,13.445142
+"Feilnerstr. 3 a",52.505671,13.39908
+"Fichtestr. 29",52.490498,13.413451
+"Fontanepromenade 2",52.490007,13.407466
+"Fontanepromenade 5",52.490461,13.407791
+"Frankfurter Allee 35 / 37",52.515228,13.461742
+"Freiligrathstr. 7",52.490967,13.409978
+"Friedrichstr. 11",52.438806,13.291248
+"Friedrichstr. 16",52.438154,13.294545
+"Friesenstr. 18",52.486873,13.394636
+"Straße der Pariser Kommune",52.5125007629,13.4386110306
+"Straße der Pariser Kommune 40",52.516392,13.44076
+"Karl-Marx-Allee 90",52.516945,13.440038
+"Straße der Pariser Kommune 13",52.51201,13.436928
+"Gabelsbergerstr. 6",52.516022,13.46365
+"Gitschiner Str. 32 - 37",52.498009,13.406889
+"Gneisenaustr. 101",52.492425,13.391639
+"Gneisenaustr. 4",52.492371,13.388753
+"Görlitzer Str. 74",52.498997,13.43345
+"Graefestr. 3",52.495126,13.419141
+"Graefestr. 5",52.494868,13.418943
+"Graefestr. 69",52.491727,13.416996
+"Graefestr. 91",52.494954,13.419477
+"Großbeerenstr. 1",52.501311,13.386044
+"Großbeerenstr. 24",52.494768,13.383652
+Großbeerenstr.5,52.49975413,13.38557884
+"Großbeerenstr. 56 C",52.49217,13.384092
+"Großbeerenstr. 92",52.499984,13.385923
+"Strausberger Platz",52.519249,13.42768
+"Gubener Str. 22",52.510849,13.44908
+"Gubener Str. 36",52.509942,13.450174
+"Hagelberger Str. 26",52.491934,13.379817
+"Hagelberger Str. 34",52.49105,13.380556
+"Hallesche Str. 19",52.50137687,13.38324934
+"Hallesche Str. 20",52.501141,13.383588
+"Hallesche Str. 3",52.501277,13.384667
+"Hallesches Ufer 28",52.498806,13.387277
+"Hasenheide 68",52.488449,13.410158
+"Hasenheide 7 / 8",52.487112,13.422606
+"Alexandrinenstr. 117",52.501261,13.401039
+"Hornstr. 23",52.493699,13.381835
+"Hornstr. 6",52.494327,13.381841
+"Köpenicker Str. 28",52.507281,13.428871
+"Köpenicker Str. 8A",52.50303,13.439262
+"Kopischstr. 2",52.487799,13.389408
+"Koppenstr. 31",52.516673,13.436581
+"Kottbusser Damm 5",52.494512,13.420773
+"Paul-Lincke-Ufer 41",52.496164,13.421803
+"Krautstr. 29",52.51347,13.427188
+"Kreuzbergstr. 25",52.489795,13.379815
+"Kreuzbergstr. 2 / 3",52.490179,13.385429
+"Kreuzbergstr. 72",52.489777,13.383631
+"Kreuzbergstr. 77",52.489783,13.385119
+"Lachmannstr. 4",52.49181,13.421663
+"Landsberger Allee 42",52.523501,13.439621
+"Platz der Vereinten Nationen 4/5",52.522657,13.432142
+"Lausitzer Platz 12 a",52.500963,13.431486
+"Liegnitzer Str. 4",52.495229,13.436053
+"Axel-Springer-Str. 50",52.508702,13.399752
+"Luckauer Str. 5",52.503704,13.41416
+"Mainzer Str. 23",52.480705,13.427675
+"Marheinekeplatz 4",52.48943,13.39655
+"Marheinekeplatz 8",52.489578,13.395614
+"Mariannenplatz 23",52.504196,13.426581
+"Mariannenstr. 23",52.497161,13.42047
+"Mariannenstr. 34",52.497531,13.421193
+"Matternstr. 9",52.521909,13.453702
+"Marchlewskistr. 20",52.515353,13.442881
+"Marchlewskistr. 28",52.514215,13.44384
+"Marchlewskistr. 38/40",52.513567,13.443679
+"Marchlewskistr. 100",52.508972,13.448151
+"Mittenwalder Str. 19",52.491836,13.396382
+"Moritzstr. 18",52.499241,13.40536
+"Muskauer Str. 16",52.502401,13.429372
+"Muskauer Str. 38",52.502495,13.428194
+"Muskauer Str. 48",52.501377,13.431208
+"Muskauer Str. 8",52.501196,13.432469
+"Naunynstr. 19",52.501534,13.422994
+"Naunynstr. 31",52.502192,13.420587
+"Naunynstr. 37",52.502624,13.419036
+"Naunynstr. 46",52.502687,13.417278
+"Oderstr. 34",52.473628,13.422638
+"Oranienstr. 120",52.505437,13.403509
+"Oranienstr. 144",52.50389546,13.40991855
+"Oranienstr. 145 / 146",52.50381142,13.41021895
+"Oranienstr. 158",52.502832,13.413118
+"Oranienstr. 167",52.501731,13.417162
+"Oranienstr. 173",52.501389,13.418409
+"Oranienstr. 175",52.501086,13.418567
+"Oranienstr. 187",52.500507,13.421617
+"Oranienstr. 206",52.499386,13.425523
+"Oranienstr. 198",52.499963,13.423551
+"Oranienstr. 207",52.499647,13.424781
+"Oranienstr. 34",52.501665,13.4183
+"Oranienstr. 66",52.504446,13.408851
+"Oranienstr. 72",52.504945,13.40717
+"Oranienstr. 88",52.50604016,13.40209508
+"Planufer 89 - 90",52.495,13.416368
+"Prinzenstr. 97",52.500862,13.407917
+"Pücklerstr. 38",52.503154,13.432067
+"Ratiborstr. 7",52.493213,13.439261
+"Reichenberger Str. 120",52.495126,13.432379
+"Reichenberger Str. 133",52.496117,13.429025
+"Reichenberger Str. 181",52.499908,13.415931
+"Reichenberger Str. 72 a",52.494373,13.433582
+"Reichenberger Str. 84",52.493523,13.436465
+"Reichenberger Str. 96",52.492863,13.440631
+"Rigaer Str. 30",52.516557,13.463424
+"Rigaer Str. 57",52.515343,13.471538
+"Ritterstr. 96-99",52.50191,13.407499
+"Ritterstr. 33",52.503419,13.404595
+"Ritterstr. 61",52.505051,13.397425
+"Ritterstr. 63",52.504929,13.397885
+"Rochowstr. 13 A",52.500409,13.458217
+"Stresemannstr. 44",52.501483,13.386622
+"Samariterstr. 1",52.515045,13.464706
+"Samariterstr. 29",52.517719,13.465545
+"Schleiermacherstr. 11",52.492363,13.398153
+"Schleiermacherstr. 15",52.491713,13.397971
+"Schlesische Str. 20",52.498491,13.446396
+"Schlesische Str. 27",52.498583,13.448063
+"Schlesische Str. 44",52.50054002,13.44302505
+"Schönleinstr. 18",52.490615,13.419747
+"Sebastianstr. 79",52.50461,13.412107
+"Simon-Dach-Str. 25",52.507967,13.455502
+"Skalitzer Str. 141 a",52.499086,13.416345
+"Skalitzer Str. 32",52.498936,13.424892
+"Skalitzer Str. 5",52.498534,13.416155
+"Skalitzer Str. 81",52.5007,13.439052
+"Solmsstr. 30",52.489726,13.392297
+"Solmsstr. 42",52.492405,13.393063
+"Sorauer Str. 9 / 9 A",52.498663,13.437978
+"Stallschreiberstr. 43",52.507313,13.406248
+"Stallschreiberstr. 11",52.505135,13.40979
+"Stralauer Allee 24",52.499962,13.458002
+"Strausberger Str. 39",52.521115,13.43178
+"Tempelherrenstr. 3",52.494821,13.40087
+"Richard-Sorge-Str. 65",52.521945,13.445866
+"Torellstr. 4",52.511179,13.447941
+"Blücherstr. 61 b",52.49459255,13.39931713
+"Urbanstr. 3",52.494113,13.400804
+"Urbanstr. 71",52.488402,13.423207
+"Waldemarstr. 42",52.503338,13.419858
+Waldemarstr,52.504588,13.415815
+Waldemarstr.,52.504588,13.415815
+"Waldemarstr. 96",52.50149,13.426505
+"Warschauer Str. 12",52.513258,13.452508
+"Wartenburgstr. 16",52.49534,13.381539
+"Wassertorstr. 1 / 2",52.499048,13.411858
+"Wassertorstr. 22",52.500587,13.406259
+"Weidenweg 44 / 46",52.517986,13.451612
+"Wiener Str. 16",52.497795,13.430096
+"Wiener Str. 33",52.496428,13.434112
+"Wilhelmstr. 140",52.500338,13.388484
+"Willibald-Alexis-Str. 15",52.48772,13.392098
+"Willibald-Alexis-Str. 39",52.487191,13.395343
+"Wrangelstr. 65",52.497203,13.444903
+"Wrangelstr. 9",52.504074,13.42822
+"Wühlischstr. 32",52.509813,13.457038
+"Yorckstr. 88",52.49295,13.38575
+"Zossener Str. 29",52.489953,13.394205
+"Petersburger Str. 63",52.520339,13.452303
+"Höchste Str. 14-16",52.525619,13.427555
+"Hornstr. 19",52.493864,13.380979
+"Johanniterstr. 6",52.4959,13.399647
+"Kochhannstr. 1",52.523325,13.445571
+"Kommandantenstr. 57",52.506953,13.405728
+"Lausitzer Str. 31",52.495287,13.426966
+"Reichenberger Str. 49",52.496464,13.426471
+"Hornstr. 11",52.494561,13.380614
+"Lange Str. 81",52.513001,13.430375
+"Manteuffelstr. 49",52.49819,13.425209
+"Prinzenstr. 40",52.504104,13.411311
+"Yorckstr. 89",52.492839,13.386333
+"Manteuffelstr. 21",52.503006,13.429385
+"Prinzessinnenstr. 21 - 24",52.502231,13.413122
+"Erkelenzdamm 25",52.499516,13.414476
+"Reichenberger Str. 184",52.500113,13.415242
+"Lange Str. 79",52.51288,13.432091
+"Platz der Vereinten Nationen 26",52.523479,13.428099
+"Schenkendorfstr. 2",52.488904,13.392667
+"Dudenstr. 32 / 32 A",52.485149,13.380861
+"Strausberger Platz 15",52.518002,13.427567
+"Friedrichstr. 34",52.505349,13.390928
+"Planufer 93 A",52.495613,13.418595
+"Niederbarnimstr. 13",52.513153,13.457878
+"Mainzer Str. 18",52.480044,13.326357
+"Scharnweberstr. 46",52.512609,13.466474
+Friedrichstr.40,52.50612,13.390799
+"Alexandrinenstr. 31",52.50382,13.405108
+"Blücherstr. 18",52.494815,13.397985
+"Skalitzer Str. 121",52.499331,13.423617
+"Friedenstr. ",52.521591,13.435982
+"Lichtenberger Str. 40",52.513383,13.425361
+"Lindenstr. 83",52.504269,13.395701
+"Lindenstr. 69",52.506009,13.397047
+"Lindenstr. 77 - 79",52.505244,13.396123
+"Lindenstr. 107",52.500393,13.39364
+"Lindenstr. 91",52.502875,13.393788
+"Sonntagstr. 29",52.50586,13.465832
+"Sonntagstr. 11",52.506046,13.466129
+"Mühsamstr. 61",52.520833,13.452756
+"Sonntagstr. 32",52.505147,13.466712
+"Fraenkelufer 34",52.495587,13.413723
+"Tempelherrenstr. 8 / 8 A",52.495687,13.401776
+"Barnimstr. 38",52.525324,13.423416
+"Barnimstr. 18",52.526173,13.422661
+"Markgrafendamm 35",52.49802,13.464788
+"Markgrafendamm 16",52.50044,13.466598
+"Markgrafendamm 25",52.501636,13.466088
+"Stralauer Allee 23 A",52.499474,13.458873
+"Stralauer Allee 23 B",52.499441,13.45872
+"Bödikerstr. 35",52.49846294,13.46261785
+"Corinthstr. 63",52.49895,13.465245
+"Corinthstr. 51",52.499421,13.463746
+"Danneckerstr. 21",52.501586,13.454072
+"Skalitzer Str. 46",52.499044,13.430201
+"Prinzenstr. 32-33",52.502373,13.409972
+"Gryphiusstr. ",52.508674,13.463579
+"Fürbringerstr. 18",52.492748,13.398127
+"Koppenstr. 41 / 41A",52.519316,13.437473
+"Schreinerstr. 52 / 52A",52.517548,13.46498
+"Jahnstr. 2",52.48945,13.419402
+"Kreutzigerstr. 28",52.514403,13.461136
+"Revaler Str. 6",52.508586,13.451738
+"Pfuelstr. 6",52.502308,13.440322
+"Otto-Braun-Str. 86/88",52.526622,13.422355
+"Johanniterstr. 3",52.495823,13.39861
+"Willibald-Alexis-Str. 42",52.487147,13.396006
+"Manteuffelstr. 5",52.505187,13.431271
+"Singerstr. 66",52.514589,13.436092
+"Friedenstr. 4",52.485232,13.601489
+"Riemannstr. 4",52.490499,13.393507
+"Cuvrystr. 13 - 15",52.498636,13.443995
+"Ritterstr. 109",52.501463,13.409601
+"Muskauer Str. 51",52.500903,13.432425
+"Cuvrystr. 42",52.497868,13.444663
+"Hasenheide 54",52.489053,13.409947
+"Grünberger Str. 43",52.512178,13.455006
+"Naunynstr. 35",52.502509,13.419434
+"Naunynstr. 2",52.500464,13.426878
+"Segitzdamm 12",52.500856,13.414064
+"Segitzdamm 8",52.501127,13.414261
+"Besselstr. 19",52.50436574,13.39269876
+"Krautstr. 38 A",52.514127,13.428293
+"Admiralstr. 23",52.49617,13.415879
+"Blumenstr. 47 - 49",52.516918,13.431394
+"Richard-Sorge-Str. 73",52.520265,13.447087
+"Kleine Andreasstr. 8/9",52.514201,13.42964
+"Wrangelstr. 18",52.503203,13.430328
+"Grünberger Str. 6",52.512985,13.448487
+"Otto-Braun-Str. 90",52.527419,13.423293
+"Dresdener Str. 128",52.500371,13.417126
+"Robert-Siewert-Str. 44",52.492182,13.530315
+"Grünberger Str. 19",52.512819,13.451124
+"Frankfurter Allee 43",52.51508,13.463198
+"Wrangelstr. 127",52.50394,13.429354
+"Wrangelstr. 92",52.499667,13.439596
+"Wilhelmstr. 22/23",52.503705,13.388061
+"Wrangelstr. 94",52.499822,13.439219
+"Friedenstraße 8",52.526309,13.427899
+"Prinzenstr. 23",52.50089,13.408844
+"Frankfurter Allee 9",52.516086,13.456596
+"Fidicinstr. 1-2",52.487186,13.386533
+"Mühsamstr. 48-52",52.519903,13.450626
+"Kreutzigerstr. 13",52.513114,13.459639
+"Geibelstr. 1",52.494656,13.406423
+"Bergfriedstr. 11",52.5004,13.411817
+"Großbeerenstraße 5",52.438634,13.381433
+"Oranienstr. 119",52.505526,13.403123
+"Gitschiner Str. 70",52.498761,13.407209
+"Holsteinische Str. 12",52.489709,13.324934
+"Bleibtreustr. 33",52.500653,13.319527
+"Rudolstädter Straße 110",52.487926,13.304098
+"Schlüterstr. 54",52.503941,13.31751
+"Helgolandstr. 3",52.5033874512,13.3386392593
+"Joachim-Friedrich-Str. 20",52.499282,13.29666
+"Nassauische Str. 30",52.488484,13.326218
+"Wielandstr. 17",52.5033874512,13.3386392593
+"Saldernstr. 2",52.511039,13.286435
+"Uhlandstr. 114",52.5033874512,13.3386392593
+"Sybelstr. 44",52.501799,13.299937
+"Schloßstr. 56",52.51615,13.297001
+"Goethestr. 69",52.508748,13.316028
+"Knesebeckstr. 31",52.503641,13.320715
+"Güntzelstr. 49",52.490871,13.327491
+"Helmstedter Str. 24",52.489609,13.33449
+"Hektorstr. 18",52.499272,13.297512
+"Duisburger Str. 1",52.498206,13.311484
+"Gneiststr. 8",52.544071,13.414758
+"Pestalozzistr. 99 A",52.507491,13.317298
+"Nassauische Str. 54",52.490329,13.326718
+"Leonhardtstr. 18",52.505307,13.296294
+"Wilhelmsaue 3",52.485287,13.329843
+"Einsteinufer 11",52.514249,13.327193
+"Wissmannstr. 11",52.484308,13.423332
+"Sybelstr. 5",52.502181,13.311065
+"Königin-Elisabeth-Str. 58",52.517649,13.280748
+"Waldschulallee 7",52.498131,13.268096
+"Bamberger Str. 22",52.490314,13.336641
+"Sybelstr. 18",52.502104,13.303364
+"Leonhardtstr. 5",52.505188,13.297967
+"Fasanenstr. 58",52.497015,13.327145
+"Landhausstr. 44",52.492459,13.328886
+"Stormstr. 10",52.5119,13.271078
+"Kantstr. 154a",52.505339,13.327389
+"Leonhardtstr. 17",52.505386,13.296043
+"Spandauer Damm 54",52.519124,13.289247
+"Knobelsdorffstr. 33",52.513121,13.291675
+"Paretzer Str. 10",52.481383,13.316287
+"Meinekestr. 7",52.501329,13.328717
+"Giesebrechtstr. 21",52.503058,13.308654
+"Hohenzollerndamm 201",52.493793,13.325798
+"Ringbahnstr. 5",52.466002,13.394347
+"Güntzelstr. 45",52.491114,13.325481
+"Marburger Str. 9A",52.502251,13.335978
+"Wilhelmsaue 138",52.484936,13.330387
+"Nassauische Str. 61",52.49266,13.32665
+"Kaiserdamm 115",52.510518,13.294425
+"Nassauische Str. 16A",52.490893,13.326169
+"Wilmersdorfer Str. 102/103",52.5038,13.307754
+"Pariser Str. 24",52.498691,13.317042
+"Wilhelmsaue 132",52.484993,13.328753
+"Lietzenburger Str. 99",52.499493,13.318639
+"Landauer Str. 11",52.472569,13.317952
+"Düsseldorfer Str. 77",52.494759,13.325402
+"Kurfürstendamm 184",52.500474,13.313994
+"Hektorstr. 9 ",52.500531,13.298144
+"Lietzenburger Str. 78",52.500127,13.32377
+"Kurfürstendamm 64",52.500608,13.310548
+"Prinzregentenstr. 90",52.490404,13.333271
+"Kaiserdamm 22",52.510378,13.283958
+"Konstanzer Str. 4",52.498306,13.311896
+"Jenaer Str. 20",52.489191,13.335728
+"Eschenallee 13 A",52.516896,13.267946
+"Helmstedter Str. 10",52.489604,13.334041
+"Waitzstr. 10",52.50078,13.305567
+"Xantener Str. 20",52.499214,13.309365
+"Kurfürstendamm 187",52.500727,13.315613
+"Bleibtreustr. 19",52.502445,13.319358
+"Bleibtreustr. 45",52.504002,13.320012
+"Georg-Wilhelm-Str. 5",52.498558,13.290623
+"Wielandstr. 30",52.5033874512,13.3386392593
+"Trendelenburgstr. 16",52.506182,13.291709
+"Niebuhrstr. 66",52.504335,13.311965
+"Dahlmannstr. 1",52.503514,13.30347
+"Giesebrechtstr. 18",52.502582,13.30937
+"Rudolstädter Str. 120",52.487641,13.303469
+"Niebuhrstr. 72",52.50422,13.315082
+"Leibnizstr. 19",52.510194,13.314734
+"Droysenstr. 18",52.502802,13.300954
+"Leonhardtstr. 10",52.505522,13.296926
+"Landhausstr. 36",52.490106,13.328932
+"Lietzenseeufer 7",52.507619,13.291631
+"Joachimstaler Str. 5",52.504839,13.33113
+"Friedrichsruher Str. 36",52.488535,13.298461
+"Kaiser-Friedrich-Str. 80/81",52.512316,13.301641
+"Wundtstr. 52",52.5033874512,13.3386392593
+"Wissmannstr. 17",52.483338,13.42331
+"Konstanzer Str. 3",52.498478,13.311977
+"Salzbrunner Str. 42",52.48577,13.29384
+"Gieselerstr. 12",52.490304,13.318176
+"Mommsenstr. 69",52.50273,13.320269
+"Wielandstr. 31",52.5033874512,13.3386392593
+"Sybelstr. 65",52.501925,13.311095
+"Giesebrechtstr. 13",52.501483,13.31102
+"Joachim-Friedrich-Str. 55",52.494315,13.295472
+"Berliner Str. 42",52.486633,13.319581
+"Brandenburgische Str. 43",52.496672,13.307789
+"Uhlandstr. 145",52.5033874512,13.3386392593
+"Konstanzer Str. 6",52.497529,13.311529
+"Galvanistr. 15",52.518727,13.315796
+"Droysenstr. 7",52.500988,13.300225
+"Leonhardtstr. 19",52.50524,13.296501
+"Niebuhrstr. 63",52.504361,13.311072
+"Kantstr. 148",52.50552,13.32414
+"Eislebener Str. 9",52.501126,13.333446
+"Kurfürstendamm 75",52.49940383,13.30372721
+"Witzlebenstr. 13",52.507189,13.292234
+"Düsseldorfer Str. 44-45",52.49695,13.310161
+"Pariser Str. 17",52.498114,13.31975
+"Mainzer Str. 16",52.480039,13.327158
+"Meierottostr. 6",52.497072,13.328884
+"Mommsenstr. 52",52.503243,13.311279
+"Aachener Str. 4",52.481762,13.318531
+"Ludwigkirchplatz 2",52.498006,13.32196
+"Krumme Str. 91",52.51536,13.31014
+"Carmerstr. 10",52.506634,13.32368
+"Windscheidstr. 37",52.509242,13.298746
+"Schlüterstr. 49",52.50238,13.317272
+"Paderborner Str. 9",52.496894,13.306909
+"Hektorstr. 17",52.499483,13.29754
+"Pestalozzistr. 6",52.572173,13.404534
+"Bielefelder Str. 21/ 22",52.489946,13.306706
+"Sächsische Str. 22",52.494121,13.317395
+"Nestorstr. 54",52.497835,13.300295
+"Regensburger Str. 28",52.495795,13.33638
+"Bayerische Str. 2",52.498604,13.314194
+"Wielandstr. 13",52.5033874512,13.3386392593
+"Württembergische Str. 40",52.498391,13.316289
+"Schellendorffstr. 31",52.475231,13.285138
+"Windscheidstr. 32",52.50826,13.298908
+"Babelsberger Str. 51a",52.48749,13.335403
+3/3/1884,52.5160713196,13.3769798279
+"Württembergallee 10",52.512033,13.262557
+"Goethepark 13/ Kaiser-Friedrich-Str. 67",52.509207,13.302158
+"Niebuhrstr. 67",52.504327,13.312253
+"Leonhardtstr. 6",52.505271,13.297709
+"Kantstr. 33",52.506309,13.316529
+"Hektorstr. 20",52.498919,13.297466
+"Bayerische Str. 5",52.497978,13.313945
+"Horstweg 38",52.511663,13.29371
+"Prinzregentenstr. 6",52.491512,13.332778
+"Landauer Str. 3",52.47289,13.319036
+"Wielandstr. 12",52.5033874512,13.3386392593
+"Wilhelmsaue 4",52.485402,13.32926
+"Mommsenstr. 56",52.503175,13.312485
+"Olivaer Platz 5",52.498805,13.314945
+"Schillerstr. 14",52.511148,13.31627
+"Aschaffenburger Str. 22",52.492224,13.335282
+"Tauentzienstr. 13A",52.503918,13.33651
+"Roscherstr. 12",52.500716,13.302231
+"Brixplatz 6",52.519508,13.254578
+"Emser Str. 39",52.498517,13.319605
+"Sesenheimer Str. 14",52.510393,13.307933
+"Wilhelmsaue 136",52.484964,13.32958
+"Sächsische Str. 48",52.492636,13.317624
+"Schlüterstr. 17",52.507319,13.317426
+"Sophie-Charlotten-Str. 104",52.51831,13.28706
+"Hohenzollerndamm 102",52.475919,13.280317
+"Niebuhrstr. 77",52.503999,13.318469
+"Ludwigkirchplatz 8",52.497344,13.320864
+"Damaschkestr. 23",52.500667,13.298521
+"Augsburger Str. 42",52.502678,13.33279
+"Reichsstr. 106",52.510405,13.270177
+"Helmstedter Str. 5",52.491277,13.334053
+"Kurfürstendamm 212",52.502078,13.325466
+"Güntzelstr. 53",52.490706,13.329367
+"Landauer Str. 12",52.472527,13.318252
+"Leibnizstr. 34",52.506975,13.314247
+"Spessartstr. 11",52.475076,13.315281
+"Kaiserdamm 19",52.510552,13.286771
+"Wilmersdorfer Str. 32",52.512566,13.304792
+"Knobelsdorffstr. 13",52.51304,13.294885
+"Caspar-Theyß-Str. 24",52.491604,13.292316
+"Pariser Str. 45",52.497122,13.322922
+"Savignyplatz 4",52.506239,13.323409
+"Güntzelstr. 19/20",52.491356,13.325976
+"Wilhelmsaue 5",52.485575,13.329259
+"Leistikowstr. 2",52.513357,13.267938
+"Bleibtreustr. 40",52.502657,13.319815
+"Ludwigkirchplatz 7",52.497413,13.320559
+"Douglasstr. 11",52.484572,13.262172
+"Prinzregentenstr. 7",52.491293,13.332775
+"Lohmeyerstr. 5",52.518221,13.301149
+"Pariser Str. 15",52.497324,13.32343
+"Fredericiastr. 2",52.511311,13.284274
+"Meinekestr. 25",52.502338,13.32935
+"Falterweg 11",52.490672,13.260227
+"Sybelstr. 40",52.501775,13.298769
+"Babelsberger Str. 11",52.48487,13.334933
+"Rudolstädter Str. 127",52.487958,13.302402
+"Knesebeckstr. 74",52.503602,13.322382
+"Zikadenweg 39",52.496025,13.264784
+"Pariser Str. 51",52.496618,13.325317
+"Joachim-Friedrich-Str. 54",52.494567,13.295504
+"Markgraf-Albrecht-Str. 14",52.499176,13.298774
+"Niebuhrstr. 58",52.50441,13.309349
+"Hektorstr. 2",52.499001,13.297898
+"Holtzendorffstr. 20",52.506447,13.296261
+"Landhausstr. 37",52.490314,13.328928
+"Fasanenstr. 60",52.497526,13.32713
+"Mommsenstr. 55",52.503198,13.312077
+"Gervinusstr. 4",52.504401,13.305802
+"Augsburger Str. 27",52.501415,13.335042
+"Kronprinzendamm 11",52.497613,13.283762
+"Schillerstr. 13",52.511173,13.316618
+"Bundesallee 26",52.491984,13.330463
+"Kurfürstendamm 72",52.49979705,13.30580592
+"Bayerische Str. 9",52.497018,13.313562
+"Landhausstr. 9",52.489929,13.328399
+"Caspar-Theyß-Str. 26",52.491642,13.292628
+"Bleibtreustr. 25",52.500532,13.31905
+"Mommsenstr. 6",52.50313,13.318738
+"Falterweg 13",52.490795,13.260385
+"Westfälische Str. 31",52.495727,13.297592
+"Fasanenstr. 55",52.495968,13.327176
+"Niebuhrstr. 65",52.504344,13.311652
+"Giesebrechtstr. 19",52.50272,13.309162
+"Nassauische Str. 53",52.490162,13.32672
+"Aschaffenburger Str. 6 A",52.490904,13.336492
+"Lietzenseeufer 5",52.507385,13.29082
+"Bayerische Str. 4",52.498218,13.314036
+"Mainzer Str. 16A",52.480039,13.327158
+"Mommsenstr. 50",52.50329,13.310455
+"Niebuhrstr. 62",52.504369,13.310768
+"Binger Str. 25",52.471952,13.309173
+"Davoser Str. 12a",52.481063,13.290419
+"Bayernallee 19a",52.513838,13.260296
+"Meierottostr. 1",52.497941,13.327496
+"Pommersche Str. 6",52.492961,13.316461
+"Kiefernweg 8",52.493617,13.264633
+"Leonhardtstr. 11",52.505602,13.296676
+"Grainauer Str. 8",52.497021,13.334181
+"Livländische Str. 28",52.480165,13.325829
+"Gervinusstr. 12",52.503399,13.302325
+"Grolmanstr. 53",52.507503,13.321344
+"Rönnestr. 11",52.503736,13.29611
+"Dahlmannstr. 24",52.501203,13.304141
+"Zikadenweg 49",52.496398,13.265242
+"Clausewitzstr. 2",52.501446,13.309278
+"Damaschkestr. 28",52.501097,13.298342
+"Bundesallee 180",52.487673,13.331381
+"Jenaer Str. 17",52.488476,13.335744
+"Sächsische Str. 6",52.497759,13.318377
+"Marburger Str. 1",52.503438,13.337221
+"Badensche Str. 14",52.486096,13.334354
+"Joachim-Friedrich-Str. 43",52.498691,13.296044
+"Jenaer Str. 18",52.488683,13.335739
+"Ludwigkirchplatz 12",52.497056,13.322133
+"Dernburgstr. 15",52.502841,13.288045
+"Nachodstr. 18",52.495081,13.332924
+"Kurfürstendamm 114",52.497464,13.291188
+"Caspar-Theyß-Str. 3",52.491831,13.282115
+"Güntzelstr. 60",52.490583,13.332252
+"Prinzregentenstr. 77",52.486918,13.333368
+"Nassauische Str. 27",52.488865,13.32621
+"Windscheidstr. 8",52.508747,13.298134
+"Spichernstr. 19",52.496868,13.332982
+"Bamberger Str. 26",52.489448,13.336512
+"Pariser Str. 18",52.498209,13.319306
+"Wiesbadener Str. 17",52.471866,13.318908
+"Aachener Str. 27",52.479145,13.31903
+"Lärchenweg 33",52.497051,13.265492
+"Landauer Str. 15",52.472417,13.319218
+"Mommsenstr. 65",52.502858,13.318015
+"Nassauische Str. 47",52.488819,13.326747
+"Windscheidstr. 9",52.508558,13.298199
+"Johann-Georg-Str. 15",52.497193,13.296856
+"Bleibtreustr. 32",52.500391,13.319534
+"Düsseldorfer Str. 47",52.49681,13.312287
+"Homburger Str. 4",52.47384,13.319243
+"Hölderlinstr. 11",52.510562,13.272773
+"Lietzenburger Str. 56",52.500564,13.329596
+"Paulsborner Str. 19",52.493945,13.298776
+"Paulsborner Str. 93",52.498118,13.306532
+"Kastanienallee 23",52.53782,13.408622
+"Nassauische Str. 26",52.489099,13.326205
+"Giesebrechtstr. 15",52.501765,13.310595
+"Droysenstr. 8",52.50071,13.300187
+"Fasanenstr. 59",52.497294,13.327137
+"Niebuhrstr. 3",52.504251,13.318568
+"Stuttgarter Platz 20",52.505134,13.299461
+"Friedrichshaller Str. 23",52.476229,13.291412
+"Hohenzollerndamm 7",52.495285,13.327828
+"Carmerstr. 18",52.507929,13.325226
+"Sybelstr. 45",52.501804,13.300196
+"Cicerostr. 62",52.497695,13.301919
+"Joachimstaler Str. 12",52.502545,13.330936
+"Kantstr. 130",52.506127,13.313217
+"Sybelstr. 48",52.501838,13.302597
+"Prager Str. 10",52.494271,13.333639
+"Im Hornisgrund 17",52.491333,13.260016
+"Knesebeckstr. 52/53",52.500059,13.321252
+"Mommsenstr. 34",52.503733,13.305738
+"Suarezstr. 42",52.504531,13.293038
+"Schlüterstr. 53",52.503644,13.317464
+"Wilhelmsaue 134",52.484977,13.329218
+"Kufsteiner Str. 8",52.487413,13.336801
+"Zikadenweg 51",52.496454,13.265322
+"Mommsenstr. 22",52.503578,13.310608
+"Lohmeyerstr. 1",52.517568,13.300984
+"Motzstr. 81",52.493753,13.33594
+"Otto-Suhr-Allee 27",52.51407,13.316142
+"Sensburger Allee 23",52.510088,13.253241
+"Paulsborner Str. 92",52.497953,13.30631
+"Mommsenstr. 67",52.50282,13.318692
+"Gieselerstr. 14",52.490768,13.318297
+"Spandauer Damm 62",52.519715,13.288409
+"Aachener Str. 41",52.481845,13.318899
+"Sybelstr. 12",52.502145,13.306711
+"Badensche Str. 21",52.486613,13.330456
+"Johann-Georg-Str. 20",52.496421,13.297841
+"Prinzregentenstr. 86",52.489373,13.333299
+"Cunostr. 109",52.474697,13.294583
+"Giesebrechtstr. 12",52.501317,13.311269
+"Giesebrechtstr. 16",52.502247,13.309874
+"Giesebrechtstr. 17",52.502469,13.30969
+"Giesebrechtstr. 05",52.501619,13.310088
+"Giesebrechtstr. 10",52.501012,13.311728
+"Giesebrechtstr. 04",52.502354,13.308985
+"Giesebrechtstr. 01",52.502817,13.308294
+"Giesebrechtstr. 22",52.503253,13.308361
+"Giesebrechtstr. 06",52.501473,13.310308
+"Giesebrechtstr. 11",52.501168,13.311492
+"Giesebrechtstr. 03",52.502554,13.308686
+"Giesebrechtstr. 20",52.502889,13.308908
+"Giesebrechtstr. 07",52.501335,13.310514
+"Giesebrechtstr. 02",52.50276,13.308378
+"Giesebrechtstr. 08",52.501185,13.310734
+"Giesebrechtstr. 09",52.50094,13.311107
+"Bamberger Str. 27",52.4892,13.336566
+"Baumeisterstr. 1",52.470711,13.340699
+"Bayerischer Platz 13-14",52.489387,13.340564
+"Bruno-Möhring-Str. 21",52.424321,13.370032
+"Courbièrestr. 1",52.501327,13.349855
+"Courbièrestr. 7",52.501331,13.349634
+"Cranachstr. 58",52.5033874512,13.3386392593
+"Deidesheimer Str. 6",52.474456,13.320518
+"Else-Lasker-Schüler-Str. 5",52.500429,13.356799
+"Emilienstr. 14",52.424008,13.370863
+"Geisbergstr. 33",52.497519,13.339832
+"Geisbergstr. 41",52.496966,13.343498
+"Gotenstr. 73",52.483378,13.360475
+"Innsbrucker Str. 7",52.486748,13.340345
+"Kirchstr. 84",52.421099,13.374187
+"Kirchstr. 85",52.42144,13.374423
+"Motzstr. 9",52.498566,13.351085
+"Motzstr. 27",52.497606,13.348244
+"Münchener Str. 2",52.494863,13.341196
+"Nollendorfstr. 19",52.497708,13.350757
+"Nollendorfstr. 28",52.497658,13.35198
+"Ortrudstr. 7",52.475148,13.329369
+"Penzberger Str. 4",52.491485,13.342821
+"Retzdorffpromenade 3",52.467953,13.321937
+"Schwäbische Str. 7",52.492579,13.348014
+"Schwäbische Str. 29",52.493868,13.346999
+"Stierstr. 5",52.475146,13.337752
+"Stubenrauchstr. 11",52.441035,13.30174
+"Stubenrauchstr. 63",52.470384,13.324262
+"Traunsteiner Str. 8",52.493169,13.346156
+"Treuchtlinger Str. 10",52.49122,13.33797
+"Wielandstr. 5",52.5033874512,13.3386392593
+"Barbarossastr. 40",52.492164,13.339938
+"Cheruskerstr. 20",52.480663,13.359211
+"Friedrich-Wilhelm-Platz 6",52.472028,13.327584
+"Goltzstr. 35",52.493914,13.353567
+"Hewaldstr. 6",52.481087,13.343607
+"Hohenstaufenstr. 50",52.494159,13.343627
+"Kleineweg 129",52.474713,13.384338
+"Landshuter Str. 35",52.493278,13.339081
+"Penzberger Str. 5",52.491116,13.342569
+"Rosenheimer Str. 27",52.490113,13.345984
+"Mädewalder Weg 37",52.508483,13.587617
+"Oranienburger Str. 64",52.52519,13.391151
+"Neue Roßstr. 21",52.510775,13.409478
+"Brunnenstr. 178",52.532011,13.398933
+"Schmidstr. 2c",52.508473,13.418435
+"Köpenicker Straße 73",52.51068,13.41816
+"Büschingstr. 2",52.525513,13.428676
+"Charlottenstr. 89",52.50594386,13.3925955
+"Frankfurter Allee 104",52.513557,13.473882
+"Rosenthaler Str. 19",52.526621,13.403255
+"Brunnenstr. 16 / Weinbergsweg",52.5160713196,13.3769798279
+"Torstr. 148",52.529292,13.398281
+"Alte Schönhauser Str. 4",52.527913,13.408544
+"Oranienburger Str. 26",52.524542,13.395209
+"Rungestr. 18",52.51212,13.419913
+"Fehrbellinerstr. 81",52.532444,13.405433
+"Tieckstr. 36",52.52921,13.38691
+"Schröderstr. 12",52.530571,13.393217
+"Klosterstr. 73",52.51826942,13.41188461
+"Osloer Str. 7",52.555939,13.387609
+"Veteranenstr. 9",52.532398,13.401523
+"Frankfurter Allee 100",52.513657,13.472936
+"Thomasiusstr. 3",52.523613,13.350454
+"Kadiner Straße 19",52.514085,13.450589
+"Kreuzigerstr. 23",52.513697,13.460545
+"Libauer Str. 6",52.509217,13.453709
+"Markgrafenstr. 19",52.506745,13.394629
+"Matternstr. 5",52.521666,13.452749
+"Niederbarnimstr. 7",52.514006,13.458746
+"Richard-Sorge-Str. 34",52.522195,13.446214
+"Warschauer Str. 61",52.509911,13.451854
+"Rheinsberger Str. 30",52.538491,13.403151
+"Alte Schönhauser Str. 58",52.527933,13.408993
+"Lange Straße 25  ",52.512891,13.430262
+"Brunnenstr. 50",52.538113,13.396262
+"Reinickendorfer Str. 28",52.546995,13.369549
+"Dortmunder Str. 11",52.521311,13.33688
+"Schwedter Str. 224",52.539972,13.40432
+"Uferstr. 13",52.550513,13.373272
+"Littenstr. 2",52.516086,13.415036
+"Wullenweberstr. 1",52.517743,13.33465
+"Alte Schönhauser Str. 23-24",52.526001,13.407011
+"Huttenstr. 71",52.527298,13.327741
+"Bergmannstr. 22",52.488968,13.393682
+"Mollstr. 29-31",52.525108,13.421985
+"Revaler Str. 26a",52.50487,13.463918
+"Pintschstr. 18",52.522876,13.448197
+"Wassertorstr. 20",52.500377,13.407069
+"Köpenicker Str. 183",52.502973,13.437896
+"Neue Bahnhofstr. 29",52.505651,13.469502
+"Strausberger Platz 10",52.51819426,13.42872801
+"Sonntagstr. 5",52.505118,13.467263
+"Waldemarstr. 40",52.503395,13.419649
+"Neuenburger Str. 1",52.500722,13.395242
+"Hübnerstr. 2",52.519878,13.45646
+"Gartenstr. 114",52.528815,13.393211
+"Gormannstr. 12",52.527842,13.404948
+"Havelberger Str. 10",52.533095,13.347334
+"Groninger Str. 22",52.55257,13.362139
+"Afrikanische Str. 140",52.558139,13.334375
+"Sophienstr. 5",52.525286,13.401676
+"Veteranenstr. 26",52.532961,13.399898
+"Veteranenstr. 23",52.533117,13.400558
+"Buggenhagenstr. 31",52.528115,13.463619
+"Brunnenstr. 165",52.533986,13.397938
+"Melchiorstr. 18",52.507311,13.422204
+"Barfusstr. 11",52.555475,13.346563
+"Corker Str. 29",52.56088,13.349278
+"Schleswiger Str. 2",53.567265,9.932773
+"Köpenicker Str. 108",52.509967,13.418254
+"Torstr. 95",52.529821,13.404767
+"Schützenstr. 46",52.509163,13.398018
+"Schönholzer Str. 6",52.537905,13.398205
+"Ohmstr. 1",52.511011,13.417768
+"Späthstraße 80",52.454271,13.473186
+"Kiefholzstraße 21",52.490614,13.451257
+"Bonhoefferufer 18",52.523907,13.297667
+"Carmerstr. 12",52.507026,13.324189
+"Leopoldstr. 22",52.502653,13.490908
+"Eichkatzweg 33",52.494707,13.264728
+Galvanistr.15,52.518727,13.315796
+13/1/1922,52.5160713196,13.3769798279
+"Gillweg 2a",52.49417981,13.28623003
+"Hektorstr. 9-10",52.500591,13.298152
+"Holtzendorffstr. 3",52.504537,13.294543
+"Kurfürstendamm 101",52.49797851,13.29603598
+"Joachim-Friedrich-Str. 49",52.496489,13.295756
+"Kantstr. 120 - 121",52.506106,13.309902
+"Konstanzer Str.  3",52.498478,13.311977
+"Rheingoldstraße 4",52.486715,13.528563
+"Schulze-Boysen-Straße 71",52.508049,13.480778
+"Sandinostraße 22",52.538398,13.481944
+"Hirschberger Straße 2",52.504934,13.472618
+"Hentigstraße 24 a",52.488054,13.523759
+"Gundelfinger Straße 31",52.487555,13.525193
+"Dönhoffstraße 29",52.484251,13.520065
+"Große-Leege-Straße 48",52.53872,13.489018
+"Gundelfinger Straße 4",52.483457,13.524305
+"Wandlitzstraße 13",52.481126,13.522644
+"Heiligenberger Straße 5",52.480598,13.522642
+"Archenholdstraße 39",52.50598,13.502859
+"Waldowallee 37",52.488027,13.529887
+"Krummhübler Straße 1",52.504514,13.472445
+"Königswinter Straße 15",52.48105,13.53072
+"Sangeallee 30",52.487778,13.520049
+"Wildensteiner Straße 10",52.479995,13.522899
+"Weseler Straße 15",52.483715,13.527221
+"Treskowallee 103",52.482993,13.526095
+"Waldowallee 9",52.489777,13.528589
+"Heiligenberger Straße 10",52.480422,13.521919
+"Stolzenfelsstraße 2",52.481155,13.526955
+"Stühlinger Straße 11 b",52.479188,13.51901
+"Dorotheastraße 28",52.484705,13.523218
+"Hademarscher Weg 9",52.610964,13.220267
+"Ahornallee 10",52.5033874512,13.3386392593
+"Ahornallee 50",52.51659,13.277435
+"Ahrweiler Str. 32",52.473429,13.317449
+"Alte Allee 17",52.492482,13.262369
+"Arcostr. 14",52.519528,13.308643
+"Aschaffenburger Str. 24",52.492493,13.334857
+"Augsburger Str. 29",52.50155,13.3347
+"Auguste-Viktoria-Str. 33",52.484914,13.289879
+"Babelsberger Str. 6",52.486514,13.334877
+"Badensche Str. 19",52.486217,13.332075
+"Bamberger Str. 16",52.493193,13.336809
+"Bamberger Str. 3",52.497105,13.33736
+"Barstr. 28",52.481778,13.313265
+"Bismarckstr. 10",52.460552,13.339068
+"Bleibtreustr. 34-35",52.500826,13.319553
+"Blissestr. 6",52.485794,13.320186
+"Brandenburgische Str. 24",52.496651,13.308363
+"Brandenburgische Str. 46",52.495821,13.308083
+"Bregenzer Str. 16",52.497219,13.312542
+"Budapester Str. 45",52.504872,13.338447
+"Bundesallee 171 ",52.484858,13.331475
+"Bundesplatz 2",52.480096,13.327755
+"Dahlmannstr. 10",52.501242,13.303661
+"Dahlmannstr. 6",52.502408,13.303574
+"Damaschkestr. 22",52.500835,13.299143
+"Damaschkestr. 30",52.501183,13.298078
+"Danckelmannstr. 16",52.514526,13.290685
+"Danckelmannstr. 44",52.513941,13.29117
+"Darmstädter Str. 8",52.497519,13.317268
+"Deidesheimer Str. 12",52.474955,13.317383
+"Deidesheimer Str. 8",52.474627,13.319267
+"Deidesheimer Str. 9",52.474712,13.31877
+"Dernburgstr. 39",52.503828,13.284296
+"Dernburgstr. 55",52.50563,13.28361
+"Dernburgstr. 57",52.505867,13.283505
+"Detmolder Str. 3",52.478872,13.326848
+"Droysenstr. 10",52.500708,13.300673
+"Droysenstr. 15",52.501717,13.300809
+"Düsseldorfer Str. 42",52.496974,13.309394
+"Düsseldorfer Str. 49/50",52.49672,13.313033
+"Eichenallee 3",52.515457,13.275736
+"Eichkampstr. 108",52.493054,13.264704
+"Eisenzahnstr. 66",52.499133,13.305699
+"Eislebener Str. 4",52.500576,13.334811
+"Emser Str. 16",52.495211,13.320044
+"Eosanderstr. 23",52.520228,13.301264
+"Ettaler Str. 10",52.498351,13.337959
+"Fredericiastr. 8",52.511028,13.280645
+"Friedbergstr. 41",52.50362,13.292314
+"Gardes-du-Corps-Str. 13",52.517501,13.288342
+"Gardes-du-Corps-Str. 14",52.517519,13.288628
+"Gasteiner Str. 11",52.487755,13.321534
+"Gerolsteiner Str. 3",52.473583,13.313271
+"Goebelstr. 99",52.538837,13.27372
+"Goethestr. 12",52.509467,13.319144
+"Goethestr. 16",52.509236,13.315576
+"Grolmanstr. 28",52.504475,13.323267
+"Gutenbergstr. 4",52.516107,13.331755
+"Heerstr. 15",52.508836,13.266928
+"Hektorstr. 13",52.500394,13.297659
+"Hektorstr. 3",52.499268,13.297933
+"Helmholtzstr. 21",52.522287,13.32733
+"Helmstedter Str. 11",52.489369,13.334046
+"Herderstr. 5",52.509558,13.316165
+"Holsteinische Str. 24",52.492429,13.325156
+"Jenaer Str. 21",52.489442,13.335722
+"Jenaer Str. 24",52.490143,13.335706
+"Jenaer Str. 6",52.490084,13.335273
+"Jenaer Str. 7",52.489832,13.335279
+"Joachim-Friedrich-Str. 42",52.498841,13.296064
+"Kaiser-Friedrich-Str. 17A",52.514349,13.300711
+"Kaiserdamm 10",52.510774,13.290271
+"Kaiserdamm 89",52.509696,13.281228
+"Kaiserin-Augusta-Allee 85",52.525538,13.307772
+"Kantstr. 129",52.506156,13.312697
+"Kantstr. 132",52.506039,13.314831
+"Meiningenallee 7 ",52.519837,13.257387
+"Klausenerplatz 16-17",52.517896,13.289979
+"Klausenerplatz 2",52.518701,13.29263
+"Knesebeckstr. 100",52.510301,13.323379
+"Knesebeckstr. 18/19",52.507707,13.322394
+"Knesebeckstr. 28",52.504187,13.321869
+"Knobelsdorffstr. 110",52.512835,13.278622
+"Knobelsdorffstr. 16",52.513412,13.29396
+"Koenigsalle 34",52.486114,13.270996
+"Konstanzer Str. 51",52.49523729,13.31082098
+"Kreuznacher Str. 48",52.467346,13.313318
+"Krumme Str. 12",52.513984,13.30947
+"Krumme Str. 34",52.509382,13.309335
+"Kufsteiner Str. 16",52.486533,13.336766
+"Kuno-Fischer-Str. 16",52.50385094,13.29136115
+Kunz-Buntschuh-Str.16-18,52.493001,13.286755
+"Kurfürstendamm 100",52.49836,13.296893
+"Kurfürstendamm 133",52.497241,13.293301
+"Kurfürstendamm 146",52.498139,13.298748
+"Kurfürstendamm 150",52.498482,13.300576
+"Kurfürstendamm 201",52.501529,13.320921
+"Kurfürstendamm 203-204",52.501737,13.322225
+"Kurfürstendamm 22",52.504673,13.329813
+"Kurfürstendamm 99",52.498503,13.297718
+"Landhausstr. 3",52.491776,13.328362
+"Leibnizstr. 57",52.502327,13.313054
+"Leibnizstr. 32",52.50733,13.314361
+"Leibnizstr. 86",52.509732,13.314178
+"Lietzenburger Str. 39",52.499646,13.333538
+"Lietzenburger Str. 55 - 57",52.500215,13.330043
+"Lietzenburger Str. 72",52.500252,13.325579
+"Lietzenseeufer 1",52.506991,13.289443
+"Los-Angeles-Platz 1",52.502556,13.335209
+"Ludwig-Barnay-Platz 2",52.46843,13.31451
+"Ludwigkirchstr. 11A",52.497884,13.325421
+"Lyckallee 28",52.506221,13.248645
+"Lynarstr. 9",52.541294,13.362117
+"Marburger Str. 12",52.502081,13.336308
+"Marburger Str. 3",52.503011,13.336791
+"Markgraf-Albrecht-Str. 15",52.49899,13.298749
+"Markgraf-Albrecht-Str. 2",52.499203,13.299198
+"Markgraf-Albrecht-Str. 3",52.499407,13.299225
+"Markgraf-Albrecht-Str. 4",52.49959,13.299249
+"Markgraf-Albrecht-Str. 5",52.499776,13.299273
+"Markgraf-Albrecht-Str. 6",52.499981,13.2993
+"Markgraf-Albrecht-Str. 8",52.500435,13.298984
+"Mommsenstr. 23",52.503596,13.310291
+"Mommsenstr. 45",52.503401,13.308495
+"Mommsenstr. 58",52.503038,13.31413
+"Nachodstr. 19",52.495051,13.333273
+"Nassauische Str. 11-12",52.491997,13.326135
+"Nassauische Str. 25",52.489242,13.326202
+"Nassauische Str. 60",52.492403,13.326659
+"Nassauische Str. 64",52.493304,13.326629
+"Neue Kantstr. 1",52.506975,13.294369
+"Neufertstr. 20",52.5178,13.293339
+"Niebuhrstr. 56",52.504156,13.308519
+"Niebuhrstr. 70",52.504268,13.314322
+"Niebuhrstr. 71",52.504248,13.314651
+"Nikolsburger Platz 1",52.493144989,13.3287315369
+"Nikolsburger Platz 2",52.492939,13.329312
+"Nikolsburger Platz 4",52.492974,13.328595
+"Nürnberger Str. 24",52.501318,13.337136
+"Nürnberger Str. 33-34 / Ecke Schaperstr. 1",52.5160713196,13.3769798279
+"Olivaer Platz 5 ",52.498805,13.314945
+"Pariser Str. 37",52.498332,13.317181
+"Paulsborner Str. 11",52.496286,13.302964
+"Pestalozzistr. 14",52.507853,13.315579
+"Pestalozzistr. 15",52.507869,13.315291
+"Pestalozzistr. 54",52.507877,13.296226
+"Pestalozzistr. 9/10",52.571634,13.40554
+"Pestalozzistr. 95",52.507597,13.315463
+"Pfalzburger Str. 10 A",52.498012,13.322467
+"Prinzregentenstr. 75",52.486492,13.333375
+"Prinzregentenstr. 9",52.490413,13.332734
+"Rankestr. 9",52.501891,13.332764
+"Regensburger Str. 16",52.496023,13.332049
+"Riehlstr. 11",52.508001,13.28564
+"Roscherstr. 7",52.500238,13.30175
+"Rückertstr. 9",52.510502,13.303373
+"Sächsische Str. 44",52.4915427,13.31688951
+"Sächsische Str. 63 A",52.495635,13.318278
+"Savignyplatz 6",52.506565,13.322161
+"Schlüterstr. 45",52.500489,13.316925
+"Seelingstr. 21",52.515348,13.293009
+"Seesener Str. 18",52.493966,13.294957
+"Seesener Str. 28",52.496104,13.292081
+"Suarezstr. 39",52.504046,13.292307
+"Sybelstr. 16",52.502123,13.304911
+"Hanseatenweg 10",52.518215,13.346384
+"Sybelstr. 25",52.50206,13.300151
+"Sybelstr. 32",52.502004,13.297474
+"Sybelstr. 35",52.501739,13.29707
+"Sybelstr. 39",52.501768,13.298454
+"Sybelstr. 43",52.501793,13.299641
+"Sybelstr. 46",52.50182,13.301092
+"Sybelstr. 66",52.501927,13.311417
+"Trautenaustr. 10",52.492279,13.327374
+"Trautenaustr. 11",52.492082,13.327157
+"Trautenaustr. 12",52.491853,13.326905
+"Trautenaustr. 13",52.491418,13.327074
+"Trautenaustr. 14",52.491615,13.327344
+"Trautenaustr. 16",52.491971,13.327708
+"Trautenaustr. 17",52.492127,13.327875
+"Trautenaustr. 18",52.492414,13.328284
+"Trautenaustr. 19",52.492972,13.32955
+"Trautenaustr. 20",52.492977,13.329988
+"Trautenaustr. 5",52.493317,13.329736
+"Trautenaustr. 6",52.493325,13.329383
+"Trautenaustr. 8",52.492666,13.3278
+"Trautenaustr. 9",52.492474,13.327588
+"Uhlandstr. 162",52.5033874512,13.3386392593
+"Uhlandstr. 175",52.5033874512,13.3386392593
+"Uhlandstr. 182",52.5033874512,13.3386392593
+"Uhlandstr. 191",52.5033874512,13.3386392593
+"Uhlandstr. 194 A",52.5033874512,13.3386392593
+"Uhlandstr. 39",52.5033874512,13.3386392593
+"Waitzstr. 9",52.501253,13.305445
+Waitzstr.27,52.503144,13.305929
+"Wallotstr. 10",52.49186,13.278561
+"Wetzlarer Str. 23",52.468629,13.316289
+"Wielandstr. 15",52.5033874512,13.3386392593
+"Wielandstr. 4",52.5033874512,13.3386392593
+"Windscheidstr. 31",52.507682,13.299106
+"Wittelsbacherstr. 34",52.49389,13.31605
+"Witzlebenplatz 4",52.509724,13.29263
+"Witzlebenplatz 5",52.509885,13.292407
+"Württembergische Str. 31",52.497674,13.316361
+"Xantener Str. 4",52.498902,13.309039
+"Xantener Str. 5",52.498923,13.309392
+"Zähringer Str. 25",52.496083,13.30987
+"Zillestr. 39",52.513442,13.310148
+"Franzstraße 30-36",52.522377,13.202242
+"Limonenstraße 11",52.452252,13.300639
+"Holsteinische Straße 34",52.492683,13.324741
+"Björnsonstraße 3",52.463487,13.31174
+"Havensteinstr. 18",52.431679,13.344
+21/3/1874,52.5160713196,13.3769798279
+"Am Eichenhain 37",52.630047,13.266389
+"Eichborndamm 24",52.570242,13.312982
+"Eichborndamm 84",52.575595,13.314948
+"Birkbuschstraße 89",52.45099,13.322074
+"Björnsonstraße 20",52.464498,13.312605
+"Björnsonstraße 1",52.463369,13.311703
+"Dorotheastraße 8",52.485115,13.522187
+"Hagenstraße 12",52.48144,13.268811
+"Hagenstraße 14a",52.515203,13.500155
+"Weißenseer Weg 32",52.534501,13.475383
+"Alt-Friedrichsfelde 95",52.510278,13.516179
+"Hortensienstr. 9",52.448879,13.307303
+"Gardeschützenweg 139",52.442781,13.297805
+"Cuxhavener Str. 5",52.517904,13.338567
+"Weitlingstr. 24",52.508827,13.497347
+"Kastanienallee 39",52.518068,13.272304
+"Albertinenstraße 31",52.421631,13.249295
+"Schrockstraße 8 ",52.425218,13.256534
+"Forststraße 31",52.465367,13.310328
+"Rhumeweg 29",52.43374555,13.22881565
+"Am Fischtal 28",52.448146,13.259636
+"Ahrenshooper Zeile 35",52.436696,13.222495
+"Sophie-Charlotte-Straße 18",52.443937,13.258615
+"An der Rehwiese 12",52.429619,13.198227
+"Dreilindenstraße 52",52.421073,13.187402
+"Potsdamer Chaussee 69",52.423529,13.204598
+"Schopenhauerstraße 74",52.431706,13.205981
+"Machnower Straße 79",52.420768,13.250268
+"Spichernstr. 20",52.497049,13.333181
+"Straße zum Löwen 12",52.426235,13.15979
+"Limastr. 2",52.438219,13.231486
+"Nikolsburger Str.8-9",52.494039,13.328118
+"Pariser Str. 56-57",52.496207,13.327395
+"Siegmunds Hof 11",52.516801,13.334985
+"Wichmannstr. 10",52.505869,13.346396
+"Paulsborner Str. 1",52.498838,13.306808
+"Tauentzienstr. 13 A",52.503918,13.33651
+"Englerallee 6",52.465097,13.305977
+Bernhardstr.16,52.478077,13.331935
+"Derfflingerstr. 16",52.502294,13.356015
+"Livländischestr. 17",52.481173,13.326221
+"Livländischestr. 26",52.480408,13.325833
+"Helmstedter Str. 27",52.490289,13.334473
+"Siegmunds Hof 15",52.515871,13.335468
+"Dahlmannstr. 11",52.501072,13.303668
+"Dahlmannstr. 15",52.500151,13.303691
+"Hektorstr. 5",52.499662,13.297984
+"Windscheidstr. 35",52.508874,13.298699
+"Gervinusstr. 17",52.502869,13.299901
+"Konstanzer Str. 55",52.496305,13.311489
+"Trendelenburgstr. 17",52.506392,13.291576
+"Hardenbergstr. 16",52.507444,13.328812
+"Kunzendorfstr. 20",52.427287,13.256952
+"Treskowallee 89",52.484195,13.526476
+"Josef-Orlopp-Straße 50",52.522947,13.488858
+"Schöneicher Straße 11a",52.543978,13.497096
+"Grafenauer Weg 39",52.49014,13.537196
+"Treskow 109",52.561095,13.430955
+"Lehndorffstraße 29",52.479856,13.518794
+"Konrad-Wolf-Straße 60",52.536309,13.474926
+"Frankfurter Allee 134",52.512661,13.47996
+"Beerenstr. 41",52.437232,13.236322
+"Am Bäkequell 3",52.453412,13.316807
+"Drakestraße 59",52.439158,13.300515
+"Hochbergweg 1",52.42738,13.318026
+"Weddigenweg 64",52.434055,13.301612
+"Bölschestraße 84-85",52.454789,13.624883
+"Hirschgartenstraße 2",52.456859,13.596258
+"Wendenschloßstraße 172",52.436166,13.582172
+"Bruno-Wille-Straße 108",52.447236,13.632324
+"Peter-Hille-Straße 79",52.450213,13.620793
+"Peter-Hille-Straße 17",52.453947,13.621386
+"Alt-Müggelheim 17",52.412359,13.662315
+"Nentwigstraße 10",52.515312,13.604802
+"Rosenheimer Straße 5",52.490523,13.348757
+"Rosenheimer Straße",52.490637,13.346801
+"Pflügerstraße 1",52.491007,13.423871
+"Richardstraße 86",52.475828,13.443529
+"Wildenbruchplatz 10",52.482875,13.445607
+"Bruno-Bauer-Straße 17",52.464846,13.438989
+"Lenaustraße 6",52.489968,13.425695
+"Anzengruberstraße 10",52.480534,13.440508
+"Oderstraße 52",52.476458,13.418863
+"Parchimer Allee 75",52.445422,13.448381
+"Jonasstraße 5",52.527414,13.3394
+"Jahnstraße 12",52.488121,13.419647
+"Jonasstraße 66",52.472086,13.43997
+"Straßburger Str. 16",52.530695,13.414916
+"Erich-Weinert-Str. 132",52.544225,13.438518
+"Behaimstr. 20",52.51666,13.30374
+"Straßburger Str. 34",52.532437,13.416031
+"Kollwitzstr. 28",52.533355,13.415112
+"Danziger Str. 28",52.539978,13.417366
+"Erich-Weinert-Str. 3",52.552106,13.41498
+"Hallandstr. 12",52.5033874512,13.3386392593
+"Borkumstr. 5",52.565216,13.416052
+"Meyerbeerstr. 31",52.547002,13.454024
+"Greifswalder Str. 89",52.542979,13.441502
+"Czarnikauer Str. 12",52.553446,13.403427
+"Greifswalder Str. 228a",52.529375,13.424656
+"Schönhauser Allee 31",52.537214,13.412692
+"Mühlenstr. 30",52.562934,13.409164
+"Isländische Str. 17",52.552026,13.402651
+"Pappelallee 12/13",52.593422,13.137312
+"Kollwitzstr. 48",52.534398,13.416271
+"Immanuelkirchstr. 32",52.533058,13.422967
+"Heinrich-Roller-Str. 6",52.530073,13.424041
+"Pasteurstr. 24",52.533002,13.434595
+"Schwedter Str. 33",52.537108,13.40634
+"Greifenhagener Str. 13",52.546572,13.415273
+"Schulzestr. 15",52.5669,13.391731
+"Schulzestr. 14",52.566796,13.39189
+"Heinrich-Mann-Str. 9",52.571374,13.396428
+"Treskowstr. 59",52.58187,13.396488
+"Görschstr. 41",52.565096,13.400948
+"Thulestr. 13",52.555213,13.416944
+"Kollwitzstr. 92",52.538604,13.420933
+"Christburger Straße 41",52.536331,13.425787
+"Prenzlauer Allee 200",52.538313,13.423278
+"Kollwitzstr. 68",52.536239,13.418318
+"Metzer Str. 33",52.531752,13.416336
+"Lottumstr. 1b",52.530186,13.409471
+"Schönhauser Allee 164",52.535279,13.411984
+"Korsörer Str. 25",52.547727,13.404771
+"Templiner Str. 5",52.532612,13.408478
+"Miltenberger Weg 9",52.569147,13.420102
+"Senefelderstr. 4",52.540404,13.422437
+"Chodowieckistr. 8",52.536663,13.429325
+"Schönhauser Allee 175",52.53206,13.412037
+"Schönhauser Allee 174",52.532232,13.412075
+"Breite Str. 10",52.51543298,13.40388626
+"Schönwalder Str. 111",52.544486,13.204277
+"Kurstr. 22",52.548498,13.208484
+"Wönnichstr. 103",52.501589,13.495573
+"Lessingstr. 8",52.521606,13.342298
+"Wartburgstr. 29",52.486381,13.341163
+"Steinstraße 2 ",52.453415,13.334608
+"Wallstr. 70",52.512539,13.410312
+"Bayreuther Str. 41",52.502907,13.344546
+"Ackerstraße 1",52.528945,13.397802
+"Pariser Platz 7",52.516705,13.377863
+"Kantstr. 44-45",52.506543,13.312311
+"Paul-Lincke-Ufer 7",52.492144,13.434717
+"Apostel-Paulus-Straße 24",52.487754,13.344568
+"Barbarossastr. 43",52.492157,13.342254
+"Eisenacher Str. 48",52.487732,13.349219
+"Fregestr. 58",52.468057,13.337124
+"Fregestr. 59",52.468194,13.337287
+"Fritz-Elsas-Str. 15",52.482031,13.341386
+"Heilbronner Str. 19",52.491059,13.34084
+"Hertelstr. 8",52.468668,13.321086
+"Landshuter Str. 17",52.490439,13.33915
+"Landshuter Str. 33",52.49278,13.339136
+"Luitpoldstr. 43",52.495344,13.349381
+"Nymphenburger Str. 4",52.480894,13.341153
+"Schwäbische Str. 17",52.490233,13.351801
+"Taunusstr. 11",52.473648,13.321679
+"Treuchtlinger Str. 8",52.491436,13.337915
+"Winterfeldtstr. 48",52.497072,13.353131
+"Scharnweberstraße 105",52.56631672,13.31865281
+"Wismarer Straße 19",52.419877,13.302187
+"Halskestraße 41",52.448309,13.344011
+"John-Foster-Dulles-Allee 10",52.518528,13.364556
+"Mittenwalder Straße 33",52.489733,13.396169
+"Willibald-Alexis-Straße 42",52.487147,13.396006
+"Willibald-Alexis-Straße 26",52.487594,13.391064
+"Erkelenzdamm 9",52.500829,13.415414
+"Stallschreiberstraße 12",52.505623,13.409285
+"Ratiborstraße 2",52.493941,13.439979
+"Landhausstr.  25",52.48724,13.329069
+"Landhausstr.  5",52.491297,13.328368
+"Liebigstraße 23",52.520166,13.458323
+"Rigaer Straße 80",52.51675,13.463672
+"Fregestr. 20",52.468398,13.336903
+"Fregestr. 71",52.470604,13.337598
+"Hessenallee 9",52.512666,13.261317
+"Sybelstr. 29",52.502028,13.298621
+"Fregestr. 78",52.47248,13.337697
+"Fregestr. 80",52.472856,13.337717
+"Gleditschstr. 50",52.492173,13.35483
+"Habsburger Str. 12",52.496055,13.352467
+"Handjerystr. 1",52.477075,13.332554
+"Handjerystr. 2",52.476822,13.332504
+"Handjerystr. 3",52.476499,13.332359
+"Handjerystr. 29",52.472058,13.332423
+"Handjerystr. 50-51",52.469201,13.32966
+"Handjerystr. 63",52.469144,13.330651
+"Handjerystr. 81",52.472237,13.332906
+"Handjerystr. 86",52.473235,13.332933
+"Nachodstr.  22-23",52.494818,13.334725
+"Sybelstr.  29",52.502028,13.298621
+"Sybelstr.  35",52.501739,13.29707
+"Karlsruher Str. 23",52.499843,13.294197
+"Karlsruher Str.  23",52.499843,13.294197
+"Innsbrucker Str. 25",52.480147,13.34276
+"Innsbrucker Str. 15",52.484232,13.341132
+"Martin-Luther-Str. 29",52.496387,13.346527
+"Martin-Luther-Str. 42",52.493664,13.344959
+"Motzstr. 47",52.496376,13.344361
+"Münchener Str. 6",52.493806,13.341532
+"Nürnberger Str. 64",52.50385985,13.34013224
+"Passauer Str. 2",52.501731,13.339938
+"Passauer Str. 3",52.501732,13.339944
+"Stübbenstr. 8",52.48967,13.337193
+"Wilhelm-Hauff-Str. 19",52.469423,13.336195
+"Friedelstraße 49",52.489567,13.427466
+"Am Hügel 15",52.594929,13.315257
+"Am Fölzberg 9 ",52.613754,13.355292
+"Schubartstraße 61",52.585074,13.301337
+"Hatzfeldtallee 8",52.592055,13.290304
+"Mauschbacher Steig 31",52.602186,13.327151
+"Quäkerstraße 28",52.575217,13.306194
+"Krumme Str.  64",52.509823,13.309798
+"Krumme Str. 64",52.509823,13.309798
+"Schaperstr.  31",52.499142,13.332271
+"Holsteinische Str.  2",52.487904,13.324787
+"Augsburger Str. 33",52.501794,13.334093
+"Sybelstr.  46",52.50182,13.301092
+"Mahlsdorfer Straße 94 Pförtnerhaus",52.5160713196,13.3769798279
+"Seestraße 32",52.55901,13.455277
+"Alt-Köpenick 34",52.445039,13.57397
+"Marburger Straße 16",52.502921,13.337215
+"Livländische Str. 20",52.48094,13.325842

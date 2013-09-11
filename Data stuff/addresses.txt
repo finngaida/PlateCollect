@@ -1,0 +1,2031 @@
+"Märkisches Ufer 20",Berlin
+"Wallstraße 84",Berlin
+"Dortmunder Str. 9",Berlin
+"Elberfelder Str. 20",Berlin
+"Engeldamm 66",Berlin
+"Turiner Straße 46",Berlin
+"Cuxhavener Straße 14",Berlin
+"Steinstr. 2",Berlin
+"Rosenthaler Str. 62",Berlin
+"Tucholskystr. 38",Berlin
+"Große Hamburger Str. 29",Berlin
+"Große Präsidentenstraße 8",Berlin
+"Solinger Str. 7",Berlin
+"Friedrichstr. 76",Berlin
+"Genthiner Str. 46",Berlin
+"Torstr. 223",Berlin
+"Badstraße 58",Berlin
+"Reinickendorfer Str. 77",Berlin
+"Almstadtstr. 24",Berlin
+"Unter den Linden 6",Berlin
+"Köpenicker Straße 112",Berlin
+"Bredowstraße 49",Berlin
+"Hussitenstr. 7",Berlin
+"Huttenstraße 12",Berlin
+"Levetzowstr. 16",Berlin
+"Dresdener Straße 91",Berlin
+"Sophienstraße 6",Berlin
+"Ackerstr. 15",Berlin
+"Anklamer Straße 33",Berlin
+"Zionskirchstr. 32",Berlin
+"Ackerstr. 83-84",Berlin
+"Kurfürstenstr. 58",Berlin
+"Solinger Straße 10",Berlin
+"Oranienburger Str. 1",Berlin
+"Zionskirchstr. 30",Berlin
+Holzmarktstr.,Berlin
+"Linienstraße 223",Berlin
+"Maxstr. 12",Berlin
+"Bochumer Str. 14",Berlin
+"Schröderstr. 2",Berlin
+"Inselstraße 12",Berlin
+"Linienstr. 31",Berlin
+"Dortmunder Str. 2",Berlin
+"Torstr. 126",Berlin
+"Große Hamburger Straße 15/16",Berlin
+"Rosenthaler Str. 40/41",Berlin
+"Rosenthaler Str. 48",Berlin
+"Bochumer Str. 18",Berlin
+"Wullenweberstr. 5",Berlin
+"Flotowstr. 9",Berlin
+"Lessingstr. 10",Berlin
+"Brückenstraße 5",Berlin
+"Gipsstraße 6",Berlin
+"Krefelder Str. 20",Berlin
+"Am Heizkraftwerk Mitte",Berlin
+"Seydelstr. 21",Berlin
+"Köpenicker Str. 103",Berlin
+"Dortmunder Str. 6",Berlin
+"Tile-Wardenberg-Str. 13",Berlin
+"Torstr. 70",Berlin
+"Alt-Moabit 85",Berlin
+"Joachimstraße 2",Berlin
+"Brunnenstr. 118",Berlin
+"Sprengelstr. 14",Berlin
+"Große Hamburger Str. 31",Berlin
+Weinmeisterstr.16/17,Berlin
+"Rückerstr. 7",Berlin
+"Elberfelder Str. 16",Berlin
+"Wullenweberstr. 11",Berlin
+"Klopstockstr. 13-17",Berlin
+"Max Beer Str. 48",Berlin
+"Solinger Str. 1",Berlin
+"Karl Liebknecht Str. 9/11",Berlin
+"Torstr. 89",Berlin
+"Holzmarktstraße 54-56",Berlin
+"Hussitenstr. 6",Berlin
+"Stockholmer Str. 28",Berlin
+"Nordufer 14",Berlin
+"Altonaer Str. 26",Berlin
+"Köpenicker Str. 106",Berlin
+"Magdeburger Platz 1",Berlin
+"Kirchstr. 7",Berlin
+"Potsdamer Str. 102",Berlin
+"Bochumer Str. 25",Berlin
+"Zolastr. 1",Berlin
+"Prinzenallee 57",Berlin
+"Michaelkirchstr. 5/6",Berlin
+"Elberfelder Straße 14",Berlin
+"Annenstr. 3",Berlin
+"Rosa-Luxemburg-Str. 18",Berlin
+"Sebastianstr. 73",Berlin
+"Zehdenicker Str. 25",Berlin
+"Feldzeugmeisterstr. 5",Berlin
+"Bartningallee 7",Berlin
+"Cuxhavener Straße 5",Berlin
+"Flotowstr. 10",Berlin
+"Steinstr. 12",Berlin
+"Fehrbelliner Str. 22",Berlin
+"Klopstockstraße 19-23",Berlin
+"Rosa-Luxemburg-Str. 26",Berlin
+"Torstr. 112",Berlin
+"Jagowstr. 2",Berlin
+"Chausseestr. 6",Berlin
+"Brunnenstr. 195",Berlin
+"Schleswiger Ufer 5",Berlin
+"Legiendamm 4",Berlin
+"Strelitzer Str. 58",Berlin
+"Rückerstr. 1",Berlin
+"Alexanderstraße/Holzmarktstraße 75",Berlin
+"Brunnenstr. 41",Berlin
+"Keibelstr. 4-5",Berlin
+"Gipsstraße 9",Berlin
+"Rheinsberger Straße 45",Berlin
+"Steinstr. 26",Berlin
+"Utrechter Straße 10",Berlin
+"Krausnickstraße 8",Berlin
+"Märkisches Ufer 16/18",Berlin
+"Kurfürstenstraße 50",Berlin
+"Oranienburger Straße 2-5",Berlin
+"Rochstr. 1",Berlin
+"Wolliner Str. 3",Berlin
+"Badstraße 64",Berlin
+"Konrad-Wolf-Straße 41",Berlin
+"Badstraße 61",Berlin
+"Tucholskystraße 11",Berlin
+"Turmstraße 40",Berlin
+"Brunnenstr. 193",Berlin
+"Spandauer Str. 26-32",Berlin
+"Cuxhavener Straße 15",Berlin
+"Essener Straße 20",Berlin
+"Lichtenberger Str. 31-37",Berlin
+"Oranienburger Str. 46/47",Berlin
+"Calvinstraße 27",Berlin
+"Kleine Alexanderstraße 12/13",Berlin
+"Rosenthaler Str. 32",Berlin
+"Annenstraße 8A",Berlin
+"Auguststr. 4",Berlin
+"Neue Hochstr. 10",Berlin
+"Liebenwalder Straße 40",Berlin
+"Heinz Galinski Str. 1",Berlin
+"Littenstr. 3",Berlin
+"Rügener Str. 22",Berlin
+"Borsigstr. 17a",Berlin
+"Liebenwalder Straße 44",Berlin
+"Jagowstr. 16",Berlin
+"Wallstraße 70-73",Berlin
+"Oranienburger Straße 22",Berlin
+"Friedrichstr. 105",Berlin
+"Linienstraße 45",Berlin
+"Mauerstr. 78",Berlin
+"Annenstraße 4A",Berlin
+"Gotzkowskystr. 35",Berlin
+"Bornemannstr. 14",Berlin
+"Gipsstr. 23",Berlin
+"Choriner Str. 1",Berlin
+"Heinz-Galinski-Str. 8",Berlin
+"Müllerstraße 28",Berlin
+"Linienstraße 66",Berlin
+"Oranienburger Str. 9",Berlin
+"Zinzendorfstraße 8",Berlin
+"Hussitenstr. 38",Berlin
+"Utrechter Str. 43",Berlin
+"Friedrichstr. 55",Berlin
+"Lützowstr. 41",Berlin
+"Strelitzer Str. 25",Berlin
+"Oldenburger Straße 46",Berlin
+"Neue Roßstraße 16",Berlin
+"Neue Schönhauser Straße 10",Berlin
+"Ifflandstr. 2",Berlin
+"Liebenwalder Straße 16",Berlin
+"Neue Jakobstraße 16",Berlin
+"Swinemünder Str. 83",Berlin
+"Schulstr. 51",Berlin
+"Chausseestr. 117",Berlin
+"Lebuser Str./ Karl-Marx-Allee",Berlin
+"Ackerstr. 1",Berlin
+"Agricolastr. 21",Berlin
+"Lichtenberger Str. 32/33",Berlin
+"Max-Beer-Str. 38",Berlin
+"Otawistr. 23",Berlin
+"Jagowstraße 38",Berlin
+"Bredowstr. 14.",Berlin
+"Heinrich-Heine-Straße 13",Berlin
+"Hinter der Katholischen Kirche 4/5",Berlin
+"Tile-Wardenberg-Straße 28",Berlin
+"Turmstraße 76a",Berlin
+"Ruheplatzstr. 13",Berlin
+"Budapester Str. 13",Berlin
+"Almstadtstraße 45-49",Berlin
+"Bartningallee 23",Berlin
+"Fanninger Str. 53",Berlin
+"Eulerstraße 25",Berlin
+"Calvinstr. 15",Berlin
+"Schillingstr. 1",Berlin
+"Steinstr. 5",Berlin
+"Max Beer Str. 31",Berlin
+"Gipsstraße 3",Berlin
+"Alt-Moabit 86c",Berlin
+"Heinrich-Heine-Str. 10-11",Berlin
+"Thomasiusstr. 24",Berlin
+"Sophienstr. 22",Berlin
+"Bundesratufer 4",Berlin
+"Münzstr. 22",Berlin
+"Krausnickstr. 18",Berlin
+"Bundesratufer 9",Berlin
+"Chausseestr. 45",Berlin
+"Berolinastr. 15",Berlin
+"Amsterdamer Str. 14",Berlin
+"Karl Marx Allee 38/40",Berlin
+"Mollstr. 11-12",Berlin
+"Hochstädter Straße 1",Berlin
+"Neue Schönhauser Str. 15",Berlin
+"Hansa Ufer 5",Berlin
+"Rosenthaler Str. 42",Berlin
+"Liebenwalder Straße 38",Berlin
+"Genthiner Str. 8",Berlin
+"Klopstockstr. 9",Berlin
+"Hansa Ufer 6",Berlin
+"Levetzowstr. 6",Berlin
+"Spenerstr. 14",Berlin
+"Märkisches Ufer 14",Berlin
+"Klopstockstr. 15",Berlin
+"Eulerstraße 21",Berlin
+"Bredowstr. 39",Berlin
+"Inselstr. 11",Berlin
+"Mulackstr. 26",Berlin
+"Große Hamburger Str. 30",Berlin
+"Lübecker Str. 15",Berlin
+"Invalidenstr. 156",Berlin
+"Lichtenberger Straße 34",Berlin
+"Bellermannstraße 79-80",Berlin
+"Jägerstr. 33",Berlin
+"Neue Schönhauser Str. 12",Berlin
+Weinbergspark,Berlin
+"Mollstr. 33",Berlin
+"Stromstr. 52",Berlin
+"Bochumer Str. 10",Berlin
+"Rosenthaler Str. 39",Berlin
+"Groninger Str. 36",Berlin
+"Demminer Str. 13",Berlin
+"Gerichtstr. 22",Berlin
+"Köpenicker Straße 100",Berlin
+"Lessingstr. 16",Berlin
+"Flensburger / Ecke Lessingstr. 9",Berlin
+"Max Beer Str. 6",Berlin
+"Strelitzer Str. 3",Berlin
+"Bachstr. 1-2",Berlin
+"Klopstockstraße 18",Berlin
+"Sophienstr. 32",Berlin
+"Große Hamburger Str. 38",Berlin
+"Auguststr. 17",Berlin
+"Soldiner Str. 8",Berlin
+"Ostender Str. 2",Berlin
+"Ostender Str. 2a",Berlin
+"Singerstr. 1",Berlin
+"Jacobystr. 5-18",Berlin
+"Ohmstraße 10",Berlin
+"Legiendamm 22",Berlin
+"Weinbergsweg 20",Berlin
+"Schwedter Str. 250",Berlin
+"Reinhardtstr. 5",Berlin
+"Lessingstr. 8-10",Berlin
+"Tiergartenstr. 20/21",Berlin
+"Weinbergsweg 9",Berlin
+"Brückenstraße 13",Berlin
+"Alt-Moabit 85a",Berlin
+"Eichendorffstraße 18",Berlin
+"Grüntaler Straße 30",Berlin
+"Linienstr. 44",Berlin
+"Neue Roßstr. 4",Berlin
+"Luisenstr. 54/55",Berlin
+"Wallstraße 74/75",Berlin
+"Essener Str. 19",Berlin
+"Togostr. 78",Berlin
+"Kremmener Str. 7",Berlin
+"Müllerstr. 126a",Berlin
+"Brückenstraße 1a",Berlin
+"Reichpietschufer 64",Berlin
+"Oranienburger Straße 90",Berlin
+"Flotowstr. 1",Berlin
+"Levetzowstraße 11a",Berlin
+"Bundesratufer 2",Berlin
+"Kommandantenstr. 68/69",Berlin
+"Monbijouplatz 4",Berlin
+"Auguststr. 73",Berlin
+"Schillingstr. 12",Berlin
+"Granseer Str. 8",Berlin
+"Spenerstr. 25 A",Berlin
+"Hiroshimastr. 19",Berlin
+"Almstadtstraße 19",Berlin
+"Schulstraße 107",Berlin
+"Tile-Wardenberg-Str. 26",Berlin
+"Bundesratufer 1",Berlin
+"Hochstr. 20",Berlin
+"Linienstr. 53",Berlin
+"Müllerstraße 25",Berlin
+"Schmidstr. 2a",Berlin
+"Michaelkirchstr. 17",Berlin
+"Rosenthaler Str. 72",Berlin
+"Michaelkirchplatz 18",Berlin
+"Swinemünder Str. 74",Berlin
+"Alexanderstraße 8",Berlin
+"Hirtenstr. / Karl Liebknecht Str.",Berlin
+"Sickingenstr. 5",Berlin
+"Märkisches Ufer 12",Berlin
+"Cimbernstraße 13",Berlin
+"Breisacher Straße 19",Berlin
+"Wernerstraße 10",Berlin
+"Bernhard-Beyer-Straße 12",Berlin
+"Schmarjestraße 9B",Berlin
+"Stölpchenweg 7",Berlin
+"Habelschwerdter Allee 7",Berlin
+"Rolandstraße 4",Berlin
+"Wernerstraße 6",Berlin
+"Schützallee 45",Berlin
+"Onkel-Tom-Straße 91",Berlin
+"Onkel-Tom-Straße 77",Berlin
+"Clayallee 323",Berlin
+"Berlepschstraße 4",Berlin
+"Hittorfstraße 16",Berlin
+"Hochsitzweg 17",Berlin
+"Grüner Weg 15",Berlin
+"Patschkauer Weg 41",Berlin
+"Schopenhauerstraße 97",Berlin
+"Von-Luck-Straße 15",Berlin
+"Miquelstraße 86",Berlin
+"Am Hegewinkel 108",Berlin
+"Hohenzollernstraße 6",Berlin
+"Normannenstraße 2",Berlin
+"Potsdamer Straße 29",Berlin
+"Am Wieselbau 26",Berlin
+"Loebellstraße 6",Berlin
+"Alsenstraße 28",Berlin
+"Goethestraße 3",Berlin
+"Hartmannsweiler Weg 58",Berlin
+"Hohenzollernstraße 24",Berlin
+"Straße zum Löwen 19",Berlin
+"Ulricistraße 32",Berlin
+"Rheinbabenallee 49",Berlin
+"Waltraudstraße 27",Berlin
+"Hugo-Vogel-Straße 38-42",Berlin
+"Teutonenstraße 15",Berlin
+"Riemeisterstraße 78",Berlin
+"Ihnestraße 47",Berlin
+"Hohenzollernstraße 21",Berlin
+"Scharfestraße 14",Berlin
+"Koserstraße 21",Berlin
+"Kleiststraße 12",Berlin
+"Berliner Straße 71",Berlin
+"Pfeddersheimer Weg 50",Berlin
+"Karl-Kunger-Straße 22",Berlin
+"Puderstraße 22",Berlin
+"Rethelstraße 6a",Berlin
+"Güldenhofer Ufer 10",Berlin
+"Spreestraße 1",Berlin
+"Königsheideweg 269",Berlin
+"Dörpfeldstraße 23",Berlin
+"Wassermannstraße 69",Berlin
+"Albert-Einstein-Straße 15",Berlin
+"Salvador-Allende-Straße 43-45",Berlin
+"Alt-Köpenick 18",Berlin
+"Ostendorfstraße 19",Berlin
+"Wassersportallee 34",Berlin
+"Heidekrugstraße 67",Berlin
+"Bölschestraße 25",Berlin
+"Bölschestraße 39",Berlin
+"Bölschestraße 46",Berlin
+"Bölschestraße 51",Berlin
+"Bölschestraße 105",Berlin
+"Mandrellaplatz 1",Berlin
+"Janitzkystraße 37",Berlin
+"Schillerpromenade 7a",Berlin
+"Eulerstr. 14",Berlin
+"Akazienstr. 3",Berlin
+"An der Urania 16-18",Berlin
+"Ansbacher Str. 18",Berlin
+"Apostel-Paulus-Str. 20",Berlin
+"Bamberger Str. 37",Berlin
+"Bamberger Str. 48",Berlin
+"Bamberger Str. 52",Berlin
+"Bamberger Str. 55",Berlin
+"Barbarossastr. 8",Berlin
+"Barbarossastr. 45",Berlin
+"Barbarossastr. 53",Berlin
+"Bayreuther Str. 34",Berlin
+"Bayreuther Str. 38",Berlin
+"Beckerstr. 24",Berlin
+"Belziger Str. 30",Berlin
+"Belziger Str. 37",Berlin
+"Belziger Str. 39",Berlin
+"Bennigsenstr. 17",Berlin
+"Berchtesgadener Str. 35",Berlin
+"Berchtesgadener Str. 37",Berlin
+"Bozener Str. 9",Berlin
+"Brünnhildestr. 3",Berlin
+"Brünnhildestr. 8",Berlin
+"Bülowstr. 4",Berlin
+"Bülowstr. 88",Berlin
+"Bundesallee 79",Berlin
+"Courbièrestr. 5",Berlin
+"Courbièrestr. 15",Berlin
+"Courbièrestr. 16",Berlin
+"Crellestr. 6",Berlin
+"Crellestr. 42 und 42a",Berlin
+"Crellestr. 46",Berlin
+"Dennewitzstr. 35",Berlin
+"Dickhardtstr. 15",Berlin
+"Dickhardtstr. 39",Berlin
+"Eisenacher Str. 25",Berlin
+"Eisenacher Str. 80",Berlin
+"Eisenacher Str. 116",Berlin
+"Elßholzstr. 30-33",Berlin
+"Freisinger Str. 5a",Berlin
+"Freisinger Str. 6",Berlin
+"Freisinger Str. 8",Berlin
+"Gleditschstr.  55",Berlin
+"Gleditschstr.  80",Berlin
+"Goltzstr. 13",Berlin
+"Goltzstr. 42",Berlin
+"Goßlerstr. 9",Berlin
+"Goßlerstr. 20",Berlin
+"Goßlerstr. 21",Berlin
+"Goßlerstr. 25",Berlin
+"Gossowstr. 1",Berlin
+"Großgörschenstr. 35",Berlin
+"Grunewaldstr. 56",Berlin
+"Grunewaldstr. 44",Berlin
+"Handjerystr. 37",Berlin
+"Hauptstr. 30",Berlin
+"Heilbronner Str. 21",Berlin
+"Hewaldstr. 9",Berlin
+"Innsbrucker Str. 32",Berlin
+"Innsbrucker Str. 36",Berlin
+"Keithstr. 14",Berlin
+23/11/1876,Berlin
+20/2/1879,Berlin
+8/11/1883,Berlin
+"Kolonnenstr. 10-11",Berlin
+"Kolonnenstr. 46",Berlin
+"Elberfelder Str. 30",Berlin
+"Kufsteiner Str. 57",Berlin
+"Landshuter Str. 3",Berlin
+"Landshuter Str. 8",Berlin
+"Landshuter Str. 14",Berlin
+"Langenscheidtstr. 11",Berlin
+"Laubacher Str. 28",Berlin
+"Lietzenburger Str. 20 b",Berlin
+"Luitpoldstr. 21",Berlin
+"Luitpoldstr. 40",Berlin
+"Luitpoldstr. 41",Berlin
+"Martin-Luther-Str. 11",Berlin
+"Martin-Luther-Str. 12",Berlin
+"Martin-Luther-Str. 17",Berlin
+"Martin-Luther-Str. 53",Berlin
+"Martin-Luther-Str. 65",Berlin
+"Martin-Luther-Str. 111",Berlin
+"Martin-Luther-Str. 127",Berlin
+"Meraner Str. 11",Berlin
+"Meraner Str. 54",Berlin
+"Moselstr. 4",Berlin
+"Motzstr. 28",Berlin
+"Motzstr. 30",Berlin
+"Motzstr. 51",Berlin
+"Münchener Str. 18",Berlin
+"Münchener Str. 18 a",Berlin
+"Münchener Str. 21-22",Berlin
+"Münchener Str. 25",Berlin
+"Münchener Str. 30",Berlin
+"Münchener Str. 48",Berlin
+"Nollendorfstr. 13-14",Berlin
+"Nürnberger Str. 65",Berlin
+"Pallasstr. 5-6",Berlin
+"Pallasstr. 12",Berlin
+"Potsdamer Str. 138",Berlin
+"Potsdamer Str. 159",Berlin
+"Potsdamer Str. 185",Berlin
+"Regensburger Str. 2",Berlin
+"Regensburger Str. 33",Berlin
+"Rosenheimer Str. 13",Berlin
+"Rosenheimer Str. 22",Berlin
+"Salzburger Str. 8",Berlin
+"Schwerin Str. 5",Berlin
+19/4/1893,Berlin
+"Starnberger Str. 3",Berlin
+"Stierstr. 3",Berlin
+"Stierstr. 4",Berlin
+"Stierstr. 14-15",Berlin
+"Stierstr. 16",Berlin
+"Stierstr. 18",Berlin
+"Stierstr. 19",Berlin
+"Stierstr. 20",Berlin
+"Stierstr. 21",Berlin
+"Stübbenstr. 1",Berlin
+"Taunusstr. 4",Berlin
+"Taunusstr. 20",Berlin
+"Treuchtlinger Str. 5",Berlin
+"Varziner Str. 9",Berlin
+"Jagowstraße 44",Berlin
+"Vorbergstr. 3",Berlin
+"Vorbergstr. 15",Berlin
+"Wartburgstr. 42",Berlin
+"Welserstr. 2",Berlin
+"Wilhelmshöher Str. 14",Berlin
+29/4/1911,Berlin
+"Willmanndamm 6",Berlin
+"Alt-Tempelhof 9-11",Berlin
+"Bäumerplan 11",Berlin
+"Burgherrenstr. 4",Berlin
+"Friedrich-Karl-Str. 5",Berlin
+"Hoeppner Str. 4",Berlin
+"Kleineweg 77",Berlin
+"Kleineweg 105",Berlin
+"Manfred-von-Richthofen-Str. 9",Berlin
+"Manfred-von-Richthofen-Str. 28",Berlin
+"Manfred-von-Richthofen-Str. 30",Berlin
+"Manfred-von-Richthofen-Str. 221",Berlin
+"Paradestr. 22",Berlin
+"Peter-Strasser-Weg 22",Berlin
+"Schulenburgring 2",Berlin
+"Tempelhofer Damm 84",Berlin
+"Tempelhofer Damm 138",Berlin
+"Wiesener Str. 33",Berlin
+"Wulfila Ufer 52",Berlin
+"Äneasstr. 8",Berlin
+"Dirschelweg 16",Berlin
+"Hochfeilerweg 23 a",Berlin
+"Königstr. 29",Berlin
+"Richterstr. 48",Berlin
+"Alt-Lichtenrade 24-26",Berlin
+"Alt-Lichtenrade 123",Berlin
+"Beethovenstr. 29",Berlin
+"Charlottenstr. 18",Berlin
+"Franziusweg 63",Berlin
+"Gallunerstr. 31",Berlin
+"Gallunerstr. 41",Berlin
+"Grenzweg 1",Berlin
+"Hilbertstr. 1-2",Berlin
+"Maffeistr. 49",Berlin
+"Mellenerstr. 33",Berlin
+"Mozartstr. 22",Berlin
+"Uhlandstr. 41 a",Berlin
+"Drakestr. 47",Berlin
+"Potsdamer Str. 32",Berlin
+"Unter den Eichen 65",Berlin
+"Drakestr. 19",Berlin
+"Drakestr. 53",Berlin
+"Drakestr. 58",Berlin
+"Gardeschützenweg 96",Berlin
+"Ringstr. 102 D",Berlin
+"Potsdamer Str. 62",Berlin
+"Söthstr. 2",Berlin
+"Baseler Str. 13",Berlin
+"Baseler Str. 27",Berlin
+"Kyllmannstr. 22",Berlin
+"Hartmannstr. 35",Berlin
+"Augustastr. 37",Berlin
+6/2/1891,Berlin
+"Vionvillestr. 21",Berlin
+"Schillerstraße 10a",Berlin
+"Hubertusstraße 5",Berlin
+"Marschnerstr. 38",Berlin
+"Althoffstr. 1",Berlin
+"Waldmannstr. 1",Berlin
+"Dürerstr. 17",Berlin
+"Rotdornweg 14",Berlin
+"Königsberger Str. 13",Berlin
+"Poschinger Str. 14",Berlin
+"Manteuffelstr. 27",Berlin
+"Ostpreußendamm 51",Berlin
+"Goethestr. 37",Berlin
+"Mozartstr. 10",Berlin
+"Martinstr. 8",Berlin
+"Viktoriastr. 4a",Berlin
+"Steinstr. 4",Berlin
+"Steglitzer Damm 8",Berlin
+"Ahornstr. 3",Berlin
+"Bismarckstr. 47",Berlin
+"Leonorenstr. 79",Berlin
+"Boothstr. 33",Berlin
+"Stirnerstr. 1",Berlin
+"Althoffstr. 4",Berlin
+"Albrechtstr. 59a",Berlin
+"Boothstr. 20c",Berlin
+"Althoffstr. 8",Berlin
+"Curtiusstr. 108",Berlin
+"Moltkestr. 51",Berlin
+"Immenweg 7",Berlin
+"Rothenburgstraße 18",Berlin
+"Breite Str. 15/16",Berlin
+"Havelstr. 20",Berlin
+"Lenther Steig 19",Berlin
+"Schönwalder Str 13/14",Berlin
+"Ruhlebener Str. 155",Berlin
+"Rieppelstr. 2",Berlin
+"Carl-Schurz-Str. 39",Berlin
+"Markt 11",Berlin
+"Pionierstr. 69",Berlin
+"Kurze Str. 1",Berlin
+"Mahnkopfweg 13-15",Berlin
+"Sakrower Kirchweg 70a",Berlin
+"Alt-Tegel 44-46",Berlin
+"Alt-Wittenau 38",Berlin
+"Am Klauswerder 11",Berlin
+"Antonienstraße 12",Berlin
+"Antonienstraße 61",Berlin
+"Beatestraße 22 A",Berlin
+"Berliner Str. 20",Berlin
+"Berliner Str. 7-8",Berlin
+"Bertramstraße 112",Berlin
+"Billerbecker Weg 123 A",Berlin
+"Bornepfad 4-6",Berlin
+"Büdnerring 34 D",Berlin
+"Dannenwalder Weg 62",Berlin
+"Egidystraße 26",Berlin
+"Eichborndamm 238",Berlin
+"Eichborndamm 240",Berlin
+"Emmentaler Str. 101",Berlin
+"Erholungsweg 14",Berlin
+"Ernststr. 94",Berlin
+"Falkentaler Steig 16",Berlin
+"Feuerweg 1",Berlin
+"Gamsbartweg 12",Berlin
+"Glambecker Weg 27 a",Berlin
+Gorkistraße,Berlin
+"Granatenstraße 2",Berlin
+"Gutachstr. 14",Berlin
+"Haßlinger Weg 9",Berlin
+"Heidenheimer Straße 7",Berlin
+"Hennigsdorfer Straße 14",Berlin
+"Herbsteiner Str. 17",Berlin
+"Hermsdorfer Straße 70",Berlin
+"Hermsdorfer Straße 8",Berlin
+"Holzhauser Straße 121",Berlin
+"Im Amseltal 29",Berlin
+"Isegrimsteig 28",Berlin
+"Kienhorststraße 162",Berlin
+"Kienhorststraße 34",Berlin
+"Klosterheider Weg 1",Berlin
+"Knappenpfad 7",Berlin
+"Kol. Am Brocken II",Berlin
+"Nordbahnstr./Ecke Amendestr.",Berlin
+"Kol. Vor den Toren",Berlin
+"Kreuzritterstr. 12a",Berlin
+"Kühleweinstraße 69",Berlin
+"Lengeder Str. 8",Berlin
+"Lindauer Allee 17",Berlin
+"Ludolfinger Weg 42",Berlin
+"Luisenweg 10",Berlin
+"Markgrafenstr. 64",Berlin
+"Markgrafenstraße 22",Berlin
+"Nimrodstr. 43",Berlin
+"Olafstraße 8-10",Berlin
+"Oranienburger Straße 285",Berlin
+"Provinzstraße 48",Berlin
+"Ritterlandweg 40",Berlin
+"Roswithastraße 16",Berlin
+"Saturnstraße 19",Berlin
+"Scharnweberstraße 140",Berlin
+"Scharnweberstraße 72",Berlin
+"Schillingstraße 43",Berlin
+"Schloßstr. 1",Berlin
+"Schulzendorfer Straße 44",Berlin
+"Seidelstr. 23",Berlin
+"Septimer Straße",Berlin
+"Spießweg 2",Berlin
+"Techowpromenade 54",Berlin
+"Tile-Brügge-Weg 43",Berlin
+"Wachsmuthstr. 9",Berlin
+"Waldowstraße 10",Berlin
+"Wallenroder Straße 8-10",Berlin
+"Werdohler Weg 11",Berlin
+"Wesselburer Weg 2 A",Berlin
+"Zeltinger Str. 65",Berlin
+"Zermatter Straße 18",Berlin
+"Ziekowstraße 139",Berlin
+"Schönhauser Allee 138/139",Berlin
+"Zehdenicker Straße 2",Berlin
+"Choriner Straße 53",Berlin
+"Prenzlauer Allee 34",Berlin
+"Schönhauser Allee 187",Berlin
+"Prenzlauer Allee 27",Berlin
+"Immanuelkirchstraße 24",Berlin
+"Stargarder Straße 6",Berlin
+21/8/1893,Berlin
+"Grellstraße 18",Berlin
+"Schönhauser Allee 163/163A",Berlin
+"Mendelssohnstraße 5",Berlin
+22/10/1907,Berlin
+"Raabestraße 13",Berlin
+"Torstraße 75",Berlin
+"Oderberger Straße 20",Berlin
+"Heinrich-Roller-Straße 23",Berlin
+"Sredzkistraße 54",Berlin
+"Korsörer Straße 18",Berlin
+"Prenzlauer Allee 15",Berlin
+"Dunckerstraße 2 a",Berlin
+Gutmann,Berlin
+"Raumerstraße 21",Berlin
+"Schönhauser Allee 41",Berlin
+"Winsstraße 14",Berlin
+"Kastanienallee 29",Berlin
+"Kopenhagener Straße 18",Berlin
+"Florastraße 61",Berlin
+"Buchholzer Straße 4",Berlin
+"Fehrbelliner Straße 86",Berlin
+"Woelckpromenade 7",Berlin
+"Treskowstraße 1",Berlin
+"Marienburger Straße 48",Berlin
+"Bötzowstraße 10",Berlin
+"Metzer Straße 30",Berlin
+"Gubitzstaße 47A",Berlin
+"Bergener Str. 1",Berlin
+"Greifswalder Str. 152",Berlin
+"Rietzestraße 1",Berlin
+"Kastanienallee 74",Berlin
+"Otto-Braun-Str. 87",Berlin
+"Prenzlauer Allee 36",Berlin
+"Bötzowstraße 60",Berlin
+"Bötzowstraße 53",Berlin
+"Prenzlauer Promenade 4",Berlin
+"Metzer Straße 26",Berlin
+"Heinrich-Roller-Straße 17",Berlin
+"Templiner Straße 17",Berlin
+"Christburger Str. 40",Berlin
+"Greifswalder Straße 43 a",Berlin
+"Straßburger Straße 24",Berlin
+"Florastraße 42",Berlin
+"Erich-Weinert-Straße 17",Berlin
+"Kuglerstraße 20",Berlin
+"Winsstraße 40",Berlin
+"Kastanienallee 13/14",Berlin
+"Heinrich-Roller-Sraße 10",Berlin
+"Kopenhagener Straße 11",Berlin
+"Am Friedrichshain 14",Berlin
+"Schönhauser Allee 130",Berlin
+"Lottumstraße 7",Berlin
+"Straßburger Straße 60",Berlin
+"Christinenstraße 35",Berlin
+"Immanuelkirchstr. 5",Berlin
+"Dunckerstraße 58",Berlin
+"Mendelssohnstraße 10",Berlin
+"Donaustraße 11",Berlin
+"Donaustraße 18",Berlin
+"Flughafenstraße 41",Berlin
+"Fuldastraße 12",Berlin
+"Gielower Straße 32c",Berlin
+"Gretelstraße 10",Berlin
+"Hermannstraße 46",Berlin
+"Hermannstraße 48",Berlin
+"Herrfurthstraße 5",Berlin
+"Hobrechtstraße 57",Berlin
+"Innstraße 24",Berlin
+"Jonasstraße 4",Berlin
+"Juliusstraße 39",Berlin
+"Lenaustraße 21",Berlin
+"Karl-Marx-Str. 16",Berlin
+"Karl-Marx-Str. 26",Berlin
+"Karl-Marx-Str. 36",Berlin
+"Karl-Marx-Str. 43",Berlin
+"Karl-Marx-Str. 55",Berlin
+Karl-Marx-Str.56,Berlin
+Karl-Marx-Str.58,Berlin
+Karl-Marx-Str.69,Berlin
+Karl-Marx-Str.76,Berlin
+Karl-Marx-Str.93,Berlin
+"Karl-Marx-Str. 100",Berlin
+"Karl-Marx-Str. 112",Berlin
+"Karl-Marx-Str. 118",Berlin
+"Karl-Marx-Str. 169",Berlin
+"Karl-Marx-Str. 175",Berlin
+"Karl-Marx-Str. 212",Berlin
+"Maybachufer 8",Berlin
+"Nansenstraße 18",Berlin
+"Oderstraße 50",Berlin
+"Richardstraße 49",Berlin
+"Rungiusstraße 33",Berlin
+"Sanderstraße 20",Berlin
+"Sanderstraße 28",Berlin
+"Schierkerstraße 5",Berlin
+"Silbersteinstraße 97",Berlin
+"Sonnenallee 137",Berlin
+"Steinbockstraße 23",Berlin
+"Warthestraße 69",Berlin
+"Weichselstraße 28",Berlin
+"Weichselstraße 52",Berlin
+"Weserstraße 54",Berlin
+Otto-Nagel-Str.19,Berlin
+Otto-Nagel-Str.38,Berlin
+"Otto-Nagel-Str. 38",Berlin
+"Lohengrinstr. 2",Berlin
+Lohengrinstr.2,Berlin
+"Eichenhofweg 9",Berlin
+"Hertwigswalder Steig 8",Berlin
+"Adalbertstr. 72",Berlin
+"Adalbertstr. 77",Berlin
+"Adalbertstr. 87",Berlin
+"Adalbertstr. 95a",Berlin
+"Admiralstr. 14",Berlin
+"Admiralstr. 19",Berlin
+"Alte Jakobstr. 124",Berlin
+"Alte Jakobstr. 169",Berlin
+"Alte Jakobstr. 33/35",Berlin
+"Am Ostbahnhof",Berlin
+"Andreasstr. 25",Berlin
+"Andreasstr. 34",Berlin
+"Anhalter Str. 1",Berlin
+"Arndtstr. 20",Berlin
+"Arndtstr. 25",Berlin
+"Baerwaldstr. 11",Berlin
+"Baerwaldstr. 47",Berlin
+"Mehringdamm 86",Berlin
+"Mehringdamm 88",Berlin
+"Mehringdamm 69",Berlin
+"Bergmannstr. 97",Berlin
+"Bevernstr. 3",Berlin
+"Bevernstr. 6",Berlin
+"Lehmbruckstr. 20",Berlin
+"Böckhstr. 37",Berlin
+"Böckhstr. 49",Berlin
+"Böckhstr. 53",Berlin
+"Boppstr. 2",Berlin
+"Boxhagener Str. 27",Berlin
+"Lobeckstr. 43",Berlin
+"Lobeckstr. 44",Berlin
+"Kohlfurter Str. 7",Berlin
+"Körtestr. 5",Berlin
+"Cuvrystr. 2",Berlin
+"Dieffenbachstr. 30",Berlin
+"Dieffenbachstr. 45",Berlin
+"Dieffenbachstr. 49",Berlin
+"Dieffenbachstr. 54",Berlin
+"Dieffenbachstr. 70",Berlin
+"Dolziger Str. 1",Berlin
+"Dresdener Str. 15",Berlin
+"Dresdener Str. 19",Berlin
+"Dresdener Str. 20",Berlin
+"Leuschnerdamm 43",Berlin
+"Falckensteinstr. 49",Berlin
+"Feilnerstr. 3 a",Berlin
+"Fichtestr. 29",Berlin
+"Fontanepromenade 2",Berlin
+"Fontanepromenade 5",Berlin
+"Frankfurter Allee 35 / 37",Berlin
+"Freiligrathstr. 7",Berlin
+"Friedrichstr. 11",Berlin
+"Friedrichstr. 16",Berlin
+"Friesenstr. 18",Berlin
+"Straße der Pariser Kommune",Berlin
+"Straße der Pariser Kommune 40",Berlin
+"Karl-Marx-Allee 90",Berlin
+"Straße der Pariser Kommune 13",Berlin
+"Gabelsbergerstr. 6",Berlin
+"Gitschiner Str. 32 - 37",Berlin
+"Gneisenaustr. 101",Berlin
+"Gneisenaustr. 4",Berlin
+"Görlitzer Str. 74",Berlin
+"Graefestr. 3",Berlin
+"Graefestr. 5",Berlin
+"Graefestr. 69",Berlin
+"Graefestr. 91",Berlin
+"Großbeerenstr. 1",Berlin
+"Großbeerenstr. 24",Berlin
+Großbeerenstr.5,Berlin
+"Großbeerenstr. 56 C",Berlin
+"Großbeerenstr. 92",Berlin
+"Strausberger Platz",Berlin
+"Gubener Str. 22",Berlin
+"Gubener Str. 36",Berlin
+"Hagelberger Str. 26",Berlin
+"Hagelberger Str. 34",Berlin
+"Hallesche Str. 19",Berlin
+"Hallesche Str. 20",Berlin
+"Hallesche Str. 3",Berlin
+"Hallesches Ufer 28",Berlin
+"Hasenheide 68",Berlin
+"Hasenheide 7 / 8",Berlin
+"Alexandrinenstr. 117",Berlin
+"Hornstr. 23",Berlin
+"Hornstr. 6",Berlin
+"Köpenicker Str. 28",Berlin
+"Köpenicker Str. 8A",Berlin
+"Kopischstr. 2",Berlin
+"Koppenstr. 31",Berlin
+"Kottbusser Damm 5",Berlin
+"Paul-Lincke-Ufer 41",Berlin
+"Krautstr. 29",Berlin
+"Kreuzbergstr. 25",Berlin
+"Kreuzbergstr. 2 / 3",Berlin
+"Kreuzbergstr. 72",Berlin
+"Kreuzbergstr. 77",Berlin
+"Lachmannstr. 4",Berlin
+"Landsberger Allee 42",Berlin
+"Platz der Vereinten Nationen 4/5",Berlin
+"Lausitzer Platz 12 a",Berlin
+"Liegnitzer Str. 4",Berlin
+"Axel-Springer-Str. 50",Berlin
+"Luckauer Str. 5",Berlin
+"Mainzer Str. 23",Berlin
+"Marheinekeplatz 4",Berlin
+"Marheinekeplatz 8",Berlin
+"Mariannenplatz 23",Berlin
+"Mariannenstr. 23",Berlin
+"Mariannenstr. 34",Berlin
+"Matternstr. 9",Berlin
+"Marchlewskistr. 20",Berlin
+"Marchlewskistr. 28",Berlin
+"Marchlewskistr. 38/40",Berlin
+"Marchlewskistr. 100",Berlin
+"Mittenwalder Str. 19",Berlin
+"Moritzstr. 18",Berlin
+"Muskauer Str. 16",Berlin
+"Muskauer Str. 38",Berlin
+"Muskauer Str. 48",Berlin
+"Muskauer Str. 8",Berlin
+"Naunynstr. 19",Berlin
+"Naunynstr. 31",Berlin
+"Naunynstr. 37",Berlin
+"Naunynstr. 46",Berlin
+"Oderstr. 34",Berlin
+"Oranienstr. 120",Berlin
+"Oranienstr. 144",Berlin
+"Oranienstr. 145 / 146",Berlin
+"Oranienstr. 158",Berlin
+"Oranienstr. 167",Berlin
+"Oranienstr. 173",Berlin
+"Oranienstr. 175",Berlin
+"Oranienstr. 187",Berlin
+"Oranienstr. 206",Berlin
+"Oranienstr. 198",Berlin
+"Oranienstr. 207",Berlin
+"Oranienstr. 34",Berlin
+"Oranienstr. 66",Berlin
+"Oranienstr. 72",Berlin
+"Oranienstr. 88",Berlin
+"Planufer 89 - 90",Berlin
+"Prinzenstr. 97",Berlin
+"Pücklerstr. 38",Berlin
+"Ratiborstr. 7",Berlin
+"Reichenberger Str. 120",Berlin
+"Reichenberger Str. 133",Berlin
+"Reichenberger Str. 181",Berlin
+"Reichenberger Str. 72 a",Berlin
+"Reichenberger Str. 84",Berlin
+"Reichenberger Str. 96",Berlin
+"Rigaer Str. 30",Berlin
+"Rigaer Str. 57",Berlin
+"Ritterstr. 96-99",Berlin
+"Ritterstr. 33",Berlin
+"Ritterstr. 61",Berlin
+"Ritterstr. 63",Berlin
+"Rochowstr. 13 A",Berlin
+"Stresemannstr. 44",Berlin
+"Samariterstr. 1",Berlin
+"Samariterstr. 29",Berlin
+"Schleiermacherstr. 11",Berlin
+"Schleiermacherstr. 15",Berlin
+"Schlesische Str. 20",Berlin
+"Schlesische Str. 27",Berlin
+"Schlesische Str. 44",Berlin
+"Schönleinstr. 18",Berlin
+"Sebastianstr. 79",Berlin
+"Simon-Dach-Str. 25",Berlin
+"Skalitzer Str. 141 a",Berlin
+"Skalitzer Str. 32",Berlin
+"Skalitzer Str. 5",Berlin
+"Skalitzer Str. 81",Berlin
+"Solmsstr. 30",Berlin
+"Solmsstr. 42",Berlin
+"Sorauer Str. 9 / 9 A",Berlin
+"Stallschreiberstr. 43",Berlin
+"Stallschreiberstr. 11",Berlin
+"Stralauer Allee 24",Berlin
+"Strausberger Str. 39",Berlin
+"Tempelherrenstr. 3",Berlin
+"Richard-Sorge-Str. 65",Berlin
+"Torellstr. 4",Berlin
+"Blücherstr. 61 b",Berlin
+"Urbanstr. 3",Berlin
+"Urbanstr. 71",Berlin
+"Waldemarstr. 42",Berlin
+Waldemarstr,Berlin
+Waldemarstr.,Berlin
+"Waldemarstr. 96",Berlin
+"Warschauer Str. 12",Berlin
+"Wartenburgstr. 16",Berlin
+"Wassertorstr. 1 / 2",Berlin
+"Wassertorstr. 22",Berlin
+"Weidenweg 44 / 46",Berlin
+"Wiener Str. 16",Berlin
+"Wiener Str. 33",Berlin
+"Wilhelmstr. 140",Berlin
+"Willibald-Alexis-Str. 15",Berlin
+"Willibald-Alexis-Str. 39",Berlin
+"Wrangelstr. 65",Berlin
+"Wrangelstr. 9",Berlin
+"Wühlischstr. 32",Berlin
+"Yorckstr. 88",Berlin
+"Zossener Str. 29",Berlin
+"Petersburger Str. 63",Berlin
+"Höchste Str. 14-16",Berlin
+"Hornstr. 19",Berlin
+"Johanniterstr. 6",Berlin
+"Kochhannstr. 1",Berlin
+"Kommandantenstr. 57",Berlin
+"Lausitzer Str. 31",Berlin
+"Reichenberger Str. 49",Berlin
+"Hornstr. 11",Berlin
+"Lange Str. 81",Berlin
+"Manteuffelstr. 49",Berlin
+"Prinzenstr. 40",Berlin
+"Yorckstr. 89",Berlin
+"Manteuffelstr. 21",Berlin
+"Prinzessinnenstr. 21 - 24",Berlin
+"Erkelenzdamm 25",Berlin
+"Reichenberger Str. 184",Berlin
+"Lange Str. 79",Berlin
+"Platz der Vereinten Nationen 26",Berlin
+"Schenkendorfstr. 2",Berlin
+"Dudenstr. 32 / 32 A",Berlin
+"Strausberger Platz 15",Berlin
+"Friedrichstr. 34",Berlin
+"Planufer 93 A",Berlin
+"Niederbarnimstr. 13",Berlin
+"Mainzer Str. 18",Berlin
+"Scharnweberstr. 46",Berlin
+Friedrichstr.40,Berlin
+"Alexandrinenstr. 31",Berlin
+"Blücherstr. 18",Berlin
+"Skalitzer Str. 121",Berlin
+"Friedenstr. ",Berlin
+"Lichtenberger Str. 40",Berlin
+"Lindenstr. 83",Berlin
+"Lindenstr. 69",Berlin
+"Lindenstr. 77 - 79",Berlin
+"Lindenstr. 107",Berlin
+"Lindenstr. 91",Berlin
+"Sonntagstr. 29",Berlin
+"Sonntagstr. 11",Berlin
+"Mühsamstr. 61",Berlin
+"Sonntagstr. 32",Berlin
+"Fraenkelufer 34",Berlin
+"Tempelherrenstr. 8 / 8 A",Berlin
+"Barnimstr. 38",Berlin
+"Barnimstr. 18",Berlin
+"Markgrafendamm 35",Berlin
+"Markgrafendamm 16",Berlin
+"Markgrafendamm 25",Berlin
+"Stralauer Allee 23 A",Berlin
+"Stralauer Allee 23 B",Berlin
+"Bödikerstr. 35",Berlin
+"Corinthstr. 63",Berlin
+"Corinthstr. 51",Berlin
+"Danneckerstr. 21",Berlin
+"Skalitzer Str. 46",Berlin
+"Prinzenstr. 32-33",Berlin
+"Gryphiusstr. ",Berlin
+"Fürbringerstr. 18",Berlin
+"Koppenstr. 41 / 41A",Berlin
+"Schreinerstr. 52 / 52A",Berlin
+"Jahnstr. 2",Berlin
+"Kreutzigerstr. 28",Berlin
+"Revaler Str. 6",Berlin
+"Pfuelstr. 6",Berlin
+"Otto-Braun-Str. 86/88",Berlin
+"Johanniterstr. 3",Berlin
+"Willibald-Alexis-Str. 42",Berlin
+"Manteuffelstr. 5",Berlin
+"Singerstr. 66",Berlin
+"Friedenstr. 4",Berlin
+"Riemannstr. 4",Berlin
+"Cuvrystr. 13 - 15",Berlin
+"Ritterstr. 109",Berlin
+"Muskauer Str. 51",Berlin
+"Cuvrystr. 42",Berlin
+"Hasenheide 54",Berlin
+"Grünberger Str. 43",Berlin
+"Naunynstr. 35",Berlin
+"Naunynstr. 2",Berlin
+"Segitzdamm 12",Berlin
+"Segitzdamm 8",Berlin
+"Besselstr. 19",Berlin
+"Krautstr. 38 A",Berlin
+"Admiralstr. 23",Berlin
+"Blumenstr. 47 - 49",Berlin
+"Richard-Sorge-Str. 73",Berlin
+"Kleine Andreasstr. 8/9",Berlin
+"Wrangelstr. 18",Berlin
+"Grünberger Str. 6",Berlin
+"Otto-Braun-Str. 90",Berlin
+"Dresdener Str. 128",Berlin
+"Robert-Siewert-Str. 44",Berlin
+"Grünberger Str. 19",Berlin
+"Frankfurter Allee 43",Berlin
+"Wrangelstr. 127",Berlin
+"Wrangelstr. 92",Berlin
+"Wilhelmstr. 22/23",Berlin
+"Wrangelstr. 94",Berlin
+"Friedenstraße 8",Berlin
+"Prinzenstr. 23",Berlin
+"Frankfurter Allee 9",Berlin
+"Fidicinstr. 1-2",Berlin
+"Mühsamstr. 48-52",Berlin
+"Kreutzigerstr. 13",Berlin
+"Geibelstr. 1",Berlin
+"Bergfriedstr. 11",Berlin
+"Großbeerenstraße 5",Berlin
+"Oranienstr. 119",Berlin
+"Gitschiner Str. 70",Berlin
+"Holsteinische Str. 12",Berlin
+"Bleibtreustr. 33",Berlin
+"Rudolstädter Straße 110",Berlin
+"Schlüterstr. 54",Berlin
+"Helgolandstr. 3",Berlin
+"Joachim-Friedrich-Str. 20",Berlin
+"Nassauische Str. 30",Berlin
+"Wielandstr. 17",Berlin
+"Saldernstr. 2",Berlin
+"Uhlandstr. 114",Berlin
+"Sybelstr. 44",Berlin
+"Schloßstr. 56",Berlin
+"Goethestr. 69",Berlin
+"Knesebeckstr. 31",Berlin
+"Güntzelstr. 49",Berlin
+"Helmstedter Str. 24",Berlin
+"Hektorstr. 18",Berlin
+"Duisburger Str. 1",Berlin
+"Gneiststr. 8",Berlin
+"Pestalozzistr. 99 A",Berlin
+"Nassauische Str. 54",Berlin
+"Leonhardtstr. 18",Berlin
+"Wilhelmsaue 3",Berlin
+"Einsteinufer 11",Berlin
+"Wissmannstr. 11",Berlin
+"Sybelstr. 5",Berlin
+"Königin-Elisabeth-Str. 58",Berlin
+"Waldschulallee 7",Berlin
+"Bamberger Str. 22",Berlin
+"Sybelstr. 18",Berlin
+"Leonhardtstr. 5",Berlin
+"Fasanenstr. 58",Berlin
+"Landhausstr. 44",Berlin
+"Stormstr. 10",Berlin
+"Kantstr. 154a",Berlin
+"Leonhardtstr. 17",Berlin
+"Spandauer Damm 54",Berlin
+"Knobelsdorffstr. 33",Berlin
+"Paretzer Str. 10",Berlin
+"Meinekestr. 7",Berlin
+"Giesebrechtstr. 21",Berlin
+"Hohenzollerndamm 201",Berlin
+"Ringbahnstr. 5",Berlin
+"Güntzelstr. 45",Berlin
+"Marburger Str. 9A",Berlin
+"Wilhelmsaue 138",Berlin
+"Nassauische Str. 61",Berlin
+"Kaiserdamm 115",Berlin
+"Nassauische Str. 16A",Berlin
+"Wilmersdorfer Str. 102/103",Berlin
+"Pariser Str. 24",Berlin
+"Wilhelmsaue 132",Berlin
+"Lietzenburger Str. 99",Berlin
+"Landauer Str. 11",Berlin
+"Düsseldorfer Str. 77",Berlin
+"Kurfürstendamm 184",Berlin
+"Hektorstr. 9 ",Berlin
+"Lietzenburger Str. 78",Berlin
+"Kurfürstendamm 64",Berlin
+"Prinzregentenstr. 90",Berlin
+"Kaiserdamm 22",Berlin
+"Konstanzer Str. 4",Berlin
+"Jenaer Str. 20",Berlin
+"Eschenallee 13 A",Berlin
+"Helmstedter Str. 10",Berlin
+"Waitzstr. 10",Berlin
+"Xantener Str. 20",Berlin
+"Kurfürstendamm 187",Berlin
+"Bleibtreustr. 19",Berlin
+"Bleibtreustr. 45",Berlin
+"Georg-Wilhelm-Str. 5",Berlin
+"Wielandstr. 30",Berlin
+"Trendelenburgstr. 16",Berlin
+"Niebuhrstr. 66",Berlin
+"Dahlmannstr. 1",Berlin
+"Giesebrechtstr. 18",Berlin
+"Rudolstädter Str. 120",Berlin
+"Niebuhrstr. 72",Berlin
+"Leibnizstr. 19",Berlin
+"Droysenstr. 18",Berlin
+"Leonhardtstr. 10",Berlin
+"Landhausstr. 36",Berlin
+"Lietzenseeufer 7",Berlin
+"Joachimstaler Str. 5",Berlin
+"Friedrichsruher Str. 36",Berlin
+"Kaiser-Friedrich-Str. 80/81",Berlin
+"Wundtstr. 52",Berlin
+"Wissmannstr. 17",Berlin
+"Konstanzer Str. 3",Berlin
+"Salzbrunner Str. 42",Berlin
+"Gieselerstr. 12",Berlin
+"Mommsenstr. 69",Berlin
+"Wielandstr. 31",Berlin
+"Sybelstr. 65",Berlin
+"Giesebrechtstr. 13",Berlin
+"Joachim-Friedrich-Str. 55",Berlin
+"Berliner Str. 42",Berlin
+"Brandenburgische Str. 43",Berlin
+"Uhlandstr. 145",Berlin
+"Konstanzer Str. 6",Berlin
+"Galvanistr. 15",Berlin
+"Droysenstr. 7",Berlin
+"Leonhardtstr. 19",Berlin
+"Niebuhrstr. 63",Berlin
+"Kantstr. 148",Berlin
+"Eislebener Str. 9",Berlin
+"Kurfürstendamm 75",Berlin
+"Witzlebenstr. 13",Berlin
+"Düsseldorfer Str. 44-45",Berlin
+"Pariser Str. 17",Berlin
+"Mainzer Str. 16",Berlin
+"Meierottostr. 6",Berlin
+"Mommsenstr. 52",Berlin
+"Aachener Str. 4",Berlin
+"Ludwigkirchplatz 2",Berlin
+"Krumme Str. 91",Berlin
+"Carmerstr. 10",Berlin
+"Windscheidstr. 37",Berlin
+"Schlüterstr. 49",Berlin
+"Paderborner Str. 9",Berlin
+"Hektorstr. 17",Berlin
+"Pestalozzistr. 6",Berlin
+"Bielefelder Str. 21/ 22",Berlin
+"Sächsische Str. 22",Berlin
+"Nestorstr. 54",Berlin
+"Regensburger Str. 28",Berlin
+"Bayerische Str. 2",Berlin
+"Wielandstr. 13",Berlin
+"Württembergische Str. 40",Berlin
+"Schellendorffstr. 31",Berlin
+"Windscheidstr. 32",Berlin
+"Babelsberger Str. 51a",Berlin
+3/3/1884,Berlin
+"Württembergallee 10",Berlin
+"Goethepark 13/ Kaiser-Friedrich-Str. 67",Berlin
+"Niebuhrstr. 67",Berlin
+"Leonhardtstr. 6",Berlin
+"Kantstr. 33",Berlin
+"Hektorstr. 20",Berlin
+"Bayerische Str. 5",Berlin
+"Horstweg 38",Berlin
+"Prinzregentenstr. 6",Berlin
+"Landauer Str. 3",Berlin
+"Wielandstr. 12",Berlin
+"Wilhelmsaue 4",Berlin
+"Mommsenstr. 56",Berlin
+"Olivaer Platz 5",Berlin
+"Schillerstr. 14",Berlin
+"Aschaffenburger Str. 22",Berlin
+"Tauentzienstr. 13A",Berlin
+"Roscherstr. 12",Berlin
+"Brixplatz 6",Berlin
+"Emser Str. 39",Berlin
+"Sesenheimer Str. 14",Berlin
+"Wilhelmsaue 136",Berlin
+"Sächsische Str. 48",Berlin
+"Schlüterstr. 17",Berlin
+"Sophie-Charlotten-Str. 104",Berlin
+"Hohenzollerndamm 102",Berlin
+"Niebuhrstr. 77",Berlin
+"Ludwigkirchplatz 8",Berlin
+"Damaschkestr. 23",Berlin
+"Augsburger Str. 42",Berlin
+"Reichsstr. 106",Berlin
+"Helmstedter Str. 5",Berlin
+"Kurfürstendamm 212",Berlin
+"Güntzelstr. 53",Berlin
+"Landauer Str. 12",Berlin
+"Leibnizstr. 34",Berlin
+"Spessartstr. 11",Berlin
+"Kaiserdamm 19",Berlin
+"Wilmersdorfer Str. 32",Berlin
+"Knobelsdorffstr. 13",Berlin
+"Caspar-Theyß-Str. 24",Berlin
+"Pariser Str. 45",Berlin
+"Savignyplatz 4",Berlin
+"Güntzelstr. 19/20",Berlin
+"Wilhelmsaue 5",Berlin
+"Leistikowstr. 2",Berlin
+"Bleibtreustr. 40",Berlin
+"Ludwigkirchplatz 7",Berlin
+"Douglasstr. 11",Berlin
+"Prinzregentenstr. 7",Berlin
+"Lohmeyerstr. 5",Berlin
+"Pariser Str. 15",Berlin
+"Fredericiastr. 2",Berlin
+"Meinekestr. 25",Berlin
+"Falterweg 11",Berlin
+"Sybelstr. 40",Berlin
+"Babelsberger Str. 11",Berlin
+"Rudolstädter Str. 127",Berlin
+"Knesebeckstr. 74",Berlin
+"Zikadenweg 39",Berlin
+"Pariser Str. 51",Berlin
+"Joachim-Friedrich-Str. 54",Berlin
+"Markgraf-Albrecht-Str. 14",Berlin
+"Niebuhrstr. 58",Berlin
+"Hektorstr. 2",Berlin
+"Holtzendorffstr. 20",Berlin
+"Landhausstr. 37",Berlin
+"Fasanenstr. 60",Berlin
+"Mommsenstr. 55",Berlin
+"Gervinusstr. 4",Berlin
+"Augsburger Str. 27",Berlin
+"Kronprinzendamm 11",Berlin
+"Schillerstr. 13",Berlin
+"Bundesallee 26",Berlin
+"Kurfürstendamm 72",Berlin
+"Bayerische Str. 9",Berlin
+"Landhausstr. 9",Berlin
+"Caspar-Theyß-Str. 26",Berlin
+"Bleibtreustr. 25",Berlin
+"Mommsenstr. 6",Berlin
+"Falterweg 13",Berlin
+"Westfälische Str. 31",Berlin
+"Fasanenstr. 55",Berlin
+"Niebuhrstr. 65",Berlin
+"Giesebrechtstr. 19",Berlin
+"Nassauische Str. 53",Berlin
+"Aschaffenburger Str. 6 A",Berlin
+"Lietzenseeufer 5",Berlin
+"Bayerische Str. 4",Berlin
+"Mainzer Str. 16A",Berlin
+"Mommsenstr. 50",Berlin
+"Niebuhrstr. 62",Berlin
+"Binger Str. 25",Berlin
+"Davoser Str. 12a",Berlin
+"Bayernallee 19a",Berlin
+"Meierottostr. 1",Berlin
+"Pommersche Str. 6",Berlin
+"Kiefernweg 8",Berlin
+"Leonhardtstr. 11",Berlin
+"Grainauer Str. 8",Berlin
+"Livländische Str. 28",Berlin
+"Gervinusstr. 12",Berlin
+"Grolmanstr. 53",Berlin
+"Rönnestr. 11",Berlin
+"Dahlmannstr. 24",Berlin
+"Zikadenweg 49",Berlin
+"Clausewitzstr. 2",Berlin
+"Damaschkestr. 28",Berlin
+"Bundesallee 180",Berlin
+"Jenaer Str. 17",Berlin
+"Sächsische Str. 6",Berlin
+"Marburger Str. 1",Berlin
+"Badensche Str. 14",Berlin
+"Joachim-Friedrich-Str. 43",Berlin
+"Jenaer Str. 18",Berlin
+"Ludwigkirchplatz 12",Berlin
+"Dernburgstr. 15",Berlin
+"Nachodstr. 18",Berlin
+"Kurfürstendamm 114",Berlin
+"Caspar-Theyß-Str. 3",Berlin
+"Güntzelstr. 60",Berlin
+"Prinzregentenstr. 77",Berlin
+"Nassauische Str. 27",Berlin
+"Windscheidstr. 8",Berlin
+"Spichernstr. 19",Berlin
+"Bamberger Str. 26",Berlin
+"Pariser Str. 18",Berlin
+"Wiesbadener Str. 17",Berlin
+"Aachener Str. 27",Berlin
+"Lärchenweg 33",Berlin
+"Landauer Str. 15",Berlin
+"Mommsenstr. 65",Berlin
+"Nassauische Str. 47",Berlin
+"Windscheidstr. 9",Berlin
+"Johann-Georg-Str. 15",Berlin
+"Bleibtreustr. 32",Berlin
+"Düsseldorfer Str. 47",Berlin
+"Homburger Str. 4",Berlin
+"Hölderlinstr. 11",Berlin
+"Lietzenburger Str. 56",Berlin
+"Paulsborner Str. 19",Berlin
+"Paulsborner Str. 93",Berlin
+"Kastanienallee 23",Berlin
+"Nassauische Str. 26",Berlin
+"Giesebrechtstr. 15",Berlin
+"Droysenstr. 8",Berlin
+"Fasanenstr. 59",Berlin
+"Niebuhrstr. 3",Berlin
+"Stuttgarter Platz 20",Berlin
+"Friedrichshaller Str. 23",Berlin
+"Hohenzollerndamm 7",Berlin
+"Carmerstr. 18",Berlin
+"Sybelstr. 45",Berlin
+"Cicerostr. 62",Berlin
+"Joachimstaler Str. 12",Berlin
+"Kantstr. 130",Berlin
+"Sybelstr. 48",Berlin
+"Prager Str. 10",Berlin
+"Im Hornisgrund 17",Berlin
+"Knesebeckstr. 52/53",Berlin
+"Mommsenstr. 34",Berlin
+"Suarezstr. 42",Berlin
+"Schlüterstr. 53",Berlin
+"Wilhelmsaue 134",Berlin
+"Kufsteiner Str. 8",Berlin
+"Zikadenweg 51",Berlin
+"Mommsenstr. 22",Berlin
+"Lohmeyerstr. 1",Berlin
+"Motzstr. 81",Berlin
+"Otto-Suhr-Allee 27",Berlin
+"Sensburger Allee 23",Berlin
+"Paulsborner Str. 92",Berlin
+"Mommsenstr. 67",Berlin
+"Gieselerstr. 14",Berlin
+"Spandauer Damm 62",Berlin
+"Aachener Str. 41",Berlin
+"Sybelstr. 12",Berlin
+"Badensche Str. 21",Berlin
+"Johann-Georg-Str. 20",Berlin
+"Prinzregentenstr. 86",Berlin
+"Cunostr. 109",Berlin
+"Giesebrechtstr. 12",Berlin
+"Giesebrechtstr. 16",Berlin
+"Giesebrechtstr. 17",Berlin
+"Giesebrechtstr. 05",Berlin
+"Giesebrechtstr. 10",Berlin
+"Giesebrechtstr. 04",Berlin
+"Giesebrechtstr. 01",Berlin
+"Giesebrechtstr. 22",Berlin
+"Giesebrechtstr. 06",Berlin
+"Giesebrechtstr. 11",Berlin
+"Giesebrechtstr. 03",Berlin
+"Giesebrechtstr. 20",Berlin
+"Giesebrechtstr. 07",Berlin
+"Giesebrechtstr. 02",Berlin
+"Giesebrechtstr. 08",Berlin
+"Giesebrechtstr. 09",Berlin
+"Bamberger Str. 27",Berlin
+"Baumeisterstr. 1",Berlin
+"Bayerischer Platz 13-14",Berlin
+"Bruno-Möhring-Str. 21",Berlin
+"Courbièrestr. 1",Berlin
+"Courbièrestr. 7",Berlin
+"Cranachstr. 58",Berlin
+"Deidesheimer Str. 6",Berlin
+"Else-Lasker-Schüler-Str. 5",Berlin
+"Emilienstr. 14",Berlin
+"Geisbergstr. 33",Berlin
+"Geisbergstr. 41",Berlin
+"Gotenstr. 73",Berlin
+"Innsbrucker Str. 7",Berlin
+"Kirchstr. 84",Berlin
+"Kirchstr. 85",Berlin
+"Motzstr. 9",Berlin
+"Motzstr. 27",Berlin
+"Münchener Str. 2",Berlin
+"Nollendorfstr. 19",Berlin
+"Nollendorfstr. 28",Berlin
+"Ortrudstr. 7",Berlin
+"Penzberger Str. 4",Berlin
+"Retzdorffpromenade 3",Berlin
+"Schwäbische Str. 7",Berlin
+"Schwäbische Str. 29",Berlin
+"Stierstr. 5",Berlin
+"Stubenrauchstr. 11",Berlin
+"Stubenrauchstr. 63",Berlin
+"Traunsteiner Str. 8",Berlin
+"Treuchtlinger Str. 10",Berlin
+"Wielandstr. 5",Berlin
+"Barbarossastr. 40",Berlin
+"Cheruskerstr. 20",Berlin
+"Friedrich-Wilhelm-Platz 6",Berlin
+"Goltzstr. 35",Berlin
+"Hewaldstr. 6",Berlin
+"Hohenstaufenstr. 50",Berlin
+"Kleineweg 129",Berlin
+"Landshuter Str. 35",Berlin
+"Penzberger Str. 5",Berlin
+"Rosenheimer Str. 27",Berlin
+"Mädewalder Weg 37",Berlin
+"Oranienburger Str. 64",Berlin
+"Neue Roßstr. 21",Berlin
+"Brunnenstr. 178",Berlin
+"Schmidstr. 2c",Berlin
+"Köpenicker Straße 73",Berlin
+"Büschingstr. 2",Berlin
+"Charlottenstr. 89",Berlin
+"Frankfurter Allee 104",Berlin
+"Rosenthaler Str. 19",Berlin
+"Brunnenstr. 16 / Weinbergsweg",Berlin
+"Torstr. 148",Berlin
+"Alte Schönhauser Str. 4",Berlin
+"Oranienburger Str. 26",Berlin
+"Rungestr. 18",Berlin
+"Fehrbellinerstr. 81",Berlin
+"Tieckstr. 36",Berlin
+"Schröderstr. 12",Berlin
+"Klosterstr. 73",Berlin
+"Osloer Str. 7",Berlin
+"Veteranenstr. 9",Berlin
+"Frankfurter Allee 100",Berlin
+"Thomasiusstr. 3",Berlin
+"Kadiner Straße 19",Berlin
+"Kreuzigerstr. 23",Berlin
+"Libauer Str. 6",Berlin
+"Markgrafenstr. 19",Berlin
+"Matternstr. 5",Berlin
+"Niederbarnimstr. 7",Berlin
+"Richard-Sorge-Str. 34",Berlin
+"Warschauer Str. 61",Berlin
+"Rheinsberger Str. 30",Berlin
+"Alte Schönhauser Str. 58",Berlin
+"Lange Straße 25  ",Berlin
+"Brunnenstr. 50",Berlin
+"Reinickendorfer Str. 28",Berlin
+"Dortmunder Str. 11",Berlin
+"Schwedter Str. 224",Berlin
+"Uferstr. 13",Berlin
+"Littenstr. 2",Berlin
+"Wullenweberstr. 1",Berlin
+"Alte Schönhauser Str. 23-24",Berlin
+"Huttenstr. 71",Berlin
+"Bergmannstr. 22",Berlin
+"Mollstr. 29-31",Berlin
+"Revaler Str. 26a",Berlin
+"Pintschstr. 18",Berlin
+"Wassertorstr. 20",Berlin
+"Köpenicker Str. 183",Berlin
+"Neue Bahnhofstr. 29",Berlin
+"Strausberger Platz 10",Berlin
+"Sonntagstr. 5",Berlin
+"Waldemarstr. 40",Berlin
+"Neuenburger Str. 1",Berlin
+"Hübnerstr. 2",Berlin
+"Gartenstr. 114",Berlin
+"Gormannstr. 12",Berlin
+"Havelberger Str. 10",Berlin
+"Groninger Str. 22",Berlin
+"Afrikanische Str. 140",Berlin
+"Sophienstr. 5",Berlin
+"Veteranenstr. 26",Berlin
+"Veteranenstr. 23",Berlin
+"Buggenhagenstr. 31",Berlin
+"Brunnenstr. 165",Berlin
+"Melchiorstr. 18",Berlin
+"Barfusstr. 11",Berlin
+"Corker Str. 29",Berlin
+"Schleswiger Str. 2",Berlin
+"Köpenicker Str. 108",Berlin
+"Torstr. 95",Berlin
+"Schützenstr. 46",Berlin
+"Schönholzer Str. 6",Berlin
+"Ohmstr. 1",Berlin
+"Späthstraße 80",Berlin
+"Kiefholzstraße 21",Berlin
+"Bonhoefferufer 18",Berlin
+"Carmerstr. 12",Berlin
+"Leopoldstr. 22",Berlin
+"Eichkatzweg 33",Berlin
+Galvanistr.15,Berlin
+13/1/1922,Berlin
+"Gillweg 2a",Berlin
+"Hektorstr. 9-10",Berlin
+"Holtzendorffstr. 3",Berlin
+"Kurfürstendamm 101",Berlin
+"Joachim-Friedrich-Str. 49",Berlin
+"Kantstr. 120 - 121",Berlin
+"Konstanzer Str.  3",Berlin
+"Rheingoldstraße 4",Berlin
+"Schulze-Boysen-Straße 71",Berlin
+"Sandinostraße 22",Berlin
+"Hirschberger Straße 2",Berlin
+"Hentigstraße 24 a",Berlin
+"Gundelfinger Straße 31",Berlin
+"Dönhoffstraße 29",Berlin
+"Große-Leege-Straße 48",Berlin
+"Gundelfinger Straße 4",Berlin
+"Wandlitzstraße 13",Berlin
+"Heiligenberger Straße 5",Berlin
+"Archenholdstraße 39",Berlin
+"Waldowallee 37",Berlin
+"Krummhübler Straße 1",Berlin
+"Königswinter Straße 15",Berlin
+"Sangeallee 30",Berlin
+"Wildensteiner Straße 10",Berlin
+"Weseler Straße 15",Berlin
+"Treskowallee 103",Berlin
+"Waldowallee 9",Berlin
+"Heiligenberger Straße 10",Berlin
+"Stolzenfelsstraße 2",Berlin
+"Stühlinger Straße 11 b",Berlin
+"Dorotheastraße 28",Berlin
+"Hademarscher Weg 9",Berlin
+"Ahornallee 10",Berlin
+"Ahornallee 50",Berlin
+"Ahrweiler Str. 32",Berlin
+"Alte Allee 17",Berlin
+"Arcostr. 14",Berlin
+"Aschaffenburger Str. 24",Berlin
+"Augsburger Str. 29",Berlin
+"Auguste-Viktoria-Str. 33",Berlin
+"Babelsberger Str. 6",Berlin
+"Badensche Str. 19",Berlin
+"Bamberger Str. 16",Berlin
+"Bamberger Str. 3",Berlin
+"Barstr. 28",Berlin
+"Bismarckstr. 10",Berlin
+"Bleibtreustr. 34-35",Berlin
+"Blissestr. 6",Berlin
+"Brandenburgische Str. 24",Berlin
+"Brandenburgische Str. 46",Berlin
+"Bregenzer Str. 16",Berlin
+"Budapester Str. 45",Berlin
+"Bundesallee 171 ",Berlin
+"Bundesplatz 2",Berlin
+"Dahlmannstr. 10",Berlin
+"Dahlmannstr. 6",Berlin
+"Damaschkestr. 22",Berlin
+"Damaschkestr. 30",Berlin
+"Danckelmannstr. 16",Berlin
+"Danckelmannstr. 44",Berlin
+"Darmstädter Str. 8",Berlin
+"Deidesheimer Str. 12",Berlin
+"Deidesheimer Str. 8",Berlin
+"Deidesheimer Str. 9",Berlin
+"Dernburgstr. 39",Berlin
+"Dernburgstr. 55",Berlin
+"Dernburgstr. 57",Berlin
+"Detmolder Str. 3",Berlin
+"Droysenstr. 10",Berlin
+"Droysenstr. 15",Berlin
+"Düsseldorfer Str. 42",Berlin
+"Düsseldorfer Str. 49/50",Berlin
+"Eichenallee 3",Berlin
+"Eichkampstr. 108",Berlin
+"Eisenzahnstr. 66",Berlin
+"Eislebener Str. 4",Berlin
+"Emser Str. 16",Berlin
+"Eosanderstr. 23",Berlin
+"Ettaler Str. 10",Berlin
+"Fredericiastr. 8",Berlin
+"Friedbergstr. 41",Berlin
+"Gardes-du-Corps-Str. 13",Berlin
+"Gardes-du-Corps-Str. 14",Berlin
+"Gasteiner Str. 11",Berlin
+"Gerolsteiner Str. 3",Berlin
+"Goebelstr. 99",Berlin
+"Goethestr. 12",Berlin
+"Goethestr. 16",Berlin
+"Grolmanstr. 28",Berlin
+"Gutenbergstr. 4",Berlin
+"Heerstr. 15",Berlin
+"Hektorstr. 13",Berlin
+"Hektorstr. 3",Berlin
+"Helmholtzstr. 21",Berlin
+"Helmstedter Str. 11",Berlin
+"Herderstr. 5",Berlin
+"Holsteinische Str. 24",Berlin
+"Jenaer Str. 21",Berlin
+"Jenaer Str. 24",Berlin
+"Jenaer Str. 6",Berlin
+"Jenaer Str. 7",Berlin
+"Joachim-Friedrich-Str. 42",Berlin
+"Kaiser-Friedrich-Str. 17A",Berlin
+"Kaiserdamm 10",Berlin
+"Kaiserdamm 89",Berlin
+"Kaiserin-Augusta-Allee 85",Berlin
+"Kantstr. 129",Berlin
+"Kantstr. 132",Berlin
+"Meiningenallee 7 ",Berlin
+"Klausenerplatz 16-17",Berlin
+"Klausenerplatz 2",Berlin
+"Knesebeckstr. 100",Berlin
+"Knesebeckstr. 18/19",Berlin
+"Knesebeckstr. 28",Berlin
+"Knobelsdorffstr. 110",Berlin
+"Knobelsdorffstr. 16",Berlin
+"Koenigsalle 34",Berlin
+"Konstanzer Str. 51",Berlin
+"Kreuznacher Str. 48",Berlin
+"Krumme Str. 12",Berlin
+"Krumme Str. 34",Berlin
+"Kufsteiner Str. 16",Berlin
+"Kuno-Fischer-Str. 16",Berlin
+Kunz-Buntschuh-Str.16-18,Berlin
+"Kurfürstendamm 100",Berlin
+"Kurfürstendamm 133",Berlin
+"Kurfürstendamm 146",Berlin
+"Kurfürstendamm 150",Berlin
+"Kurfürstendamm 201",Berlin
+"Kurfürstendamm 203-204",Berlin
+"Kurfürstendamm 22",Berlin
+"Kurfürstendamm 99",Berlin
+"Landhausstr. 3",Berlin
+"Leibnizstr. 57",Berlin
+"Leibnizstr. 32",Berlin
+"Leibnizstr. 86",Berlin
+"Lietzenburger Str. 39",Berlin
+"Lietzenburger Str. 55 - 57",Berlin
+"Lietzenburger Str. 72",Berlin
+"Lietzenseeufer 1",Berlin
+"Los-Angeles-Platz 1",Berlin
+"Ludwig-Barnay-Platz 2",Berlin
+"Ludwigkirchstr. 11A",Berlin
+"Lyckallee 28",Berlin
+"Lynarstr. 9",Berlin
+"Marburger Str. 12",Berlin
+"Marburger Str. 3",Berlin
+"Markgraf-Albrecht-Str. 15",Berlin
+"Markgraf-Albrecht-Str. 2",Berlin
+"Markgraf-Albrecht-Str. 3",Berlin
+"Markgraf-Albrecht-Str. 4",Berlin
+"Markgraf-Albrecht-Str. 5",Berlin
+"Markgraf-Albrecht-Str. 6",Berlin
+"Markgraf-Albrecht-Str. 8",Berlin
+"Mommsenstr. 23",Berlin
+"Mommsenstr. 45",Berlin
+"Mommsenstr. 58",Berlin
+"Nachodstr. 19",Berlin
+"Nassauische Str. 11-12",Berlin
+"Nassauische Str. 25",Berlin
+"Nassauische Str. 60",Berlin
+"Nassauische Str. 64",Berlin
+"Neue Kantstr. 1",Berlin
+"Neufertstr. 20",Berlin
+"Niebuhrstr. 56",Berlin
+"Niebuhrstr. 70",Berlin
+"Niebuhrstr. 71",Berlin
+"Nikolsburger Platz 1",Berlin
+"Nikolsburger Platz 2",Berlin
+"Nikolsburger Platz 4",Berlin
+"Nürnberger Str. 24",Berlin
+"Nürnberger Str. 33-34 / Ecke Schaperstr. 1",Berlin
+"Olivaer Platz 5 ",Berlin
+"Pariser Str. 37",Berlin
+"Paulsborner Str. 11",Berlin
+"Pestalozzistr. 14",Berlin
+"Pestalozzistr. 15",Berlin
+"Pestalozzistr. 54",Berlin
+"Pestalozzistr. 9/10",Berlin
+"Pestalozzistr. 95",Berlin
+"Pfalzburger Str. 10 A",Berlin
+"Prinzregentenstr. 75",Berlin
+"Prinzregentenstr. 9",Berlin
+"Rankestr. 9",Berlin
+"Regensburger Str. 16",Berlin
+"Riehlstr. 11",Berlin
+"Roscherstr. 7",Berlin
+"Rückertstr. 9",Berlin
+"Sächsische Str. 44",Berlin
+"Sächsische Str. 63 A",Berlin
+"Savignyplatz 6",Berlin
+"Schlüterstr. 45",Berlin
+"Seelingstr. 21",Berlin
+"Seesener Str. 18",Berlin
+"Seesener Str. 28",Berlin
+"Suarezstr. 39",Berlin
+"Sybelstr. 16",Berlin
+"Hanseatenweg 10",Berlin
+"Sybelstr. 25",Berlin
+"Sybelstr. 32",Berlin
+"Sybelstr. 35",Berlin
+"Sybelstr. 39",Berlin
+"Sybelstr. 43",Berlin
+"Sybelstr. 46",Berlin
+"Sybelstr. 66",Berlin
+"Trautenaustr. 10",Berlin
+"Trautenaustr. 11",Berlin
+"Trautenaustr. 12",Berlin
+"Trautenaustr. 13",Berlin
+"Trautenaustr. 14",Berlin
+"Trautenaustr. 16",Berlin
+"Trautenaustr. 17",Berlin
+"Trautenaustr. 18",Berlin
+"Trautenaustr. 19",Berlin
+"Trautenaustr. 20",Berlin
+"Trautenaustr. 5",Berlin
+"Trautenaustr. 6",Berlin
+"Trautenaustr. 8",Berlin
+"Trautenaustr. 9",Berlin
+"Uhlandstr. 162",Berlin
+"Uhlandstr. 175",Berlin
+"Uhlandstr. 182",Berlin
+"Uhlandstr. 191",Berlin
+"Uhlandstr. 194 A",Berlin
+"Uhlandstr. 39",Berlin
+"Waitzstr. 9",Berlin
+Waitzstr.27,Berlin
+"Wallotstr. 10",Berlin
+"Wetzlarer Str. 23",Berlin
+"Wielandstr. 15",Berlin
+"Wielandstr. 4",Berlin
+"Windscheidstr. 31",Berlin
+"Wittelsbacherstr. 34",Berlin
+"Witzlebenplatz 4",Berlin
+"Witzlebenplatz 5",Berlin
+"Württembergische Str. 31",Berlin
+"Xantener Str. 4",Berlin
+"Xantener Str. 5",Berlin
+"Zähringer Str. 25",Berlin
+"Zillestr. 39",Berlin
+"Franzstraße 30-36",Berlin
+"Limonenstraße 11",Berlin
+"Holsteinische Straße 34",Berlin
+"Björnsonstraße 3",Berlin
+"Havensteinstr. 18",Berlin
+21/3/1874,Berlin
+"Am Eichenhain 37",Berlin
+"Eichborndamm 24",Berlin
+"Eichborndamm 84",Berlin
+"Birkbuschstraße 89",Berlin
+"Björnsonstraße 20",Berlin
+"Björnsonstraße 1",Berlin
+"Dorotheastraße 8",Berlin
+"Hagenstraße 12",Berlin
+"Hagenstraße 14a",Berlin
+"Weißenseer Weg 32",Berlin
+"Alt-Friedrichsfelde 95",Berlin
+"Hortensienstr. 9",Berlin
+"Gardeschützenweg 139",Berlin
+"Cuxhavener Str. 5",Berlin
+"Weitlingstr. 24",Berlin
+"Kastanienallee 39",Berlin
+"Albertinenstraße 31",Berlin
+"Schrockstraße 8 ",Berlin
+"Forststraße 31",Berlin
+"Rhumeweg 29",Berlin
+"Am Fischtal 28",Berlin
+"Ahrenshooper Zeile 35",Berlin
+"Sophie-Charlotte-Straße 18",Berlin
+"An der Rehwiese 12",Berlin
+"Dreilindenstraße 52",Berlin
+"Potsdamer Chaussee 69",Berlin
+"Schopenhauerstraße 74",Berlin
+"Machnower Straße 79",Berlin
+"Spichernstr. 20",Berlin
+"Straße zum Löwen 12",Berlin
+"Limastr. 2",Berlin
+"Nikolsburger Str.8-9",Berlin
+"Pariser Str. 56-57",Berlin
+"Siegmunds Hof 11",Berlin
+"Wichmannstr. 10",Berlin
+"Paulsborner Str. 1",Berlin
+"Tauentzienstr. 13 A",Berlin
+"Englerallee 6",Berlin
+Bernhardstr.16,Berlin
+"Derfflingerstr. 16",Berlin
+"Livländischestr. 17",Berlin
+"Livländischestr. 26",Berlin
+"Helmstedter Str. 27",Berlin
+"Siegmunds Hof 15",Berlin
+"Dahlmannstr. 11",Berlin
+"Dahlmannstr. 15",Berlin
+"Hektorstr. 5",Berlin
+"Windscheidstr. 35",Berlin
+"Gervinusstr. 17",Berlin
+"Konstanzer Str. 55",Berlin
+"Trendelenburgstr. 17",Berlin
+"Hardenbergstr. 16",Berlin
+"Kunzendorfstr. 20",Berlin
+"Treskowallee 89",Berlin
+"Josef-Orlopp-Straße 50",Berlin
+"Schöneicher Straße 11a",Berlin
+"Grafenauer Weg 39",Berlin
+"Treskow 109",Berlin
+"Lehndorffstraße 29",Berlin
+"Konrad-Wolf-Straße 60",Berlin
+"Frankfurter Allee 134",Berlin
+"Beerenstr. 41",Berlin
+"Am Bäkequell 3",Berlin
+"Drakestraße 59",Berlin
+"Hochbergweg 1",Berlin
+"Weddigenweg 64",Berlin
+"Bölschestraße 84-85",Berlin
+"Hirschgartenstraße 2",Berlin
+"Wendenschloßstraße 172",Berlin
+"Bruno-Wille-Straße 108",Berlin
+"Peter-Hille-Straße 79",Berlin
+"Peter-Hille-Straße 17",Berlin
+"Alt-Müggelheim 17",Berlin
+"Nentwigstraße 10",Berlin
+"Rosenheimer Straße 5",Berlin
+"Rosenheimer Straße",Berlin
+"Pflügerstraße 1",Berlin
+"Richardstraße 86",Berlin
+"Wildenbruchplatz 10",Berlin
+"Bruno-Bauer-Straße 17",Berlin
+"Lenaustraße 6",Berlin
+"Anzengruberstraße 10",Berlin
+"Oderstraße 52",Berlin
+"Parchimer Allee 75",Berlin
+"Jonasstraße 5",Berlin
+"Jahnstraße 12",Berlin
+"Jonasstraße 66",Berlin
+"Straßburger Str. 16",Berlin
+"Erich-Weinert-Str. 132",Berlin
+"Behaimstr. 20",Berlin
+"Straßburger Str. 34",Berlin
+"Kollwitzstr. 28",Berlin
+"Danziger Str. 28",Berlin
+"Erich-Weinert-Str. 3",Berlin
+"Hallandstr. 12",Berlin
+"Borkumstr. 5",Berlin
+"Meyerbeerstr. 31",Berlin
+"Greifswalder Str. 89",Berlin
+"Czarnikauer Str. 12",Berlin
+"Greifswalder Str. 228a",Berlin
+"Schönhauser Allee 31",Berlin
+"Mühlenstr. 30",Berlin
+"Isländische Str. 17",Berlin
+"Pappelallee 12/13",Berlin
+"Kollwitzstr. 48",Berlin
+"Immanuelkirchstr. 32",Berlin
+"Heinrich-Roller-Str. 6",Berlin
+"Pasteurstr. 24",Berlin
+"Schwedter Str. 33",Berlin
+"Greifenhagener Str. 13",Berlin
+"Schulzestr. 15",Berlin
+"Schulzestr. 14",Berlin
+"Heinrich-Mann-Str. 9",Berlin
+"Treskowstr. 59",Berlin
+"Görschstr. 41",Berlin
+"Thulestr. 13",Berlin
+"Kollwitzstr. 92",Berlin
+"Christburger Straße 41",Berlin
+"Prenzlauer Allee 200",Berlin
+"Kollwitzstr. 68",Berlin
+"Metzer Str. 33",Berlin
+"Lottumstr. 1b",Berlin
+"Schönhauser Allee 164",Berlin
+"Korsörer Str. 25",Berlin
+"Templiner Str. 5",Berlin
+"Miltenberger Weg 9",Berlin
+"Senefelderstr. 4",Berlin
+"Chodowieckistr. 8",Berlin
+"Schönhauser Allee 175",Berlin
+"Schönhauser Allee 174",Berlin
+"Breite Str. 10",Berlin
+"Schönwalder Str. 111",Berlin
+"Kurstr. 22",Berlin
+"Wönnichstr. 103",Berlin
+"Lessingstr. 8",Berlin
+"Wartburgstr. 29",Berlin
+"Steinstraße 2 ",Berlin
+"Wallstr. 70",Berlin
+"Bayreuther Str. 41",Berlin
+"Ackerstraße 1",Berlin
+"Pariser Platz 7",Berlin
+"Kantstr. 44-45",Berlin
+"Paul-Lincke-Ufer 7",Berlin
+"Apostel-Paulus-Straße 24",Berlin
+"Barbarossastr. 43",Berlin
+"Eisenacher Str. 48",Berlin
+"Fregestr. 58",Berlin
+"Fregestr. 59",Berlin
+"Fritz-Elsas-Str. 15",Berlin
+"Heilbronner Str. 19",Berlin
+"Hertelstr. 8",Berlin
+"Landshuter Str. 17",Berlin
+"Landshuter Str. 33",Berlin
+"Luitpoldstr. 43",Berlin
+"Nymphenburger Str. 4",Berlin
+"Schwäbische Str. 17",Berlin
+"Taunusstr. 11",Berlin
+"Treuchtlinger Str. 8",Berlin
+"Winterfeldtstr. 48",Berlin
+"Scharnweberstraße 105",Berlin
+"Wismarer Straße 19",Berlin
+"Halskestraße 41",Berlin
+"John-Foster-Dulles-Allee 10",Berlin
+"Mittenwalder Straße 33",Berlin
+"Willibald-Alexis-Straße 42",Berlin
+"Willibald-Alexis-Straße 26",Berlin
+"Erkelenzdamm 9",Berlin
+"Stallschreiberstraße 12",Berlin
+"Ratiborstraße 2",Berlin
+"Landhausstr.  25",Berlin
+"Landhausstr.  5",Berlin
+"Liebigstraße 23",Berlin
+"Rigaer Straße 80",Berlin
+"Fregestr. 20",Berlin
+"Fregestr. 71",Berlin
+"Hessenallee 9",Berlin
+"Sybelstr. 29",Berlin
+"Fregestr. 78",Berlin
+"Fregestr. 80",Berlin
+"Gleditschstr. 50",Berlin
+"Habsburger Str. 12",Berlin
+"Handjerystr. 1",Berlin
+"Handjerystr. 2",Berlin
+"Handjerystr. 3",Berlin
+"Handjerystr. 29",Berlin
+"Handjerystr. 50-51",Berlin
+"Handjerystr. 63",Berlin
+"Handjerystr. 81",Berlin
+"Handjerystr. 86",Berlin
+"Nachodstr.  22-23",Berlin
+"Sybelstr.  29",Berlin
+"Sybelstr.  35",Berlin
+"Karlsruher Str. 23",Berlin
+"Karlsruher Str.  23",Berlin
+"Innsbrucker Str. 25",Berlin
+"Innsbrucker Str. 15",Berlin
+"Martin-Luther-Str. 29",Berlin
+"Martin-Luther-Str. 42",Berlin
+"Motzstr. 47",Berlin
+"Münchener Str. 6",Berlin
+"Nürnberger Str. 64",Berlin
+"Passauer Str. 2",Berlin
+"Passauer Str. 3",Berlin
+"Stübbenstr. 8",Berlin
+"Wilhelm-Hauff-Str. 19",Berlin
+"Friedelstraße 49",Berlin
+"Am Hügel 15",Berlin
+"Am Fölzberg 9 ",Berlin
+"Schubartstraße 61",Berlin
+"Hatzfeldtallee 8",Berlin
+"Mauschbacher Steig 31",Berlin
+"Quäkerstraße 28",Berlin
+"Krumme Str.  64",Berlin
+"Krumme Str. 64",Berlin
+"Schaperstr.  31",Berlin
+"Holsteinische Str.  2",Berlin
+"Augsburger Str. 33",Berlin
+"Sybelstr.  46",Berlin
+"Mahlsdorfer Straße 94 Pförtnerhaus",Berlin
+"Seestraße 32",Berlin
+"Alt-Köpenick 34",Berlin
+"Marburger Straße 16",Berlin
+"Livländische Str. 20",Berlin
