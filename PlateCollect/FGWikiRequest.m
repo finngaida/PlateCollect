@@ -10,39 +10,35 @@
 
 @implementation FGWikiRequest
 
-+(void)getWiki:(void (^)(NSError *error, NSString *response))block forStolperstone:(FGStolperstein*)stone {
++(void)getWiki:(void (^)(NSError *error, NSString *response, NSURL*url))block forStolperstone:(FGStolperstein*)stone {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSString *response;
         NSError *error;
-        
+        NSURL *url;
         
         //Es wird nach dem Namen der Person gesucht
-        NSString *urlString = [NSString stringWithFormat:@"http://de.wikipedia.org/w/api.php?action=opensearch&search=%@+%@&limit=10&namespace=0&format=json", stone.firstName, stone.lastName];
-        NSURL *url = [NSURL URLWithString:urlString];
-        NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
-        
+        NSString *searchUrlString = [NSString stringWithFormat:@"http://de.wikipedia.org/w/api.php?action=opensearch&search=%@+%@&limit=10&namespace=0&format=json", stone.firstName, stone.lastName];
+        NSURL *searchurl = [NSURL URLWithString:searchUrlString];
+        NSURLRequest *request = [[NSURLRequest alloc] initWithURL:searchurl];
         
         //Such-Anfrage wird ausgewertet
         NSData *jsonNSData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:&error];
-        
-        
         NSArray* json = [NSJSONSerialization
                          JSONObjectWithData:jsonNSData
                          options:kNilOptions
                          error:&error];
         NSArray *searchResults = [json objectAtIndex:1];
         
-        //Wennn es keine Suchergebnisse gibt
+        //Wennn es Suchergebnisse gibt
         if (searchResults.count > 0) {
             NSString *pageTitle = [searchResults objectAtIndex:0];
+            //Ein Link für die API wird erstellt
+            NSString *pageStringURL = [NSString stringWithFormat:@"http://de.wikipedia.org/w/api.php?action=query&prop=extracts&format=json&exlimit=10&exintro=&explaintext=&titles=%@", pageTitle];
             
-            //Die Seite des ersten Suchergebnissen wird heruntergeladen
-            NSString *pageStringURL = [NSString stringWithFormat:@"http://de.wikipedia.org/w/api.php?action=parse&page=%@&format=json&prop=text&section=0", pageTitle];
-            
-            NSLog(@"sf %@",pageStringURL);
             //Das Leerzeichen zu einem Plus machen
             pageStringURL = [pageStringURL stringByReplacingOccurrencesOfString:@" " withString:@"+"];
             
+            //NSURLRequest starten
             NSURL *pageUrl = [NSURL URLWithString:pageStringURL];
             request = [[NSURLRequest alloc] initWithURL:pageUrl];
             NSData *pageJSON = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:&error];
@@ -50,8 +46,10 @@
                                       JSONObjectWithData:pageJSON
                                       options:kNilOptions
                                       error:&error];
-            response = pageDict[@"parse"][@"text"][@"*"];
+            response =  [[pageDict[@"query"][@"pages"] allObjects] objectAtIndex:0][@"extract"];
             
+            //Die der Link für die Desktop-Seite wird generiert
+            url = [NSURL URLWithString:[NSString stringWithFormat:@"http://de.wikipedia.org/wiki/?curid=%@",[[pageDict[@"query"][@"pages"] allObjects] objectAtIndex:0][@"pageid"]]];
         } else {
             // sad, we can't solve world hunger, but we can let people know what went wrong!
             // init dictionary to be used to populate error object
@@ -63,7 +61,7 @@
         
         
         dispatch_async(dispatch_get_main_queue(), ^{
-            block(error, response);
+            block(error, response, url);
         });
     });
 }

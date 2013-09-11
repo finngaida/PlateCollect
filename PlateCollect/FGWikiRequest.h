@@ -11,6 +11,6 @@
 
 @interface FGWikiRequest : NSObject
 
-+(void)getWiki:(void (^)(NSError *error, NSString *response))block forStolperstone:(FGStolperstein*)stone;
++(void)getWiki:(void (^)(NSError *error, NSString *response, NSURL *url))block forStolperstone:(FGStolperstein*)stone;
 
 @end
