@@ -20,6 +20,7 @@
 		A6221FFB17DBEC3B007A6DA0 /* FGWikiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6221FFA17DBEC3B007A6DA0 /* FGWikiRequest.m */; };
 		A622204817DC6BB8007A6DA0 /* timline_deporatation.png in Resources */ = {isa = PBXBuildFile; fileRef = A622204617DC6BB8007A6DA0 /* timline_deporatation.png */; };
 		A622204917DC6BB8007A6DA0 /* timline_deporatation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A622204717DC6BB8007A6DA0 /* timline_deporatation@2x.png */; };
+		A645374617E09422007B7406 /* FGDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A645374517E09422007B7406 /* FGDatabase.m */; };
 		A667F94917DBC049003847A7 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A667F94717DBC049003847A7 /* pin.png */; };
 		A667F94A17DBC049003847A7 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A667F94817DBC049003847A7 /* pin@2x.png */; };
 		A681E5C017DB47BB0084087A /* FGDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A681E5BF17DB47BB0084087A /* FGDetailViewController.m */; };
@@ -36,7 +37,6 @@
 		A6B094BF17DB9255007252E3 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B094B517DB9255007252E3 /* iTunesArtwork.png */; };
 		A6BA7D0317DE191E00D781FB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6BA7D0017DE186200D781FB /* Localizable.strings */; };
 		A6BA7D0417DE194600D781FB /* stolpersteine.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A6BA7CFD17DE148B00D781FB /* stolpersteine.sqlite */; };
-		A6BA7D0717DE1A8F00D781FB /* FGDatabaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA7D0617DE1A8F00D781FB /* FGDatabaseHandler.m */; };
 		A6BA7D1417DE1DB700D781FB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA7D0A17DE1DB700D781FB /* FMDatabase.m */; };
 		A6BA7D1517DE1DB700D781FB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA7D0C17DE1DB700D781FB /* FMDatabaseAdditions.m */; };
 		A6BA7D1617DE1DB700D781FB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA7D0E17DE1DB700D781FB /* FMDatabasePool.m */; };
@@ -88,6 +88,8 @@
 		A6221FFA17DBEC3B007A6DA0 /* FGWikiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGWikiRequest.m; sourceTree = "<group>"; };
 		A622204617DC6BB8007A6DA0 /* timline_deporatation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timline_deporatation.png; sourceTree = "<group>"; };
 		A622204717DC6BB8007A6DA0 /* timline_deporatation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timline_deporatation@2x.png"; sourceTree = "<group>"; };
+		A645374417E09422007B7406 /* FGDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGDatabase.h; sourceTree = "<group>"; };
+		A645374517E09422007B7406 /* FGDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGDatabase.m; sourceTree = "<group>"; };
 		A667F94717DBC049003847A7 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
 		A667F94817DBC049003847A7 /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
 		A681E5BE17DB47BB0084087A /* FGDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGDetailViewController.h; sourceTree = "<group>"; };
@@ -108,8 +110,6 @@
 		A6BA7CFD17DE148B00D781FB /* stolpersteine.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = stolpersteine.sqlite; sourceTree = "<group>"; };
 		A6BA7CFF17DE186200D781FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A6BA7D0217DE191C00D781FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		A6BA7D0517DE1A8F00D781FB /* FGDatabaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGDatabaseHandler.h; sourceTree = "<group>"; };
-		A6BA7D0617DE1A8F00D781FB /* FGDatabaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGDatabaseHandler.m; sourceTree = "<group>"; };
 		A6BA7D0917DE1DB700D781FB /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		A6BA7D0A17DE1DB700D781FB /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		A6BA7D0B17DE1DB700D781FB /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -278,8 +278,8 @@
 				69DDA53F17DC5FA5007AC4BB /* FGStuffCalculator.h */,
 				69DDA54017DC5FA5007AC4BB /* FGStuffCalculator.m */,
 				CC0ECE5217DB300400D0D2A8 /* Images.xcassets */,
-				A6BA7D0517DE1A8F00D781FB /* FGDatabaseHandler.h */,
-				A6BA7D0617DE1A8F00D781FB /* FGDatabaseHandler.m */,
+				A645374417E09422007B7406 /* FGDatabase.h */,
+				A645374517E09422007B7406 /* FGDatabase.m */,
 				69C9C07317DB37260020DCD6 /* stolpersteine.csv */,
 				69BBB52217DBF28200419084 /* final.csv */,
 				A6BA7CFD17DE148B00D781FB /* stolpersteine.sqlite */,
@@ -410,7 +410,6 @@
 				69DDA54117DC5FA5007AC4BB /* FGStuffCalculator.m in Sources */,
 				A6BA7D1417DE1DB700D781FB /* FMDatabase.m in Sources */,
 				A6BA7D1517DE1DB700D781FB /* FMDatabaseAdditions.m in Sources */,
-				A6BA7D0717DE1A8F00D781FB /* FGDatabaseHandler.m in Sources */,
 				A6221FFB17DBEC3B007A6DA0 /* FGWikiRequest.m in Sources */,
 				A6BA7D1917DE1DB700D781FB /* FMResultSet.m in Sources */,
 				CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */,
@@ -419,6 +418,7 @@
 				A6BA7D1717DE1DB700D781FB /* FMDatabaseQueue.m in Sources */,
 				CC0ECE4717DB300400D0D2A8 /* main.m in Sources */,
 				69DDA54417DC6039007AC4BB /* FGStartupViewController.m in Sources */,
+				A645374617E09422007B7406 /* FGDatabase.m in Sources */,
 				69C9C07A17DB39EE0020DCD6 /* FGStolpersteinFetcher.m in Sources */,
 				CC0ECE4B17DB300400D0D2A8 /* FGAppDelegate.m in Sources */,
 				CC0ECE5117DB300400D0D2A8 /* FGViewController.m in Sources */,

@@ -6,52 +6,37 @@
 //  Copyright (c) 2013 Finn Gaida. All rights reserved.
 //
 
-#import "FGDatabaseHandler.h"
+#import "FGDatabase.h"
 #import "FMDatabase.h"
 
-@implementation FGDatabaseHandler {
-    FMDatabase *db;
-}
+@implementation FGDatabase
 
 #pragma mark main required methods
-- (id)init
+- (instancetype)database
 {
-    self = [super init];
-    if (self) {
         NSString *databasePath = [[NSBundle mainBundle] pathForResource:@"stolpersteine" ofType:@"sqlite"];
-        db = [FMDatabase databaseWithPath:databasePath];
-    }
-    return self;
-}
--(void)openDB {
-    [db open];
+        return (FGDatabase*)[FMDatabase databaseWithPath:databasePath];
 }
 
--(void)closeDB {
-    [db close];
-}
 
 #pragma mark providing content
 -(NSArray*)stolpersteinsInRegion:(CLRegion*)region forAmount:(NSInteger)amount{
     NSMutableArray *stolpersteine;
     
     NSString *entryQuery = [NSString stringWithFormat:@"SELECT * FROM stolperstein WHERE stolperstein.stdID = %i ",amount];
-    FMResultSet *entryResult = [db executeQuery:entryQuery];
+    FMResultSet *entryResult = [super executeQuery:entryQuery];
     while([entryResult next]) {
         
     }
     
     return [stolpersteine copy];
--(NSMutableArray*)stolpersteinsInRegion:(CLRegion*)region {
-    return [NSMutableArray new];
 }
-
 -(FGStolperstein*)stolpersteinByID:(NSInteger)stID {
     FGStolperstein *stone;
     
     //SQL-Abfrage (Es fehlt zb noch der JOIN)
     NSString *entryQuery = [NSString stringWithFormat:@"SELECT * FROM stolperstein WHERE stolperstein.stdID = %i ",stID];
-    FMResultSet *entryResult = [db executeQuery:entryQuery];
+    FMResultSet *entryResult = [super executeQuery:entryQuery];
     while([entryResult next]) {
         
         //Location in CLLocation umwandeln

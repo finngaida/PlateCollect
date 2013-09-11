@@ -8,16 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "FGStolperstein.h"
+#import "FMDatabase.h"
 
-@interface FGDatabaseHandler : NSObject
-//Using the FMDB-Framework
-
-//Main required methods
--(void)openDB;
--(void)closeDB;
+@interface FGDatabase : FMDatabase
+//Läd die Datenbank automatisch mit (benutzt FMDatabase databaseWithPath:)
+-(instancetype)database;
 
 //provding content
--(NSMutableArray*)stolpersteinsInRegion:(CLRegion*)region;
+-(NSArray*)stolpersteinsInRegion:(CLRegion*)region forAmount:(NSInteger)amount;
 -(FGStolperstein*)stolpersteinByID:(NSInteger)stID;
 
 @end
