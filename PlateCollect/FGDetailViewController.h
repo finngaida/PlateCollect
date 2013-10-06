@@ -13,7 +13,6 @@
 @interface FGDetailViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic,retain) FGStolperstein *stone;
-@property id delegate;
 
 
 @end

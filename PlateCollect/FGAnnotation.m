@@ -12,12 +12,12 @@
 @synthesize coordinate, stone;
 
 
-- (id)initWithStone:(FGStolperstein *)theStone andCoordinate:(CLLocationCoordinate2D)theCoord
+- (id)initWithStone:(FGStolperstein *)theStone
 {
     self = [super init];
     if (self) {
         stone = theStone;
-        coordinate = theCoord;
+        coordinate = theStone.location.coordinate;
     }
     return self;
 }

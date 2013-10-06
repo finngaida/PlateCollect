@@ -47,13 +47,12 @@
         FGStolpersteinFetcher *f = [FGStolpersteinFetcher new];
         stolpersteine = [f fetchNearestStonesAtLocation:location Ammount:20];
         
-        
-        
         // loop through them and add the annotations
         for (FGStolperstein *s in stolpersteine) {
+
             
             // Create an annotation and then add it to the MapView
-            FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:s.firstName andCoordinate:s.location.coordinate];
+            FGAnnotation *a = [[FGAnnotation alloc] initWithStone:s];
             [self.mapView addAnnotation:a];
             
             // log it
@@ -64,15 +63,7 @@
         }
         
         [dark removeFromSuperview];
-        
-        
     }];
-    
-    FGAnnotation *a = [[FGAnnotation alloc] initWithTitle:@"Stolperstein" andCoordinate:CLLocationCoordinate2DMake(53.79015,  9.99437)];
-    [self.mapView addAnnotation:a];
-    
-    [c startMonitoringForLocation:[[CLLocation alloc] initWithLatitude:a.coordinate.latitude longitude:a.coordinate.longitude]];
-    
 }
 
 - (void)setUpBottomButtons {
@@ -438,45 +429,23 @@
 }
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
-    
-    //[self performSegueWithIdentifier:@"showDetailView" sender:self];
-    
-    if ([view isKindOfClass:[MKAnnotationView class]]) {
-        
-        FGDetailViewController *detailVC = [[FGDetailViewController alloc] init];
-        detailVC.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-        detailVC.delegate = self;
-        //detailVC.stone = [[FGStolperstein alloc] initWithFirst:@"Peter" last:@"Pan" born:nil birthday:nil address:@"Nimmerland" quarter:@"Auschwitz" deportations:nil  locationOfDeath:@"Auschwitz" dayOfDeath:nil];
-        
-        //[[NSArray alloc] initWithObjects:[NSDictionary dictionaryWithObjectsAndKeys:@"Berlin", @"place", nil], nil]
-        
-        // COMMENTED FOR THE PRESENTATION
-         FGAnnotation *a = (FGAnnotation *)view.annotation;
-        
-        for (FGStolperstein *s in stolpersteine) {
-            if ([s.firstName isEqualToString:a.title]) {
-                NSLog(@"Found the Annotation: %@", a);
-                detailVC.stone = s;
-                break;
-            }
-        }
-        /*int rand = arc4random() %2;
-        detailVC.stone = [stolpersteine objectAtIndex:rand];
-        */
-        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:detailVC];
-        
-        [self presentViewController:nav animated:YES completion:nil];
-    }
+    [self performSegueWithIdentifier:@"showDetailView" sender:view];
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
 
     if ([segue.identifier isEqualToString:@"showSignup"]) {
-        UINavigationController *navCon = segue.destinationViewController;
-        
-        FGStartupViewController* startUp = navCon.viewControllers[0];
-        
+        FGStartupViewController* startUp = (FGStartupViewController*)[segue destinationViewController];;
         startUp.delegate = self;
+        
+    } else if ([segue.identifier isEqualToString:@"showDetailView"]){
+        FGDetailViewController *detailVC = (FGDetailViewController*)[segue destinationViewController];
+        
+        //Der Sender ist ein MKAnnotationView
+        MKAnnotationView *view = (MKAnnotationView*)sender;
+        FGAnnotation *annotation = view.annotation;
+        detailVC.stone = annotation.stone;
+                        
     }
 
 }

@@ -18,6 +18,6 @@
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 @property (nonatomic, readonly) FGStolperstein *stone;
 
-- (id)initWithStone:(FGStolperstein *)theStone andCoordinate:(CLLocationCoordinate2D)theCoord;
+- (id)initWithStone:(FGStolperstein *)theStone;
 
 @end

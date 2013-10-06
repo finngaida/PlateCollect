@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4504" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="KcH-Vf-XEI">
     <dependencies>
         <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3734.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
         <!--View Controller - Stolpersteine-->
@@ -32,16 +32,33 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Stolpersteine" id="RD8-oO-5uI"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="containerView" destination="Vfj-Hc-JVx" id="cdr-RN-F0l"/>
                         <outlet property="mapView" destination="25R-wP-atD" id="tnC-vj-4j5"/>
-                        <segue destination="OM4-bh-Lg8" kind="modal" identifier="showDetailView" modalTransitionStyle="crossDissolve" id="Cxr-gB-z2d"/>
-                        <segue destination="6eU-55-e5U" kind="modal" identifier="showSignup" modalTransitionStyle="crossDissolve" id="wru-ys-2kw"/>
+                        <segue destination="6eU-55-e5U" kind="push" identifier="showSignup" id="0eK-W1-Udv"/>
+                        <segue destination="Gac-Ng-Yj3" kind="push" identifier="showDetailView" id="elD-hV-XCp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="88" y="69"/>
+            <point key="canvasLocation" x="399" y="133"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lk1-m9-Wwt">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="KcH-Vf-XEI" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OOS-HY-y4M">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="1Ch-hE-RW7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xAl-7M-0Ao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="16" y="113"/>
         </scene>
         <!--Detail View Controller - Details-->
         <scene sceneID="IiK-QX-BUO">
@@ -71,16 +88,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Details" id="G5E-3L-Hxc">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="xec-Tn-8yU"/>
+                        <barButtonItem key="backBarButtonItem" id="xec-Tn-8yU"/>
                     </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="nameLabel" destination="uhN-Yj-09S" id="3pD-5N-9pd"/>
-                        <segue destination="vXZ-lx-hvc" kind="modal" identifier="showHomeView" modalTransitionStyle="crossDissolve" id="dwc-b8-Bve"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29w-om-Hrb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="952" y="69"/>
+            <point key="canvasLocation" x="1037" y="214"/>
         </scene>
         <!--Startup View Controller - Signup-->
         <scene sceneID="WdN-n6-ZIf">
@@ -156,32 +173,13 @@
             </objects>
             <point key="canvasLocation" x="1316" y="839"/>
         </scene>
-        <!--Navigation Controller - Details-->
-        <scene sceneID="Bl2-WY-1Pe">
-            <objects>
-                <navigationController title="Details" definesPresentationContext="YES" id="OM4-bh-Lg8" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="A1Z-ld-iew"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sDi-cK-KWp">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="3FM-rx-lYW">
-                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </toolbar>
-                    <connections>
-                        <segue destination="Gac-Ng-Yj3" kind="relationship" relationship="rootViewController" id="jiE-tV-om2"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jAl-xY-B7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="543" y="69"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="WYu-z3-XA7">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="No4-rS-dpD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6eU-55-e5U" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="h3p-l6-jjt"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="E6F-1w-Nc7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -191,7 +189,6 @@
                         <segue destination="xLi-7r-t6v" kind="relationship" relationship="rootViewController" id="Gqq-Os-tVi"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="No4-rS-dpD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="790" y="839"/>
         </scene>

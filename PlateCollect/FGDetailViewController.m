@@ -33,23 +33,6 @@
         title.text = [NSString stringWithFormat:@"%@, %@", _stone.lastName, _stone.firstName];
     }
     [self.navigationController.navigationBar addSubview:title];
-    
-    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    backButton.frame = CGRectMake(3, 0, 80, 40);
-    UILabel *titleLabel = [[UILabel alloc] initWithFrame:backButton.frame];
-    titleLabel.backgroundColor = [UIColor clearColor];
-    titleLabel.backgroundColor = [UIColor clearColor];
-    titleLabel.textColor = [UIColor darkGrayColor];
-    titleLabel.text = @"Back";
-    [backButton addSubview:titleLabel];
-    [backButton addTarget:self action:@selector(goBack) forControlEvents:UIControlEventTouchUpInside];
-    [self.navigationController.navigationBar addSubview:backButton];
-    
-}
-
-- (void)goBack {                                // TODODODODODODODOD
-    FGViewController *vc = self.delegate;
-    [vc dismissViewControllerAnimated:YES completion:nil];
 }
 
 -(NSAttributedString *)createNameViewString {
@@ -207,6 +190,5 @@
 
     }
     return cell;
-
 }
 @end
