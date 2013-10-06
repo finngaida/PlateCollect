@@ -8,15 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
+#import "FGStolperstein.h"
 
 @interface FGAnnotation : NSObject <MKAnnotation> {
-    NSString *title;
+    FGStolperstein *stone;
 	CLLocationCoordinate2D coordinate;
 }
 
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
-@property (nonatomic, readonly, copy) NSString *title;
+@property (nonatomic, readonly) FGStolperstein *stone;
 
-- (id)initWithTitle:(NSString *)theTitle andCoordinate:(CLLocationCoordinate2D)theCoord;
+- (id)initWithStone:(FGStolperstein *)theStone andCoordinate:(CLLocationCoordinate2D)theCoord;
 
 @end
