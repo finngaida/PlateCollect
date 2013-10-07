@@ -34,6 +34,7 @@
     NSLog(@"Coords: N %f, E %f", manager.location.coordinate.longitude, manager.location.coordinate.latitude);
     
     handler(manager.location, nil);
+    
 }
 
 - (CLLocation *)locationFromAdress:(NSString *)address {
