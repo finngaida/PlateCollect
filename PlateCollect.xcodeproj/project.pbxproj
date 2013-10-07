@@ -63,6 +63,7 @@
 		CCD5902F17DBCD6300A87AFB /* loc.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD5902D17DBCD6200A87AFB /* loc.png */; };
 		CCD5903017DBCD6300A87AFB /* loc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD5902E17DBCD6200A87AFB /* loc@2x.png */; };
 		CCD5903217DBCE4200A87AFB /* Berlin (1).gpx in Resources */ = {isa = PBXBuildFile; fileRef = CCD5903117DBCE4200A87AFB /* Berlin (1).gpx */; };
+		CCE58AF017EF0DF400CF864D /* Stundenlauf.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CCE58AEF17EF0DF400CF864D /* Stundenlauf.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -147,6 +148,7 @@
 		CCD5902D17DBCD6200A87AFB /* loc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loc.png; sourceTree = "<group>"; };
 		CCD5902E17DBCD6200A87AFB /* loc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loc@2x.png"; sourceTree = "<group>"; };
 		CCD5903117DBCE4200A87AFB /* Berlin (1).gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Berlin (1).gpx"; sourceTree = "<group>"; };
+		CCE58AEF17EF0DF400CF864D /* Stundenlauf.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stundenlauf.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 		CC0ECE2E17DB300400D0D2A8 = {
 			isa = PBXGroup;
 			children = (
+				CCE58AEF17EF0DF400CF864D /* Stundenlauf.gpx */,
 				CCD5903117DBCE4200A87AFB /* Berlin (1).gpx */,
 				CC0ECE4017DB300400D0D2A8 /* PlateCollect */,
 				CC0ECE3917DB300400D0D2A8 /* Frameworks */,
@@ -372,6 +375,7 @@
 				A6BA7D0417DE194600D781FB /* stolpersteine.sqlite in Resources */,
 				A6B094BE17DB9255007252E3 /* Icon@2x.png in Resources */,
 				69BBB52317DBF28200419084 /* final.csv in Resources */,
+				CCE58AF017EF0DF400CF864D /* Stundenlauf.gpx in Resources */,
 				A6B094B917DB9255007252E3 /* Icon-Small-50.png in Resources */,
 				A6B094BA17DB9255007252E3 /* Icon-Small-50@2x.png in Resources */,
 				A6B094BC17DB9255007252E3 /* Icon-Small@2x.png in Resources */,

@@ -57,7 +57,7 @@
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
-      allowLocationSimulation = "NO">
+      allowLocationSimulation = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
@@ -70,7 +70,7 @@
       <AdditionalOptions>
       </AdditionalOptions>
       <LocationScenarioReference
-         identifier = "../../Berlin (1).gpx"
+         identifier = "../../Stundenlauf.gpx"
          referenceType = "0">
       </LocationScenarioReference>
    </LaunchAction>
