@@ -42,7 +42,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10" y="445"/>
+            <point key="canvasLocation" x="399" y="133"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lk1-m9-Wwt">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="KcH-Vf-XEI" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OOS-HY-y4M">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="1Ch-hE-RW7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xAl-7M-0Ao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="16" y="113"/>
         </scene>
         <!--Detail View Controller - Details-->
         <scene sceneID="IiK-QX-BUO">

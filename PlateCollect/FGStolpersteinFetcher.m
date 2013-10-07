@@ -68,7 +68,9 @@
     NSMutableArray *nearest = [NSMutableArray array];
     for (NSInteger j = 0; j<=30; j++) {
         
-        [nearest addObject:stones[[sortedValues[j] integerValue]]];
+        if ([sortedValues count] >= 30) {
+            [nearest addObject:stones[[sortedValues[j] integerValue]]];
+        }
     }
     NSLog(@"%@",nearest);
     return [nearest copy];
