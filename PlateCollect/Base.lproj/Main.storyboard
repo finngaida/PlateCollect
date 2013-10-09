@@ -171,7 +171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z56-05-c0T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1316" y="839"/>
+            <point key="canvasLocation" x="952" y="793"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WYu-z3-XA7">
@@ -190,7 +190,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="790" y="839"/>
+            <point key="canvasLocation" x="543" y="793"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
