@@ -36,7 +36,6 @@
 		A6B094BE17DB9255007252E3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B094B417DB9255007252E3 /* Icon@2x.png */; };
 		A6B094BF17DB9255007252E3 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B094B517DB9255007252E3 /* iTunesArtwork.png */; };
 		A6BA7D0317DE191E00D781FB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6BA7D0017DE186200D781FB /* Localizable.strings */; };
-		A6BA7D0417DE194600D781FB /* stolpersteine.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A6BA7CFD17DE148B00D781FB /* stolpersteine.sqlite */; };
 		A6BA7D1417DE1DB700D781FB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA7D0A17DE1DB700D781FB /* FMDatabase.m */; };
 		A6BA7D1517DE1DB700D781FB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA7D0C17DE1DB700D781FB /* FMDatabaseAdditions.m */; };
 		A6BA7D1617DE1DB700D781FB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA7D0E17DE1DB700D781FB /* FMDatabasePool.m */; };
@@ -107,7 +106,6 @@
 		A6B094B517DB9255007252E3 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		A6B094B617DB9255007252E3 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		A6B094C217DB9325007252E3 /* Icon@2x~iOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x~iOS7.png"; sourceTree = "<group>"; };
-		A6BA7CFD17DE148B00D781FB /* stolpersteine.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = stolpersteine.sqlite; sourceTree = "<group>"; };
 		A6BA7CFF17DE186200D781FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A6BA7D0217DE191C00D781FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A6BA7D0917DE1DB700D781FB /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -121,6 +119,7 @@
 		A6BA7D1217DE1DB700D781FB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		A6BA7D1317DE1DB700D781FB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		A6BA7D1A17DE1DC400D781FB /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A6FD4E7C180610C500CDA1A3 /* stolpersteine.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = stolpersteine.sqlite; sourceTree = "<group>"; };
 		CC0ECE3717DB300400D0D2A8 /* PlateCollect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateCollect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC0ECE3C17DB300400D0D2A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -281,8 +280,8 @@
 				A645374417E09422007B7406 /* FGDatabase.h */,
 				A645374517E09422007B7406 /* FGDatabase.m */,
 				69C9C07317DB37260020DCD6 /* stolpersteine.csv */,
+				A6FD4E7C180610C500CDA1A3 /* stolpersteine.sqlite */,
 				69BBB52217DBF28200419084 /* final.csv */,
-				A6BA7CFD17DE148B00D781FB /* stolpersteine.sqlite */,
 				69C9C0C317DBA3530020DCD6 /* TODO */,
 				A6BA7D0017DE186200D781FB /* Localizable.strings */,
 				CC0ECE4117DB300400D0D2A8 /* Supporting Files */,
@@ -368,7 +367,6 @@
 				A68C693C17DBA6F700400767 /* timeline_death@2x.png in Resources */,
 				A667F94A17DBC049003847A7 /* pin@2x.png in Resources */,
 				A68C693B17DBA6F700400767 /* timeline_death.png in Resources */,
-				A6BA7D0417DE194600D781FB /* stolpersteine.sqlite in Resources */,
 				A6B094BE17DB9255007252E3 /* Icon@2x.png in Resources */,
 				69BBB52317DBF28200419084 /* final.csv in Resources */,
 				A6B094B917DB9255007252E3 /* Icon-Small-50.png in Resources */,
