@@ -23,6 +23,7 @@
 @property(nonatomic,strong)NSString *placeOfDeath;
 @property(nonatomic,strong)NSDate *dayOfDeath;
 
+@property(nonatomic,readonly)BOOL visited;
 @property(nonatomic,strong)CLLocation *location;
 @property(nonatomic,strong)CLRegion *region;
 
@@ -37,6 +38,7 @@
                                                                     //  @"place":"NSString Place>
              locationOfDeath:(NSString *)placeOfDeath
                   dayOfDeath:(NSString *)dayOfDeath
-                  identifier:(int)identifier; //designated initializer
+                  identifier:(int)identifier
+                     visited:(BOOL)visited; //designated initializer
 
 @end

@@ -11,8 +11,9 @@
 
 @implementation FGStolperstein
 @synthesize identifier = _identifier;
+@synthesize visited = _visited;
 
--(instancetype)initWithFirst:(NSString *)firstName last:(NSString *)lastName born:(NSString *)bornName birthday:(NSString *)birthday address:(NSString *)address quarter:(NSString *)quarter location:(CLLocation *)location deportations:(NSArray *)deportations locationOfDeath:(NSString *)placeOfDeath dayOfDeath:(NSString *)dayOfDeath identifier:(int )identifier{
+-(instancetype)initWithFirst:(NSString *)firstName last:(NSString *)lastName born:(NSString *)bornName birthday:(NSString *)birthday address:(NSString *)address quarter:(NSString *)quarter location:(CLLocation *)location deportations:(NSArray *)deportations locationOfDeath:(NSString *)placeOfDeath dayOfDeath:(NSString *)dayOfDeath identifier:(int )identifier visited:(BOOL)visited {
     
     self = [super init];
     
@@ -36,7 +37,7 @@
     self.placeOfDeath = placeOfDeath;
     self.dayOfDeath = [formatter dateFromString:dayOfDeath];
     _identifier = identifier;
-
+    _visited = visited;
     return self;
 
 

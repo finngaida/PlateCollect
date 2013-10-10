@@ -65,24 +65,25 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
     
     //Basic Information and stone location
     NSString *query = [NSString stringWithFormat:@"SELECT * FROM stolperstein JOIN location ON stolperstein.location_id = location.location_id ORDER BY distance(location.latitude, location.longitude, %f, %f) LIMIT %i ",locLatitude,locLongitude,amount];
-    FMResultSet *entryResult = [super executeQuery:query];
+    FMResultSet *result = [super executeQuery:query];
     
-    //Tabellendaten in array einfügen
-    while([entryResult next]) {
-        CLLocation*stoneLocation = [[CLLocation alloc] initWithLatitude:[entryResult doubleForColumn:@"latitude"]
-                                                              longitude:[entryResult doubleForColumn:@"longitude"]];
+    //Add sql result as stolperstein object to array
+    while([result next]) {
+        CLLocation*stoneLocation = [[CLLocation alloc] initWithLatitude:[result doubleForColumn:@"latitude"]
+                                                              longitude:[result doubleForColumn:@"longitude"]];
         
-        FGStolperstein *stone = [[FGStolperstein alloc] initWithFirst:[entryResult stringForColumn:@"firstname"]
-                                                                 last:[entryResult stringForColumn:@"lastname"]
-                                                                 born:[entryResult stringForColumn:@"birthname"]
-                                                             birthday:[entryResult stringForColumn:@"birthday"]
-                                                              address:[entryResult stringForColumn:@"adress"]
-                                                              quarter:[entryResult stringForColumn:@"neighbourhood"]
+        FGStolperstein *stone = [[FGStolperstein alloc] initWithFirst:[result stringForColumn:@"firstname"]
+                                                                 last:[result stringForColumn:@"lastname"]
+                                                                 born:[result stringForColumn:@"birthname"]
+                                                             birthday:[result stringForColumn:@"birthday"]
+                                                              address:[result stringForColumn:@"adress"]
+                                                              quarter:[result stringForColumn:@"neighbourhood"]
                                                              location:stoneLocation
                                                          deportations:nil
-                                                      locationOfDeath:[entryResult stringForColumn:@"place_of_death"]
-                                                           dayOfDeath:[entryResult stringForColumn:@"day_of_death"]
-                                                           identifier:[entryResult intForColumn:@"st_id"]];
+                                                      locationOfDeath:[result stringForColumn:@"place_of_death"]
+                                                           dayOfDeath:[result stringForColumn:@"day_of_death"]
+                                                           identifier:[result intForColumn:@"st_id"]
+                                                              visited:(BOOL)[result intForColumn:@"visited"]];
         
         [stones addObject:stone];
     }
@@ -90,12 +91,12 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
 }
 -(BOOL)isVisitingStolperstein:(FGStolperstein*)stone {
     int st_id = stone.identifier;
-    return [super executeUpdate:@"UPDATE location SET visited = 1 AND visited_timestamp = CURRENT_TIMESTAMP() WHERE location_id = (SELECT location_id FROM stolperstein WHERE st_id = %i)",st_id];
+    return [super executeUpdate:@"UPDATE location SET visited = 1 AND visited_timestamp = CURRENT_TIMESTAMP() WHERE location_id IN (SELECT location_id FROM stolperstein WHERE st_id = %i)",st_id];
 }
 -(BOOL)visitedStolperstein:(FGStolperstein*)stone {
     BOOL visited = NO;
     
-    NSString *query = [NSString stringWithFormat:@"SELECT visited FROM location WHERE location.location_id = (SELECT location_id FROM stolperstein WHERE st_id = %i)",stone.identifier];
+    NSString *query = [NSString stringWithFormat:@"SELECT visited FROM location WHERE location.location_id IN (SELECT location_id FROM stolperstein WHERE st_id = %i)",stone.identifier];
     FMResultSet *result = [super executeQuery:query];
     
     while([result next]) {
