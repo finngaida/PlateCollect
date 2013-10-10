@@ -15,7 +15,9 @@
 -(instancetype)database;
 
 //provding content
--(NSArray*)stolpersteinsInRegion:(CLRegion*)region forAmount:(NSInteger)amount;
+-(NSArray*)stolpersteinsNearLocation:(CLLocation*)location amount:(NSInteger)amount; //Es fehlen noch ergebnisse aus deports table
 -(FGStolperstein*)stolpersteinByID:(NSInteger)stID;
 
+-(BOOL)isVisitingStolperstein:(FGStolperstein*)stone; //YES, wenn erfolgreiche Abfrage
+-(BOOL)visitedStolperstein:(FGStolperstein*)stone;//YES, wenn besucht
 @end

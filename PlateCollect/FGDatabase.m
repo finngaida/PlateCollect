@@ -11,6 +11,9 @@
 
 @implementation FGDatabase
 
+//Source from http://www.thismuchiknow.co.uk/?p=71
+#define DEG2RAD(degrees) (degrees * 0.01745327) // degrees * pi over 180
+
 #pragma mark main required methods
 - (instancetype)database
 {
@@ -18,47 +21,87 @@
         return (FGDatabase*)[FMDatabase databaseWithPath:databasePath];
 }
 
+- (BOOL)open {
+    BOOL ready = [super open];
+    //Adds a function to calculate distances easily
+    sqlite3_create_function([super sqliteHandle], "distance", 4, SQLITE_UTF8, NULL, &distanceFunc, NULL, NULL);
+    return ready;
+}
 
-#pragma mark providing content
--(NSArray*)stolpersteinsInRegion:(CLRegion*)region forAmount:(NSInteger)amount{
-    NSMutableArray *stolpersteine;
-    
-    NSString *entryQuery = [NSString stringWithFormat:@"SELECT * FROM stolperstein WHERE stolperstein.stdID = %i ",amount];
-    FMResultSet *entryResult = [super executeQuery:entryQuery];
-    while([entryResult next]) {
-        
+static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **argv)
+{
+    // check that we have four arguments (lat1, lon1, lat2, lon2)
+    assert(argc == 4);
+    // check that all four arguments are non-null
+    if (sqlite3_value_type(argv[0]) == SQLITE_NULL || sqlite3_value_type(argv[1]) == SQLITE_NULL || sqlite3_value_type(argv[2]) == SQLITE_NULL || sqlite3_value_type(argv[3]) == SQLITE_NULL) {
+        sqlite3_result_null(context);
+        return;
     }
-    
-    return [stolpersteine copy];
+    // get the four argument values
+    double lat1 = sqlite3_value_double(argv[0]);
+    double lon1 = sqlite3_value_double(argv[1]);
+    double lat2 = sqlite3_value_double(argv[2]);
+    double lon2 = sqlite3_value_double(argv[3]);
+    // convert lat1 and lat2 into radians now, to avoid doing it twice below
+    double lat1rad = DEG2RAD(lat1);
+    double lat2rad = DEG2RAD(lat2);
+    // apply the spherical law of cosines to our latitudes and longitudes, and set the result appropriately
+    // 6378.1 is the approximate radius of the earth in kilometres
+    sqlite3_result_double(context, acos(sin(lat1rad) * sin(lat2rad) + cos(lat1rad) * cos(lat2rad) * cos(DEG2RAD(lon2) - DEG2RAD(lon1))) * 6378.1);
 }
+
+# pragma mark custom methods
 -(FGStolperstein*)stolpersteinByID:(NSInteger)stID {
-    FGStolperstein *stone;
-    
-    //SQL-Abfrage (Es fehlt zb noch der JOIN)
-    NSString *entryQuery = [NSString stringWithFormat:@"SELECT * FROM stolperstein WHERE stolperstein.stdID = %i ",stID];
-    FMResultSet *entryResult = [super executeQuery:entryQuery];
-    while([entryResult next]) {
-        
-        //Location in CLLocation umwandeln
-        double lat = [entryResult doubleForColumn:@"latitude"];
-        double longi = [entryResult doubleForColumn:@"longitude"];
-        CLLocation *location = [[CLLocation alloc] initWithLatitude:lat longitude:longi];
-        
-        //Deportations in Array einfügen (Fehlt)
-        
-        stone = [[FGStolperstein alloc] initWithFirst:[entryResult stringForColumn:@"firstname"]
-                                                 last:[entryResult stringForColumn:@"lastname"]
-                                                 born:[entryResult stringForColumn:@"birthname"]
-                                             birthday:[entryResult stringForColumn:@"birthday"]
-                                              address:[entryResult stringForColumn:@"adress"]
-                                              quarter:[entryResult stringForColumn:@"neighbourhood"]
-                                             location:location
-                                         deportations:nil
-                                      locationOfDeath:[entryResult stringForColumn:@"place_of_death"]
-                                           dayOfDeath:[entryResult stringForColumn:@"day_of_death"]
-                                           identifier:[NSString stringWithFormat:@"%i", stID]];
-    }
-    
-    return stone;
+    return nil;
 }
+
+-(NSArray*)stolpersteinsNearLocation:(CLLocation*)location amount:(NSInteger)amount {
+    //Current position
+    double locLongitude = (double)location.coordinate.longitude;
+    double locLatitude = (double)location.coordinate.latitude;
+
+    //Stores stones
+    NSMutableArray *stones = [[NSMutableArray alloc] init];
+    
+    //Basic Information and stone location
+    NSString *query = [NSString stringWithFormat:@"SELECT * FROM stolperstein JOIN location ON stolperstein.location_id = location.location_id ORDER BY distance(location.latitude, location.longitude, %f, %f) LIMIT %i ",locLatitude,locLongitude,amount];
+    FMResultSet *entryResult = [super executeQuery:query];
+    
+    //Tabellendaten in array einfügen
+    while([entryResult next]) {
+        CLLocation*stoneLocation = [[CLLocation alloc] initWithLatitude:[entryResult doubleForColumn:@"latitude"]
+                                                              longitude:[entryResult doubleForColumn:@"longitude"]];
+        
+        FGStolperstein *stone = [[FGStolperstein alloc] initWithFirst:[entryResult stringForColumn:@"firstname"]
+                                                                 last:[entryResult stringForColumn:@"lastname"]
+                                                                 born:[entryResult stringForColumn:@"birthname"]
+                                                             birthday:[entryResult stringForColumn:@"birthday"]
+                                                              address:[entryResult stringForColumn:@"adress"]
+                                                              quarter:[entryResult stringForColumn:@"neighbourhood"]
+                                                             location:stoneLocation
+                                                         deportations:nil
+                                                      locationOfDeath:[entryResult stringForColumn:@"place_of_death"]
+                                                           dayOfDeath:[entryResult stringForColumn:@"day_of_death"]
+                                                           identifier:[entryResult intForColumn:@"st_id"]];
+        
+        [stones addObject:stone];
+    }
+    return [stones copy];
+}
+-(BOOL)isVisitingStolperstein:(FGStolperstein*)stone {
+    int st_id = stone.identifier;
+    return [super executeUpdate:@"UPDATE location SET visited = 1 AND visited_timestamp = CURRENT_TIMESTAMP() WHERE location_id = (SELECT location_id FROM stolperstein WHERE st_id = %i)",st_id];
+}
+-(BOOL)visitedStolperstein:(FGStolperstein*)stone {
+    BOOL visited = NO;
+    
+    NSString *query = [NSString stringWithFormat:@"SELECT visited FROM location WHERE location.location_id = (SELECT location_id FROM stolperstein WHERE st_id = %i)",stone.identifier];
+    FMResultSet *result = [super executeQuery:query];
+    
+    while([result next]) {
+        visited = (BOOL)[result intForColumn:@"visited"];
+    }
+    return visited;
+}
+
 @end

@@ -12,7 +12,7 @@
 @interface FGStolperstein : NSObject
 
 
-@property(nonatomic,strong)NSString *identifier;
+@property(nonatomic,readonly)int identifier;
 @property(nonatomic,strong)NSString *firstName;
 @property(nonatomic,strong)NSString *lastName;
 @property(nonatomic,strong)NSString *bornName;
@@ -37,6 +37,6 @@
                                                                     //  @"place":"NSString Place>
              locationOfDeath:(NSString *)placeOfDeath
                   dayOfDeath:(NSString *)dayOfDeath
-                  identifier:(NSString *)identifier; //designated initializer
+                  identifier:(int)identifier; //designated initializer
 
 @end
