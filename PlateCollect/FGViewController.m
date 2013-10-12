@@ -45,7 +45,7 @@
         // Fetch the 30 nearest placemarks from the location parameter and create FGStolperstein 's for it
         
         FGStolpersteinFetcher *f = [FGStolpersteinFetcher new];
-        stolpersteine = [f fetchNearestStonesAtLocation:location Ammount:20];
+        stolpersteine = [f fetchNearestStonesAtLocation:location amount:20];
         
         // loop through them and add the annotations
         for (FGStolperstein *s in stolpersteine) {
