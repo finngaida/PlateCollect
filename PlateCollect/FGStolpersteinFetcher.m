@@ -7,15 +7,15 @@
 //
 
 #import "FGStolpersteinFetcher.h"
-#import "FGDatabase.h"
+#import "FGDatabaseHandler.h"
 
 @implementation FGStolpersteinFetcher
 
 -(NSArray *)fetchNearestStonesAtLocation:(CLLocation *)location amount:(NSInteger)amount {
-    FGDatabase *database = [[FGDatabase alloc] database];
-    [database open];
-    NSArray *stones = [database stolpersteinsNearLocation:location amount:amount];
-    [database close];
+    FGDatabaseHandler *database = [[FGDatabaseHandler alloc] initWithDatabase];
+    [database openDatabase];
+    NSArray *stones = [database stolpersteinsNearLocation:location amount:(int)amount];
+    [database closeDatabase];
     return stones;
 }
 @end
