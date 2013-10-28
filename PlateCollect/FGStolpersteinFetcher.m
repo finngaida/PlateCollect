@@ -15,6 +15,7 @@
     FGDatabaseHandler *database = [[FGDatabaseHandler alloc] initWithDatabase];
     [database openDatabase];
     NSArray *stones = [database stolpersteinsNearLocation:location amount:(int)amount];
+    NSLog(@"SQL return: %@", stones);
     [database closeDatabase];
     return stones;
 }
