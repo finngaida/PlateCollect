@@ -13,7 +13,7 @@
     FMDatabase *database;
 }
 
-//Source from http://www.thismuchiknow.co.uk/?p=71
+//Source:  http://www.thismuchiknow.co.uk/?p=71
 #define DEG2RAD(degrees) (degrees * 0.01745327) // degrees * pi over 180
 
 #pragma mark main required methods
@@ -70,7 +70,7 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
     //Current position
     double locLongitude = (double)location.coordinate.longitude;
     double locLatitude = (double)location.coordinate.latitude;
-
+    
     //Stores stones
     NSMutableArray *stones = [[NSMutableArray alloc] init];
     
@@ -80,21 +80,14 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
     
     //Add sql result as stolperstein object to array
     while([result next]) {
-        CLLocation *stoneLocation = [[CLLocation alloc] initWithLatitude:[result doubleForColumn:@"latitude"]
+        CLLocation*stoneLocation = [[CLLocation alloc] initWithLatitude:[result doubleForColumn:@"latitude"]
                                                               longitude:[result doubleForColumn:@"longitude"]];
         
-        FGStolperstein *stone = [[FGStolperstein alloc] initWithFirst:[result stringForColumn:@"firstname"]
-                                                                 last:[result stringForColumn:@"lastname"]
-                                                                 born:[result stringForColumn:@"birthname"]
-                                                             birthday:[result stringForColumn:@"birthday"]
-                                                              address:[result stringForColumn:@"adress"]
-                                                              quarter:[result stringForColumn:@"neighbourhood"]
-                                                             location:stoneLocation
-                                                         deportations:nil
-                                                      locationOfDeath:[result stringForColumn:@"place_of_death"]
-                                                           dayOfDeath:[result stringForColumn:@"day_of_death"]
-                                                           identifier:[result intForColumn:@"st_id"]
-                                                              visited:(BOOL)[result intForColumn:@"visited"]];
+        FGStolperstein *stone = [[FGStolperstein alloc] initWithFirstname:[result stringForColumn:@"firstname"]
+                                                                 lastname:[result stringForColumn:@"lastname"]
+                                                                 location:stoneLocation
+                                                               identifier:[result intForColumn:@"st_id"]
+                                                                  visited:(BOOL)[result intForColumn:@"visited"]];
         
         [stones addObject:stone];
     }

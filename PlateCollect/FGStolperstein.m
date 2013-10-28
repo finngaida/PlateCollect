@@ -44,5 +44,21 @@
 }
 
 
+-(instancetype)initWithFirstname:(NSString*)firstName
+                        lastname:(NSString*)lastname
+                        location:(CLLocation*)location
+                      identifier:(int)identifier
+                         visited:(BOOL)visited {
+    self = [super init];
+    
+    self.firstName = firstName;
+    self.lastName = lastname;
+    self.location = location;
+    _identifier = identifier;
+    _visited = visited;
+    
+    return self;
+}
+
 
 @end

@@ -23,7 +23,7 @@
 @property(nonatomic,strong)NSString *placeOfDeath;
 @property(nonatomic,strong)NSDate *dayOfDeath;
 
-@property(nonatomic,readonly)BOOL visited;
+@property(nonatomic,readwrite)BOOL visited;
 @property(nonatomic,strong)CLLocation *location;
 @property(nonatomic,strong)CLRegion *region;
 
@@ -40,5 +40,11 @@
                   dayOfDeath:(NSString *)dayOfDeath
                   identifier:(int)identifier
                      visited:(BOOL)visited; //designated initializer
+
+-(instancetype)initWithFirstname:(NSString*)firstName
+                        lastname:(NSString*)lastname
+                        location:(CLLocation*)location
+                      identifier:(int)identifier
+                         visited:(BOOL)visited;
 
 @end
