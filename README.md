@@ -1,6 +1,8 @@
 PlateCollect
 =========
 
+![ScreenShot](http://finngaida.de/img/yrs.png)
+
 An app created for #JugendHackt in Berlin 7.-8. Sep 2013. 
 NOTE: This project uses iOS SDK 7 and XCode 5. You need to have a registered Apple Developer account to contribute.
 
