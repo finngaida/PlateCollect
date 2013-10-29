@@ -16,11 +16,14 @@
 -(BOOL)openDatabase;
 -(BOOL)closeDatabase;
 
-//provding content
--(NSArray*)stolpersteinsNearLocation:(CLLocation*)location amount:(NSInteger)amount; //Es fehlen noch ergebnisse aus deports table
+//Get full information for Stolperstein
 -(FGStolperstein*)stolpersteinByID:(NSInteger)stID;
+-(FGStolperstein*)fullInformationForStolperstein:(FGStolperstein*)stolperstein;
 
+//Location based database querys
 -(BOOL)isVisitingStolperstein:(FGStolperstein*)stone; //YES, wenn erfolgreiche Abfrage
 -(BOOL)visitedStolperstein:(FGStolperstein*)stone;//YES, wenn besucht
+-(NSArray*)stolpersteinsNearLocation:(CLLocation*)location amount:(NSInteger)amount; //Array aus Stolpersteinen mit den Basisinformationen
+
 
 @end

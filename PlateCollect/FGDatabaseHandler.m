@@ -30,7 +30,7 @@
 
 - (BOOL)openDatabase {
     BOOL ready = [database open];
-    //Adds a function to calculate distances easily
+    //Adds a function to easily calculate distances
     sqlite3_create_function([database sqliteHandle], "distance", 4, SQLITE_UTF8, NULL, &distanceFunc, NULL, NULL);
     return ready;
 }
@@ -63,7 +63,44 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
 
 # pragma mark custom methods
 -(FGStolperstein*)stolpersteinByID:(NSInteger)stID {
-    return nil;
+    FGStolperstein *stone = [[FGStolperstein alloc] init];
+    NSDateFormatter *formatter = [FGStolperstein basicDateFormatter];
+
+    //Get basic information
+    NSString *basicInformationQuery = [NSString stringWithFormat:@"SELECT * FROM stolperstein JOIN location ON stolperstein.location_id = location.location_id WHERE stolperstein.st_id = %i", stID];
+    FMResultSet *result = [database executeQuery:basicInformationQuery];
+    while ([result next]) {
+        CLLocation*stoneLocation = [[CLLocation alloc] initWithLatitude:[result doubleForColumn:@"latitude"]
+                                                              longitude:[result doubleForColumn:@"longitude"]];
+        stone.location = stoneLocation;
+        stone.firstName =  [result stringForColumn:@"firstname"];
+        stone.lastName =  [result stringForColumn:@"lastname"];
+        stone.bornName = [result stringForColumn:@"birthname"];
+        stone.birthday = [formatter dateFromString:[result stringForColumn:@"birthday"]];
+        stone.address = [result stringForColumn:@"adress"];
+        stone.quarter = [result stringForColumn:@"neighbourhood"];
+        stone.placeOfDeath = [result stringForColumn:@"place_of_death"];
+        stone.dayOfDeath = [formatter dateFromString:[result stringForColumn:@"day_of_death"]];
+        stone.identifier = [result intForColumn:@"st_id"];
+        stone.visited = (BOOL)[result intForColumn:@"visited"];
+    }
+    
+    //Get deportation information
+    NSString *depQuery = [NSString stringWithFormat:@"SELECT * FROM deportations WHERE st_id = %i ORDER BY dep_index ASC",stID];
+    NSMutableArray *deportations = [[NSMutableArray alloc] init];
+    result = [database executeQuery:depQuery];
+    while ([result next]) {
+        NSDictionary *dictionary = @{@"place":[result stringForColumn:@"destination"],
+                                    @"date":[formatter dateFromString:[result stringForColumn:@"date"]]};
+        [deportations addObject:dictionary];
+    }
+    stone.deportations = [deportations copy];
+    
+    return stone;
+}
+
+-(FGStolperstein*)fullInformationForStolperstein:(FGStolperstein*)stolperstein {
+    return [self stolpersteinByID:stolperstein.identifier];
 }
 
 -(NSArray*)stolpersteinsNearLocation:(CLLocation*)location amount:(NSInteger)amount {
@@ -75,7 +112,7 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
     NSMutableArray *stones = [[NSMutableArray alloc] init];
     
     //Basic Information and stone location
-    NSString *query = [NSString stringWithFormat:@"SELECT * FROM stolperstein JOIN location ON stolperstein.location_id = location.location_id ORDER BY distance(location.latitude, location.longitude, %f, %f) LIMIT %i ",locLatitude,locLongitude,amount];
+    NSString *query = [NSString stringWithFormat:@"SELECT firstname, lastname, st_id, visited, longitude, latitude FROM stolperstein JOIN location ON stolperstein.location_id = location.location_id ORDER BY distance(location.latitude, location.longitude, %f, %f) LIMIT %i ",locLatitude,locLongitude,amount];
     FMResultSet *result = [database executeQuery:query];
     
     //Add sql result as stolperstein object to array

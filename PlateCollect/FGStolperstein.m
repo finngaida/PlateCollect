@@ -21,9 +21,7 @@
     self.lastName = lastName;
     self.bornName = bornName;
     
-    NSDateFormatter *formatter = [NSDateFormatter new];
-    [formatter setDateFormat:@"dd/MM/yyyy"];
-    
+    NSDateFormatter *formatter = [FGStolperstein basicDateFormatter];
     
     self.birthday = [formatter dateFromString:birthday];
     
@@ -58,6 +56,11 @@
     _visited = visited;
     
     return self;
+}
++(NSDateFormatter*)basicDateFormatter {
+    NSDateFormatter *formatter = [NSDateFormatter new];
+    [formatter setDateFormat:@"dd/MM/yyyy"];
+    return formatter;
 }
 
 

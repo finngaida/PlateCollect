@@ -12,7 +12,7 @@
 @interface FGStolperstein : NSObject
 
 
-@property(nonatomic,readonly)int identifier;
+@property(nonatomic,readwrite)int identifier;
 @property(nonatomic,strong)NSString *firstName;
 @property(nonatomic,strong)NSString *lastName;
 @property(nonatomic,strong)NSString *bornName;
@@ -46,5 +46,7 @@
                         location:(CLLocation*)location
                       identifier:(int)identifier
                          visited:(BOOL)visited;
+
++(NSDateFormatter*)basicDateFormatter;
 
 @end
