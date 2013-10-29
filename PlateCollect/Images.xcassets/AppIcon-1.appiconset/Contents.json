@@ -16,21 +16,19 @@
       "scale" : "2x"
     },
     {
-      "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "Icon.png",
+      "size" : "57x57",
       "scale" : "1x"
     },
     {
-      "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "Icon@2x.png",
+      "size" : "57x57",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "Icon@2x~iOS7.png",
+      "filename" : "icon4-new.png",
       "scale" : "2x"
     },
     {
@@ -87,8 +85,5 @@
   "info" : {
     "version" : 1,
     "author" : "xcode"
-  },
-  "properties" : {
-    "pre-rendered" : true
   }
 }
