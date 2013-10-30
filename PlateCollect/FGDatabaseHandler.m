@@ -91,6 +91,7 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
             stone.birthday = [formatter dateFromString:[result stringForColumn:@"birthday"]];
             stone.address = [result stringForColumn:@"adress"];
             stone.quarter = [result stringForColumn:@"neighbourhood"];
+            stone.description = [result stringForColumn:@"description"];
             stone.placeOfDeath = [result stringForColumn:@"place_of_death"];
             stone.dayOfDeath = [formatter dateFromString:[result stringForColumn:@"day_of_death"]];
             stone.identifier = [result intForColumn:@"st_id"];
