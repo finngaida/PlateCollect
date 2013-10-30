@@ -13,15 +13,13 @@
 @interface FGDatabaseHandler : NSObject
 //Läd die Datenbank automatisch mit (benutzt FMDatabase databaseWithPath:)
 - (id)initWithDatabase;
--(BOOL)openDatabase;
--(BOOL)closeDatabase;
 
 //Get full information for Stolperstein
 -(FGStolperstein*)stolpersteinByID:(NSInteger)stID;
 -(FGStolperstein*)fullInformationForStolperstein:(FGStolperstein*)stolperstein;
 
 //Location based database querys
--(BOOL)isVisitingStolperstein:(FGStolperstein*)stone; //YES, wenn erfolgreiche Abfrage
+-(void)isVisitingStolperstein:(FGStolperstein*)stone;
 -(BOOL)visitedStolperstein:(FGStolperstein*)stone;//YES, wenn besucht
 -(NSArray*)stolpersteinsNearLocation:(CLLocation*)location amount:(NSInteger)amount; //Array aus Stolpersteinen mit den Basisinformationen
 
