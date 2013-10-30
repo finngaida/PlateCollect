@@ -7,6 +7,7 @@
 //
 
 #import "FGViewController.h"
+#import "FGDatabaseHandler.h"
 
 @implementation FGViewController
 
@@ -444,7 +445,9 @@
         //Der Sender ist ein MKAnnotationView
         MKAnnotationView *view = (MKAnnotationView*)sender;
         FGAnnotation *annotation = view.annotation;
-        detailVC.stone = annotation.stone;
+        FGDatabaseHandler *dbHandler = [[FGDatabaseHandler alloc] initWithDatabase];
+        FGStolperstein *stone = [dbHandler fullInformationForStolperstein:annotation.stone];
+        detailVC.stone = stone;
                         
     }
 

@@ -20,6 +20,7 @@
 		A6221FFB17DBEC3B007A6DA0 /* FGWikiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6221FFA17DBEC3B007A6DA0 /* FGWikiRequest.m */; };
 		A622204817DC6BB8007A6DA0 /* timline_deporatation.png in Resources */ = {isa = PBXBuildFile; fileRef = A622204617DC6BB8007A6DA0 /* timline_deporatation.png */; };
 		A622204917DC6BB8007A6DA0 /* timline_deporatation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A622204717DC6BB8007A6DA0 /* timline_deporatation@2x.png */; };
+		A62E1ABD18214F8C00F16657 /* stolpersteine.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A6FD4E7C180610C500CDA1A3 /* stolpersteine.sqlite */; };
 		A667F94917DBC049003847A7 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A667F94717DBC049003847A7 /* pin.png */; };
 		A667F94A17DBC049003847A7 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A667F94817DBC049003847A7 /* pin@2x.png */; };
 		A67C0F07181F04C3004D8A67 /* FGDatabaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A67C0F06181F04C3004D8A67 /* FGDatabaseHandler.m */; };
@@ -47,7 +48,6 @@
 		CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */; };
 		CC4BDBB917DBF46800855C45 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4BDBB817DBF46800855C45 /* back.png */; };
 		CC54E7A6181F0FDF0006677A /* icon4-new.png in Resources */ = {isa = PBXBuildFile; fileRef = CC54E7A5181F0FDF0006677A /* icon4-new.png */; };
-		CC8468E117DBB8A200FED01A /* callout in Resources */ = {isa = PBXBuildFile; fileRef = CC8468E017DBB8A200FED01A /* callout */; };
 		CCD489F217DF59CB0014F7F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD489F117DF59CB0014F7F2 /* QuartzCore.framework */; };
 		CCD5902717DBC14900A87AFB /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD5902617DBC14900A87AFB /* plate.png */; };
 		CCD5902817DBC62900A87AFB /* FGStolperstein.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9C07617DB375A0020DCD6 /* FGStolperstein.m */; };
@@ -123,7 +123,6 @@
 		CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAnnotation.m; sourceTree = "<group>"; };
 		CC4BDBB817DBF46800855C45 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		CC54E7A5181F0FDF0006677A /* icon4-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon4-new.png"; sourceTree = "<group>"; };
-		CC8468E017DBB8A200FED01A /* callout */ = {isa = PBXFileReference; lastKnownFileType = file; path = callout; sourceTree = "<group>"; };
 		CCD489F117DF59CB0014F7F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CCD5902617DBC14900A87AFB /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate.png; sourceTree = "<group>"; };
 		CCD5902D17DBCD6200A87AFB /* loc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loc.png; sourceTree = "<group>"; };
@@ -162,7 +161,6 @@
 				CCD5902D17DBCD6200A87AFB /* loc.png */,
 				CCD5902E17DBCD6200A87AFB /* loc@2x.png */,
 				CCD5902617DBC14900A87AFB /* plate.png */,
-				CC8468E017DBB8A200FED01A /* callout */,
 				A667F94717DBC049003847A7 /* pin.png */,
 				A667F94817DBC049003847A7 /* pin@2x.png */,
 				A68C693917DBA6F700400767 /* timeline_death.png */,
@@ -306,6 +304,7 @@
 				ORGANIZATIONNAME = "Finn Gaida";
 				TargetAttributes = {
 					CC0ECE3617DB300400D0D2A8 = {
+						DevelopmentTeam = 7Y8726KJ5P;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -337,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62E1ABD18214F8C00F16657 /* stolpersteine.sqlite in Resources */,
 				69C9C07417DB37260020DCD6 /* stolpersteine.csv in Resources */,
 				CCD5903217DBCE4200A87AFB /* Berlin (1).gpx in Resources */,
 				A68C693C17DBA6F700400767 /* timeline_death@2x.png in Resources */,
@@ -352,7 +352,6 @@
 				CC0ECE5317DB300400D0D2A8 /* Images.xcassets in Resources */,
 				CCD5903017DBCD6300A87AFB /* loc@2x.png in Resources */,
 				A622204817DC6BB8007A6DA0 /* timline_deporatation.png in Resources */,
-				CC8468E117DBB8A200FED01A /* callout in Resources */,
 				CC4BDBB917DBF46800855C45 /* back.png in Resources */,
 				CC0ECE4517DB300400D0D2A8 /* InfoPlist.strings in Resources */,
 				CCD5902717DBC14900A87AFB /* plate.png in Resources */,
