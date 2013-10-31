@@ -195,4 +195,28 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
     }];
 }
 
+# pragma mark database version handling
+-(int)currentDatabaseSchemaVersion {
+    __block int dbVersion;
+    [self readFromDatabase:^(FMDatabase *db) {
+        FMResultSet *results = [db executeQuery:@"PRAGMA user_version;"];
+        while ([results next]) {
+            dbVersion = [results intForColumnIndex:0];
+        }
+    }];
+    return dbVersion;
+}
+
+-(void)updateSchemeVersion:(int)version {
+    [self writeToDatabase:^(FMDatabase *db){
+        [db executeUpdate:@"PRAGMA user_version = ?", version];
+    }];
+}
+
+//This methods reads all custom user data and apply it (depending on version number) to the newest db from the mainBundle
+-(void)migrateDatabaseIfNeeded {
+
+}
+
+
 @end
