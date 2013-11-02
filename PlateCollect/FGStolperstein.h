@@ -50,4 +50,6 @@
 
 +(NSDateFormatter*)basicDateFormatter;
 
+-(NSString *)formattedName; //Simple method to get the full name as string
+
 @end

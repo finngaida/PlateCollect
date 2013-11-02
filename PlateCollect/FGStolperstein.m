@@ -65,5 +65,9 @@
     return formatter;
 }
 
+-(NSString *)formattedName{
+    //TODO: Quick implementation
+    return [NSString stringWithFormat:@"%@ %@",self.firstName,self.lastName];
+}
 
 @end
