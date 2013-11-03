@@ -8,6 +8,7 @@
 
 #import "FGViewController.h"
 #import "FGDatabaseHandler.h"
+#import "AnnotationCoordinateUtility.h"
 
 @implementation FGViewController
 
@@ -35,6 +36,7 @@
     [self.mapView removeAnnotations:self.mapView.annotations];
     
     
+    NSMutableArray *unadjustedAnnotations = [[NSMutableArray alloc] init];
     FGStuffCalculator *c = [FGStuffCalculator new];
     [c fetchCurrentLocationWithHandler:^(CLLocation *location, NSError *error) {
         
@@ -54,8 +56,7 @@
             
             // Create an annotation and then add it to the MapView
             FGAnnotation *a = [[FGAnnotation alloc] initWithStone:s];
-            [self.mapView addAnnotation:a];
-            
+            [unadjustedAnnotations addObject:a];
             // log it
             NSLog(@"Added Annotation for Name: %@ %@", s.firstName, s.lastName);
             
@@ -65,6 +66,11 @@
         
         [dark removeFromSuperview];
     }];
+    
+    //Adjust Stolperstein positions with same coordinates (taken from http://blog.stormid.com/2013/01/handling-annotation-pins-on-the-same-coordinate/)
+    [AnnotationCoordinateUtility mutateCoordinatesOfClashingAnnotations:unadjustedAnnotations];
+    [self.mapView addAnnotations:unadjustedAnnotations];
+
 }
 
 - (void)setUpBottomButtons {
@@ -420,7 +426,13 @@
     a.canShowCallout = YES;
     a.draggable = NO;
     a.calloutOffset = CGPointMake(0, 1);
-    a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"timeline_death"]];
+    
+    FGAnnotation *fgannotation = (FGAnnotation*)annotation;
+    if (fgannotation.stone.visited == YES) {
+        a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"timeline_death_visited"]];
+    } else {
+        a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"timeline_death"]];
+    }
     
     UIButton *detail = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
     [detail addTarget:self action:@selector(mapView:annotationView:calloutAccessoryControlTapped:) forControlEvents:UIControlEventTouchUpInside];
@@ -430,7 +442,7 @@
 }
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
-    [self performSegueWithIdentifier:@"showDetailView" sender:view];
+    [self performSegueWithIdentifier:@"showDetailView" sender:(UIView*)view];
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
@@ -443,14 +455,12 @@
         FGDetailViewController *detailVC = (FGDetailViewController*)[segue destinationViewController];
         
         //Der Sender ist ein MKAnnotationView
-        MKAnnotationView *view = (MKAnnotationView*)sender;
-        FGAnnotation *annotation = view.annotation;
+        MKPinAnnotationView *view = (MKPinAnnotationView*)sender;
+        FGAnnotation *annotation = (FGAnnotation*)view.annotation;
         FGDatabaseHandler *dbHandler = [[FGDatabaseHandler alloc] initWithDatabase];
         FGStolperstein *stone = [dbHandler fullInformationForStolperstein:annotation.stone];
         detailVC.stone = stone;
-                        
     }
-
 }
 
 @end
