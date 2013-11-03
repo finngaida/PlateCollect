@@ -9,15 +9,16 @@
 #import "FGAnnotation.h"
 
 @implementation FGAnnotation
-@synthesize coordinate, stone;
+@synthesize coordinate, stone, title;
 
 
-- (id)initWithStone:(FGStolperstein *)theStone
+- (id)initWithStone:(FGStolperstein *)theStone title:(NSString *)theTitle
 {
     self = [super init];
     if (self) {
         stone = theStone;
         coordinate = theStone.location.coordinate;
+        title = theTitle;
     }
     return self;
 }

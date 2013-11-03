@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
-@interface FGStolperstein : NSObject
+@interface FGStolperstein : NSObject 
 
 
 @property(nonatomic,readwrite)int identifier;

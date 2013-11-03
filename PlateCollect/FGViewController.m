@@ -42,22 +42,19 @@
         [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(.05, .05)) animated:YES];
         
         
-        
         // Fetch the 30 nearest placemarks from the location parameter and create FGStolperstein 's for it
         
         FGStolpersteinFetcher *f = [FGStolpersteinFetcher new];
-        stolpersteine = [f fetchNearestStonesAtLocation:location amount:20];
+        stolpersteine = [f fetchNearestStonesAtLocation:location amount:30];
         
         // loop through them and add the annotations
         for (FGStolperstein *s in stolpersteine) {
-
             
             // Create an annotation and then add it to the MapView
-            FGAnnotation *a = [[FGAnnotation alloc] initWithStone:s];
-            [self.mapView addAnnotation:a];
+            FGAnnotation *a = [[FGAnnotation alloc] initWithStone:s title:[[s.firstName stringByAppendingString:@" "] stringByAppendingString:s.lastName]];
             
-            // log it
-            NSLog(@"Added Annotation for Name: %@ %@", s.firstName, s.lastName);
+            // safety
+            [self.mapView addAnnotation:a];
             
             // Sign up to recieve push notification, when entering this region.
             [c startMonitoringForLocation:s.location];
@@ -105,7 +102,7 @@
     [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"kApplicationDidLaunchForTheVeryFirstTime"];
 }
 
--(void)startupViewControllerDidFinish:(FGStartupViewController *)startupViewCon{
+- (void)startupViewControllerDidFinish:(FGStartupViewController *)startupViewCon{
     [self dismissViewControllerAnimated:YES completion:^{}];
 }
 
@@ -416,24 +413,34 @@
     
     MKPinAnnotationView *a = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"Annotation"];
     a.annotation = annotation;
-    a.image = [UIImage imageNamed:@"pin"];
+    a.image = [UIImage imageNamed:@"pins"];
     a.canShowCallout = YES;
     a.draggable = NO;
     a.calloutOffset = CGPointMake(0, 1);
     a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"timeline_death"]];
     
     UIButton *detail = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-    [detail addTarget:self action:@selector(mapView:annotationView:calloutAccessoryControlTapped:) forControlEvents:UIControlEventTouchUpInside];
+    // [detail addTarget:self action:@selector(mapView:annotationView:calloutAccessoryControlTapped:) forControlEvents:UIControlEventTouchUpInside];            ////// This works for iOS 6, but in iOS 7 MKMapView does it automatically and it will cause a crash
     a.rightCalloutAccessoryView = detail;
     
     return a;
 }
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
-    [self performSegueWithIdentifier:@"showDetailView" sender:view];
+    if ([view class] == [MKPinAnnotationView class]) {
+        [self performSegueWithIdentifier:@"showDetailView" sender:view];
+    }
 }
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+- (void)mapView:(MKMapView *)mapView didAddAnnotationViews:(NSArray *)views {
+    for (MKAnnotationView *aV in views) {
+        if ([aV.annotation isKindOfClass:[MKUserLocation class]]) {
+            aV.canShowCallout = NO;
+        }
+    }
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
 
     if ([segue.identifier isEqualToString:@"showSignup"]) {
         FGStartupViewController* startUp = (FGStartupViewController*)[segue destinationViewController];;
@@ -443,7 +450,7 @@
         FGDetailViewController *detailVC = (FGDetailViewController*)[segue destinationViewController];
         
         //Der Sender ist ein MKAnnotationView
-        MKAnnotationView *view = (MKAnnotationView*)sender;
+        MKAnnotationView *view = (MKAnnotationView *)sender;
         FGAnnotation *annotation = view.annotation;
         FGDatabaseHandler *dbHandler = [[FGDatabaseHandler alloc] initWithDatabase];
         FGStolperstein *stone = [dbHandler fullInformationForStolperstein:annotation.stone];

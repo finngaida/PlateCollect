@@ -13,11 +13,13 @@
 @interface FGAnnotation : NSObject <MKAnnotation> {
     FGStolperstein *stone;
 	CLLocationCoordinate2D coordinate;
+    NSString *title;
 }
 
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
+@property (nonatomic, copy) NSString *title;
 @property (nonatomic, readonly) FGStolperstein *stone;
 
-- (id)initWithStone:(FGStolperstein *)theStone;
+- (id)initWithStone:(FGStolperstein *)theStone title:(NSString *)theTitle;
 
 @end
