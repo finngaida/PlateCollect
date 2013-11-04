@@ -41,7 +41,6 @@
 		CC0ECE4B17DB300400D0D2A8 /* FGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE4A17DB300400D0D2A8 /* FGAppDelegate.m */; };
 		CC0ECE4E17DB300400D0D2A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0ECE4C17DB300400D0D2A8 /* Main.storyboard */; };
 		CC0ECE5117DB300400D0D2A8 /* FGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE5017DB300400D0D2A8 /* FGViewController.m */; };
-		CC0ECE5317DB300400D0D2A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0ECE5217DB300400D0D2A8 /* Images.xcassets */; };
 		CC0ECE7D17DB35BF00D0D2A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7C17DB35BF00D0D2A8 /* CoreLocation.framework */; };
 		CC0ECE7F17DB35C400D0D2A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */; };
 		CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0ECE8117DB434200D0D2A8 /* FGAnnotation.m */; };
@@ -114,7 +113,6 @@
 		CC0ECE4D17DB300400D0D2A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC0ECE4F17DB300400D0D2A8 /* FGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGViewController.h; sourceTree = "<group>"; };
 		CC0ECE5017DB300400D0D2A8 /* FGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGViewController.m; sourceTree = "<group>"; };
-		CC0ECE5217DB300400D0D2A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CC0ECE5917DB300500D0D2A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CC0ECE7C17DB35BF00D0D2A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CC0ECE7E17DB35C400D0D2A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -252,7 +250,6 @@
 				69DDA54017DC5FA5007AC4BB /* FGStuffCalculator.m */,
 				A67C0F05181F04C3004D8A67 /* FGDatabaseHandler.h */,
 				A67C0F06181F04C3004D8A67 /* FGDatabaseHandler.m */,
-				CC0ECE5217DB300400D0D2A8 /* Images.xcassets */,
 				69C9C07317DB37260020DCD6 /* stolpersteine.csv */,
 				A6FD4E7C180610C500CDA1A3 /* stolpersteine.sqlite */,
 				69BBB52217DBF28200419084 /* final.csv */,
@@ -349,7 +346,6 @@
 				CCD5902F17DBCD6300A87AFB /* loc.png in Resources */,
 				69DDA54A17DC77CA007AC4BB /* timeline_death_done@2x.png in Resources */,
 				A6BA7D0317DE191E00D781FB /* Localizable.strings in Resources */,
-				CC0ECE5317DB300400D0D2A8 /* Images.xcassets in Resources */,
 				CCD5903017DBCD6300A87AFB /* loc@2x.png in Resources */,
 				A622204817DC6BB8007A6DA0 /* timline_deporatation.png in Resources */,
 				CC4BDBB917DBF46800855C45 /* back.png in Resources */,
