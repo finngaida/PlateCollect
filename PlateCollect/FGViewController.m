@@ -440,9 +440,7 @@
 }
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
-    //if ([view class] == [MKPinAnnotationView class]) {
-        [self performSegueWithIdentifier:@"showDetailView" sender:view];
-    //}
+    [self performSegueWithIdentifier:@"showDetailView" sender:(UIView*)view];
 }
 
 - (void)mapView:(MKMapView *)mapView didAddAnnotationViews:(NSArray *)views {
@@ -463,8 +461,8 @@
         FGDetailViewController *detailVC = (FGDetailViewController*)[segue destinationViewController];
         
         //Der Sender ist ein MKAnnotationView
-        MKAnnotationView *view = (MKAnnotationView *)sender;
-        FGAnnotation *annotation = view.annotation;
+        MKPinAnnotationView *view = (MKPinAnnotationView*)sender;
+        FGAnnotation *annotation = (FGAnnotation*)view.annotation;
         FGDatabaseHandler *dbHandler = [[FGDatabaseHandler alloc] initWithDatabase];
         FGStolperstein *stone = [dbHandler fullInformationForStolperstein:annotation.stone];
         detailVC.stone = stone;

@@ -16,8 +16,7 @@
     NSString *title;
 }
 
-@property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
-@property (nonatomic, copy) NSString *title;
+@property (nonatomic, readwrite) CLLocationCoordinate2D coordinate;
 @property (nonatomic, readonly) FGStolperstein *stone;
 
 - (id)initWithStone:(FGStolperstein *)theStone title:(NSString *)theTitle;
