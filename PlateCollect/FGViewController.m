@@ -427,9 +427,9 @@
 }
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
-    if ([view class] == [MKPinAnnotationView class]) {
+    //if ([view class] == [MKPinAnnotationView class]) {
         [self performSegueWithIdentifier:@"showDetailView" sender:view];
-    }
+    //}
 }
 
 - (void)mapView:(MKMapView *)mapView didAddAnnotationViews:(NSArray *)views {
@@ -455,7 +455,7 @@
         FGDatabaseHandler *dbHandler = [[FGDatabaseHandler alloc] initWithDatabase];
         FGStolperstein *stone = [dbHandler fullInformationForStolperstein:annotation.stone];
         detailVC.stone = stone;
-                        
+        
     }
 
 }

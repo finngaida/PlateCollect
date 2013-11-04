@@ -16,7 +16,7 @@
 @synthesize stone = _stone;
 
 
-- (void)viewDidAppear:(BOOL)animated
+- (void)viewDidLoad
 {
     [super viewDidLoad];
     //[self createNameView];                              FOR WHATEVER REASON CRASHES  A L L  T H E  F U C K I N G  T I M E!!!!
@@ -74,12 +74,15 @@
     if (section == 0) {
         return 4;
     } else {
-        int count = _stone.deportations.count;
-        if (_stone.placeOfDeath && _stone.dayOfDeath) {
-            count++;
-        }
+        if (_stone) {
+            int count = _stone.deportations.count;
+            if (_stone.placeOfDeath && _stone.dayOfDeath) {
+                count++;
+            }
         return count;
+        }
     }
+    return 0;
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
