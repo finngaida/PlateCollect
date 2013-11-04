@@ -22,4 +22,6 @@
     }
     return self;
 }
+
+-(NSString *)title{return [self.stone formattedName];}
 @end

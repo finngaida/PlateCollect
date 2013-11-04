@@ -22,7 +22,7 @@
 @property(nonatomic,strong)NSArray *deportations;
 @property(nonatomic,strong)NSString *placeOfDeath;
 @property(nonatomic,strong)NSDate *dayOfDeath;
-
+@property(nonatomic,strong)NSString *description;
 @property(nonatomic,readwrite)BOOL visited;
 @property(nonatomic,strong)CLLocation *location;
 @property(nonatomic,strong)CLRegion *region;
@@ -38,6 +38,7 @@
                                                                     //  @"place":"NSString Place>
              locationOfDeath:(NSString *)placeOfDeath
                   dayOfDeath:(NSString *)dayOfDeath
+                 description:(NSString*)description
                   identifier:(int)identifier
                      visited:(BOOL)visited; //designated initializer
 
@@ -48,5 +49,7 @@
                          visited:(BOOL)visited;
 
 +(NSDateFormatter*)basicDateFormatter;
+
+-(NSString *)formattedName; //Simple method to get the full name as string
 
 @end

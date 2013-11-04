@@ -14,8 +14,6 @@
 		69C9C07A17DB39EE0020DCD6 /* FGStolpersteinFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9C07917DB39EE0020DCD6 /* FGStolpersteinFetcher.m */; };
 		69DDA54117DC5FA5007AC4BB /* FGStuffCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DDA54017DC5FA5007AC4BB /* FGStuffCalculator.m */; };
 		69DDA54417DC6039007AC4BB /* FGStartupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DDA54317DC6039007AC4BB /* FGStartupViewController.m */; };
-		69DDA54917DC77CA007AC4BB /* timeline_death_done.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DDA54717DC77CA007AC4BB /* timeline_death_done.png */; };
-		69DDA54A17DC77CA007AC4BB /* timeline_death_done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DDA54817DC77CA007AC4BB /* timeline_death_done@2x.png */; };
 		A6221FFB17DBEC3B007A6DA0 /* FGWikiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6221FFA17DBEC3B007A6DA0 /* FGWikiRequest.m */; };
 		A622204817DC6BB8007A6DA0 /* timline_deporatation.png in Resources */ = {isa = PBXBuildFile; fileRef = A622204617DC6BB8007A6DA0 /* timline_deporatation.png */; };
 		A622204917DC6BB8007A6DA0 /* timline_deporatation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A622204717DC6BB8007A6DA0 /* timline_deporatation@2x.png */; };
@@ -33,6 +31,9 @@
 		A6BA7D1717DE1DB700D781FB /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA7D1017DE1DB700D781FB /* FMDatabaseQueue.m */; };
 		A6BA7D1917DE1DB700D781FB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA7D1317DE1DB700D781FB /* FMResultSet.m */; };
 		A6BA7D1B17DE1DC400D781FB /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BA7D1A17DE1DC400D781FB /* libsqlite3.0.dylib */; };
+		A6C0F3871826BDE200E1CB2C /* timeline_death_visited.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C0F3851826BDE200E1CB2C /* timeline_death_visited.png */; };
+		A6C0F3881826BDE200E1CB2C /* timeline_death_visited@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C0F3861826BDE200E1CB2C /* timeline_death_visited@2x.png */; };
+		A6C0F38B1826C06000E1CB2C /* AnnotationCoordinateUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C0F38A1826C06000E1CB2C /* AnnotationCoordinateUtility.m */; };
 		CC0ECE3B17DB300400D0D2A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */; };
 		CC0ECE3D17DB300400D0D2A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3C17DB300400D0D2A8 /* CoreGraphics.framework */; };
 		CC0ECE3F17DB300400D0D2A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ECE3E17DB300400D0D2A8 /* UIKit.framework */; };
@@ -72,8 +73,6 @@
 		69DDA54017DC5FA5007AC4BB /* FGStuffCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStuffCalculator.m; sourceTree = "<group>"; };
 		69DDA54217DC6039007AC4BB /* FGStartupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGStartupViewController.h; sourceTree = "<group>"; };
 		69DDA54317DC6039007AC4BB /* FGStartupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStartupViewController.m; sourceTree = "<group>"; };
-		69DDA54717DC77CA007AC4BB /* timeline_death_done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeline_death_done.png; sourceTree = "<group>"; };
-		69DDA54817DC77CA007AC4BB /* timeline_death_done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline_death_done@2x.png"; sourceTree = "<group>"; };
 		A6221FF917DBEC3B007A6DA0 /* FGWikiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGWikiRequest.h; sourceTree = "<group>"; };
 		A6221FFA17DBEC3B007A6DA0 /* FGWikiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGWikiRequest.m; sourceTree = "<group>"; };
 		A622204617DC6BB8007A6DA0 /* timline_deporatation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timline_deporatation.png; sourceTree = "<group>"; };
@@ -99,6 +98,10 @@
 		A6BA7D1217DE1DB700D781FB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		A6BA7D1317DE1DB700D781FB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		A6BA7D1A17DE1DC400D781FB /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A6C0F3851826BDE200E1CB2C /* timeline_death_visited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeline_death_visited.png; sourceTree = "<group>"; };
+		A6C0F3861826BDE200E1CB2C /* timeline_death_visited@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline_death_visited@2x.png"; sourceTree = "<group>"; };
+		A6C0F3891826C06000E1CB2C /* AnnotationCoordinateUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationCoordinateUtility.h; sourceTree = "<group>"; };
+		A6C0F38A1826C06000E1CB2C /* AnnotationCoordinateUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationCoordinateUtility.m; sourceTree = "<group>"; };
 		A6FD4E7C180610C500CDA1A3 /* stolpersteine.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = stolpersteine.sqlite; sourceTree = "<group>"; };
 		CC0ECE3717DB300400D0D2A8 /* PlateCollect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateCollect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0ECE3A17DB300400D0D2A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -155,8 +158,6 @@
 				CC5DD2A81823ECA800D086CC /* splash-new.png */,
 				CC5DD2A91823ECA800D086CC /* splash-small-new.png */,
 				CC54E7A5181F0FDF0006677A /* icon4-new.png */,
-				69DDA54717DC77CA007AC4BB /* timeline_death_done.png */,
-				69DDA54817DC77CA007AC4BB /* timeline_death_done@2x.png */,
 				A622204617DC6BB8007A6DA0 /* timline_deporatation.png */,
 				A622204717DC6BB8007A6DA0 /* timline_deporatation@2x.png */,
 				CC4BDBB817DBF46800855C45 /* back.png */,
@@ -227,6 +228,8 @@
 			children = (
 				A6BA7D0817DE1D4C00D781FB /* FMDB */,
 				A6B094C117DB925B007252E3 /* Images */,
+				A6C0F3891826C06000E1CB2C /* AnnotationCoordinateUtility.h */,
+				A6C0F38A1826C06000E1CB2C /* AnnotationCoordinateUtility.m */,
 				CC0ECE4917DB300400D0D2A8 /* FGAppDelegate.h */,
 				CC0ECE4A17DB300400D0D2A8 /* FGAppDelegate.m */,
 				CC0ECE4C17DB300400D0D2A8 /* Main.storyboard */,
@@ -350,14 +353,15 @@
 				A622204817DC6BB8007A6DA0 /* timline_deporatation.png in Resources */,
 				CC4BDBB917DBF46800855C45 /* back.png in Resources */,
 				CC0ECE4517DB300400D0D2A8 /* InfoPlist.strings in Resources */,
+				A6C0F3871826BDE200E1CB2C /* timeline_death_visited.png in Resources */,
 				CCD5902717DBC14900A87AFB /* plate.png in Resources */,
 				A667F94917DBC049003847A7 /* pin.png in Resources */,
 				CC5DD2AB1823ECA800D086CC /* splash-new.png in Resources */,
 				CC0ECE4E17DB300400D0D2A8 /* Main.storyboard in Resources */,
+				A6C0F3881826BDE200E1CB2C /* timeline_death_visited@2x.png in Resources */,
 				CC54E7A6181F0FDF0006677A /* icon4-new.png in Resources */,
 				CC5DD2AC1823ECA800D086CC /* splash-small-new.png in Resources */,
 				A622204917DC6BB8007A6DA0 /* timline_deporatation@2x.png in Resources */,
-				69DDA54917DC77CA007AC4BB /* timeline_death_done.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +377,7 @@
 				A6BA7D1417DE1DB700D781FB /* FMDatabase.m in Sources */,
 				A6BA7D1517DE1DB700D781FB /* FMDatabaseAdditions.m in Sources */,
 				A6221FFB17DBEC3B007A6DA0 /* FGWikiRequest.m in Sources */,
+				A6C0F38B1826C06000E1CB2C /* AnnotationCoordinateUtility.m in Sources */,
 				A6BA7D1917DE1DB700D781FB /* FMResultSet.m in Sources */,
 				CC0ECE8217DB434200D0D2A8 /* FGAnnotation.m in Sources */,
 				A6BA7D1617DE1DB700D781FB /* FMDatabasePool.m in Sources */,

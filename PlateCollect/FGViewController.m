@@ -8,6 +8,7 @@
 
 #import "FGViewController.h"
 #import "FGDatabaseHandler.h"
+#import "AnnotationCoordinateUtility.h"
 
 @implementation FGViewController
 
@@ -35,6 +36,7 @@
     [self.mapView removeAnnotations:self.mapView.annotations];
     
     
+    NSMutableArray *unadjustedAnnotations = [[NSMutableArray alloc] init];
     FGStuffCalculator *c = [FGStuffCalculator new];
     [c fetchCurrentLocationWithHandler:^(CLLocation *location, NSError *error) {
         
@@ -62,6 +64,11 @@
         
         [dark removeFromSuperview];
     }];
+    
+    //Adjust Stolperstein positions with same coordinates (taken from http://blog.stormid.com/2013/01/handling-annotation-pins-on-the-same-coordinate/)
+    [AnnotationCoordinateUtility mutateCoordinatesOfClashingAnnotations:unadjustedAnnotations];
+    [self.mapView addAnnotations:unadjustedAnnotations];
+
 }
 
 - (void)setUpBottomButtons {
@@ -417,7 +424,13 @@
     a.canShowCallout = YES;
     a.draggable = NO;
     a.calloutOffset = CGPointMake(0, 1);
-    a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"timeline_death"]];
+    
+    FGAnnotation *fgannotation = (FGAnnotation*)annotation;
+    if (fgannotation.stone.visited == YES) {
+        a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"timeline_death_visited"]];
+    } else {
+        a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"timeline_death"]];
+    }
     
     UIButton *detail = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
     // [detail addTarget:self action:@selector(mapView:annotationView:calloutAccessoryControlTapped:) forControlEvents:UIControlEventTouchUpInside];            ////// This works for iOS 6, but in iOS 7 MKMapView does it automatically and it will cause a crash
@@ -457,7 +470,6 @@
         detailVC.stone = stone;
         
     }
-
 }
 
 @end

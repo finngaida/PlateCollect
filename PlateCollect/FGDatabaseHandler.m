@@ -91,6 +91,7 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
             stone.birthday = [formatter dateFromString:[result stringForColumn:@"birthday"]];
             stone.address = [result stringForColumn:@"adress"];
             stone.quarter = [result stringForColumn:@"neighbourhood"];
+            stone.description = [result stringForColumn:@"description"];
             stone.placeOfDeath = [result stringForColumn:@"place_of_death"];
             stone.dayOfDeath = [formatter dateFromString:[result stringForColumn:@"day_of_death"]];
             stone.identifier = [result intForColumn:@"st_id"];
@@ -193,5 +194,29 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
         [_writeQueueLock unlock];
     }];
 }
+
+# pragma mark database version handling
+-(int)currentDatabaseSchemaVersion {
+    __block int dbVersion;
+    [self readFromDatabase:^(FMDatabase *db) {
+        FMResultSet *results = [db executeQuery:@"PRAGMA user_version;"];
+        while ([results next]) {
+            dbVersion = [results intForColumnIndex:0];
+        }
+    }];
+    return dbVersion;
+}
+
+-(void)updateSchemeVersion:(int)version {
+    [self writeToDatabase:^(FMDatabase *db){
+        [db executeUpdate:@"PRAGMA user_version = ?", version];
+    }];
+}
+
+//This methods reads all custom user data and apply it (depending on version number) to the newest db from the mainBundle
+-(void)migrateDatabaseIfNeeded {
+
+}
+
 
 @end
