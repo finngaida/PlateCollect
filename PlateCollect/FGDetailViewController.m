@@ -16,8 +16,7 @@
 @synthesize stone = _stone;
 
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     //[self createNameView];                              FOR WHATEVER REASON CRASHES  A L L  T H E  F U C K I N G  T I M E!!!!
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"SpecialCell"];
@@ -32,7 +31,21 @@
     if (self.stone.firstName && self.stone.lastName) {
         title.text = [NSString stringWithFormat:@"%@, %@", _stone.lastName, _stone.firstName];
     }
-    [self.navigationController.navigationBar addSubview:title];
+    
+    UINavigationBar *bar = [UINavigationBar new];
+    [self.view addSubview:bar];
+    [bar addSubview:title];
+    
+    UISwipeGestureRecognizer *swipeHide = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(hideSelf)];
+    swipeHide.direction = UISwipeGestureRecognizerDirectionDown;
+    [self.view addGestureRecognizer:swipeHide];
+    self.tableView.scrollEnabled = NO;
+}
+
+- (void)hideSelf {
+    [self dismissViewControllerAnimated:YES completion:^{
+        // Gone
+    }];
 }
 
 -(NSAttributedString *)createNameViewString {

@@ -14,7 +14,6 @@
 -(NSArray *)fetchNearestStonesAtLocation:(CLLocation *)location amount:(NSInteger)amount {
     FGDatabaseHandler *database = [[FGDatabaseHandler alloc] initWithDatabase];
     NSArray *stones = [database stolpersteinsNearLocation:location amount:(int)amount];
-    NSLog(@"SQL return: %@", stones);
     return stones;
 }
 @end
