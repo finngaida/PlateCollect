@@ -47,7 +47,11 @@
         // Fetch the 30 nearest placemarks from the location parameter and create FGStolperstein 's for it
         
         FGStolpersteinFetcher *f = [FGStolpersteinFetcher new];
-        stolpersteine = [f fetchNearestStonesAtLocation:location amount:30];
+        stolpersteine = [f fetchNearestStonesAtLocation:location amount:100];
+        
+        // for ICT
+        FGDatabaseHandler *handler = [[FGDatabaseHandler alloc] initWithDatabase];
+        
         
         // loop through them and add the annotations
         for (FGStolperstein *s in stolpersteine) {
@@ -60,6 +64,9 @@
             
             // Sign up to recieve push notification, when entering this region.
             [c startMonitoringForLocation:s.location];
+            
+            // ICT
+            [handler visitedStolperstein:s];
         }
         
         [dark removeFromSuperview];
@@ -68,6 +75,8 @@
     //Adjust Stolperstein positions with same coordinates (taken from http://blog.stormid.com/2013/01/handling-annotation-pins-on-the-same-coordinate/)
     [AnnotationCoordinateUtility mutateCoordinatesOfClashingAnnotations:unadjustedAnnotations];
     [self.mapView addAnnotations:unadjustedAnnotations];
+    
+    
 
 }
 
@@ -418,14 +427,23 @@
     // Check if the wanted annotation is the users location
     if ([annotation isKindOfClass:[MKUserLocation class]]) {return nil;}
     
+    FGAnnotation *fgannotation = (FGAnnotation*)annotation;
+    FGDatabaseHandler *handler = [[FGDatabaseHandler alloc] initWithDatabase];
+    
     MKPinAnnotationView *a = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"Annotation"];
     a.annotation = annotation;
-    a.image = [UIImage imageNamed:@"pins"];
+    
+    int r = arc4random() %3;
+    
+    if (r == 1/*[handler visitedStolperstein:fgannotation.stone]*/) {
+        a.image = [UIImage imageNamed:@"icon~visited"];
+    } else {
+        a.image = [UIImage imageNamed:@"pins"];
+    }
     a.canShowCallout = YES;
     a.draggable = NO;
     a.calloutOffset = CGPointMake(0, 1);
     
-    FGAnnotation *fgannotation = (FGAnnotation*)annotation;
     if (fgannotation.stone.visited == YES) {
         a.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"timeline_death_visited"]];
     } else {

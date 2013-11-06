@@ -19,7 +19,7 @@
 -(FGStolperstein*)fullInformationForStolperstein:(FGStolperstein*)stolperstein;
 
 //Location based database querys
--(void)isVisitingStolperstein:(FGStolperstein*)stone;
+-(void)setVisitedStolperstein:(FGStolperstein*)stone;
 -(BOOL)visitedStolperstein:(FGStolperstein*)stone;//YES, wenn besucht
 -(NSArray*)stolpersteinsNearLocation:(CLLocation*)location amount:(NSInteger)amount; //Array aus Stolpersteinen mit den Basisinformationen
 

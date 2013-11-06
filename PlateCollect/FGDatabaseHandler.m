@@ -44,7 +44,6 @@ static NSRecursiveLock *_writeQueueLock;
             NSLog(@"Error: %@", error);
         }
     }
-    NSLog(@"path: %@",targetPath);
     return targetPath;
 }
 
@@ -158,7 +157,7 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
     
     return [stones copy];
 }
--(void)isVisitingStolperstein:(FGStolperstein*)stone {
+-(void)setVisitedStolperstein:(FGStolperstein*)stone {
     [self writeToDatabase:^(FMDatabase *db) {
         int st_id = stone.identifier;
         [db executeUpdate:@"UPDATE location SET visited = 1 AND visited_timestamp = CURRENT_TIMESTAMP() WHERE location_id IN (SELECT location_id FROM stolperstein WHERE st_id = %i)",st_id];

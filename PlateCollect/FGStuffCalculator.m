@@ -24,7 +24,7 @@
 
 - (void)startMonitoringForLocation:(CLLocation *)location {
     
-    [manager startMonitoringForRegion:[[CLRegion alloc] initCircularRegionWithCenter:location.coordinate radius:50 identifier:@"Stolperstein"]];
+    [manager startMonitoringForRegion:[[CLCircularRegion alloc] initWithCenter:location.coordinate radius:50 identifier:@"Stolperstein"]];
     
 }
 

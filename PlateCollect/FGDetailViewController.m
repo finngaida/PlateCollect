@@ -118,6 +118,9 @@
             case 0: {
                 cell.textLabel.text = NSLocalizedString(@"Geburtsname", nil);
                 cell.detailTextLabel.text = _stone.bornName;
+                if ([_stone.bornName  isEqual: @""]) {
+                    cell.detailTextLabel.text = _stone.formattedName;
+                }
                 break;
             }
             case 1: {
