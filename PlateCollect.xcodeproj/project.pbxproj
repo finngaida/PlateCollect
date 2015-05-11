@@ -310,7 +310,7 @@
 				ORGANIZATIONNAME = "Finn Gaida";
 				TargetAttributes = {
 					CC0ECE3617DB300400D0D2A8 = {
-						DevelopmentTeam = 3ZEKCMKRAC;
+						DevelopmentTeam = RF278284CD;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;

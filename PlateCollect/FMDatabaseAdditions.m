@@ -134,7 +134,7 @@ return ret;
 }
 
 - (NSString*)applicationIDString {
-    NSString *s = NSFileTypeForHFSTypeCode([self applicationID]);
+    NSString *s = [NSString stringWithFormat:@"%d", /*NSFileTypeForHFSTypeCode(*/[self applicationID]];
     
     assert([s length] == 6);
     
@@ -158,7 +158,8 @@ return ret;
         NSLog(@"setApplicationIDString: string passed is not exactly 4 chars long. (was %ld)", [s length]);
     }
     
-    [self setApplicationID:NSHFSTypeCodeFromFileType([NSString stringWithFormat:@"'%@'", s])];
+    //[self setApplicationID:NSHFSTypeCodeFromFileType([NSString stringWithFormat:@"'%@'", s])];
+    [self setApplicationID:[s intValue]];
 }
 
 #endif

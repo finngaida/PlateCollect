@@ -112,7 +112,7 @@
     if ([[NSUserDefaults standardUserDefaults] boolForKey:@"kApplicationDidLaunchForTheVeryFirstTime"] == NO) {
         // Applications first start after download, so show signup screen
         
-        [self performSegueWithIdentifier:@"showSignup" sender:self];
+        //[self performSegueWithIdentifier:@"showSignup" sender:self];
     }
     
     [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"kApplicationDidLaunchForTheVeryFirstTime"];
